@@ -24,6 +24,28 @@ function formatMaybe(value, digits = 1) {
   return String(value);
 }
 
+function setText(id, value) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.textContent = value;
+  }
+}
+
+function setHtml(id, value) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.innerHTML = value;
+  }
+}
+
+function formatRateNoLeadingZero(value, digits) {
+  const formatted = formatMaybe(value, digits);
+  if (formatted === "-" || formatted === "") {
+    return formatted;
+  }
+  return formatted.replace(/^(-?)0\./, "$1.");
+}
+
 function currentTeamSlug() {
   return document.body.dataset.team || "";
 }
@@ -106,7 +128,7 @@ function contributionHitterRow(player) {
       <td>${formatMaybe(contribution.home_runs, 0)}</td>
       <td>${formatMaybe(contribution.rbi, 0)}</td>
       <td>${formatMaybe(contribution.stolen_bases, 0)}</td>
-      <td>${formatMaybe(contribution.obp, 3)}</td>
+      <td>${formatRateNoLeadingZero(contribution.obp, 3)}</td>
       <td>${formatMaybe(contribution.hits, 0)}</td>
       <td>${formatMaybe(contribution.walks, 0)}</td>
       <td>${formatMaybe(contribution.hit_by_pitch, 0)}</td>
@@ -197,24 +219,23 @@ function renderTeamPage(data) {
   const totals = team.season_totals;
 
   document.title = `${team.name} Team Page`;
-  document.getElementById("page-title").textContent = `${team.name} Team Page`;
-  document.getElementById("page-note").textContent = data.standings_note;
-  document.getElementById("generated-from").textContent = data.generated_from;
-  document.getElementById("team-nav").innerHTML = navLinks(teams, team.name);
-  document.getElementById("team-summary").innerHTML = [
+  setText("page-title", `${team.name} Team Page`);
+  setText("page-note", data.standings_note);
+  setHtml("team-nav", navLinks(teams, team.name));
+  setHtml("team-summary", [
     summaryCard("Current Roto", formatMaybe(team.standings.total_points, 2), `Rank ${formatMaybe(team.standings.rank, 0)} · Hit ${formatMaybe(team.standings.hitting_points, 2)} · Pitch ${formatMaybe(team.standings.pitching_points, 2)}`),
-    summaryCard("Hitting To Date", `${formatMaybe(totals.runs)} R / ${formatMaybe(totals.home_runs)} HR`, `${formatMaybe(totals.rbi)} RBI · ${formatMaybe(totals.stolen_bases)} SB · ${formatMaybe(totals.obp, 3)} OBP`),
+    summaryCard("Hitting To Date", `${formatMaybe(totals.runs)} R / ${formatMaybe(totals.home_runs)} HR`, `${formatMaybe(totals.rbi)} RBI · ${formatMaybe(totals.stolen_bases)} SB · ${formatRateNoLeadingZero(totals.obp, 3)} OBP`),
     summaryCard("Pitching To Date", `${formatMaybe(totals.wins)} W / ${formatMaybe(totals.strikeouts)} K`, `${formatMaybe(totals.saves)} SV · ${formatMaybe(totals.era, 2)} ERA · ${formatMaybe(totals.whip, 2)} WHIP`),
-  ].join("");
+  ].join(""));
 
-  document.getElementById("formula-grid").innerHTML = [
+  setHtml("formula-grid", [
     formulaCard("OBP", "(H + BB + HBP) / (AB + BB + HBP + SF)", "Track hits, walks, hit by pitch, at-bats, and sacrifice flies for every counted plate appearance."),
     formulaCard("ERA", "(ER * 9) / IP", "Track earned runs and innings pitched. The data model stores pitching outs so values like 6.2 innings remain 6 and 2/3 innings."),
     formulaCard("WHIP", "(H allowed + BB allowed) / IP", "Track hits allowed, walks allowed, and innings pitched for every counted outing."),
-  ].join("");
+  ].join(""));
 
-  document.getElementById("mlb-roster-body").innerHTML = mlbRoster.map((player) => rosterRow(team, player)).join("");
-  document.getElementById("minor-roster-content").innerHTML = minors.length
+  setHtml("mlb-roster-body", mlbRoster.map((player) => rosterRow(team, player)).join(""));
+  setHtml("minor-roster-content", minors.length
     ? `
         <div class="table-wrap">
           <table class="roster-table">
@@ -234,10 +255,10 @@ function renderTeamPage(data) {
           </table>
         </div>
       `
-    : `<div class="empty-state">No players are currently stored in minor-league roster slots for ${team.name}.</div>`;
+    : `<div class="empty-state">No players are currently stored in minor-league roster slots for ${team.name}.</div>`);
 
-  document.getElementById("hitter-contributions-body").innerHTML = hitters.map(contributionHitterRow).join("");
-  document.getElementById("pitcher-contributions-body").innerHTML = pitchers.map(contributionPitcherRow).join("");
+  setHtml("hitter-contributions-body", hitters.map(contributionHitterRow).join(""));
+  setHtml("pitcher-contributions-body", pitchers.map(contributionPitcherRow).join(""));
 }
 
 loadLeagueData()

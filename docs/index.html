@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fantasy Baseball League Hub</title>
+  <title>Boz Cup Baseball Hub</title>
   <meta name="description" content="Projected standings, rosters, and player stats for the fantasy baseball league.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,16 +17,6 @@
         <p class="eyebrow">Fantasy Baseball</p>
         <h1 id="page-title">League Hub</h1>
         <p id="page-note" class="hero-note"></p>
-      </div>
-      <div class="hero-meta">
-        <div class="meta-card">
-          <span class="meta-label">View</span>
-          <span class="meta-value">Projected Roto Table</span>
-        </div>
-        <div class="meta-card">
-          <span class="meta-label">Data</span>
-          <span id="generated-from" class="meta-value"></span>
-        </div>
       </div>
     </header>
 
@@ -77,10 +67,14 @@
         <section class="panel">
           <div class="panel-head compact">
             <h2>Team Snapshot</h2>
-            <p>Switch teams for the quick summary, or open the dedicated team page for the full roster and contribution ledger.</p>
+            <p>Switch teams for the quick summary, open a dedicated team page for the full roster and contribution ledger, or browse rostered players by MLB club.</p>
           </div>
           <div id="team-buttons" class="team-buttons"></div>
           <div id="team-page-links" class="team-link-list"></div>
+          <div class="team-link-list">
+            <a class="team-link" href="mlb-team-usage.html">MLB Team Usage</a>
+            <a class="team-link" href="minor-league-prospects.html">Minor League Prospects</a>
+          </div>
           <div id="team-summary" class="team-summary"></div>
         </section>
       </section>
@@ -168,6 +162,6 @@
     </main>
   </div>
 
-  <script src="app.js" defer></script>
+  <script src="app.js?v=20260325b" defer></script>
 </body>
 </html>

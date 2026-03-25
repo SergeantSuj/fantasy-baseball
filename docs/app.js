@@ -24,6 +24,20 @@ function formatMaybe(value, digits = 1) {
   return String(value);
 }
 
+function setText(id, value) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.textContent = value;
+  }
+}
+
+function setHtml(id, value) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.innerHTML = value;
+  }
+}
+
 function ordinal(place) {
   const remainder100 = place % 100;
   if (remainder100 >= 11 && remainder100 <= 13) {
@@ -71,6 +85,18 @@ function formatStandingsValue(value, place, digits = 0) {
   return `${formatMaybe(value, digits)} (${ordinal(place)})`;
 }
 
+function formatRateNoLeadingZero(value, digits) {
+  const formatted = formatMaybe(value, digits);
+  if (formatted === "-" || formatted === "") {
+    return formatted;
+  }
+  return formatted.replace(/^(-?)0\./, "$1.");
+}
+
+function formatStandingsRateValue(value, place, digits) {
+  return `${formatRateNoLeadingZero(value, digits)} (${ordinal(place)})`;
+}
+
 function buildStandingsPlaces(standings) {
   return {
     total_points: buildPlaceMap(standings, (team) => Number(team.total_points || 0), true),
@@ -98,7 +124,7 @@ function standingsRow(team, places) {
       <td>${formatStandingsValue(totals.home_runs, places.home_runs[team.name])}</td>
       <td>${formatStandingsValue(totals.rbi, places.rbi[team.name])}</td>
       <td>${formatStandingsValue(totals.stolen_bases, places.stolen_bases[team.name])}</td>
-      <td>${formatStandingsValue(totals.obp, places.obp[team.name], 3)}</td>
+      <td>${formatStandingsRateValue(totals.obp, places.obp[team.name], 3)}</td>
       <td>${formatStandingsValue(totals.wins, places.wins[team.name])}</td>
       <td>${formatStandingsValue(totals.strikeouts, places.strikeouts[team.name])}</td>
       <td>${formatStandingsValue(totals.saves, places.saves[team.name])}</td>
@@ -225,38 +251,40 @@ function summaryCard(label, value, sublabel) {
 }
 
 function renderTeam(team) {
-  document.getElementById("team-name-heading").textContent = `${team.name} Roster`;
-  document.getElementById("team-subheading").textContent = `Season-to-date standings remain at zero until 2026 league results are available.`;
+  setText("team-name-heading", `${team.name} Roster`);
+  setText("team-subheading", `Season-to-date standings remain at zero until 2026 league results are available.`);
 
-  document.getElementById("active-hitters-body").innerHTML = team.active_hitters.map(hitterRow).join("");
-  document.getElementById("active-pitchers-body").innerHTML = team.active_pitchers.map(pitcherRow).join("");
-  document.getElementById("bench-body").innerHTML = team.bench.map(benchRow).join("");
+  setHtml("active-hitters-body", team.active_hitters.map(hitterRow).join(""));
+  setHtml("active-pitchers-body", team.active_pitchers.map(pitcherRow).join(""));
+  setHtml("bench-body", team.bench.map(benchRow).join(""));
 
   const totals = team.season_totals;
-  document.getElementById("team-summary").innerHTML = [
+  setHtml("team-summary", [
     summaryCard("Current Roto", formatMaybe(team.standings.total_points, 2), `Hit ${formatMaybe(team.standings.hitting_points, 2)} · Pitch ${formatMaybe(team.standings.pitching_points, 2)}`),
     summaryCard("Hitting To Date", `${formatMaybe(totals.runs)} R / ${formatMaybe(totals.home_runs)} HR`, `${formatMaybe(totals.rbi)} RBI · ${formatMaybe(totals.stolen_bases)} SB · ${formatMaybe(totals.obp, 3)} OBP`),
     summaryCard("Pitching To Date", `${formatMaybe(totals.wins)} W / ${formatMaybe(totals.strikeouts)} K`, `${formatMaybe(totals.saves)} SV · ${formatMaybe(totals.era, 2)} ERA · ${formatMaybe(totals.whip, 2)} WHIP`),
-  ].join("");
+  ].join(""));
 }
 
 function render(data) {
-  document.getElementById("page-title").textContent = data.title;
-  document.getElementById("page-note").textContent = data.standings_note;
-  document.getElementById("generated-from").textContent = data.generated_from;
+  setText("page-title", data.title);
+  setText("page-note", data.standings_note);
 
   const standingsPlaces = buildStandingsPlaces(data.standings);
-  document.getElementById("standings-body").innerHTML = data.standings.map((team) => standingsRow(team, standingsPlaces)).join("");
+  setHtml("standings-body", data.standings.map((team) => standingsRow(team, standingsPlaces)).join(""));
 
-  document.getElementById("leaders-grid").innerHTML = [
+  setHtml("leaders-grid", [
     leadersCard("Home Runs", data.leaders.home_runs),
     leadersCard("Stolen Bases", data.leaders.stolen_bases),
     leadersCard("Strikeouts", data.leaders.strikeouts),
     leadersCard("Saves", data.leaders.saves),
-  ].join("");
+  ].join(""));
 
   const teams = data.teams;
   const buttonContainer = document.getElementById("team-buttons");
+  if (!buttonContainer) {
+    return;
+  }
   buttonContainer.innerHTML = teams
     .map(
       (team, index) =>
@@ -264,12 +292,12 @@ function render(data) {
     )
     .join("");
 
-  document.getElementById("team-page-links").innerHTML = teams
+  setHtml("team-page-links", teams
     .map(
       (team) =>
         `<a class="team-link" href="teams/${slugifyTeamName(team.name)}.html">${team.name} page</a>`,
     )
-    .join("");
+    .join(""));
 
   renderTeam(teams[0]);
 

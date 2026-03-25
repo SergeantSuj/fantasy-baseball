@@ -535,7 +535,7 @@ def main() -> None:
         }
 
     payload = {
-        "title": "Fantasy Baseball League Hub",
+        "title": "Boz Cup Baseball Hub",
         "generated_from": season_results.get("generated_from") or "draft-board-input-2026.csv and manager-rosters/*.csv",
         "standings_note": season_results.get("standings_note") or "Standings and league leaders are set to zero until real 2026 season data is available.",
         "teams": teams,
