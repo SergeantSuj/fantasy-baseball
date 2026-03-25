@@ -80,6 +80,21 @@ def round_number(value: float, digits: int = 1) -> float:
     return round(value, digits)
 
 
+def zero_category_totals() -> dict[str, float]:
+    return {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0,
+    }
+
+
 def read_csv_rows(path: Path) -> list[dict[str, str]]:
     with path.open("r", encoding="utf-8", newline="") as csv_file:
         return list(csv.DictReader(csv_file))
@@ -315,62 +330,28 @@ def roto_points(values: list[tuple[str, float]], higher_is_better: bool) -> dict
 
 
 def build_standings(teams: list[dict[str, object]]) -> list[dict[str, object]]:
-    category_points: dict[str, dict[str, float]] = {rule.key: {} for rule in CATEGORY_RULES}
-    for rule in CATEGORY_RULES:
-        values: list[tuple[str, float]] = []
-        for team in teams:
-            totals = team["projected_totals"]
-            values.append((str(team["name"]), float(totals[rule.key])))
-        category_points[rule.key] = roto_points(values, rule.higher_is_better)
-
     standings = []
     for team in teams:
-        team_name = str(team["name"])
-        category_breakdown = {rule.key: category_points[rule.key][team_name] for rule in CATEGORY_RULES}
-        hitter_total = sum(category_breakdown[key] for key in ["runs", "home_runs", "rbi", "stolen_bases", "obp"])
-        pitcher_total = sum(category_breakdown[key] for key in ["wins", "strikeouts", "saves", "era", "whip"])
         standings.append(
             {
-                "name": team_name,
-                "total_points": round_number(hitter_total + pitcher_total, 2),
-                "hitting_points": round_number(hitter_total, 2),
-                "pitching_points": round_number(pitcher_total, 2),
-                "category_points": category_breakdown,
-                "projected_totals": team["projected_totals"],
+                "name": str(team["name"]),
+                "rank": 0,
+                "total_points": 0.0,
+                "hitting_points": 0.0,
+                "pitching_points": 0.0,
+                "category_points": zero_category_totals(),
+                "season_totals": zero_category_totals(),
             }
         )
-
-    standings.sort(key=lambda item: (-float(item["total_points"]), -float(item["hitting_points"]), -float(item["pitching_points"]), str(item["name"])))
-    for index, team in enumerate(standings, start=1):
-        team["rank"] = index
     return standings
 
 
-def league_leaders(teams: list[dict[str, object]]) -> dict[str, list[dict[str, object]]]:
-    players = []
-    for team in teams:
-        for player in team["roster"]:
-            players.append({"team": team["name"], **player})
-
-    def top_players(key: str, count: int = 8) -> list[dict[str, object]]:
-        ranked = sorted(players, key=lambda item: float(item["projection"].get(key, 0.0)), reverse=True)
-        results = []
-        for item in ranked[:count]:
-            results.append(
-                {
-                    "player_name": item["player_name"],
-                    "team": item["team"],
-                    "mlb_team": item["mlb_team"],
-                    "value": item["projection"][key],
-                }
-            )
-        return results
-
+def league_leaders(_: list[dict[str, object]]) -> dict[str, list[dict[str, object]]]:
     return {
-        "home_runs": top_players("home_runs"),
-        "stolen_bases": top_players("stolen_bases"),
-        "strikeouts": top_players("strikeouts"),
-        "saves": top_players("saves"),
+        "home_runs": [],
+        "stolen_bases": [],
+        "strikeouts": [],
+        "saves": [],
     }
 
 
@@ -443,6 +424,7 @@ def build_team_payload(team_name: str, roster_rows: list[dict[str, str]], board_
         "bench": [roster_player_payload(player) for player in sorted(best["bench_players"], key=lambda item: (clean_value(item.get("player_type")), clean_value(item.get("player_name"))))],
         "roster": [roster_player_payload(player) for player in sorted(roster, key=lambda item: parse_int(item.get("pick_number")))],
         "projected_totals": best["projected_totals"],
+        "season_totals": zero_category_totals(),
     }
 
 
@@ -471,7 +453,7 @@ def main() -> None:
     payload = {
         "title": "Fantasy Baseball League Hub",
         "generated_from": "draft-board-input-2026.csv and manager-rosters/*.csv",
-        "standings_note": "Projected roto standings are calculated from each team's optimized active lineup using the 2026 player projections currently stored in this repository.",
+        "standings_note": "Standings and league leaders are set to zero until real 2026 season data is available.",
         "teams": teams,
         "standings": standings,
         "leaders": league_leaders(teams),

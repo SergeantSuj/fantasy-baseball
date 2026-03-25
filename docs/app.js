@@ -40,19 +40,29 @@ function standingsRow(team) {
 }
 
 function leadersCard(label, items) {
-  const list = items
-    .map(
-      (item) => `
+  const list = items.length
+    ? items
+        .map(
+          (item) => `
+            <li class="leader-item">
+              <div>
+                <div>${item.player_name}</div>
+                <div class="muted">${item.team} · ${item.mlb_team || "FA"}</div>
+              </div>
+              <div class="leader-value">${item.value}</div>
+            </li>
+          `,
+        )
+        .join("")
+    : `
         <li class="leader-item">
           <div>
-            <div>${item.player_name}</div>
-            <div class="muted">${item.team} · ${item.mlb_team || "FA"}</div>
+            <div>Season not started</div>
+            <div class="muted">League totals will populate once games are played.</div>
           </div>
-          <div class="leader-value">${item.value}</div>
+          <div class="leader-value">0</div>
         </li>
-      `,
-    )
-    .join("");
+      `;
 
   return `
     <article class="leader-card">
@@ -149,17 +159,17 @@ function summaryCard(label, value, sublabel) {
 
 function renderTeam(team) {
   document.getElementById("team-name-heading").textContent = `${team.name} Roster`;
-  document.getElementById("team-subheading").textContent = `Projected rank ${team.standings.rank} with ${formatMaybe(team.standings.total_points, 2)} roto points.`;
+  document.getElementById("team-subheading").textContent = `Season-to-date standings remain at zero until 2026 league results are available.`;
 
   document.getElementById("active-hitters-body").innerHTML = team.active_hitters.map(hitterRow).join("");
   document.getElementById("active-pitchers-body").innerHTML = team.active_pitchers.map(pitcherRow).join("");
   document.getElementById("bench-body").innerHTML = team.bench.map(benchRow).join("");
 
-  const totals = team.projected_totals;
+  const totals = team.season_totals;
   document.getElementById("team-summary").innerHTML = [
-    summaryCard("Projected Roto", formatMaybe(team.standings.total_points, 2), `Hit ${formatMaybe(team.standings.hitting_points, 2)} · Pitch ${formatMaybe(team.standings.pitching_points, 2)}`),
-    summaryCard("Hitting Line", `${formatMaybe(totals.runs)} R / ${formatMaybe(totals.home_runs)} HR`, `${formatMaybe(totals.rbi)} RBI · ${formatMaybe(totals.stolen_bases)} SB · ${formatMaybe(totals.obp, 3)} OBP`),
-    summaryCard("Pitching Line", `${formatMaybe(totals.wins)} W / ${formatMaybe(totals.strikeouts)} K`, `${formatMaybe(totals.saves)} SV · ${formatMaybe(totals.era, 2)} ERA · ${formatMaybe(totals.whip, 2)} WHIP`),
+    summaryCard("Current Roto", formatMaybe(team.standings.total_points, 2), `Hit ${formatMaybe(team.standings.hitting_points, 2)} · Pitch ${formatMaybe(team.standings.pitching_points, 2)}`),
+    summaryCard("Hitting To Date", `${formatMaybe(totals.runs)} R / ${formatMaybe(totals.home_runs)} HR`, `${formatMaybe(totals.rbi)} RBI · ${formatMaybe(totals.stolen_bases)} SB · ${formatMaybe(totals.obp, 3)} OBP`),
+    summaryCard("Pitching To Date", `${formatMaybe(totals.wins)} W / ${formatMaybe(totals.strikeouts)} K`, `${formatMaybe(totals.saves)} SV · ${formatMaybe(totals.era, 2)} ERA · ${formatMaybe(totals.whip, 2)} WHIP`),
   ].join("");
 }
 

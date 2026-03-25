@@ -1,7 +1,7 @@
 {
   "title": "Fantasy Baseball League Hub",
   "generated_from": "draft-board-input-2026.csv and manager-rosters/*.csv",
-  "standings_note": "Projected roto standings are calculated from each team's optimized active lineup using the 2026 player projections currently stored in this repository.",
+  "standings_note": "Standings and league leaders are set to zero until real 2026 season data is available.",
   "teams": [
     {
       "name": "Chris",
@@ -2306,22 +2306,34 @@
         "era": 4.23,
         "whip": 1.23
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 4,
-        "total_points": 59.5,
-        "hitting_points": 36.0,
-        "pitching_points": 23.5,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 10.0,
-          "home_runs": 6.0,
-          "rbi": 7.0,
-          "stolen_bases": 9.0,
-          "obp": 4.0,
-          "wins": 6.0,
-          "strikeouts": 7.0,
-          "saves": 4.0,
-          "era": 2.0,
-          "whip": 4.5
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -4628,22 +4640,34 @@
         "era": 3.86,
         "whip": 1.23
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 3,
-        "total_points": 66.5,
-        "hitting_points": 33.0,
-        "pitching_points": 33.5,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 9.0,
-          "home_runs": 8.0,
-          "rbi": 8.0,
-          "stolen_bases": 3.0,
-          "obp": 5.0,
-          "wins": 9.0,
-          "strikeouts": 8.0,
-          "saves": 4.0,
-          "era": 8.0,
-          "whip": 4.5
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -6950,22 +6974,34 @@
         "era": 3.94,
         "whip": 1.2
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 1,
-        "total_points": 74.5,
-        "hitting_points": 38.5,
-        "pitching_points": 36.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 8.0,
-          "home_runs": 10.0,
-          "rbi": 10.0,
-          "stolen_bases": 1.0,
-          "obp": 9.5,
-          "wins": 10.0,
-          "strikeouts": 9.0,
-          "saves": 4.0,
-          "era": 6.0,
-          "whip": 7.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -9272,22 +9308,34 @@
         "era": 3.69,
         "whip": 1.16
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 8,
-        "total_points": 48.5,
-        "hitting_points": 19.5,
-        "pitching_points": 29.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 1.0,
-          "home_runs": 1.0,
-          "rbi": 1.0,
-          "stolen_bases": 10.0,
-          "obp": 6.5,
-          "wins": 2.0,
-          "strikeouts": 2.0,
-          "saves": 8.0,
-          "era": 9.0,
-          "whip": 8.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -11594,22 +11642,34 @@
         "era": 4.42,
         "whip": 1.28
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 10,
-        "total_points": 32.0,
-        "hitting_points": 18.0,
-        "pitching_points": 14.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 2.0,
-          "home_runs": 3.0,
-          "rbi": 3.0,
-          "stolen_bases": 8.0,
-          "obp": 2.0,
-          "wins": 4.0,
-          "strikeouts": 4.0,
-          "saves": 4.0,
-          "era": 1.0,
-          "whip": 1.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -13916,22 +13976,34 @@
         "era": 3.47,
         "whip": 1.12
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 5,
-        "total_points": 59.5,
-        "hitting_points": 27.5,
-        "pitching_points": 32.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 6.0,
-          "home_runs": 4.0,
-          "rbi": 4.0,
-          "stolen_bases": 7.0,
-          "obp": 6.5,
-          "wins": 1.0,
-          "strikeouts": 1.0,
-          "saves": 10.0,
-          "era": 10.0,
-          "whip": 10.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -16238,22 +16310,34 @@
         "era": 4.21,
         "whip": 1.26
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 7,
-        "total_points": 51.0,
-        "hitting_points": 28.0,
-        "pitching_points": 23.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 4.0,
-          "home_runs": 7.0,
-          "rbi": 9.0,
-          "stolen_bases": 5.0,
-          "obp": 3.0,
-          "wins": 7.0,
-          "strikeouts": 6.0,
-          "saves": 4.0,
-          "era": 3.0,
-          "whip": 3.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -18560,22 +18644,34 @@
         "era": 3.99,
         "whip": 1.22
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 6,
-        "total_points": 54.5,
-        "hitting_points": 28.5,
-        "pitching_points": 26.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 5.0,
-          "home_runs": 5.0,
-          "rbi": 5.0,
-          "stolen_bases": 4.0,
-          "obp": 9.5,
-          "wins": 3.0,
-          "strikeouts": 3.0,
-          "saves": 9.0,
-          "era": 5.0,
-          "whip": 6.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -20882,22 +20978,34 @@
         "era": 3.92,
         "whip": 1.15
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 2,
-        "total_points": 70.0,
-        "hitting_points": 32.0,
-        "pitching_points": 38.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 7.0,
-          "home_runs": 9.0,
-          "rbi": 6.0,
-          "stolen_bases": 2.0,
-          "obp": 8.0,
-          "wins": 8.0,
-          "strikeouts": 10.0,
-          "saves": 4.0,
-          "era": 7.0,
-          "whip": 9.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     },
@@ -23204,538 +23312,354 @@
         "era": 4.11,
         "whip": 1.27
       },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
       "standings": {
-        "rank": 9,
-        "total_points": 34.0,
-        "hitting_points": 14.0,
-        "pitching_points": 20.0,
+        "rank": 0,
+        "total_points": 0.0,
+        "hitting_points": 0.0,
+        "pitching_points": 0.0,
         "category_points": {
-          "runs": 3.0,
-          "home_runs": 2.0,
-          "rbi": 2.0,
-          "stolen_bases": 6.0,
-          "obp": 1.0,
-          "wins": 5.0,
-          "strikeouts": 5.0,
-          "saves": 4.0,
-          "era": 4.0,
-          "whip": 2.0
+          "runs": 0.0,
+          "home_runs": 0.0,
+          "rbi": 0.0,
+          "stolen_bases": 0.0,
+          "obp": 0.0,
+          "wins": 0.0,
+          "strikeouts": 0.0,
+          "saves": 0.0,
+          "era": 0.0,
+          "whip": 0.0
         }
       }
     }
   ],
   "standings": [
     {
-      "name": "Wendell",
-      "total_points": 74.5,
-      "hitting_points": 38.5,
-      "pitching_points": 36.0,
+      "name": "Chris",
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
       "category_points": {
-        "runs": 8.0,
-        "home_runs": 10.0,
-        "rbi": 10.0,
-        "stolen_bases": 1.0,
-        "obp": 9.5,
-        "wins": 10.0,
-        "strikeouts": 9.0,
-        "saves": 4.0,
-        "era": 6.0,
-        "whip": 7.0
-      },
-      "projected_totals": {
-        "runs": 968.7,
-        "home_runs": 304.4,
-        "rbi": 989.2,
-        "stolen_bases": 114.7,
-        "obp": 0.334,
-        "wins": 93.8,
-        "strikeouts": 1529.8,
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
         "saves": 0.0,
-        "era": 3.94,
-        "whip": 1.2
+        "era": 0.0,
+        "whip": 0.0
       },
-      "rank": 1
-    },
-    {
-      "name": "Greg",
-      "total_points": 70.0,
-      "hitting_points": 32.0,
-      "pitching_points": 38.0,
-      "category_points": {
-        "runs": 7.0,
-        "home_runs": 9.0,
-        "rbi": 6.0,
-        "stolen_bases": 2.0,
-        "obp": 8.0,
-        "wins": 8.0,
-        "strikeouts": 10.0,
-        "saves": 4.0,
-        "era": 7.0,
-        "whip": 9.0
-      },
-      "projected_totals": {
-        "runs": 967.4,
-        "home_runs": 297.7,
-        "rbi": 915.4,
-        "stolen_bases": 123.4,
-        "obp": 0.333,
-        "wins": 93.2,
-        "strikeouts": 1531.8,
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
         "saves": 0.0,
-        "era": 3.92,
-        "whip": 1.15
-      },
-      "rank": 2
+        "era": 0.0,
+        "whip": 0.0
+      }
     },
     {
       "name": "Rob",
-      "total_points": 66.5,
-      "hitting_points": 33.0,
-      "pitching_points": 33.5,
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
       "category_points": {
-        "runs": 9.0,
-        "home_runs": 8.0,
-        "rbi": 8.0,
-        "stolen_bases": 3.0,
-        "obp": 5.0,
-        "wins": 9.0,
-        "strikeouts": 8.0,
-        "saves": 4.0,
-        "era": 8.0,
-        "whip": 4.5
-      },
-      "projected_totals": {
-        "runs": 974.7,
-        "home_runs": 289.2,
-        "rbi": 938.2,
-        "stolen_bases": 125.5,
-        "obp": 0.329,
-        "wins": 93.4,
-        "strikeouts": 1428.1,
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
         "saves": 0.0,
-        "era": 3.86,
-        "whip": 1.23
+        "era": 0.0,
+        "whip": 0.0
       },
-      "rank": 3
-    },
-    {
-      "name": "Chris",
-      "total_points": 59.5,
-      "hitting_points": 36.0,
-      "pitching_points": 23.5,
-      "category_points": {
-        "runs": 10.0,
-        "home_runs": 6.0,
-        "rbi": 7.0,
-        "stolen_bases": 9.0,
-        "obp": 4.0,
-        "wins": 6.0,
-        "strikeouts": 7.0,
-        "saves": 4.0,
-        "era": 2.0,
-        "whip": 4.5
-      },
-      "projected_totals": {
-        "runs": 979.9,
-        "home_runs": 277.4,
-        "rbi": 917.2,
-        "stolen_bases": 202.2,
-        "obp": 0.328,
-        "wins": 87.2,
-        "strikeouts": 1377.2,
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
         "saves": 0.0,
-        "era": 4.23,
-        "whip": 1.23
-      },
-      "rank": 4
+        "era": 0.0,
+        "whip": 0.0
+      }
     },
     {
-      "name": "Paul",
-      "total_points": 59.5,
-      "hitting_points": 27.5,
-      "pitching_points": 32.0,
+      "name": "Wendell",
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
       "category_points": {
-        "runs": 6.0,
-        "home_runs": 4.0,
-        "rbi": 4.0,
-        "stolen_bases": 7.0,
-        "obp": 6.5,
-        "wins": 1.0,
-        "strikeouts": 1.0,
-        "saves": 10.0,
-        "era": 10.0,
-        "whip": 10.0
-      },
-      "projected_totals": {
-        "runs": 955.8,
-        "home_runs": 272.6,
-        "rbi": 887.3,
-        "stolen_bases": 167.4,
-        "obp": 0.332,
-        "wins": 37.7,
-        "strikeouts": 793.0,
-        "saves": 200.0,
-        "era": 3.47,
-        "whip": 1.12
-      },
-      "rank": 5
-    },
-    {
-      "name": "Shane",
-      "total_points": 54.5,
-      "hitting_points": 28.5,
-      "pitching_points": 26.0,
-      "category_points": {
-        "runs": 5.0,
-        "home_runs": 5.0,
-        "rbi": 5.0,
-        "stolen_bases": 4.0,
-        "obp": 9.5,
-        "wins": 3.0,
-        "strikeouts": 3.0,
-        "saves": 9.0,
-        "era": 5.0,
-        "whip": 6.0
-      },
-      "projected_totals": {
-        "runs": 950.7,
-        "home_runs": 275.4,
-        "rbi": 907.5,
-        "stolen_bases": 155.5,
-        "obp": 0.334,
-        "wins": 63.1,
-        "strikeouts": 1117.7,
-        "saves": 115.0,
-        "era": 3.99,
-        "whip": 1.22
-      },
-      "rank": 6
-    },
-    {
-      "name": "Josh M",
-      "total_points": 51.0,
-      "hitting_points": 28.0,
-      "pitching_points": 23.0,
-      "category_points": {
-        "runs": 4.0,
-        "home_runs": 7.0,
-        "rbi": 9.0,
-        "stolen_bases": 5.0,
-        "obp": 3.0,
-        "wins": 7.0,
-        "strikeouts": 6.0,
-        "saves": 4.0,
-        "era": 3.0,
-        "whip": 3.0
-      },
-      "projected_totals": {
-        "runs": 942.9,
-        "home_runs": 287.3,
-        "rbi": 943.9,
-        "stolen_bases": 158.9,
-        "obp": 0.325,
-        "wins": 91.1,
-        "strikeouts": 1357.9,
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
         "saves": 0.0,
-        "era": 4.21,
-        "whip": 1.26
+        "era": 0.0,
+        "whip": 0.0
       },
-      "rank": 7
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
     },
     {
       "name": "Matt",
-      "total_points": 48.5,
-      "hitting_points": 19.5,
-      "pitching_points": 29.0,
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
       "category_points": {
-        "runs": 1.0,
-        "home_runs": 1.0,
-        "rbi": 1.0,
-        "stolen_bases": 10.0,
-        "obp": 6.5,
-        "wins": 2.0,
-        "strikeouts": 2.0,
-        "saves": 8.0,
-        "era": 9.0,
-        "whip": 8.0
-      },
-      "projected_totals": {
-        "runs": 874.7,
-        "home_runs": 225.1,
-        "rbi": 804.4,
-        "stolen_bases": 203.1,
-        "obp": 0.332,
-        "wins": 60.7,
-        "strikeouts": 1114.8,
-        "saves": 100.0,
-        "era": 3.69,
-        "whip": 1.16
-      },
-      "rank": 8
-    },
-    {
-      "name": "Josh V",
-      "total_points": 34.0,
-      "hitting_points": 14.0,
-      "pitching_points": 20.0,
-      "category_points": {
-        "runs": 3.0,
-        "home_runs": 2.0,
-        "rbi": 2.0,
-        "stolen_bases": 6.0,
-        "obp": 1.0,
-        "wins": 5.0,
-        "strikeouts": 5.0,
-        "saves": 4.0,
-        "era": 4.0,
-        "whip": 2.0
-      },
-      "projected_totals": {
-        "runs": 906.9,
-        "home_runs": 252.6,
-        "rbi": 865.9,
-        "stolen_bases": 163.6,
-        "obp": 0.323,
-        "wins": 80.6,
-        "strikeouts": 1345.9,
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
         "saves": 0.0,
-        "era": 4.11,
-        "whip": 1.27
+        "era": 0.0,
+        "whip": 0.0
       },
-      "rank": 9
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
     },
     {
       "name": "Michael",
-      "total_points": 32.0,
-      "hitting_points": 18.0,
-      "pitching_points": 14.0,
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
       "category_points": {
-        "runs": 2.0,
-        "home_runs": 3.0,
-        "rbi": 3.0,
-        "stolen_bases": 8.0,
-        "obp": 2.0,
-        "wins": 4.0,
-        "strikeouts": 4.0,
-        "saves": 4.0,
-        "era": 1.0,
-        "whip": 1.0
-      },
-      "projected_totals": {
-        "runs": 906.4,
-        "home_runs": 270.7,
-        "rbi": 887.0,
-        "stolen_bases": 173.7,
-        "obp": 0.324,
-        "wins": 74.5,
-        "strikeouts": 1282.0,
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
         "saves": 0.0,
-        "era": 4.42,
-        "whip": 1.28
+        "era": 0.0,
+        "whip": 0.0
       },
-      "rank": 10
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
+    },
+    {
+      "name": "Paul",
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
+      "category_points": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
+    },
+    {
+      "name": "Josh M",
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
+      "category_points": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
+    },
+    {
+      "name": "Shane",
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
+      "category_points": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
+    },
+    {
+      "name": "Greg",
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
+      "category_points": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
+    },
+    {
+      "name": "Josh V",
+      "rank": 0,
+      "total_points": 0.0,
+      "hitting_points": 0.0,
+      "pitching_points": 0.0,
+      "category_points": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      },
+      "season_totals": {
+        "runs": 0.0,
+        "home_runs": 0.0,
+        "rbi": 0.0,
+        "stolen_bases": 0.0,
+        "obp": 0.0,
+        "wins": 0.0,
+        "strikeouts": 0.0,
+        "saves": 0.0,
+        "era": 0.0,
+        "whip": 0.0
+      }
     }
   ],
   "leaders": {
-    "home_runs": [
-      {
-        "player_name": "Shohei Ohtani",
-        "team": "Chris",
-        "mlb_team": "LAD",
-        "value": 42.4
-      },
-      {
-        "player_name": "Aaron Judge",
-        "team": "Paul",
-        "mlb_team": "NYY",
-        "value": 40.1
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Greg",
-        "mlb_team": "PHI",
-        "value": 38.4
-      },
-      {
-        "player_name": "Nick Kurtz",
-        "team": "Michael",
-        "mlb_team": "ATH",
-        "value": 36.8
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Josh V",
-        "mlb_team": "TB",
-        "value": 36.4
-      },
-      {
-        "player_name": "Cal Raleigh",
-        "team": "Greg",
-        "mlb_team": "SEA",
-        "value": 34.3
-      },
-      {
-        "player_name": "Eugenio Suarez",
-        "team": "Wendell",
-        "mlb_team": "CIN",
-        "value": 33.6
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "Wendell",
-        "mlb_team": "NYM",
-        "value": 33.5
-      }
-    ],
-    "stolen_bases": [
-      {
-        "player_name": "Elly De La Cruz",
-        "team": "Matt",
-        "mlb_team": "CIN",
-        "value": 39.8
-      },
-      {
-        "player_name": "Chandler Simpson",
-        "team": "Matt",
-        "mlb_team": "TB",
-        "value": 38.9
-      },
-      {
-        "player_name": "Jakob Marsee",
-        "team": "Michael",
-        "mlb_team": "MIA",
-        "value": 33.7
-      },
-      {
-        "player_name": "Corbin Carroll",
-        "team": "Michael",
-        "mlb_team": "AZ",
-        "value": 33.3
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chris",
-        "mlb_team": "CHC",
-        "value": 32.7
-      },
-      {
-        "player_name": "Bobby Witt Jr.",
-        "team": "Rob",
-        "mlb_team": "KC",
-        "value": 32.3
-      },
-      {
-        "player_name": "Jose Ramirez",
-        "team": "Shane",
-        "mlb_team": "CLE",
-        "value": 31.0
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "Josh V",
-        "mlb_team": "WSH",
-        "value": 29.6
-      }
-    ],
-    "strikeouts": [
-      {
-        "player_name": "Tarik Skubal",
-        "team": "Wendell",
-        "mlb_team": "DET",
-        "value": 213.9
-      },
-      {
-        "player_name": "Paul Skenes",
-        "team": "Matt",
-        "mlb_team": "PIT",
-        "value": 207.6
-      },
-      {
-        "player_name": "Garrett Crochet",
-        "team": "Paul",
-        "mlb_team": "BOS",
-        "value": 201.0
-      },
-      {
-        "player_name": "Hunter Brown",
-        "team": "Matt",
-        "mlb_team": "HOU",
-        "value": 189.8
-      },
-      {
-        "player_name": "Jesus Luzardo",
-        "team": "Josh V",
-        "mlb_team": "PHI",
-        "value": 187.1
-      },
-      {
-        "player_name": "Freddy Peralta",
-        "team": "Greg",
-        "mlb_team": "NYM",
-        "value": 186.8
-      },
-      {
-        "player_name": "Dylan Cease",
-        "team": "Wendell",
-        "mlb_team": "TOR",
-        "value": 185.6
-      },
-      {
-        "player_name": "MacKenzie Gore",
-        "team": "Josh V",
-        "mlb_team": "TEX",
-        "value": 181.9
-      }
-    ],
-    "saves": [
-      {
-        "player_name": "Andres Munoz",
-        "team": "Matt",
-        "mlb_team": "SEA",
-        "value": 30.0
-      },
-      {
-        "player_name": "Devin Williams",
-        "team": "Paul",
-        "mlb_team": "NYM",
-        "value": 30.0
-      },
-      {
-        "player_name": "David Bednar",
-        "team": "Paul",
-        "mlb_team": "NYY",
-        "value": 30.0
-      },
-      {
-        "player_name": "Edwin Diaz",
-        "team": "Paul",
-        "mlb_team": "LAD",
-        "value": 30.0
-      },
-      {
-        "player_name": "Mason Miller",
-        "team": "Shane",
-        "mlb_team": "SD",
-        "value": 30.0
-      },
-      {
-        "player_name": "Jhoan Duran",
-        "team": "Shane",
-        "mlb_team": "PHI",
-        "value": 30.0
-      },
-      {
-        "player_name": "Cade Smith",
-        "team": "Shane",
-        "mlb_team": "CLE",
-        "value": 30.0
-      },
-      {
-        "player_name": "Aroldis Chapman",
-        "team": "Matt",
-        "mlb_team": "BOS",
-        "value": 25.0
-      }
-    ]
+    "home_runs": [],
+    "stolen_bases": [],
+    "strikeouts": [],
+    "saves": []
   }
 }
