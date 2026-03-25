@@ -6,6 +6,14 @@ async function loadLeagueData() {
   return response.json();
 }
 
+function slugifyTeamName(name) {
+  return String(name || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function formatMaybe(value, digits = 1) {
   if (value === "" || value === null || value === undefined) {
     return "-";
@@ -16,25 +24,86 @@ function formatMaybe(value, digits = 1) {
   return String(value);
 }
 
-function standingsRow(team) {
-  const categories = team.category_points;
+function ordinal(place) {
+  const remainder100 = place % 100;
+  if (remainder100 >= 11 && remainder100 <= 13) {
+    return `${place}th`;
+  }
+  const remainder10 = place % 10;
+  if (remainder10 === 1) {
+    return `${place}st`;
+  }
+  if (remainder10 === 2) {
+    return `${place}nd`;
+  }
+  if (remainder10 === 3) {
+    return `${place}rd`;
+  }
+  return `${place}th`;
+}
+
+function buildPlaceMap(standings, valueAccessor, higherIsBetter = true) {
+  const sorted = [...standings].sort((left, right) => {
+    const leftValue = valueAccessor(left);
+    const rightValue = valueAccessor(right);
+    if (leftValue === rightValue) {
+      return left.name.localeCompare(right.name);
+    }
+    return higherIsBetter ? rightValue - leftValue : leftValue - rightValue;
+  });
+
+  const places = {};
+  let currentPlace = 1;
+  for (let index = 0; index < sorted.length; index += 1) {
+    if (index > 0) {
+      const currentValue = valueAccessor(sorted[index]);
+      const previousValue = valueAccessor(sorted[index - 1]);
+      if (currentValue !== previousValue) {
+        currentPlace = index + 1;
+      }
+    }
+    places[sorted[index].name] = currentPlace;
+  }
+  return places;
+}
+
+function formatStandingsValue(value, place, digits = 0) {
+  return `${formatMaybe(value, digits)} (${ordinal(place)})`;
+}
+
+function buildStandingsPlaces(standings) {
+  return {
+    total_points: buildPlaceMap(standings, (team) => Number(team.total_points || 0), true),
+    runs: buildPlaceMap(standings, (team) => Number(team.season_totals?.runs || 0), true),
+    home_runs: buildPlaceMap(standings, (team) => Number(team.season_totals?.home_runs || 0), true),
+    rbi: buildPlaceMap(standings, (team) => Number(team.season_totals?.rbi || 0), true),
+    stolen_bases: buildPlaceMap(standings, (team) => Number(team.season_totals?.stolen_bases || 0), true),
+    obp: buildPlaceMap(standings, (team) => Number(team.season_totals?.obp || 0), true),
+    wins: buildPlaceMap(standings, (team) => Number(team.season_totals?.wins || 0), true),
+    strikeouts: buildPlaceMap(standings, (team) => Number(team.season_totals?.strikeouts || 0), true),
+    saves: buildPlaceMap(standings, (team) => Number(team.season_totals?.saves || 0), true),
+    era: buildPlaceMap(standings, (team) => Number(team.season_totals?.era || 0), false),
+    whip: buildPlaceMap(standings, (team) => Number(team.season_totals?.whip || 0), false),
+  };
+}
+
+function standingsRow(team, places) {
+  const totals = team.season_totals || {};
   return `
     <tr>
       <td><span class="rank-pill">${team.rank}</span></td>
       <td>${team.name}</td>
-      <td>${formatMaybe(team.total_points, 2)}</td>
-      <td>${formatMaybe(team.hitting_points, 2)}</td>
-      <td>${formatMaybe(team.pitching_points, 2)}</td>
-      <td>${formatMaybe(categories.runs, 2)}</td>
-      <td>${formatMaybe(categories.home_runs, 2)}</td>
-      <td>${formatMaybe(categories.rbi, 2)}</td>
-      <td>${formatMaybe(categories.stolen_bases, 2)}</td>
-      <td>${formatMaybe(categories.obp, 2)}</td>
-      <td>${formatMaybe(categories.wins, 2)}</td>
-      <td>${formatMaybe(categories.strikeouts, 2)}</td>
-      <td>${formatMaybe(categories.saves, 2)}</td>
-      <td>${formatMaybe(categories.era, 2)}</td>
-      <td>${formatMaybe(categories.whip, 2)}</td>
+      <td>${formatStandingsValue(team.total_points, places.total_points[team.name], 2)}</td>
+      <td>${formatStandingsValue(totals.runs, places.runs[team.name])}</td>
+      <td>${formatStandingsValue(totals.home_runs, places.home_runs[team.name])}</td>
+      <td>${formatStandingsValue(totals.rbi, places.rbi[team.name])}</td>
+      <td>${formatStandingsValue(totals.stolen_bases, places.stolen_bases[team.name])}</td>
+      <td>${formatStandingsValue(totals.obp, places.obp[team.name], 3)}</td>
+      <td>${formatStandingsValue(totals.wins, places.wins[team.name])}</td>
+      <td>${formatStandingsValue(totals.strikeouts, places.strikeouts[team.name])}</td>
+      <td>${formatStandingsValue(totals.saves, places.saves[team.name])}</td>
+      <td>${formatStandingsValue(totals.era, places.era[team.name], 2)}</td>
+      <td>${formatStandingsValue(totals.whip, places.whip[team.name], 2)}</td>
     </tr>
   `;
 }
@@ -176,7 +245,8 @@ function render(data) {
   document.getElementById("page-note").textContent = data.standings_note;
   document.getElementById("generated-from").textContent = data.generated_from;
 
-  document.getElementById("standings-body").innerHTML = data.standings.map(standingsRow).join("");
+  const standingsPlaces = buildStandingsPlaces(data.standings);
+  document.getElementById("standings-body").innerHTML = data.standings.map((team) => standingsRow(team, standingsPlaces)).join("");
 
   document.getElementById("leaders-grid").innerHTML = [
     leadersCard("Home Runs", data.leaders.home_runs),
@@ -191,6 +261,13 @@ function render(data) {
     .map(
       (team, index) =>
         `<button class="team-button${index === 0 ? " active" : ""}" data-team="${team.name}">${team.name}</button>`,
+    )
+    .join("");
+
+  document.getElementById("team-page-links").innerHTML = teams
+    .map(
+      (team) =>
+        `<a class="team-link" href="teams/${slugifyTeamName(team.name)}.html">${team.name} page</a>`,
     )
     .join("");
 

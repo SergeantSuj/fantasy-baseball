@@ -12,6 +12,7 @@ DATA_DIR = WORKSPACE_ROOT / "data"
 ROSTERS_DIR = WORKSPACE_ROOT / "manager-rosters"
 SETTINGS_PATH = DATA_DIR / "startup-draft-settings-2026.json"
 BOARD_PATH = DATA_DIR / "draft-board-input-2026.csv"
+RESULTS_PATH = DATA_DIR / "season-results-2026.json"
 
 OUTPUT_DIR = WORKSPACE_ROOT / "docs"
 OUTPUT_DATA_DIR = OUTPUT_DIR / "data"
@@ -98,6 +99,12 @@ def zero_category_totals() -> dict[str, float]:
 def read_csv_rows(path: Path) -> list[dict[str, str]]:
     with path.open("r", encoding="utf-8", newline="") as csv_file:
         return list(csv.DictReader(csv_file))
+
+
+def read_json_file(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def read_settings() -> dict:
@@ -346,7 +353,7 @@ def build_standings(teams: list[dict[str, object]]) -> list[dict[str, object]]:
     return standings
 
 
-def league_leaders(_: list[dict[str, object]]) -> dict[str, list[dict[str, object]]]:
+def default_league_leaders(_: list[dict[str, object]]) -> dict[str, list[dict[str, object]]]:
     return {
         "home_runs": [],
         "stolen_bases": [],
@@ -355,7 +362,80 @@ def league_leaders(_: list[dict[str, object]]) -> dict[str, list[dict[str, objec
     }
 
 
-def build_team_payload(team_name: str, roster_rows: list[dict[str, str]], board_index: dict[str, dict[str, str]]) -> dict[str, object]:
+def contribution_payload(contribution: dict[str, object] | None) -> dict[str, object]:
+    if not contribution:
+        return {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0,
+        }
+    return {
+        "weeks_active": parse_int(str(contribution.get("weeks_active", 0))),
+        "runs": parse_int(str(contribution.get("runs", 0))),
+        "home_runs": parse_int(str(contribution.get("home_runs", 0))),
+        "rbi": parse_int(str(contribution.get("rbi", 0))),
+        "stolen_bases": parse_int(str(contribution.get("stolen_bases", 0))),
+        "obp": round_number(parse_float(str(contribution.get("obp", 0.0))), 3),
+        "wins": parse_int(str(contribution.get("wins", 0))),
+        "strikeouts": parse_int(str(contribution.get("strikeouts", 0))),
+        "saves": parse_int(str(contribution.get("saves", 0))),
+        "era": round_number(parse_float(str(contribution.get("era", 0.0))), 2),
+        "whip": round_number(parse_float(str(contribution.get("whip", 0.0))), 2),
+        "at_bats": parse_int(str(contribution.get("at_bats", 0))),
+        "hits": parse_int(str(contribution.get("hits", 0))),
+        "walks": parse_int(str(contribution.get("walks", 0))),
+        "hit_by_pitch": parse_int(str(contribution.get("hit_by_pitch", 0))),
+        "sac_flies": parse_int(str(contribution.get("sac_flies", 0))),
+        "innings_pitched": clean_value(str(contribution.get("innings_pitched", "0.0"))),
+        "outs_pitched": parse_int(str(contribution.get("outs_pitched", 0))),
+        "earned_runs": parse_int(str(contribution.get("earned_runs", 0))),
+        "hits_allowed": parse_int(str(contribution.get("hits_allowed", 0))),
+        "walks_allowed": parse_int(str(contribution.get("walks_allowed", 0))),
+    }
+
+
+def build_player_contribution_index(team_result: dict[str, object] | None) -> dict[str, dict[str, object]]:
+    if not team_result:
+        return {}
+    index: dict[str, dict[str, object]] = {}
+    for contribution in team_result.get("player_contributions", []):
+        contribution_dict = dict(contribution)
+        key = clean_value(str(contribution_dict.get("mlbam_id"))) or normalize_name(str(contribution_dict.get("player_name", "")))
+        if key:
+            index[key] = contribution_dict
+    return index
+
+
+def enrich_player_payload(player: dict[str, object], contribution_index: dict[str, dict[str, object]]) -> dict[str, object]:
+    payload = roster_player_payload(player)
+    payload["season_contribution"] = contribution_payload(contribution_index.get(player_key(player)))
+    return payload
+
+
+def build_team_payload(
+    team_name: str,
+    roster_rows: list[dict[str, str]],
+    board_index: dict[str, dict[str, str]],
+    season_team_result: dict[str, object] | None = None,
+) -> dict[str, object]:
     roster = []
     for roster_row in roster_rows:
         joined = dict(board_index.get(player_key(roster_row), {}))
@@ -416,15 +496,17 @@ def build_team_payload(team_name: str, roster_rows: list[dict[str, str]], board_
         )
 
     best = max(scenario_results, key=lambda item: float(item["score"]))
+    contribution_index = build_player_contribution_index(season_team_result)
+    season_totals = dict(season_team_result.get("season_totals", zero_category_totals())) if season_team_result else zero_category_totals()
     return {
         "name": team_name,
         "roster_count": len(roster),
-        "active_hitters": [roster_player_payload(player) for player in best["active_hitters"]],
-        "active_pitchers": [roster_player_payload(player) for player in best["active_pitchers"]],
-        "bench": [roster_player_payload(player) for player in sorted(best["bench_players"], key=lambda item: (clean_value(item.get("player_type")), clean_value(item.get("player_name"))))],
-        "roster": [roster_player_payload(player) for player in sorted(roster, key=lambda item: parse_int(item.get("pick_number")))],
+        "active_hitters": [enrich_player_payload(player, contribution_index) for player in best["active_hitters"]],
+        "active_pitchers": [enrich_player_payload(player, contribution_index) for player in best["active_pitchers"]],
+        "bench": [enrich_player_payload(player, contribution_index) for player in sorted(best["bench_players"], key=lambda item: (clean_value(item.get("player_type")), clean_value(item.get("player_name"))))],
+        "roster": [enrich_player_payload(player, contribution_index) for player in sorted(roster, key=lambda item: parse_int(item.get("pick_number")))],
         "projected_totals": best["projected_totals"],
-        "season_totals": zero_category_totals(),
+        "season_totals": season_totals,
     }
 
 
@@ -432,13 +514,15 @@ def main() -> None:
     settings = read_settings()
     board_rows = read_csv_rows(BOARD_PATH)
     board_index = board_index_rows(board_rows)
+    season_results = read_json_file(RESULTS_PATH)
+    season_team_index = {clean_value(item.get("name")): item for item in season_results.get("teams", [])}
 
     teams = []
     for roster_path in roster_order(ROSTERS_DIR, settings):
         team_name = clean_value(roster_path.stem.replace("-roster", "").replace("-", " ")).title()
-        teams.append(build_team_payload(team_name, read_csv_rows(roster_path), board_index))
+        teams.append(build_team_payload(team_name, read_csv_rows(roster_path), board_index, season_team_index.get(team_name)))
 
-    standings = build_standings(teams)
+    standings = season_results.get("standings") or build_standings(teams)
     standings_by_team = {item["name"]: item for item in standings}
     for team in teams:
         summary = standings_by_team[team["name"]]
@@ -452,11 +536,11 @@ def main() -> None:
 
     payload = {
         "title": "Fantasy Baseball League Hub",
-        "generated_from": "draft-board-input-2026.csv and manager-rosters/*.csv",
-        "standings_note": "Standings and league leaders are set to zero until real 2026 season data is available.",
+        "generated_from": season_results.get("generated_from") or "draft-board-input-2026.csv and manager-rosters/*.csv",
+        "standings_note": season_results.get("standings_note") or "Standings and league leaders are set to zero until real 2026 season data is available.",
         "teams": teams,
         "standings": standings,
-        "leaders": league_leaders(teams),
+        "leaders": season_results.get("leaders") or default_league_leaders(teams),
     }
 
     OUTPUT_DATA_DIR.mkdir(parents=True, exist_ok=True)

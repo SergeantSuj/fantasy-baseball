@@ -1,20 +1,52 @@
 # Sunday Workflow
 
-This document defines the weekly Sunday process for managing each team before active rosters lock at the start of the scoring week on Sunday at 12:00 AM.
+This document defines the weekly operating cycle for managing each team across the two recurring checkpoints in the league week:
+
+- Sunday evening, when rosters must be set before the next scoring week locks on Sunday at 12:00 AM
+- Monday morning, when stats from the previous scoring week are added to season totals and standings are updated
 
 The goal is to maximize each roster's expected point gain for the coming week while keeping all teams legal under the league rules.
 
 Manager-specific judgment calls should be guided by [manager-profiles.md](manager-profiles.md).
 
+## Weekly Checkpoints
+
+The league week has two distinct operating checkpoints.
+
+### 1. Sunday Evening: Set Next Week's Roster
+
+Use the Sunday process to prepare each team for the scoring period that begins at Sunday 12:00 AM.
+
+This is the decision window for:
+
+- lineup choices
+- benching and activation decisions
+- IR moves
+- minors compliance
+- free-agent replacements and short-term category targeting
+
+### 2. Monday Morning: Post Prior Week Results
+
+Use the Monday process to roll the completed scoring week into the season totals.
+
+This is the accounting window for:
+
+- adding each active player's prior-week stats to team totals
+- recalculating category standings
+- updating total roto points
+- verifying that the standings reflect the newly posted week correctly
+
 ## Weekly Objective
 
-For each team, complete a full roster and category review before the weekly lock so that:
+For each team, complete the Sunday lineup process before lock and the Monday accounting process after the scoring period closes so that:
 
 - injured players are moved out of active slots when possible
 - eligible injured players are placed on IR
 - underperforming or low-opportunity players are challenged by available free agents
 - minor league eligibility is kept legal
 - active lineup choices reflect the team's category needs for the coming week
+- completed weekly stats are added to the correct season totals
+- standings reflect the previous scoring week's results
 - all teams enter the week with a legal and optimized active roster
 
 ## Order of Operations
@@ -255,6 +287,36 @@ Use this checklist for each of the 10 teams:
 10. Set active pitchers based on innings strategy, ratio protection, saves, and strikeout or win opportunity
 11. Recheck roster legality
 12. Save final lineup before the Sunday lock deadline
+
+## Monday Morning Results Checkpoint
+
+After the scoring week closes and before making new strategic judgments from the table, update the completed week's results.
+
+### Monday Objective
+
+Convert the prior scoring week's active-lineup output into refreshed season totals and updated standings for all 10 teams.
+
+### Monday Order of Operations
+
+1. Identify the active lineup that was locked for the completed scoring week
+2. Pull the prior week's player stats for all active hitters and pitchers
+3. Add those stats to each team's cumulative season totals
+4. Recalculate league totals for all 10 roto categories
+5. Re-rank teams within each category
+6. Recompute total hitting points, pitching points, and overall roto points
+7. Update the published standings view and any downstream summary files
+8. Verify the refreshed standings before using them for the next Sunday decision cycle
+
+### Monday Validation Checklist
+
+For each weekly standings refresh, confirm:
+
+- only players who were active during the completed scoring week received stats
+- bench and minors players were not credited unless they were activated before lock
+- hitter totals and pitcher totals both roll forward correctly
+- category leaders and trailing teams changed only where the new weekly stats justify it
+- team point totals equal the sum of category points
+- published standings and team summaries use the same updated totals
 
 ## Decision Standard
 

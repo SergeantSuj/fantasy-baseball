@@ -85,8 +85,9 @@ Once a player exceeds the eligibility threshold, he must be promoted to an activ
 - Once the weekly lock occurs, active lineup slots cannot be changed until the next scoring week begins
 - Only active players accumulate stats
 - Bench and minor league players do not earn stats unless promoted into active lineup slots
+- Stats from the completed scoring week are posted to season totals and standings during the Monday morning update cycle
 
-This league uses a weekly cadence for roster changes. Managers must set their active lineups before the weekly lock deadline.
+This league uses a two-checkpoint weekly cadence. Managers set active lineups on Sunday evening before the weekly lock deadline, and the prior week's active-player stats are added to the standings during the Monday morning update.
 
 ## Pitching Limits
 
@@ -183,4 +184,4 @@ If teams finish tied in total roto points, use the following tiebreakers in orde
 
 ## Operating Summary
 
-This league is a 10-team mixed MLB dynasty roto league using 5x5 scoring with OBP instead of batting average. Teams compete across 10 season-long categories, set lineups on a weekly lock cycle beginning Sunday at midnight, keep 25 MLB players and up to 15 minor leaguers each offseason, do not hold an annual MLB redraft, use FAAB for in-season pickups, and replenish open minor league spots through an annual first-year player draft in reverse-standings order.
+This league is a 10-team mixed MLB dynasty roto league using 5x5 scoring with OBP instead of batting average. Teams compete across 10 season-long categories, set lineups on a weekly lock cycle beginning Sunday at midnight, post the completed week's active-player stats into season totals and updated standings on Monday morning, keep 25 MLB players and up to 15 minor leaguers each offseason, do not hold an annual MLB redraft, use FAAB for in-season pickups, and replenish open minor league spots through an annual first-year player draft in reverse-standings order.

@@ -34,7 +34,7 @@
       <section class="panel">
         <div class="panel-head">
           <h2>Standings</h2>
-          <p>Season-to-date standings will populate once real 2026 league results are available.</p>
+          <p>Season-to-date standings will populate once real 2026 league results are available. Total is the sum of roto points across all 10 categories.</p>
         </div>
         <div class="table-wrap">
           <table class="standings-table">
@@ -42,9 +42,7 @@
               <tr>
                 <th>Rank</th>
                 <th>Team</th>
-                <th>Total</th>
-                <th>Hit</th>
-                <th>Pitch</th>
+                <th>Total Pts</th>
                 <th>R</th>
                 <th>HR</th>
                 <th>RBI</th>
@@ -60,6 +58,11 @@
             <tbody id="standings-body"></tbody>
           </table>
         </div>
+        <div class="scoring-explainer">
+          <p><strong>Total points:</strong> Add each team's roto points from R, HR, RBI, SB, OBP, W, K, SV, ERA, and WHIP.</p>
+          <p><strong>Category scoring:</strong> In this 10-team league, 1st place is worth 10 points, 2nd is worth 9, and so on down to 10th place worth 1 point.</p>
+          <p><strong>Ties:</strong> Tied category places split the points for the tied positions evenly.</p>
+        </div>
       </section>
 
       <section class="grid two-up">
@@ -74,9 +77,10 @@
         <section class="panel">
           <div class="panel-head compact">
             <h2>Team Snapshot</h2>
-            <p>Switch teams to view current zeroed standings totals, active slots, and the full draft roster.</p>
+            <p>Switch teams for the quick summary, or open the dedicated team page for the full roster and contribution ledger.</p>
           </div>
           <div id="team-buttons" class="team-buttons"></div>
+          <div id="team-page-links" class="team-link-list"></div>
           <div id="team-summary" class="team-summary"></div>
         </section>
       </section>
