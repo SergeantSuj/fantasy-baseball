@@ -1,0 +1,303 @@
+RK,WSID,Player Name,POS,AGE,BEST,WORST,AVG.,STD.DEV,ECR VS. ADP
+1,,Shohei Ohtani (LAD),DH1,31,1,1,1,0,0
+2,,Bobby Witt Jr. (KC),SS1,25,2,2,2,0,2
+3,,Juan Soto (NYM),OF1,27,3,3,3,0,2
+4,,Corbin Carroll (ARI),OF2,25,4,4,4,0,11
+5,,Elly De La Cruz (CIN),SS2,24,5,5,5,0,4
+6,,Julio Rodriguez (SEA),OF3,25,6,9,7.5,1.5,5
+7,,Ronald Acuna Jr. (ATL),OF4,28,7,9,8,1,0
+8,,Junior Caminero (TB),3B1,22,8,8,8,0,10
+9,,Paul Skenes (PIT),SP1,23,6,11,8.5,2.5,1
+10,,Jackson Chourio (MIL),OF5,22,7,10,8.5,1.5,12
+11,,Nick Kurtz (ATH),1B1,23,11,12,11.5,0.5,9
+12,,Fernando Tatis Jr. (SD),OF6,27,10,14,12,2,2
+13,,Tarik Skubal (DET),SP2,29,12,15,13.5,1.5,-5
+14,,Aaron Judge (NYY),OF7,33,13,14,13.5,0.5,-12
+15,,Gunnar Henderson (BAL),SS3,24,13,15,14,1,2
+16,,Kyle Tucker (LAD),OF8,29,16,17,16.5,0.5,-4
+17,,Roman Anthony (BOS),OF9,21,16,19,17.5,1.5,32
+18,,Jose Ramirez (CLE),3B2,33,17,21,19,2,-12
+19,,Vladimir Guerrero Jr. (TOR),1B2,27,18,20,19,1,0
+20,,Garrett Crochet (BOS),SP3,26,20,21,20.5,0.5,-7
+21,,James Wood (WSH),OF10,23,19,26,22.5,3.5,12
+22,,Cal Raleigh (SEA),C1,29,22,23,22.5,0.5,-6
+23,,Pete Crow-Armstrong (CHC),OF11,24,22,25,23.5,1.5,9
+24,,Wyatt Langford (TEX),OF12,24,24,24,24,0,20
+25,,Konnor Griffin (PIT),SS4,19,18,33,25.5,7.5,161
+26,,Ketel Marte (ARI),2B1,32,23,31,27,4,1
+,,,,,,,,,
+27,,Yordan Alvarez (HOU),OF13,28,26,29,27.5,1.5,3
+28,,Francisco Lindor (NYM),SS5,32,27,28,27.5,0.5,-2
+29,,Yoshinobu Yamamoto (LAD),SP4,27,25,33,29,4,-5
+30,,Hunter Brown (HOU),SP5,27,27,31,29,2,7
+31,,Rafael Devers (SF),1B3,29,28,30,29,1,11
+32,,Pete Alonso (BAL),1B4,31,32,36,34,2,-7
+33,,CJ Abrams (WSH),SS6,25,32,36,34,2,37
+34,,Zach Neto (LAA),SS7,25,34,34,34,0,0
+35,,Jackson Merrill (SD),CF1,22,29,41,35,6,32
+36,,Jazz Chisholm Jr. (NYY),2B2,28,30,40,35,5,-13
+37,,Logan Gilbert (SEA),SP6,28,35,37,36,1,2
+38,,Cristopher Sanchez (PHI),SP7,29,35,38,36.5,1.5,-10
+39,,Jackson Holliday (BAL),2B3,22,38,44,41,3,134
+40,,Eury Perez (MIA),SP8,22,39,43,41,2,55
+41,,Bryan Woo (SEA),SP9,26,39,43,41,2,-6
+42,,Riley Greene (DET),OF14,25,37,46,41.5,4.5,21
+43,,Kyle Schwarber (PHI),DH2,33,41,44,42.5,1.5,-22
+44,,Bryce Harper (PHI),1B5,33,45,45,45,0,-6
+45,,Kevin McGonigle (DET) NRI,SS8,21,40,51,45.5,5.5,203
+46,,Hunter Greene (CIN) D15,SP10,26,42,53,47.5,5.5,105
+47,,Trea Turner (PHI),SS9,32,48,48,48,0,-18
+48,,Jesus Made (MIL),SS10,18,42,56,49,7,459
+49,,Austin Riley (ATL),3B3,28,50,51,50.5,0.5,6
+50,,Jarren Duran (BOS),OF15,29,50,52,51,1,10
+51,,Manny Machado (SD),3B4,33,47,57,52,5,-20
+52,,Mookie Betts (LAD),SS11,33,52,54,53,1,-4
+53,,Chase Burns (CIN),"SP,RP1",23,55,56,55.5,0.5,61
+54,,Cole Ragans (KC),SP11,28,55,58,56.5,1.5,-3
+55,,Jac Caglianone (KC),1B6,23,54,61,57.5,3.5,122
+56,,Jacob Misiorowski (MIL),SP12,23,46,70,58,12,51
+57,,Logan Webb (SF),SP13,29,53,63,58,5,-10
+58,,JJ Wetherholt (STL) NRI,SS12,23,49,68,58.5,9.5,161
+59,,George Kirby (SEA),SP14,28,60,64,62,2,6
+60,,Sebastian Walcott (TEX),SS13,20,62,63,62.5,0.5,557
+61,,Max Clark (DET),OF16,21,58,69,63.5,5.5,1232
+62,,Spencer Strider (ATL),SP15,27,49,79,64,15,46
+63,,Matt Olson (ATL),1B7,32,65,67,66,1,-27
+64,,Leo De Vries (ATH) NRI,SS14,19,65,68,66.5,1.5,457
+65,,Bubba Chandler (PIT),SP16,23,66,67,66.5,0.5,87
+66,,Jeremy Pena (HOU),SS15,28,61,73,67,6,39
+67,,Freddy Peralta (NYM),SP17,29,62,74,68,6,-10
+68,,Joe Ryan (MIN),SP18,29,59,78,68.5,9.5,5
+69,,Spencer Schwellenbach (ATL) IL60,SP19,25,47,92,69.5,22.5,224
+70,,Bryce Eldridge (SF),1B8,21,59,82,70.5,11.5,272
+71,,Brent Rooker (ATH),OF17,31,60,81,70.5,10.5,-30
+72,,Freddie Freeman (LAD),1B9,36,66,75,70.5,4.5,-20
+73,,Max Fried (NYY),SP20,32,72,77,74.5,2.5,-28
+74,,Josh Naylor (SEA),1B10,28,71,79,75,4,-16
+75,,Mason Miller (SD),RP1,27,75,77,76,1,-32
+76,,Jacob Wilson (ATH),SS16,24,71,85,78,7,89
+77,,Alex Bregman (CHC),3B5,32,74,82,78,4,13
+78,,Maikel Garcia (KC),2B4,26,73,87,80,7,-14
+79,,Samuel Basallo (BAL),C2,21,70,91,80.5,10.5,146
+80,,Andy Pages (LAD),OF18,25,69,93,81,12,59
+81,,William Contreras (MIL),C3,28,78,86,82,4,-25
+82,,Travis Bazzana (CLE) NRI,2B5,23,81,83,82,1,388
+83,,Vinnie Pasquantino (KC),1B11,28,72,95,83.5,11.5,-6
+84,,Geraldo Perdomo (ARI),SS17,26,83,86,84.5,1.5,-25
+85,,Nolan McLean (NYM),SP21,24,57,113,85,28,9
+86,,Oneil Cruz (PIT),CF2,27,64,108,86,22,1
+87,,Ben Rice (NYY),1B12,27,76,96,86,10,-21
+88,,Lawrence Butler (ATH),OF19,25,84,90,87,3,48
+89,,Corey Seager (TEX),SS18,31,76,100,88,12,-6
+90,,Kyle Stowers (MIA),OF20,28,80,99,89.5,9.5,26
+,,,,,,,,,
+91,,Bo Bichette (NYM),SS19,28,80,101,90.5,10.5,-6
+92,,Seiya Suzuki (CHC),OF21,31,88,99,93.5,5.5,4
+93,,MacKenzie Gore (TEX),SP22,27,85,105,95,10,53
+94,,Walker Jenkins (MIN),OF22,21,89,102,95.5,6.5,355
+95,,Brice Turang (MIL),2B6,26,87,105,96,9,-49
+96,,Andres Munoz (SEA),RP2,27,88,109,98.5,10.5,-28
+97,,Jo Adell (LAA),OF23,26,84,117,100.5,16.5,23
+98,,Cody Bellinger (NYY),OF24,30,97,104,100.5,3.5,-44
+99,,Michael Busch (CHC),1B13,28,96,106,101,5,3
+100,,Framber Valdez (DET),SP23,32,91,112,101.5,10.5,-24
+101,,Michael Harris II (ATL),OF25,25,95,110,102.5,7.5,0
+102,,Jordan Westburg (BAL) D10,2B7,27,94,114,104,10,122
+103,,Luis Pena (MIL),SS20,19,94,116,105,11,-
+104,,Michael King (SD),SP24,30,100,111,105.5,5.5,29
+105,,Blake Snell (LAD),SP25,33,103,110,106.5,3.5,17
+106,,Jhoan Duran (PHI),RP3,28,89,126,107.5,18.5,-44
+107,,Agustin Ramirez (MIA),C4,24,101,115,108,7,3
+108,,Roki Sasaki (LAD),SP26,24,92,126,109,17,139
+109,,Randy Arozarena (SEA),OF26,31,98,122,110,12,-27
+110,,Ceddanne Rafaela (BOS),OF27,25,93,128,110.5,17.5,45
+111,,Matt Shaw (CHC),3B6,24,97,125,111,14,223
+112,,Shane McClanahan (TB),SP27,28,103,125,114,11,95
+113,,Byron Buxton (MIN),CF3,32,109,121,115,6,-41
+114,,Tyler Soderstrom (ATH),1B14,24,102,130,116,14,-34
+115,,Adley Rutschman (BAL),C5,28,111,123,117,6,38
+116,,Jesus Luzardo (PHI),SP28,28,112,122,117,5,-42
+117,,Munetaka Murakami (CWS),1B15,26,118,118,118,0,68
+118,,Emmet Sheehan (LAD),SP29,26,104,135,119.5,15.5,16
+119,,Marcelo Mayer (BOS),2B8,23,107,133,120,13,228
+120,,Pablo Lopez (MIN) IL60,SP30,30,90,90,90,0,-
+121,,Andrew Painter (PHI),SP31,22,120,124,122,2,169
+122,,Josue De Paula (LAD),OF28,20,114,131,122.5,8.5,873
+123,,Dylan Crews (WSH),OF29,24,98,150,124,26,121
+124,,Trey Yesavage (TOR) D15,SP32,22,121,132,126.5,5.5,50
+125,,Aidan Miller (PHI),SS21,21,113,142,127.5,14.5,414
+126,,Wilyer Abreu (BOS),OF30,26,117,138,127.5,10.5,87
+127,,Sal Stewart (CIN),1B16,22,106,170,138,32,62
+128,,Ryan Waldschmidt (ARI) NRI,OF31,23,107,297,202,95,527
+129,,Steven Kwan (CLE),OF32,28,123,135,129,6,20
+130,,Jasson Dominguez (NYY),OF33,23,108,108,108,0,162
+131,,Chandler Simpson (TB),OF34,25,116,143,129.5,13.5,38
+132,,Kristian Campbell (BOS),2B9,23,115,115,115,0,348
+133,,Jacob deGrom (TEX),SP33,37,130,138,134,4,-80
+134,,Drake Baldwin (ATL),C6,25,133,136,134.5,1.5,-30
+135,,Nico Hoerner (CHC),2B10,28,119,200,159.5,40.5,-42
+136,,Zack Wheeler (PHI),SP34,35,119,119,119,0,-9
+137,,Carson Benge (NYM) NRI,OF35,23,120,163,141.5,21.5,160
+138,,Hunter Goodman (COL),C7,26,127,144,135.5,8.5,-63
+139,,Willy Adames (SF),SS22,30,128,146,137,9,-33
+140,,Will Smith (LAD),C8,31,124,124,124,0,-42
+141,,Zyhir Hope (LAD) NRI,OF36,21,129,146,137.5,8.5,-
+142,,Lazaro Montes (SEA),OF37,21,129,148,138.5,9.5,866
+143,,Dylan Cease (TOR),SP35,30,127,127,127,0,-72
+144,,Jackson Jobe (DET) IL60,"SP,RP2",23,131,131,131,0,770
+145,,Brenton Doyle (COL),OF38,27,132,150,141,9,70
+146,,Kyle Bradish (BAL),SP36,29,134,152,143,9,-67
+147,,Jordan Lawlar (ARI),3B7,23,134,134,134,0,151
+148,,Cam Smith (HOU),RF1,23,136,136,136,0,228
+149,,Chris Sale (ATL),SP37,37,137,151,144,7,-109
+150,,Shota Imanaga (CHC),SP38,32,137,137,137,0,10
+151,,Noelvi Marte (CIN),3B8,24,139,164,151.5,12.5,-6
+152,,Tyler Glasnow (LAD),SP39,32,139,139,139,0,-40
+153,,Jakob Marsee (MIA),OF39,24,140,167,153.5,13.5,-15
+154,,Jared Jones (PIT) IL60,SP40,24,140,140,140,0,302
+155,,Braden Montgomery (CWS),OF40,22,141,154,147.5,6.5,1055
+156,,Spencer Torkelson (DET),1B17,26,141,141,141,0,23
+157,,Coby Mayo (BAL),1B18,24,142,156,149,7,234
+158,,Luis Robert Jr. (NYM),OF41,28,143,188,165.5,22.5,-40
+159,,Shea Langeliers (ATH),C9,28,144,183,163.5,19.5,-90
+160,,Luke Keaschall (MIN),2B11,23,145,165,155,10,-49
+161,,Bryce Miller (SEA),SP41,27,145,145,145,0,114
+162,,Colt Emerson (SEA),SS23,20,147,162,154.5,7.5,290
+163,,Kris Bubic (KC),SP42,28,147,147,147,0,19
+164,,Kade Anderson (SEA),SP43,21,148,172,160,12,1163
+165,,Cam Schlittler (NYY),SP44,25,149,173,161,12,-44
+166,,Isaac Paredes (HOU),3B9,27,149,149,149,0,29
+167,,Corbin Burnes (ARI) IL60,SP45,31,153,153,153,0,223
+168,,Nick Lodolo (CIN),SP46,28,155,155,155,0,-45
+169,,Heliot Ramos (SF),OF42,26,157,157,157,0,45
+170,,Cade Horton (CHC),SP47,24,158,158,158,0,14
+171,,Jose Altuve (HOU),2B12,35,159,159,159,0,-71
+172,,Gavin Williams (CLE),SP48,26,160,160,160,0,-28
+173,,Matt McLain (CIN),2B13,26,161,161,161,0,-2
+174,,Christian Yelich (MIL),OF43,34,166,166,166,0,-82
+175,,Shane Baz (BAL),SP49,26,168,168,168,0,26
+176,,Carlos Rodon (NYY),SP50,33,169,169,169,0,15
+177,,Andrew Abbott (CIN),SP51,26,171,171,171,0,21
+178,,Ivan Herrera (STL),C10,25,174,174,174,0,-3
+179,,Sandy Alcantara (MIA),SP52,30,175,175,175,0,-32
+180,,Jonah Tong (NYM),SP53,22,176,176,176,0,248
+181,,Ryan Pepiot (TB) IL15,SP54,28,177,177,177,0,-49
+182,,Tanner Bibee (CLE),SP55,27,178,178,178,0,-10
+183,,Grayson Rodriguez (LAA) IL10,SP56,26,179,179,179,0,95
+184,,Colson Montgomery (CWS),SS24,24,180,180,180,0,-3
+185,,Jonathan Aranda (TB),1B19,27,181,181,181,0,27
+186,,Ranger Suarez (BOS),SP57,30,182,182,182,0,-22
+187,,Mike Trout (LAA),OF44,34,184,184,184,0,-19
+188,,Thomas White (MIA),SP58,21,185,185,185,0,260
+189,,Carson Williams (TB),SS25,22,186,186,186,0,337
+190,,Kerry Carpenter (DET),OF45,28,187,187,187,0,40
+191,,Addison Barger (TOR),3B10,26,189,189,189,0,12
+192,,Ozzie Albies (ATL),2B14,29,190,190,190,0,-64
+193,,Dalton Rushing (LAD),C11,25,191,191,191,0,304
+194,,Teoscar Hernandez (LAD),OF46,33,192,192,192,0,-85
+195,,Noah Schultz (CWS),SP59,22,193,193,193,0,1133
+196,,Edward Cabrera (CHC),SP60,27,194,194,194,0,-8
+197,,Travis Sykora (WSH),SP61,21,195,195,195,0,787
+198,,Josh Hader (HOU) IL15,RP4,31,196,196,196,0,-79
+199,,Royce Lewis (MIN),3B11,26,197,197,197,0,21
+200,,Kodai Senga (NYM),SP62,33,198,198,198,0,43
+201,,Emmanuel Rodriguez (MIN),OF47,23,199,199,199,0,1104
+202,,Masyn Winn (STL),SS26,24,201,201,201,0,86
+203,,Yainer Diaz (HOU),C12,27,202,202,202,0,-60
+204,,Chase DeLauter (CLE),OF48,24,203,203,203,0,65
+205,,Jung Hoo Lee (SF),OF49,27,204,204,204,0,44
+206,,Gerrit Cole (NYY),SP63,35,205,205,205,0,0
+207,,Luis Castillo (SEA),SP64,33,206,206,206,0,-67
+208,,Zebby Matthews (MIN),SP65,25,207,207,207,0,149
+209,,Reese Olson (DET) OUT,SP66,26,208,208,208,0,-
+210,,Aaron Nola (PHI),SP67,32,209,209,209,0,-1
+211,,Kyle Manzardo (CLE),1B20,25,210,210,210,0,31
+212,,Edwin Diaz (LAD),RP5,32,211,211,211,0,-162
+213,,Anthony Volpe (NYY),SS27,24,212,212,212,0,116
+214,,Colton Cowser (BAL),OF50,26,213,213,213,0,38
+215,,Zac Gallen (ARI),SP68,30,214,214,214,0,-11
+216,,Hagen Smith (CWS),SP69,22,215,215,215,0,1004
+217,,Kyle Teel (CWS),C13,24,216,216,216,0,43
+218,,Eugenio Suarez (CIN),3B12,34,217,217,217,0,-132
+219,,AJ Smith-Shawver (ATL),SP70,23,218,218,218,0,469
+220,,Robbie Ray (SF),SP71,34,219,219,219,0,-63
+221,,Nick Pivetta (SD),SP72,33,220,220,220,0,-132
+222,,Luis Gil (NYY),SP73,27,221,221,221,0,88
+223,,Ezequiel Tovar (COL),SS28,24,222,222,222,0,-6
+224,,Shane Bieber (TOR),SP74,30,223,223,223,0,35
+225,,Bryce Rainer (DET),SS29,20,224,224,224,0,-
+226,,Evan Carter (TEX),OF51,23,225,225,225,0,60
+227,,Christian Moore (LAA),2B15,23,226,226,226,0,256
+228,,Francisco Alvarez (NYM),C14,24,227,227,227,0,23
+229,,Charlie Condon (COL),1B21,22,228,228,228,0,925
+230,,Moises Ballesteros (CHC),C15,22,229,229,229,0,144
+231,,Ian Happ (CHC),OF52,31,230,230,230,0,-83
+232,,Logan Henderson (MIL),SP75,24,231,231,231,0,63
+233,,Logan O'Hoppe (LAA),C16,26,232,232,232,0,28
+234,,Brayan Bello (BOS),SP76,26,233,233,233,0,67
+235,,Ethan Holliday (COL),SS30,19,234,234,234,0,-
+236,,Casey Mize (DET),SP77,28,235,235,235,0,41
+237,,Brandon Woodruff (MIL),SP78,33,236,236,236,0,-112
+238,,Mark Vientos (NYM),3B13,26,237,237,237,0,46
+239,,Jack Flaherty (DET),SP79,30,238,238,238,0,-52
+240,,Spencer Jones (FA),SP80,31,239,239,239,0,-
+241,,Taj Bradley (MIN),SP81,25,240,240,240,0,168
+242,,Owen Caissie (MIA),OF53,23,241,241,241,0,124
+243,,Colt Keith (DET),2B16,24,242,242,242,0,69
+244,,George Lombard (NYY),SS31,20,243,243,243,0,369
+245,,Drew Rasmussen (TB),SP82,30,244,244,244,0,-84
+246,,Justin Steele (CHC),SP83,30,245,245,245,0,90
+247,,Eli Willits (WSH),SS32,18,246,246,246,0,-
+248,,Nathan Eovaldi (TEX),SP84,36,247,247,247,0,-117
+249,,Gleyber Torres (DET),2B17,29,248,248,248,0,-38
+250,,Justin Crawford (PHI),OF54,22,249,249,249,0,29
+251,,Liam Doyle (STL),SP85,21,250,250,250,0,906
+252,,Sal Frelick (MIL),OF55,25,251,251,251,0,-42
+253,,Josue Briceno (DET) NRI,C17,21,252,252,252,0,878
+254,,Spencer Steer (CIN),1B22,28,253,253,253,0,13
+255,,Max Meyer (MIA),SP86,27,254,254,254,0,114
+256,,Noah Cameron (KC),SP87,26,255,255,255,0,-10
+257,,Triston Casas (BOS),1B23,26,256,256,256,0,161
+258,,Xavier Edwards (MIA),SS33,26,257,257,257,0,-99
+259,,Will Warren (NYY),SP88,26,258,258,258,0,48
+260,,Ryan Weathers (NYY),SP89,26,259,259,259,0,8
+261,,Mick Abel (MIN),SP90,24,260,260,260,0,121
+262,,Dylan Beavers (BAL),OF56,24,261,261,261,0,89
+263,,Jack Leiter (TEX),SP91,25,262,262,262,0,-18
+264,,Dansby Swanson (CHC),SS34,32,263,263,263,0,-102
+265,,Matt Chapman (SF),3B14,32,264,264,264,0,-141
+266,,Spencer Arrighetti (HOU),SP92,26,265,265,265,0,150
+267,,Emmanuel Clase (CLE) OUT,RP6,28,266,266,266,0,-
+268,,Brandon Lowe (PIT),2B18,31,267,267,267,0,-112
+269,,Hurston Waldrep (ATL) IL60,SP93,24,268,268,268,0,125
+270,,Kevin Gausman (TOR),SP94,35,269,269,269,0,-171
+271,,Jordan Beck (COL),OF57,24,270,270,270,0,-15
+272,,Brendan Donovan (SEA),2B19,29,271,271,271,0,-51
+273,,Bryson Stott (PHI),2B20,28,272,272,272,0,-90
+274,,Cade Smith (CLE),RP7,26,273,273,273,0,-213
+275,,Luis Arraez (SF),2B21,28,274,274,274,0,-42
+276,,Brandon Sproat (MIL),SP95,25,275,275,275,0,213
+277,,Eduardo Quintero (LAD),OF58,20,276,276,276,0,-
+278,,Arjun Nimmala (TOR),SS35,20,277,277,277,0,-
+279,,Tyler Bremner (LAA),SP96,21,278,278,278,0,778
+280,,Brandon Nimmo (TEX),OF59,33,279,279,279,0,-151
+281,,Franklin Arias (BOS),SS36,20,280,280,280,0,-
+282,,Joe Boyle (TB),"SP,RP3",26,281,281,281,0,276
+283,,Alejandro Kirk (TOR),C18,27,282,282,282,0,-107
+284,,Jett Williams (MIL),SS37,22,283,283,283,0,899
+285,,Quinn Priester (MIL),"SP,RP4",25,284,284,284,0,9
+286,,Michael Arroyo (SEA),2B22,21,285,285,285,0,713
+287,,Yandy Diaz (TB),1B24,34,286,286,286,0,-161
+288,,Quinn Mathews (STL),SP97,25,287,287,287,0,1036
+289,,Bailey Ober (MIN),SP98,30,288,288,288,0,-9
+290,,Nolan Schanuel (LAA),1B25,24,289,289,289,0,36
+291,,Cole Young (SEA),2B23,22,290,290,290,0,170
+292,,Bryan Reynolds (PIT),OF60,31,291,291,291,0,-114
+293,,Alec Bohm (PHI),3B15,29,292,292,292,0,-67
+294,,Mitch Keller (PIT),SP99,29,293,293,293,0,28
+295,,Robby Snelling (MIA),SP100,22,294,294,294,0,97
+296,,Edward Florentino (PIT),1B26,19,295,295,295,0,-
+297,,Jhostynxon Garcia (PIT),OF61,23,296,296,296,0,983
+298,,Rhett Lowder (CIN),SP101,24,298,298,298,0,204
+299,,Hayden Birdsong (SF) OUT,"SP,RP5",24,299,299,299,0,-
+300,,Austin Wells (NYY),C19,26,300,300,300,0,-62

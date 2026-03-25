@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-03-24T23:30:09.336408+00:00",
+  "supplemental_file_rows": {
+    "dynasty_rankings": 1655,
+    "prospect_rankings": 0,
+    "market_adp": 1655,
+    "player_context": 0,
+    "player_injuries": 0,
+    "player_transactions": 794,
+    "skill_metrics": 0,
+    "actual_stats_2025": 1655
+  },
+  "settings": {
+    "draft_order_confirmed": true,
+    "third_round_reversal": false,
+    "startup_draft_rounds": 45,
+    "require_prospect_rankings_for_initial_prep": false
+  },
+  "coverage": {
+    "total_players": 1655,
+    "with_dynasty_rank": 1655,
+    "with_prospect_rank": 0,
+    "with_adp": 1655,
+    "with_market_timing_estimate": 1655,
+    "with_injury_status": 46,
+    "with_transaction_status": 794,
+    "with_role_security": 0,
+    "with_skill_flag": 0,
+    "with_actual_2025_stats": 1236,
+    "with_source_specific_dynasty_rank": 437,
+    "with_source_specific_market_adp": 276,
+    "draft_ready_rows": 1655
+  },
+  "blocking_items": [],
+  "deferred_items": [
+    "Prospect rankings remain deferred for a later draft-prep pass"
+  ],
+  "advisory_items": []
+}

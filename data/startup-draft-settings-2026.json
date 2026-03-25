@@ -1,0 +1,90 @@
+{
+  "season": 2026,
+  "league_name": "10-team dynasty roto startup",
+  "combined_player_pool": true,
+  "startup_draft_rounds": 45,
+  "third_round_reversal": false,
+  "require_prospect_rankings_for_initial_prep": false,
+  "dynasty_ranking_source": {
+    "primary": "FantraxHQ 2026 dynasty rankings",
+    "fallback": "workspace-baseline-2026"
+  },
+  "market_adp_blend": {
+    "fantasypros_weight": 0.6,
+    "rotowire_weight": 0.4,
+    "fallback": "workspace-baseline-2026"
+  },
+  "source_ingest_files": {
+    "dynasty_rankings": "data/dynasty-rankings-fantraxhq-2026.csv",
+    "market_adp_fantasypros": "data/market-adp-fantasypros-2026.csv",
+    "market_adp_rotowire": "data/market-adp-rotowire-2026.csv",
+    "chadwick_register": "data/chadwick-register-2026.csv"
+  },
+  "prep_focus": [
+    "dynasty_rankings",
+    "market_adp"
+  ],
+  "draft_order_confirmed": true,
+  "draft_order_method": "randomized in workspace on 2026-03-24 for a standard snake draft",
+  "draft_order": [
+    "Chris",
+    "Rob",
+    "Wendell",
+    "Matt",
+    "Michael",
+    "Paul",
+    "Josh M",
+    "Shane",
+    "Greg",
+    "Josh V"
+  ],
+  "teams": [
+    {
+      "name": "Chris",
+      "profile": "manager-profiles/chris.md"
+    },
+    {
+      "name": "Greg",
+      "profile": "manager-profiles/greg.md"
+    },
+    {
+      "name": "Josh M",
+      "profile": "manager-profiles/josh-m.md"
+    },
+    {
+      "name": "Josh V",
+      "profile": "manager-profiles/josh-v.md"
+    },
+    {
+      "name": "Matt",
+      "profile": "manager-profiles/matt.md"
+    },
+    {
+      "name": "Michael",
+      "profile": "manager-profiles/michael.md"
+    },
+    {
+      "name": "Paul",
+      "profile": "manager-profiles/paul.md"
+    },
+    {
+      "name": "Rob",
+      "profile": "manager-profiles/rob.md"
+    },
+    {
+      "name": "Shane",
+      "profile": "manager-profiles/shane.md"
+    },
+    {
+      "name": "Wendell",
+      "profile": "manager-profiles/wendell.md"
+    }
+  ],
+  "notes": [
+    "This draft order was randomized in the workspace for a standard snake draft.",
+    "Prospect rankings are explicitly deferred for a later prep pass.",
+    "Final dynasty ranks prefer FantraxHQ rows when present and use baseline fallback otherwise.",
+    "Final market ADP prefers a FantasyPros and RotoWire blend when present and uses baseline fallback otherwise.",
+    "Set third_round_reversal to true only if the commissioner explicitly enables it."
+  ]
+}

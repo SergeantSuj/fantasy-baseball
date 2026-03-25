@@ -1,0 +1,795 @@
+source,mlbam_id,player_name,team,current_level,transaction_status,transaction_date,notes,transaction_id
+MLB Stats API transactions,640462,A.J. Puk,,MLB,Status Change,2026-02-15,Arizona Diamondbacks placed LHP A.J. Puk on the 60-day injured list. Left ulnar collateral ligament surgery recovery.,886554
+MLB Stats API transactions,691021,A.J. Vukovich,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster CF A.J. Vukovich to spring training.,883570
+MLB Stats API transactions,650644,Aaron Civale,,MLB,Signed as Free Agent,2026-02-10,Athletics signed free agent RHP Aaron Civale.,885900
+MLB Stats API transactions,694673,Abimelec Ortiz,,MLB,Trade,2026-01-22,"Washington Nationals traded LHP MacKenzie Gore to Texas Rangers for 3B Gavin Fien, 1B Abimelec Ortiz, SS Devin Fitz-Gerald, RHP Alejandro Rosario and CF Yeremy Cabrera.",882371
+MLB Stats API transactions,647351,Abraham Toro,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster 1B Abraham Toro to spring training.,882952
+MLB Stats API transactions,691182,Adael Amador,,AAA,Optioned,2026-03-17,Colorado Rockies optioned 2B Adael Amador to Albuquerque Isotopes.,891946
+MLB Stats API transactions,624428,Adam Frazier,,AAA,Assigned,2026-02-16,2B Adam Frazier assigned to Salt Lake Bees.,886661
+MLB Stats API transactions,671936,Adam Macko,,AAA,Optioned,2026-03-03,Toronto Blue Jays optioned LHP Adam Macko to Buffalo Bisons.,889153
+MLB Stats API transactions,640470,Adbert Alzolay,,MLB,Assigned,2026-02-09,New York Mets invited non-roster RHP Adbert Alzolay to spring training.,885494
+MLB Stats API transactions,805795,Aidan Miller,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster SS Aidan Miller to spring training.,882527
+MLB Stats API transactions,668731,Akil Baddoo,,MLB,Status Change,2026-03-24,Milwaukee Brewers placed LF Akil Baddoo on the 60-day injured list.,893248
+MLB Stats API transactions,660604,Alan Rangel,,AAA,Optioned,2026-03-14,Philadelphia Phillies optioned RHP Alan Rangel to Lehigh Valley IronPigs.,891670
+MLB Stats API transactions,702176,Alan Roden,,AAA,Optioned,2026-03-22,Minnesota Twins optioned LF Alan Roden to St. Paul Saints.,892937
+MLB Stats API transactions,696030,Alejandro Osuna,,AAA,Optioned,2026-03-23,Texas Rangers optioned LF Alejandro Osuna to Round Rock Express.,893154
+MLB Stats API transactions,689690,Alek Jacob,,AAA,Optioned,2026-03-21,San Diego Padres optioned RHP Alek Jacob to El Paso Chihuahuas.,892911
+MLB Stats API transactions,666201,Alek Manoah,,MLB,Status Change,2026-03-22,"Los Angeles Angels placed RHP Alek Manoah on the 15-day injured list retroactive to March 22, 2026.",893356
+MLB Stats API transactions,608324,Alex Bregman,,MLB,Signed as Free Agent,2026-01-14,Chicago Cubs signed free agent 3B Alex Bregman.,881007
+MLB Stats API transactions,692024,Alex Carrillo,,AAA,Optioned,2026-03-01,New York Mets optioned RHP Alex Carrillo to Syracuse Mets.,888703
+MLB Stats API transactions,657077,Alex Verdugo,,AAA,Assigned,2026-03-01,LF Alex Verdugo assigned to El Paso Chihuahuas.,890758
+MLB Stats API transactions,693739,Alexander Alberto,,AAA,Assigned,2026-03-20,RHP Alexander Alberto assigned to Durham Bulls.,892392
+MLB Stats API transactions,664747,Alexis Díaz,,MLB,Assigned,2026-03-21,RHP Alexis Díaz assigned to Texas Rangers.,892713
+MLB Stats API transactions,675961,Alika Williams,,AAA,Assigned,2026-02-18,2B Alika Williams assigned to Indianapolis Indians.,886683
+MLB Stats API transactions,691369,Allan Castro,,MLB,Assigned,2026-01-23,Boston Red Sox invited non-roster CF Allan Castro to spring training.,882678
+MLB Stats API transactions,699232,Anderdson Rojas,,MLB,Assigned,2026-02-22,2B Anderdson Rojas assigned to Arizona Diamondbacks.,887469
+MLB Stats API transactions,701552,Andre Granillo,,MLB,Trade,2026-02-10,Washington Nationals traded RHP George Soriano to St. Louis Cardinals for RHP Andre Granillo.,885865
+MLB Stats API transactions,674841,Andrew Alvarez,,AAA,Optioned,2026-03-14,Washington Nationals optioned LHP Andrew Alvarez to Rochester Red Wings.,891494
+MLB Stats API transactions,605177,Andrew Chafin,,MLB,Released,2026-03-20,Minnesota Twins released LHP Andrew Chafin.,892589
+MLB Stats API transactions,457705,Andrew McCutchen,,AAA,Assigned,2026-03-06,RF Andrew McCutchen assigned to Round Rock Express.,890746
+MLB Stats API transactions,702193,Andrew Morris,,AAA,Optioned,2026-03-09,Minnesota Twins optioned RHP Andrew Morris to St. Paul Saints.,891266
+MLB Stats API transactions,687605,Andrew Pinckney,,MLB,Assigned,2026-01-26,Washington Nationals invited non-roster LF Andrew Pinckney to spring training.,882853
+MLB Stats API transactions,801464,Andrew Pintar,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster CF Andrew Pintar to spring training.,883213
+MLB Stats API transactions,655316,Andruw Monasterio,,MLB,Trade,2026-02-09,"Boston Red Sox traded LHP Kyle Harrison, LHP Shane Drohan and 2B David Hamilton to Milwaukee Brewers for 3B Caleb Durbin, SS Andruw Monasterio, 2B Anthony Seigler and Future Considerations.",885496
+MLB Stats API transactions,628451,Andy Ibáñez,,MLB,Claimed Off Waivers,2026-02-06,Athletics claimed 3B Andy Ibáñez off waivers from Los Angeles Dodgers.,885220
+MLB Stats API transactions,683409,Angel Chivilli,,AAA,Optioned,2026-03-19,New York Yankees optioned RHP Angel Chivilli to Scranton/Wilkes-Barre RailRiders.,892309
+MLB Stats API transactions,694197,Angel Genao,,AAA,Optioned,2026-03-09,Cleveland Guardians optioned 3B Angel Genao to Columbus Clippers.,891281
+MLB Stats API transactions,691292,Angel Ortiz,,MLB,Assigned,2026-02-23,OF Angel Ortiz assigned to Arizona Diamondbacks.,887811
+MLB Stats API transactions,607455,Anthony Banda,,MLB,Trade,2026-02-12,Los Angeles Dodgers traded LHP Anthony Banda to Minnesota Twins for Future Considerations. International Bonus Pool Money.,886400
+MLB Stats API transactions,678011,Anthony Seigler,,MLB,Trade,2026-02-09,"Boston Red Sox traded LHP Kyle Harrison, LHP Shane Drohan and 2B David Hamilton to Milwaukee Brewers for 3B Caleb Durbin, SS Andruw Monasterio, 2B Anthony Seigler and Future Considerations.",885496
+MLB Stats API transactions,605244,Aramis Garcia,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster C Aramis Garcia to spring training.,883557
+MLB Stats API transactions,805796,Arjun Nimmala,,MLB,Assigned,2026-01-21,Toronto Blue Jays invited non-roster SS Arjun Nimmala to spring training.,882322
+MLB Stats API transactions,605131,Austin Barnes,,AAA,Released,2026-03-22,Syracuse Mets released C Austin Barnes.,893000
+MLB Stats API transactions,596295,Austin Gomber,,AAA,Assigned,2026-02-04,LHP Austin Gomber assigned to Round Rock Express.,884094
+MLB Stats API transactions,669720,Austin Hays,,MLB,Signed as Free Agent,2026-02-04,Chicago White Sox signed free agent LF Austin Hays.,884246
+MLB Stats API transactions,676153,Austin Love,,MLB,Status Change,2026-01-26,RHP Austin Love roster status changed by St. Louis Cardinals.,890905
+MLB Stats API transactions,804926,Austin Peterson,,AAA,Optioned,2026-03-06,Cleveland Guardians optioned RHP Austin Peterson to Columbus Clippers.,890776
+MLB Stats API transactions,596103,Austin Slater,,AAA,Released,2026-03-21,Toledo Mud Hens released LF Austin Slater.,892897
+MLB Stats API transactions,681810,Austin Warren,,AAA,Optioned,2026-03-20,New York Mets optioned RHP Austin Warren to Syracuse Mets.,892626
+MLB Stats API transactions,689225,Beau Brieske,,MLB,Status Change,2026-03-23,Detroit Tigers placed RHP Beau Brieske on the 60-day injured list. Left adductor strain.,893127
+MLB Stats API transactions,701496,Ben Cowles,,AAA,Optioned,2026-03-08,Chicago Cubs optioned 3B Ben Cowles to Iowa Cubs.,891042
+MLB Stats API transactions,690829,Ben Joyce,,MLB,Status Change,2026-03-22,"Los Angeles Angels placed RHP Ben Joyce on the 15-day injured list retroactive to March 22, 2026.",893355
+MLB Stats API transactions,695667,Ben Kudrna,,AAA,Optioned,2026-03-07,Kansas City Royals optioned RHP Ben Kudrna to Omaha Storm Chasers.,890998
+MLB Stats API transactions,808768,Ben McLaughlin,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster 3B Ben McLaughlin to spring training.,883563
+MLB Stats API transactions,666163,Ben Rortvedt,,MLB,Claimed Off Waivers,2026-02-15,New York Mets claimed C Ben Rortvedt off waivers from Los Angeles Dodgers.,886590
+MLB Stats API transactions,810938,Ben Williamson,,MLB,Trade,2026-02-02,"St. Louis Cardinals traded 2B Brendan Donovan to Seattle Mariners for CF Colton Ledbetter, SHP Jurrangelo Cijntje, OF Tai Peete, Draft Pick and Draft Pick.",883712
+MLB Stats API transactions,694918,Blade Tidwell,,AAA,Optioned,2026-03-16,San Francisco Giants optioned RHP Blade Tidwell to Sacramento River Cats.,891975
+MLB Stats API transactions,694362,Blake Dunn,,AAA,Optioned,2026-03-16,Cincinnati Reds optioned LF Blake Dunn to Louisville Bats.,891784
+MLB Stats API transactions,663368,Blake Perkins,,AAA,Optioned,2026-03-19,Milwaukee Brewers optioned CF Blake Perkins to Nashville Sounds.,892408
+MLB Stats API transactions,666165,Blake Sabol,,MLB,Status Change,2026-01-08,C Blake Sabol roster status changed by Tampa Bay Rays.,883246
+MLB Stats API transactions,605483,Blake Snell,,MLB,Status Change,2026-03-22,"Los Angeles Dodgers placed LHP Blake Snell on the 15-day injured list retroactive to March 22, 2026.",893370
+MLB Stats API transactions,680604,Blas Castaño,,AAA,Optioned,2026-03-11,Seattle Mariners optioned RHP Blas Castaño to Tacoma Rainiers.,891386
+MLB Stats API transactions,677942,Blaze Alexander,,MLB,Status Change,2026-02-05,Baltimore Orioles activated SS Blaze Alexander.,885464
+MLB Stats API transactions,691458,Blaze Jordan,,AA,Assigned,2026-03-23,1B Blaze Jordan assigned to Springfield Cardinals from Memphis Redbirds.,893049
+MLB Stats API transactions,676632,Bligh Madris,,AA,Assigned,2026-03-23,OF Bligh Madris assigned to Springfield Cardinals from Memphis Redbirds.,893047
+MLB Stats API transactions,666182,Bo Bichette,,MLB,Signed as Free Agent,2026-01-20,New York Mets signed free agent SS Bo Bichette.,882278
+MLB Stats API transactions,676272,Bobby Miller,,MLB,Status Change,2026-03-22,"Los Angeles Dodgers placed RHP Bobby Miller on the 60-day injured list retroactive to March 22, 2026.",893373
+MLB Stats API transactions,695731,Braden Montgomery,,MLB,Assigned,2026-01-29,Chicago White Sox invited non-roster OF Braden Montgomery to spring training.,883169
+MLB Stats API transactions,804556,Braden Nett,,AAA,Optioned,2026-03-08,Athletics optioned RHP Braden Nett to Las Vegas Aviators.,891169
+MLB Stats API transactions,669699,Braden Shewmake,,MLB,Assigned,2026-02-09,New York Yankees invited non-roster SS Braden Shewmake to spring training.,885623
+MLB Stats API transactions,687134,Bradley Blalock,,AAA,Optioned,2026-03-16,Miami Marlins optioned RHP Bradley Blalock to Jacksonville Jumbo Shrimp.,891799
+MLB Stats API transactions,669620,Brady Basso,,AAA,Optioned,2026-03-08,Athletics optioned LHP Brady Basso to Las Vegas Aviators.,891170
+MLB Stats API transactions,685274,Braiden Ward,,MLB,Assigned,2026-01-23,Boston Red Sox invited non-roster CF Braiden Ward to spring training.,882679
+MLB Stats API transactions,684049,Brandan Bidois,,AAA,Optioned,2026-03-09,Pittsburgh Pirates optioned RHP Brandan Bidois to Indianapolis Indians.,891253
+MLB Stats API transactions,592273,Brandon Drury,,AAA,Assigned,2026-02-04,2B Brandon Drury assigned to Omaha Storm Chasers.,884245
+MLB Stats API transactions,685126,Brandon Eisert,,AAA,Optioned,2026-03-22,Chicago White Sox optioned LHP Brandon Eisert to Charlotte Knights.,893147
+MLB Stats API transactions,687075,Brandon Sproat,,MLB,Trade,2026-01-21,Milwaukee Brewers traded RHP Freddy Peralta and RHP Tobias Myers to New York Mets for RHP Brandon Sproat and SS Jett Williams.,882330
+MLB Stats API transactions,678218,Brandon Valenzuela,,AAA,Optioned,2026-03-18,Toronto Blue Jays optioned C Brandon Valenzuela to Buffalo Bisons.,892244
+MLB Stats API transactions,687064,Brandon Young,,AAA,Status Change,2026-03-07,Norfolk Tides activated RHP Brandon Young.,893297
+MLB Stats API transactions,677952,Braxton Ashcraft,,MLB,Number Change,2026-02-16,RHP Braxton Ashcraft changed number to 35.,886612
+MLB Stats API transactions,690924,Braxton Fulford,,AAA,Optioned,2026-03-22,Colorado Rockies optioned C Braxton Fulford to Albuquerque Isotopes.,892932
+MLB Stats API transactions,666129,Braxton Garrett,,AAA,Optioned,2026-03-20,Miami Marlins optioned LHP Braxton Garrett to Jacksonville Jumbo Shrimp.,892582
+MLB Stats API transactions,680977,Brendan Donovan,,MLB,Trade,2026-02-02,"St. Louis Cardinals traded 2B Brendan Donovan to Seattle Mariners for CF Colton Ledbetter, SHP Jurrangelo Cijntje, OF Tai Peete, Draft Pick and Draft Pick.",883712
+MLB Stats API transactions,663898,Brendan Rodgers,,AAA,Assigned,2026-02-09,2B Brendan Rodgers assigned to Worcester Red Sox.,885634
+MLB Stats API transactions,686810,Brennan Milone,,MLB,Assigned,2026-02-23,1B Brennan Milone assigned to Athletics.,887818
+MLB Stats API transactions,608718,Brent Suter,,MLB,Signed as Free Agent,2026-02-06,Los Angeles Angels signed free agent LHP Brent Suter.,885235
+MLB Stats API transactions,695391,Brett Harris,,AAA,Optioned,2026-03-09,Athletics optioned 3B Brett Harris to Las Vegas Aviators.,891198
+MLB Stats API transactions,689531,Brett Squires,,MLB,Assigned,2026-02-20,OF Brett Squires assigned to Kansas City Royals.,886941
+MLB Stats API transactions,664954,Brett Sullivan,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster C Brett Sullivan to spring training.,884522
+MLB Stats API transactions,689172,Brett Wisely,,MLB,Trade,2026-02-10,Tampa Bay Rays traded 2B Brett Wisely to Atlanta Braves for cash.,886154
+MLB Stats API transactions,640459,Brian Navarreto,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster 1B Brian Navarreto to spring training.,883204
+MLB Stats API transactions,661531,Brian Serven,,MLB,Assigned,2026-01-28,Athletics invited non-roster C Brian Serven to spring training.,883089
+MLB Stats API transactions,656271,Brock Burke,,MLB,Trade,2026-01-16,Tampa Bay Rays traded RF Josh Lowe to Los Angeles Angels for RHP Chris Clark and LF Gavin Lux.,881413
+MLB Stats API transactions,801126,Brock Rodden,,MLB,Assigned,2026-01-30,Seattle Mariners invited non-roster 2B Brock Rodden to spring training.,883449
+MLB Stats API transactions,592779,Brock Stewart,,MLB,Status Change,2026-03-22,"Los Angeles Dodgers placed RHP Brock Stewart on the 15-day injured list retroactive to March 22, 2026.",893371
+MLB Stats API transactions,694385,Brock Wilken,,MLB,Assigned,2026-01-27,Milwaukee Brewers invited non-roster 3B Brock Wilken to spring training.,882966
+MLB Stats API transactions,690914,Brody Moore,,MLB,Assigned,2026-01-26,St. Louis Cardinals invited non-roster 2B Brody Moore to spring training.,882909
+MLB Stats API transactions,660813,Brusdar Graterol,,MLB,Status Change,2026-03-22,"Los Angeles Dodgers placed RHP Brusdar Graterol on the 15-day injured list retroactive to March 22, 2026.",893366
+MLB Stats API transactions,650559,Bryan De La Cruz,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster OF Bryan De La Cruz to spring training.,882515
+MLB Stats API transactions,663542,Bryan Hudson,,MLB,Trade,2026-02-10,Chicago White Sox traded LHP Bryan Hudson to New York Mets for cash.,885942
+MLB Stats API transactions,682868,Bryan Ramos,,MLB,Claimed Off Waivers,2026-02-20,Baltimore Orioles claimed 3B Bryan Ramos off waivers from St. Louis Cardinals.,886944
+MLB Stats API transactions,663494,Bryan Torres,,AA,Assigned,2026-03-23,OF Bryan Torres assigned to Springfield Cardinals from Memphis Redbirds.,893048
+MLB Stats API transactions,805811,Bryce Eldridge,,AAA,Optioned,2026-03-19,San Francisco Giants optioned 1B Bryce Eldridge to Sacramento River Cats.,892387
+MLB Stats API transactions,802408,Brycen Mautz,,AA,Assigned,2026-03-23,LHP Brycen Mautz assigned to Springfield Cardinals from Memphis Redbirds.,893032
+MLB Stats API transactions,669060,Bryse Wilson,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster RHP Bryse Wilson to spring training.,882540
+MLB Stats API transactions,696149,Bubba Chandler,,MLB,Number Change,2026-02-09,RHP Bubba Chandler changed number to 36.,885459
+MLB Stats API transactions,671083,Buddy Kennedy,,AAA,Assigned,2026-03-22,1B Buddy Kennedy assigned to Sacramento River Cats.,892950
+MLB Stats API transactions,680769,CJ Alexander,,MLB,Assigned,2026-02-24,1B CJ Alexander assigned to Houston Astros.,887955
+MLB Stats API transactions,806188,Cade Gibson,,AAA,Optioned,2026-03-22,Miami Marlins optioned LHP Cade Gibson to Jacksonville Jumbo Shrimp.,892902
+MLB Stats API transactions,700249,Cade Povich,,AAA,Status Change,2026-03-15,Norfolk Tides activated LHP Cade Povich.,893294
+MLB Stats API transactions,702674,Caden Dana,,AAA,Optioned,2026-03-16,Los Angeles Angels optioned RHP Caden Dana to Salt Lake Bees.,891842
+MLB Stats API transactions,615698,Cal Quantrill,,AAA,Assigned,2026-02-01,RHP Cal Quantrill assigned to Round Rock Express.,884409
+MLB Stats API transactions,702332,Caleb Durbin,,MLB,Trade,2026-02-09,"Boston Red Sox traded LHP Kyle Harrison, LHP Shane Drohan and 2B David Hamilton to Milwaukee Brewers for 3B Caleb Durbin, SS Andruw Monasterio, 2B Anthony Seigler and Future Considerations.",885496
+MLB Stats API transactions,701616,Caleb Lomavita,,MLB,Assigned,2026-01-26,Washington Nationals invited non-roster C Caleb Lomavita to spring training.,882847
+MLB Stats API transactions,676742,Cam Sanders,,AAA,Optioned,2026-03-22,Pittsburgh Pirates optioned RHP Cam Sanders to Indianapolis Indians.,892815
+MLB Stats API transactions,671382,Cameron Foster,,AAA,Optioned,2026-03-08,Baltimore Orioles optioned RHP Cameron Foster to Norfolk Tides.,891141
+MLB Stats API transactions,471911,Carlos Carrasco,,MLB,Assigned,2026-02-04,Atlanta Braves invited non-roster RHP Carlos Carrasco to spring training.,884104
+MLB Stats API transactions,542208,Carlos Pérez,,MLB,Status Change,2026-01-16,C Carlos Pérez roster status changed by Houston Astros.,881412
+MLB Stats API transactions,692230,Carlos Rodriguez,,AAA,Optioned,2026-03-16,Milwaukee Brewers optioned RHP Carlos Rodriguez to Nashville Sounds.,891965
+MLB Stats API transactions,467793,Carlos Santana,,MLB,Signed as Free Agent,2026-02-10,Arizona Diamondbacks signed free agent 1B Carlos Santana.,885805
+MLB Stats API transactions,701807,Carson Benge,,MLB,Number Change,2026-03-24,OF Carson Benge changed number to 3.,893341
+MLB Stats API transactions,701831,Carson DeMartini,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster SS Carson DeMartini to spring training.,882516
+MLB Stats API transactions,687223,Carson Palmquist,,AAA,Optioned,2026-03-08,Colorado Rockies optioned LHP Carson Palmquist to Albuquerque Isotopes.,891088
+MLB Stats API transactions,811287,Carson Roccaforte,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster CF Carson Roccaforte to spring training.,882942
+MLB Stats API transactions,693313,Carson Seymour,,AAA,Optioned,2026-03-23,San Francisco Giants optioned RHP Carson Seymour to Sacramento River Cats.,893346
+MLB Stats API transactions,687931,Carson Whisenhunt,,AAA,Optioned,2026-03-18,San Francisco Giants optioned LHP Carson Whisenhunt to Sacramento River Cats.,892222
+MLB Stats API transactions,700246,Carson Williams,,AAA,Recalled,2026-03-24,Tampa Bay Rays recalled SS Carson Williams from Durham Bulls.,893362
+MLB Stats API transactions,624415,Cavan Biggio,,MLB,Status Change,2026-02-15,1B Cavan Biggio roster status changed by Houston Astros.,886599
+MLB Stats API transactions,677060,Chad Stevens,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster SS Chad Stevens to spring training.,884530
+MLB Stats API transactions,807727,Charles McAdoo,,MLB,Assigned,2026-01-21,Toronto Blue Jays invited non-roster 2B Charles McAdoo to spring training.,882321
+MLB Stats API transactions,809707,Charlie Condon,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster OF Charlie Condon to spring training.,884525
+MLB Stats API transactions,805126,Charlie Szykowny,,MLB,Assigned,2026-02-22,3B Charlie Szykowny assigned to San Francisco Giants.,887596
+MLB Stats API transactions,676801,Chas McCormick,,MLB,Status Change,2026-01-26,LF Chas McCormick roster status changed by Chicago Cubs.,885539
+MLB Stats API transactions,814172,Chase Jaworsky,,MLB,Status Change,2026-02-21,SS Chase Jaworsky roster status changed by Miami Marlins.,888868
+MLB Stats API transactions,695534,Chase Petty,,AAA,Optioned,2026-03-09,Cincinnati Reds optioned RHP Chase Petty to Louisville Bats.,891189
+MLB Stats API transactions,663767,Chase Shugart,,AAA,Optioned,2026-03-22,Philadelphia Phillies optioned RHP Chase Shugart to Lehigh Valley IronPigs.,892910
+MLB Stats API transactions,694646,Chayce McDermott,,AAA,Status Change,2026-03-03,Norfolk Tides activated RHP Chayce McDermott.,893289
+MLB Stats API transactions,605135,Chris Bassitt,,MLB,Signed as Free Agent,2026-02-13,Baltimore Orioles signed free agent RHP Chris Bassitt.,886518
+MLB Stats API transactions,663978,Chris Paddack,,MLB,Signed as Free Agent,2026-02-12,Miami Marlins signed free agent RHP Chris Paddack.,886446
+MLB Stats API transactions,621035,Chris Taylor,,AAA,Released,2026-03-21,Salt Lake Bees released CF Chris Taylor.,892901
+MLB Stats API transactions,686551,Christian Cairo,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster SS Christian Cairo to spring training.,882510
+MLB Stats API transactions,687952,Christian Encarnacion-Strand,,AAA,Optioned,2026-03-09,Cincinnati Reds optioned 1B Christian Encarnacion-Strand to Louisville Bats.,891188
+MLB Stats API transactions,681047,Christian Franklin,,AAA,Optioned,2026-03-23,Washington Nationals optioned LF Christian Franklin to Rochester Red Wings.,893165
+MLB Stats API transactions,695681,Christian Moore,,AAA,Optioned,2026-03-14,Los Angeles Angels optioned 2B Christian Moore to Salt Lake Bees.,891558
+MLB Stats API transactions,681035,Christian Scott,,AAA,Optioned,2026-03-17,New York Mets optioned RHP Christian Scott to Syracuse Mets.,891865
+MLB Stats API transactions,543877,Christian Vázquez,,AAA,Assigned,2026-03-10,C Christian Vázquez assigned to Sugar Land Space Cowboys.,891297
+MLB Stats API transactions,672335,Cionel Pérez,,AAA,Selected,2026-03-23,Washington Nationals selected the contract of LHP Cionel Pérez from Rochester Red Wings.,893138
+MLB Stats API transactions,686499,Clark Elliott,,MLB,Assigned,2026-01-28,Athletics invited non-roster LF Clark Elliott to spring training.,883077
+MLB Stats API transactions,657376,Clarke Schmidt,,MLB,Status Change,2026-02-12,New York Yankees placed RHP Clarke Schmidt on the 60-day injured list. Right forearm tightness.,886470
+MLB Stats API transactions,687867,Clay Dungan,,MLB,Assigned,2026-02-04,San Diego Padres invited non-roster 2B Clay Dungan to spring training.,884157
+MLB Stats API transactions,641355,Cody Bellinger,,MLB,Signed as Free Agent,2026-01-26,New York Yankees signed free agent LF Cody Bellinger.,882884
+MLB Stats API transactions,687515,Colby Thomas,,AAA,Optioned,2026-03-21,Athletics optioned RF Colby Thomas to Las Vegas Aviators.,892888
+MLB Stats API transactions,694249,Cole Carrigg,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster 1B Cole Carrigg to spring training.,884527
+MLB Stats API transactions,677961,Cole Wilcox,,MLB,Optioned,2026-03-23,Seattle Mariners optioned RHP Cole Wilcox to Tacoma Rainiers.,893152
+MLB Stats API transactions,689441,Coleman Crow,,AAA,Optioned,2026-03-08,Milwaukee Brewers optioned RHP Coleman Crow to Nashville Sounds.,891085
+MLB Stats API transactions,621363,Colin Poche,,AAA,Assigned,2026-02-21,LHP Colin Poche assigned to Toledo Mud Hens.,888305
+MLB Stats API transactions,681882,Colin Selby,,MLB,Status Change,2026-02-14,Baltimore Orioles placed RHP Colin Selby on the 60-day injured list. Right shoulder inflammation.,886537
+MLB Stats API transactions,694677,Collin Baumgartner,,MLB,Assigned,2026-03-01,RHP Collin Baumgartner assigned to Colorado Rockies.,888623
+MLB Stats API transactions,805672,Collin Price,,MLB,Assigned,2026-01-16,Houston Astros invited non-roster C Collin Price to spring training.,881414
+MLB Stats API transactions,806068,Colt Emerson,,MLB,Assigned,2026-01-30,Seattle Mariners invited non-roster SS Colt Emerson to spring training.,883439
+MLB Stats API transactions,676467,Colton Gordon,,AAA,Optioned,2026-03-05,Houston Astros optioned LHP Colton Gordon to Sugar Land Space Cowboys.,890643
+MLB Stats API transactions,656582,Connor Joe,,AAA,Assigned,2026-02-13,RF Connor Joe assigned to Tacoma Rainiers.,886650
+MLB Stats API transactions,663731,Connor Kaiser,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster SS Connor Kaiser to spring training.,882949
+MLB Stats API transactions,687570,Connor Prielipp,,AAA,Optioned,2026-03-09,Minnesota Twins optioned LHP Connor Prielipp to St. Paul Saints.,891262
+MLB Stats API transactions,657756,Connor Seabold,,MLB,Status Change,2026-03-23,Detroit Tigers activated RHP Connor Seabold.,893142
+MLB Stats API transactions,681867,Cooper Criswell,,MLB,Trade,2026-01-23,New York Mets traded RHP Cooper Criswell to Seattle Mariners for cash.,882780
+MLB Stats API transactions,694876,Cooper Ingle,,MLB,Assigned,2026-01-30,Cleveland Guardians invited non-roster C Cooper Ingle to spring training.,883330
+MLB Stats API transactions,695692,Cooper Kinney,,MLB,Assigned,2026-01-30,Tampa Bay Rays invited non-roster 2B Cooper Kinney to spring training.,883252
+MLB Stats API transactions,806198,Cooper Pratt,,MLB,Assigned,2026-01-27,Milwaukee Brewers invited non-roster SS Cooper Pratt to spring training.,882964
+MLB Stats API transactions,669203,Corbin Burnes,,MLB,Status Change,2026-02-15,Arizona Diamondbacks placed RHP Corbin Burnes on the 60-day injured list. Right ulnar collateral ligament surgery recovery.,886548
+MLB Stats API transactions,667452,Corey Julks,,MLB,Status Change,2026-01-16,LF Corey Julks roster status changed by Detroit Tigers.,886337
+MLB Stats API transactions,518886,Craig Kimbrel,,AAA,Assigned,2026-01-29,RHP Craig Kimbrel assigned to Syracuse Mets.,883225
+MLB Stats API transactions,800198,Cristofer Torin,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster 2B Cristofer Torin to spring training.,883565
+MLB Stats API transactions,678554,Curtis Mead,,MLB,Number Change,2026-02-13,1B Curtis Mead changed number to 17.,886496
+MLB Stats API transactions,693409,César Prieto,,AA,Assigned,2026-03-23,2B César Prieto assigned to Springfield Cardinals from Memphis Redbirds.,893043
+MLB Stats API transactions,687792,DJ Herz,,MLB,Status Change,2026-02-11,Washington Nationals placed LHP DJ Herz on the 60-day injured list.,886102
+MLB Stats API transactions,680118,Dairon Blanco,,AAA,Optioned,2026-03-09,Texas Rangers optioned CF Dairon Blanco to Round Rock Express.,891185
+MLB Stats API transactions,670897,Daison Acosta,,AAA,Optioned,2026-03-09,San Diego Padres optioned RHP Daison Acosta to El Paso Chihuahuas.,891282
+MLB Stats API transactions,703766,Dakota Harris,,MLB,Status Change,2026-02-21,SS Dakota Harris roster status changed by St. Louis Cardinals.,888180
+MLB Stats API transactions,641540,Dane Dunning,,MLB,Status Change,2026-01-22,RHP Dane Dunning roster status changed by Seattle Mariners.,883425
+MLB Stats API transactions,682982,Daniel Espino,,AAA,Optioned,2026-03-08,Cleveland Guardians optioned RHP Daniel Espino to Columbus Clippers.,891144
+MLB Stats API transactions,669288,Daniel Johnson,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster CF Daniel Johnson to spring training.,883212
+MLB Stats API transactions,694187,Daniel Vazquez,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster SS Daniel Vazquez to spring training.,882939
+MLB Stats API transactions,543056,Danny Coulombe,,MLB,Signed as Free Agent,2026-03-13,Boston Red Sox signed free agent LHP Danny Coulombe.,891431
+MLB Stats API transactions,671117,Darren Baker,,MLB,Assigned,2026-02-20,2B Darren Baker assigned to Chicago White Sox.,886856
+MLB Stats API transactions,672018,Dasan Brown,,MLB,Assigned,2026-02-22,CF Dasan Brown assigned to Milwaukee Brewers.,887491
+MLB Stats API transactions,666152,David Hamilton,,MLB,Trade,2026-02-09,"Boston Red Sox traded LHP Kyle Harrison, LHP Shane Drohan and 2B David Hamilton to Milwaukee Brewers for 3B Caleb Durbin, SS Andruw Monasterio, 2B Anthony Seigler and Future Considerations.",885496
+MLB Stats API transactions,689818,David Sandlin,,AAA,Optioned,2026-03-09,Chicago White Sox optioned RHP David Sandlin to Charlotte Knights.,891235
+MLB Stats API transactions,665152,Dean Kremer,,AAA,Optioned,2026-03-21,Baltimore Orioles optioned RHP Dean Kremer to Norfolk Tides.,892706
+MLB Stats API transactions,694203,Denzer Guzman,,AAA,Optioned,2026-03-11,Los Angeles Angels optioned SS Denzer Guzman to Salt Lake Bees.,891388
+MLB Stats API transactions,571882,Derek Law,,AAA,Assigned,2026-02-04,RHP Derek Law assigned to Reno Aces.,884050
+MLB Stats API transactions,691277,Deyvison De Los Santos,,AAA,Optioned,2026-03-08,Miami Marlins optioned 3B Deyvison De Los Santos to Jacksonville Jumbo Shrimp.,891032
+MLB Stats API transactions,800311,Didier Fuentes,,MLB,Number Change,2026-02-11,RHP Didier Fuentes changed number to 72.,885952
+MLB Stats API transactions,827665,Dillon Lewis,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster OF Dillon Lewis to spring training.,883187
+MLB Stats API transactions,681371,Dom Keegan,,AAA,Optioned,2026-03-08,Tampa Bay Rays optioned C Dom Keegan to Durham Bulls.,891147
+MLB Stats API transactions,624513,Dom Nuñez,,MLB,Status Change,2026-01-06,C Dom Nuñez roster status changed by Cleveland Guardians.,883331
+MLB Stats API transactions,682445,Domingo Gonzalez,,AAA,Optioned,2026-03-11,Seattle Mariners optioned RHP Domingo Gonzalez to Tacoma Rainiers.,891385
+MLB Stats API transactions,642086,Dominic Smith,,MLB,Signed as Free Agent,2026-03-21,Atlanta Braves signed free agent 1B Dominic Smith.,892806
+MLB Stats API transactions,622268,Donovan Walton,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster 2B Donovan Walton to spring training.,884289
+MLB Stats API transactions,680951,Doug Nikhazy,,AAA,Optioned,2026-03-07,Cleveland Guardians optioned LHP Doug Nikhazy to Columbus Clippers.,890999
+MLB Stats API transactions,682183,Drew Avans,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster LF Drew Avans to spring training.,884524
+MLB Stats API transactions,687551,Drew Gilbert,,AAA,Optioned,2026-03-24,San Francisco Giants optioned CF Drew Gilbert to Sacramento River Cats.,893350
+MLB Stats API transactions,686452,Drew Millas,,MLB,Number Change,2026-01-06,C Drew Millas changed number to 14.,880174
+MLB Stats API transactions,691011,Drew Romo,,AAA,Outrighted,2026-02-06,Chicago White Sox sent C Drew Romo outright to Charlotte Knights.,885377
+MLB Stats API transactions,622098,Drew Smith,,AAA,Released,2026-03-21,Rochester Red Wings released RHP Drew Smith.,892928
+MLB Stats API transactions,805427,Drew Sommers,,AAA,Optioned,2026-03-06,Detroit Tigers optioned LHP Drew Sommers to Toledo Mud Hens.,890753
+MLB Stats API transactions,686753,Drey Jameson,,AAA,Optioned,2026-03-15,Arizona Diamondbacks optioned RHP Drey Jameson to Reno Aces.,891726
+MLB Stats API transactions,701546,Duce Gourson,,MLB,Status Change,2026-01-16,2B Duce Gourson roster status changed by Pittsburgh Pirates.,883735
+MLB Stats API transactions,701474,Duncan Davitt,,AAA,Optioned,2026-03-06,Chicago White Sox optioned RHP Duncan Davitt to Charlotte Knights.,890871
+MLB Stats API transactions,666185,Dylan Carlson,,AAA,Selected,2026-03-24,Chicago Cubs selected the contract of LF Dylan Carlson from Iowa Cubs.,893364
+MLB Stats API transactions,686611,Dylan Crews,,AAA,Optioned,2026-03-20,Washington Nationals optioned RF Dylan Crews to Rochester Red Wings.,892674
+MLB Stats API transactions,689266,Dylan Dodd,,AAA,Optioned,2026-03-20,Atlanta Braves optioned LHP Dylan Dodd to Gwinnett Stripers.,892672
+MLB Stats API transactions,664238,Dylan Moore,,MLB,Signed as Free Agent,2026-03-23,Philadelphia Phillies signed free agent 2B Dylan Moore.,893161
+MLB Stats API transactions,802506,Dylan O'Rae,,MLB,Assigned,2026-02-22,CF Dylan O'Rae assigned to Milwaukee Brewers.,887512
+MLB Stats API transactions,697811,Dylan Ross,,AAA,Optioned,2026-03-06,New York Mets optioned RHP Dylan Ross to Syracuse Mets.,890863
+MLB Stats API transactions,681916,Dylan Smith,,AAA,Optioned,2026-03-01,Detroit Tigers optioned RHP Dylan Smith to Toledo Mud Hens.,888750
+MLB Stats API transactions,666397,Edouard Julien,,MLB,Status Change,2026-01-28,Colorado Rockies activated 2B Edouard Julien.,887612
+MLB Stats API transactions,680664,Eduardo Valencia,,AAA,Optioned,2026-03-09,Detroit Tigers optioned C Eduardo Valencia to Toledo Mud Hens.,891193
+MLB Stats API transactions,674384,Eduarniel Núñez,,AAA,Optioned,2026-03-01,Athletics optioned RHP Eduarniel Núñez to Las Vegas Aviators.,888748
+MLB Stats API transactions,665795,Edward Cabrera,,MLB,Trade,2026-01-07,"Miami Marlins traded RHP Edward Cabrera to Chicago Cubs for RF Owen Caissie, SS Cristian Hernandez and IF Edgardo De Leon.",880322
+MLB Stats API transactions,658668,Edward Olivares,,MLB,Status Change,2026-01-06,RF Edward Olivares roster status changed by Tampa Bay Rays.,883247
+MLB Stats API transactions,695490,Edwin Arroyo,,AAA,Optioned,2026-03-06,Cincinnati Reds optioned SS Edwin Arroyo to Louisville Bats.,890748
+MLB Stats API transactions,669212,Eli Morgan,,MLB,Assigned,2026-02-11,Kansas City Royals invited non-roster RHP Eli Morgan to spring training.,885961
+MLB Stats API transactions,553869,Elias Díaz,,AAA,Assigned,2026-02-24,C Elias Díaz assigned to Omaha Storm Chasers.,888307
+MLB Stats API transactions,685313,Elijah Dunham,,MLB,Assigned,2026-02-25,OF Elijah Dunham assigned to Los Angeles Angels.,888230
+MLB Stats API transactions,695684,Elmer Rodríguez,,AAA,Optioned,2026-03-09,New York Yankees optioned RHP Elmer Rodríguez to Scranton/Wilkes-Barre RailRiders.,891279
+MLB Stats API transactions,650391,Eloy Jiménez,,AAA,Assigned,2026-01-14,OF Eloy Jiménez assigned to Buffalo Bisons.,881012
+MLB Stats API transactions,693713,Emiliano Teodo,,AAA,Optioned,2026-03-01,Texas Rangers optioned RHP Emiliano Teodo to Round Rock Express.,888756
+MLB Stats API transactions,691181,Emmanuel Rodriguez,,AAA,Optioned,2026-03-09,Minnesota Twins optioned CF Emmanuel Rodriguez to St. Paul Saints.,891269
+MLB Stats API transactions,682848,Endy Rodríguez,,AAA,Optioned,2026-03-19,Pittsburgh Pirates optioned 1B Endy Rodríguez to Indianapolis Indians.,892286
+MLB Stats API transactions,646241,Enmanuel De Jesus,,AAA,Selected,2026-03-10,Detroit Tigers selected the contract of LHP Enmanuel De Jesus from Toledo Mud Hens.,891333
+MLB Stats API transactions,665839,Enmanuel Valdez,,AAA,Optioned,2026-03-16,Pittsburgh Pirates optioned 1B Enmanuel Valdez to Indianapolis Indians.,891785
+MLB Stats API transactions,690961,Enrique Bradfield Jr.,,MLB,Assigned,2026-02-04,Baltimore Orioles invited non-roster CF Enrique Bradfield Jr. to spring training.,884209
+MLB Stats API transactions,571771,Enrique Hernández,,MLB,Status Change,2026-02-21,Los Angeles Dodgers placed 1B Enrique Hernández on the 60-day injured list. Recovery from left elbow surgery.,887337
+MLB Stats API transactions,687521,Eric Brown Jr.,,MLB,Assigned,2026-02-23,SS Eric Brown Jr. assigned to Milwaukee Brewers.,887786
+MLB Stats API transactions,672021,Eric Cerantola,,AAA,Optioned,2026-03-01,Kansas City Royals optioned RHP Eric Cerantola to Omaha Storm Chasers.,888752
+MLB Stats API transactions,606992,Eric Haase,,MLB,Status Change,2026-01-16,C Eric Haase roster status changed by San Francisco Giants.,884175
+MLB Stats API transactions,676572,Eric Wagaman,,AAA,Optioned,2026-03-23,Minnesota Twins optioned 1B Eric Wagaman to St. Paul Saints.,893149
+MLB Stats API transactions,607200,Erick Fedde,,MLB,Signed as Free Agent,2026-02-10,Chicago White Sox signed free agent RHP Erick Fedde.,885893
+MLB Stats API transactions,699013,Esmerlyn Valdez,,AAA,Optioned,2026-03-09,Pittsburgh Pirates optioned OF Esmerlyn Valdez to Indianapolis Indians.,891257
+MLB Stats API transactions,703676,Ethan Frey,,MLB,Status Change,2026-02-22,OF Ethan Frey roster status changed by Houston Astros.,889225
+MLB Stats API transactions,696140,Ethan Murray,,MLB,Status Change,2026-02-22,SS Ethan Murray roster status changed by Milwaukee Brewers.,890925
+MLB Stats API transactions,681799,Ethan Roberts,,AAA,Optioned,2026-03-20,Chicago Cubs optioned RHP Ethan Roberts to Iowa Cubs.,892625
+MLB Stats API transactions,806956,Ethan Salas,,MLB,Assigned,2026-02-04,San Diego Padres invited non-roster C Ethan Salas to spring training.,884148
+MLB Stats API transactions,553993,Eugenio Suárez,,MLB,Signed as Free Agent,2026-02-03,Cincinnati Reds signed free agent 3B Eugenio Suárez.,883769
+MLB Stats API transactions,623465,Evan Phillips,,MLB,Status Change,2026-02-12,Los Angeles Dodgers placed RHP Evan Phillips on the 60-day injured list. Right forearm discomfort.,886471
+MLB Stats API transactions,682126,Evan Reifert,,MLB,Assigned,2026-02-21,RHP Evan Reifert assigned to Tampa Bay Rays.,887108
+MLB Stats API transactions,681895,Evan Sisk,,AAA,Optioned,2026-03-17,Pittsburgh Pirates optioned LHP Evan Sisk to Indianapolis Indians.,891972
+MLB Stats API transactions,694025,Felix Reyes,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster 1B Felix Reyes to spring training.,882532
+MLB Stats API transactions,664285,Framber Valdez,,MLB,Signed as Free Agent,2026-02-10,Detroit Tigers signed free agent LHP Framber Valdez.,885895
+MLB Stats API transactions,800212,Francis Peña,,MLB,Assigned,2026-02-04,San Diego Padres invited non-roster RHP Francis Pena to spring training.,884134
+MLB Stats API transactions,680916,Franco Aleman,,AAA,Optioned,2026-03-08,Cleveland Guardians optioned RHP Franco Aleman to Columbus Clippers.,891143
+MLB Stats API transactions,642547,Freddy Peralta,,MLB,Trade,2026-01-21,Milwaukee Brewers traded RHP Freddy Peralta and RHP Tobias Myers to New York Mets for RHP Brandon Sproat and SS Jett Williams.,882330
+MLB Stats API transactions,694224,Gabriel Gonzalez,,AAA,Optioned,2026-03-09,Minnesota Twins optioned RF Gabriel Gonzalez to St. Paul Saints.,891268
+MLB Stats API transactions,687312,Gabriel Hughes,,AAA,Optioned,2026-03-08,Colorado Rockies optioned RHP Gabriel Hughes to Albuquerque Isotopes.,891087
+MLB Stats API transactions,687282,Gabriel Rincones Jr.,,AAA,Optioned,2026-03-07,Philadelphia Phillies optioned RF Gabriel Rincones Jr. to Lehigh Valley IronPigs.,890993
+MLB Stats API transactions,695611,Gage Jump,,MLB,Assigned,2026-01-28,Athletics invited non-roster LHP Gage Jump to spring training.,883075
+MLB Stats API transactions,669398,Gage Workman,,MLB,Status Change,2026-02-22,3B Gage Workman roster status changed by Detroit Tigers.,888155
+MLB Stats API transactions,670183,Garrett Acton,,AAA,Optioned,2026-03-16,Miami Marlins optioned RHP Garrett Acton to Jacksonville Jumbo Shrimp.,891798
+MLB Stats API transactions,678184,Garrett Hawkins,,AAA,Optioned,2026-03-13,San Diego Padres optioned RHP Garrett Hawkins to El Paso Chihuahuas.,891493
+MLB Stats API transactions,596142,Gary Sánchez,,MLB,Status Change,2026-02-14,Milwaukee Brewers activated C Gary Sánchez.,886529
+MLB Stats API transactions,688457,Gavin Cross,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster RF Gavin Cross to spring training.,882941
+MLB Stats API transactions,668970,Gavin Hollowell,,AAA,Optioned,2026-03-20,Chicago Cubs optioned RHP Gavin Hollowell to Iowa Cubs.,892624
+MLB Stats API transactions,666158,Gavin Lux,,MLB,Status Change,2026-03-23,"Tampa Bay Rays placed LF Gavin Lux on the 10-day injured list retroactive to March 23, 2026.",893358
+MLB Stats API transactions,694813,Gavin Stone,,MLB,Status Change,2026-03-22,"Los Angeles Dodgers placed RHP Gavin Stone on the 15-day injured list retroactive to March 22, 2026.",893372
+MLB Stats API transactions,691946,George Klassen,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster RHP George Klassen to spring training.,884273
+MLB Stats API transactions,666277,George Soriano,,MLB,Trade,2026-02-10,Washington Nationals traded RHP George Soriano to St. Louis Cardinals for RHP Andre Granillo.,885865
+MLB Stats API transactions,608566,Germán Márquez,,MLB,Signed as Free Agent,2026-02-16,San Diego Padres signed free agent RHP Germán Márquez.,886613
+MLB Stats API transactions,570482,Gio Urshela,,MLB,Released,2026-03-20,Minnesota Twins released 3B Gio Urshela.,892592
+MLB Stats API transactions,700669,Gordon Graceffo,,AA,Assigned,2026-03-23,RHP Gordon Graceffo assigned to Springfield Cardinals from Memphis Redbirds.,893028
+MLB Stats API transactions,666197,Grae Kessinger,,AAA,Status Change,2026-03-18,Syracuse Mets placed 3B Grae Kessinger on the 60-day injured list.,892358
+MLB Stats API transactions,680880,Grant Holman,,AAA,Optioned,2026-03-08,Arizona Diamondbacks optioned RHP Grant Holman to Reno Aces.,891048
+MLB Stats API transactions,687529,Grant McCray,,AAA,Optioned,2026-03-19,San Francisco Giants optioned CF Grant McCray to Sacramento River Cats.,892389
+MLB Stats API transactions,680570,Grayson Rodriguez,,MLB,Status Change,2026-03-22,"Los Angeles Angels placed RHP Grayson Rodriguez on the 15-day injured list retroactive to March 22, 2026.",893354
+MLB Stats API transactions,676046,Griff McGarry,,AAA,Assigned,2026-03-24,RHP Griff McGarry assigned to Lehigh Valley IronPigs.,893330
+MLB Stats API transactions,656288,Griffin Canning,,MLB,Signed as Free Agent,2026-02-17,San Diego Padres signed free agent RHP Griffin Canning.,886664
+MLB Stats API transactions,680684,Gunnar Hoglund,,MLB,Status Change,2026-03-22,"Athletics placed RHP Gunnar Hoglund on the 15-day injured list retroactive to March 22, 2026. Sprained right knee.",893146
+MLB Stats API transactions,681402,Gus Varland,,MLB,Claimed Off Waivers,2026-01-22,Washington Nationals claimed RHP Gus Varland off waivers from Arizona Diamondbacks.,882423
+MLB Stats API transactions,672569,Gustavo Campero,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster OF Gustavo Campero to spring training.,884290
+MLB Stats API transactions,650893,Génesis Cabrera,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster LHP Génesis Cabrera to spring training.,882509
+MLB Stats API transactions,701678,Hao-Yu  Lee,,AAA,Optioned,2026-03-09,Detroit Tigers optioned 2B Hao-Yu  Lee to Toledo Mud Hens.,891192
+MLB Stats API transactions,664056,Harrison Bader,,MLB,Signed as Free Agent,2026-01-30,San Francisco Giants signed free agent LF Harrison Bader.,883301
+MLB Stats API transactions,695670,Harry Ford,,AAA,Optioned,2026-03-18,Washington Nationals optioned C Harry Ford to Rochester Red Wings.,892245
+MLB Stats API transactions,802686,Hayden Harris,,AAA,Optioned,2026-03-12,Atlanta Braves optioned LHP Hayden Harris to Gwinnett Stripers.,891396
+MLB Stats API transactions,663584,Hayden Senger,,AAA,Optioned,2026-03-21,New York Mets optioned C Hayden Senger to Syracuse Mets.,892692
+MLB Stats API transactions,694230,Hendry Mendez,,AA,Optioned,2026-03-09,Minnesota Twins optioned OF Hendry Mendez to Wichita Wind Surge.,891270
+MLB Stats API transactions,692013,Henry Baez,,AA,Optioned,2026-02-28,Athletics optioned RHP Henry Baez to Midland RockHounds.,888607
+MLB Stats API transactions,703607,Henry Bolte,,MLB,Assigned,2026-01-28,Athletics invited non-roster RF Henry Bolte to spring training.,883076
+MLB Stats API transactions,681715,Heriberto Hernández,,MLB,Number Change,2026-01-29,LF Heriberto Hernández changed number to 13.,883223
+MLB Stats API transactions,685801,Hunter Bigge,,AAA,Optioned,2026-03-24,Tampa Bay Rays optioned RHP Hunter Bigge to Durham Bulls.,893360
+MLB Stats API transactions,668881,Hunter Greene,,MLB,Status Change,2026-03-23,Cincinnati Reds placed RHP Hunter Greene on the 60-day injured list. Right elbow surgery.,893135
+MLB Stats API transactions,676702,Hunter Stratton,,AAA,Optioned,2026-03-01,Atlanta Braves optioned RHP Hunter Stratton to Gwinnett Stripers.,888757
+MLB Stats API transactions,519326,Hunter Strickland,,AAA,Released,2026-03-21,Salt Lake Bees released RHP Hunter Strickland.,892900
+MLB Stats API transactions,808975,Hyeseong Kim,,AAA,Optioned,2026-03-22,Los Angeles Dodgers optioned 2B Hyeseong Kim to Oklahoma City Comets.,892884
+MLB Stats API transactions,699302,Héctor Rodríguez,,AAA,Optioned,2026-03-06,Cincinnati Reds optioned LF Héctor Rodríguez to Louisville Bats.,890751
+MLB Stats API transactions,641656,Ian Hamilton,,AAA,Outrighted,2026-03-19,Atlanta Braves sent RHP Ian Hamilton outright to Gwinnett Stripers.,892394
+MLB Stats API transactions,545121,Ildemaro Vargas,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster 2B Ildemaro Vargas to spring training.,883567
+MLB Stats API transactions,643396,Isiah Kiner-Falefa,,MLB,Signed as Free Agent,2026-02-10,Boston Red Sox signed free agent SS Isiah Kiner-Falefa.,885761
+MLB Stats API transactions,669372,J.T. Ginn,,MLB,Number Change,2026-02-06,RHP J.T. Ginn changed number to 35.,885269
+MLB Stats API transactions,592663,J.T. Realmuto,,MLB,Signed as Free Agent,2026-01-20,Philadelphia Phillies signed free agent C J.T. Realmuto.,881994
+MLB Stats API transactions,668709,JJ Bleday,,AAA,Optioned,2026-03-21,Cincinnati Reds optioned CF JJ Bleday to Louisville Bats.,892771
+MLB Stats API transactions,802139,JJ Wetherholt,,MLB,Number Change,2026-03-24,SS JJ Wetherholt changed number to 26.,893342
+MLB Stats API transactions,676664,JP Sears,,AAA,Optioned,2026-03-22,San Diego Padres optioned LHP JP Sears to El Paso Chihuahuas.,893162
+MLB Stats API transactions,702275,JR Ritchie,,MLB,Assigned,2026-02-04,Atlanta Braves invited non-roster RHP JR Ritchie to spring training.,884111
+MLB Stats API transactions,690291,Jace Jung,,AAA,Optioned,2026-03-24,Detroit Tigers optioned 3B Jace Jung to Toledo Mud Hens.,893322
+MLB Stats API transactions,687394,Jack Brannigan,,AA,Assigned,2026-03-24,SS Jack Brannigan assigned to Altoona Curve from Indianapolis Indians.,893343
+MLB Stats API transactions,683004,Jack Leiter,,MLB,Number Change,2026-02-09,RHP Jack Leiter changed number to 22.,885618
+MLB Stats API transactions,680891,Jack Neely,,AAA,Optioned,2026-03-08,Chicago Cubs optioned RHP Jack Neely to Iowa Cubs.,891041
+MLB Stats API transactions,678022,Jack Perkins,,AAA,Optioned,2026-03-22,Athletics optioned RHP Jack Perkins to Las Vegas Aviators.,893145
+MLB Stats API transactions,801442,Jack Pineda,,MLB,Assigned,2026-02-20,SS Jack Pineda assigned to Kansas City Royals.,886942
+MLB Stats API transactions,669261,Jack Suwinski,,AAA,Outrighted,2026-03-02,Los Angeles Dodgers sent RF Jack Suwinski outright to Oklahoma City Comets.,888873
+MLB Stats API transactions,663804,Jackson Kowar,,MLB,Trade,2026-02-14,Minnesota Twins traded RHP Jackson Kowar to Baltimore Orioles for cash.,886538
+MLB Stats API transactions,671131,Jackson Rutledge,,AAA,Optioned,2026-03-20,Washington Nationals optioned RHP Jackson Rutledge to Rochester Red Wings.,892673
+MLB Stats API transactions,694351,Jacob Berry,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster 1B Jacob Berry to spring training.,883207
+MLB Stats API transactions,674441,Jacob Hurtubise,,MLB,Assigned,2026-02-22,LF Jacob Hurtubise assigned to Milwaukee Brewers.,887495
+MLB Stats API transactions,689200,Jacob Melton,,AAA,Optioned,2026-03-17,Tampa Bay Rays optioned LF Jacob Melton to Durham Bulls.,892030
+MLB Stats API transactions,702544,Jacob Reimer,,MLB,Assigned,2026-02-09,New York Mets invited non-roster 3B Jacob Reimer to spring training.,885495
+MLB Stats API transactions,699130,Jadher Areinamo,,AA,Optioned,2026-03-05,Tampa Bay Rays optioned 2B Jadher Areinamo to Montgomery Biscuits.,890645
+MLB Stats API transactions,665856,Jair Camargo,,MLB,Assigned,2026-02-04,Atlanta Braves invited non-roster C Jair Camargo to spring training.,884113
+MLB Stats API transactions,814005,Jake Bloss,,AAA,Status Change,2026-03-20,Buffalo Bisons placed RHP Jake Bloss on the 60-day injured list.,892441
+MLB Stats API transactions,671109,Jake Eder,,AAA,Optioned,2026-03-14,Washington Nationals optioned LHP Jake Eder to Rochester Red Wings.,891495
+MLB Stats API transactions,664983,Jake McCarthy,,MLB,Trade,2026-01-10,Arizona Diamondbacks traded CF Jake McCarthy to Colorado Rockies for RHP Josh Grosz.,880595
+MLB Stats API transactions,681313,Jake Miller,,MLB,Assigned,2026-01-30,Cleveland Guardians invited non-roster RHP Jake Miller to spring training.,883321
+MLB Stats API transactions,596001,Jakob Junis,,MLB,Signed as Free Agent,2026-01-20,Texas Rangers signed free agent RHP Jakob Junis.,882208
+MLB Stats API transactions,656222,Jalen Beeks,,MLB,Signed as Free Agent,2026-03-13,Texas Rangers signed free agent LHP Jalen Beeks.,891449
+MLB Stats API transactions,701649,James Triantos,,AAA,Optioned,2026-03-08,Chicago Cubs optioned 2B James Triantos to Iowa Cubs.,891043
+MLB Stats API transactions,702262,Jared Jones,,MLB,Assigned,2026-02-28,1B Jared Jones assigned to Pittsburgh Pirates.,888569
+MLB Stats API transactions,666931,Jared Oliva,,MLB,Status Change,2026-01-12,OF Jared Oliva roster status changed by San Francisco Giants.,884190
+MLB Stats API transactions,691858,Jared Serna,,AAA,Optioned,2026-03-08,Miami Marlins optioned SS Jared Serna to Jacksonville Jumbo Shrimp.,891033
+MLB Stats API transactions,672284,Jarred Kelenic,,AAA,Assigned,2026-01-02,RF Jarred Kelenic assigned to Charlotte Knights.,880618
+MLB Stats API transactions,669920,Jason Alexander,,AAA,Optioned,2026-03-08,Houston Astros optioned RHP Jason Alexander to Sugar Land Space Cowboys.,891028
+MLB Stats API transactions,671345,Jason Foley,,MLB,Status Change,2026-02-13,San Francisco Giants placed RHP Jason Foley on the 60-day injured list. Recovery from right shoulder surgery.,886514
+MLB Stats API transactions,691176,Jasson Domínguez,,AAA,Optioned,2026-03-20,New York Yankees optioned LF Jasson Domínguez to Scranton/Wilkes-Barre RailRiders.,892623
+MLB Stats API transactions,665871,Javier Assad,,AAA,Optioned,2026-03-23,Chicago Cubs optioned RHP Javier Assad to Iowa Cubs.,893157
+MLB Stats API transactions,691594,Javier Sanoja,,MLB,Number Change,2026-01-29,2B Javier Sanoja changed number to 8.,883222
+MLB Stats API transactions,680890,Jax Biggers,,MLB,Assigned,2026-01-16,Houston Astros invited non-roster 2B Jax Biggers to spring training.,881394
+MLB Stats API transactions,681151,Jayden Murray,,AAA,Optioned,2026-03-10,Houston Astros optioned RHP Jayden Murray to Sugar Land Space Cowboys.,891336
+MLB Stats API transactions,682144,Jayvien Sandridge,,AAA,Optioned,2026-03-06,Los Angeles Angels optioned LHP Jayvien Sandridge to Salt Lake Bees.,890882
+MLB Stats API transactions,691893,Jean Cabrera,,AAA,Optioned,2026-03-07,Philadelphia Phillies optioned RHP Jean Cabrera to Lehigh Valley IronPigs.,890995
+MLB Stats API transactions,691620,Jeferson Quero,,AAA,Optioned,2026-03-09,Milwaukee Brewers optioned C Jeferson Quero to Nashville Sounds.,891214
+MLB Stats API transactions,676105,Jeff Criswell,,MLB,Status Change,2026-02-12,Colorado Rockies placed RHP Jeff Criswell on the 60-day injured list. Recovery from Tommy John surgery.,886475
+MLB Stats API transactions,600869,Jeimer Candelario,,AAA,Assigned,2026-02-09,3B Jeimer Candelario assigned to Salt Lake Bees.,885630
+MLB Stats API transactions,666464,Jerar Encarnacion,,MLB,Number Change,2026-01-22,RF Jerar Encarnacion changed number to 19.,882370
+MLB Stats API transactions,669947,Jesse Scholtens,,AAA,Optioned,2026-03-11,Tampa Bay Rays optioned RHP Jesse Scholtens to Durham Bulls.,891384
+MLB Stats API transactions,683679,Jesus Rodriguez,,AAA,Optioned,2026-03-18,San Francisco Giants optioned C Jesus Rodriguez to Sacramento River Cats.,892221
+MLB Stats API transactions,665846,Jesús Bastidas,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster SS Jesús Bastidas to spring training.,883206
+MLB Stats API transactions,815908,Jesús Made,,MLB,Assigned,2026-01-27,Milwaukee Brewers invited non-roster SS Jesús Made to spring training.,882963
+MLB Stats API transactions,660821,Jesús Sánchez,,MLB,Trade,2026-02-13,Toronto Blue Jays traded LF Joey Loperfido to Houston Astros for RF Jesús Sánchez.,886476
+MLB Stats API transactions,702518,Jett Williams,,MLB,Assigned,2026-01-23,Milwaukee Brewers invited non-roster SS Jett Williams to spring training.,882554
+MLB Stats API transactions,702910,Jhancarlos Lara,,AAA,Optioned,2026-03-05,Atlanta Braves optioned RHP Jhancarlos Lara to Gwinnett Stripers.,890649
+MLB Stats API transactions,646242,Jhonathan Díaz,,MLB,Assigned,2026-02-12,Seattle Mariners invited non-roster LHP Jhonathan Díaz to spring training.,886468
+MLB Stats API transactions,678877,Jhonkensy Noel,,AAA,Status Change,2026-01-14,Norfolk Tides activated RF Jhonkensy Noel.,893309
+MLB Stats API transactions,640902,Jhonny Pereda,,AAA,Optioned,2026-03-22,Seattle Mariners optioned C Jhonny Pereda to Tacoma Rainiers.,893153
+MLB Stats API transactions,666745,Jhony Brito,,MLB,Status Change,2026-02-16,"San Diego Padres placed RHP Jhony Brito on the 60-day injured list. Right elbow surgery, UCL reconstruction.",886614
+MLB Stats API transactions,691373,Jhostynxon Garcia,,AAA,Optioned,2026-03-21,Pittsburgh Pirates optioned CF Jhostynxon Garcia to Indianapolis Indians.,892691
+MLB Stats API transactions,678225,Ji Hwan Bae,,AAA,Outrighted,2026-01-08,New York Mets sent CF Ji Hwan Bae outright to Syracuse Mets.,880404
+MLB Stats API transactions,699625,Jimmy Crooks,,AA,Assigned,2026-03-23,C Jimmy Crooks assigned to Springfield Cardinals from Memphis Redbirds.,893040
+MLB Stats API transactions,592626,Joc Pederson,,MLB,Number Change,2026-02-09,1B Joc Pederson changed number to 3.,885617
+MLB Stats API transactions,671212,Joe Boyle,,AAA,Recalled,2026-03-24,Tampa Bay Rays recalled RHP Joe Boyle from Durham Bulls.,893361
+MLB Stats API transactions,641729,Joe Jiménez,,MLB,Status Change,2026-02-10,Atlanta Braves placed RHP Joe Jiménez on the 60-day injured list.,886155
+MLB Stats API transactions,691788,Joe Mack,,AAA,Optioned,2026-03-15,Miami Marlins optioned C Joe Mack to Jacksonville Jumbo Shrimp.,891721
+MLB Stats API transactions,697812,Joe Rock,,AAA,Optioned,2026-03-11,Tampa Bay Rays optioned LHP Joe Rock to Durham Bulls.,891382
+MLB Stats API transactions,805871,Joel Hurtado,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster RHP Joel Hurtado to spring training.,884271
+MLB Stats API transactions,683155,Joey Estes,,AAA,Optioned,2026-03-11,Athletics optioned RHP Joey Estes to Las Vegas Aviators.,891364
+MLB Stats API transactions,680702,Joey Gerber,,AAA,Optioned,2026-03-19,New York Mets optioned RHP Joey Gerber to Syracuse Mets.,892411
+MLB Stats API transactions,694388,Joey Loperfido,,MLB,Trade,2026-02-13,Toronto Blue Jays traded LF Joey Loperfido to Houston Astros for RF Jesús Sánchez.,886476
+MLB Stats API transactions,664192,Joey Lucchesi,,MLB,Released,2026-03-22,San Francisco Giants released LHP Joey Lucchesi.,893013
+MLB Stats API transactions,608841,Joey Meneses,,MLB,Assigned,2026-01-28,Athletics invited non-roster 1B Joey Meneses to spring training.,883084
+MLB Stats API transactions,686894,Joey Wiemer,,MLB,Claimed Off Waivers,2026-01-05,Washington Nationals claimed LF Joey Wiemer off waivers from San Francisco Giants.,880133
+MLB Stats API transactions,605154,John Brebbia,,MLB,Released,2026-03-23,Colorado Rockies released RHP John Brebbia.,893143
+MLB Stats API transactions,667463,John King,,MLB,Signed as Free Agent,2026-02-13,Miami Marlins signed free agent LHP John King.,886474
+MLB Stats API transactions,804619,John Klein,,AAA,Optioned,2026-03-09,Minnesota Twins optioned RHP John Klein to St. Paul Saints.,891263
+MLB Stats API transactions,807726,John Peck,,MLB,Assigned,2026-02-12,Detroit Tigers invited non-roster SS John Peck to spring training.,886346
+MLB Stats API transactions,670231,John Rave,,AAA,Optioned,2026-03-17,Kansas City Royals optioned RF John Rave to Omaha Storm Chasers.,892029
+MLB Stats API transactions,671286,Johnathan Rodríguez,,AAA,Optioned,2026-03-15,Cleveland Guardians optioned RF Johnathan Rodríguez to Columbus Clippers.,891768
+MLB Stats API transactions,675394,Johnny Olmstead,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster SS Johnny Olmstead to spring training.,883210
+MLB Stats API transactions,641680,Jonah Heim,,MLB,Signed as Free Agent,2026-02-10,Atlanta Braves signed free agent C Jonah Heim.,885944
+MLB Stats API transactions,804636,Jonah Tong,,AAA,Optioned,2026-03-10,New York Mets optioned RHP Jonah Tong to Syracuse Mets.,891303
+MLB Stats API transactions,682729,Jonatan Clase,,AAA,Optioned,2026-03-16,Toronto Blue Jays optioned LF Jonatan Clase to Buffalo Bisons.,891843
+MLB Stats API transactions,666018,Jonathan Aranda,,MLB,Number Change,2026-01-12,1B Jonathan Aranda changed number to 8.,880699
+MLB Stats API transactions,686563,Jonathan Cannon,,AAA,Optioned,2026-03-17,Chicago White Sox optioned RHP Jonathan Cannon to Charlotte Knights.,891948
+MLB Stats API transactions,642528,Jonathan Loáisiga,,AAA,Assigned,2026-01-12,RHP Jonathan Loáisiga assigned to Reno Aces.,881998
+MLB Stats API transactions,703158,Jonathan Mejía,,MLB,Assigned,2026-03-08,SS Jonathan Mejía assigned to St. Louis Cardinals.,891005
+MLB Stats API transactions,702752,Jonathan Pintaro,,AAA,Optioned,2026-03-09,New York Mets optioned RHP Jonathan Pintaro to Syracuse Mets.,891223
+MLB Stats API transactions,675085,Jonathon Long,,MLB,Assigned,2026-02-09,Chicago Cubs invited non-roster 1B Jonathon Long to spring training.,885531
+MLB Stats API transactions,678391,Jorbit Vivas,,MLB,Trade,2026-03-22,New York Yankees traded 2B Jorbit Vivas to Washington Nationals for RHP Sean Paul Liñan.,892930
+MLB Stats API transactions,663855,Jordan Hicks,,MLB,Trade,2026-02-01,"Boston Red Sox traded RHP David Sandlin, RHP Jordan Hicks, Player To Be Named Later, Player To Be Named Later and cash to Chicago White Sox for RHP Gage Ziehl and Player To Be Named Later.",883659
+MLB Stats API transactions,656756,Jordan Montgomery,,MLB,Status Change,2026-03-08,Texas Rangers placed LHP Jordan Montgomery on the 60-day injured list. Recovering from Tommy John surgery.,891092
+MLB Stats API transactions,677941,Jordyn Adams,,AA,Assigned,2026-02-04,CF Jordyn Adams assigned to Biloxi Shuckers.,885394
+MLB Stats API transactions,595751,Jorge Alfaro,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster C Jorge Alfaro to spring training.,882947
+MLB Stats API transactions,622761,Jorge Mateo,,MLB,Signed as Free Agent,2026-01-20,Atlanta Braves signed free agent SS Jorge Mateo.,882220
+MLB Stats API transactions,692030,Jose Corniell,,AA,Optioned,2026-03-15,Texas Rangers optioned RHP Jose Corniell to Frisco RoughRiders.,891743
+MLB Stats API transactions,664744,Jose Espada,,AAA,Optioned,2026-03-18,Baltimore Orioles optioned RHP Jose Espada to Norfolk Tides.,892087
+MLB Stats API transactions,699912,Jose Fernandez,,AAA,Optioned,2026-03-08,Arizona Diamondbacks optioned SS Jose Fernandez to Reno Aces.,891049
+MLB Stats API transactions,683742,Jose Franco,,AAA,Optioned,2026-03-06,Cincinnati Reds optioned RHP Jose Franco to Louisville Bats.,890750
+MLB Stats API transactions,669304,Jose Miranda,,MLB,Signed as Free Agent,2026-03-10,San Diego Padres signed free agent 3B Jose Miranda to a minor league contract.,880663
+MLB Stats API transactions,500779,Jose Quintana,,MLB,Signed as Free Agent,2026-02-12,Colorado Rockies signed free agent LHP Jose Quintana.,886448
+MLB Stats API transactions,642350,Jose Siri,,AAA,Assigned,2026-02-11,OF Jose Siri assigned to Salt Lake Bees.,886635
+MLB Stats API transactions,813896,Joseph Sullivan,,MLB,Assigned,2026-01-16,Houston Astros invited non-roster CF Joseph Sullivan to spring training.,881424
+MLB Stats API transactions,694795,Josh Ekness,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster RHP Josh Ekness to spring training.,883194
+MLB Stats API transactions,688460,Josh Kasevich,,MLB,Assigned,2026-01-21,Toronto Blue Jays invited non-roster SS Josh Kasevich to spring training.,882319
+MLB Stats API transactions,666139,Josh Lowe,,MLB,Trade,2026-01-16,Tampa Bay Rays traded RF Josh Lowe to Los Angeles Angels for RHP Chris Clark and LF Gavin Lux.,881413
+MLB Stats API transactions,668942,Josh Rojas,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster 3B Josh Rojas to spring training.,882951
+MLB Stats API transactions,622250,Josh Sborz,,AAA,Assigned,2026-01-20,RHP Josh Sborz assigned to Round Rock Express.,882207
+MLB Stats API transactions,681006,Josh Simpson,,AAA,Optioned,2026-03-13,Seattle Mariners optioned LHP Josh Simpson to Tacoma Rainiers.,891568
+MLB Stats API transactions,687985,Josh White,,AAA,Optioned,2026-03-08,Miami Marlins optioned RHP Josh White to Jacksonville Jumbo Shrimp.,891031
+MLB Stats API transactions,695491,Joshua Báez,,AA,Assigned,2026-03-23,RF Joshua Báez assigned to Springfield Cardinals from Memphis Redbirds.,893044
+MLB Stats API transactions,680686,Josiah Gray,,MLB,Status Change,2026-03-23,Washington Nationals placed RHP Josiah Gray on the 60-day injured list. Right flexor strain.,893141
+MLB Stats API transactions,800522,Josue Briceño,,MLB,Assigned,2026-02-12,Detroit Tigers invited non-roster C Josue Briceño to spring training.,886328
+MLB Stats API transactions,800543,Josue De Paula,,MLB,Assigned,2026-02-09,Los Angeles Dodgers invited non-roster RF Josue De Paula to spring training.,885754
+MLB Stats API transactions,676480,José Barrero,,MLB,Assigned,2026-02-04,Baltimore Orioles invited non-roster SS José Barrero to spring training.,884203
+MLB Stats API transactions,660761,José Suarez,,MLB,Claimed Off Waivers,2026-01-26,Atlanta Braves claimed LHP José Suarez off waivers from Baltimore Orioles.,882842
+MLB Stats API transactions,664353,José Urquidy,,MLB,Signed as Free Agent,2026-02-11,Pittsburgh Pirates signed free agent RHP José Urquidy.,886156
+MLB Stats API transactions,800345,Juan Baez,,MLB,Assigned,2026-02-22,3B Juan Baez assigned to Milwaukee Brewers.,887487
+MLB Stats API transactions,682877,Juan Brito,,AAA,Optioned,2026-03-19,Cleveland Guardians optioned SS Juan Brito to Columbus Clippers.,892390
+MLB Stats API transactions,686228,Juan Burgos,,AAA,Optioned,2026-03-08,Arizona Diamondbacks optioned RHP Juan Burgos to Reno Aces.,891046
+MLB Stats API transactions,801276,Juan Matheus,,MLB,Status Change,2026-02-22,SS Juan Matheus roster status changed by Miami Marlins.,890887
+MLB Stats API transactions,660766,Juan Yepez,,MLB,Released,2026-03-22,Toronto Blue Jays released 1B Juan Yepez.,893015
+MLB Stats API transactions,682983,Jud Fabian,,MLB,Assigned,2026-02-04,Baltimore Orioles invited non-roster CF Jud Fabian to spring training.,884210
+MLB Stats API transactions,687924,Julian Aguiar,,AAA,Optioned,2026-03-06,Cincinnati Reds optioned RHP Julian Aguiar to Louisville Bats.,890764
+MLB Stats API transactions,642759,Julian Fernández,,AAA,Optioned,2026-03-19,Washington Nationals optioned RHP Julian Fernández to Rochester Red Wings.,892415
+MLB Stats API transactions,691285,Junior Franco,,MLB,Assigned,2026-02-24,LF Junior Franco assigned to Arizona Diamondbacks.,888087
+MLB Stats API transactions,678577,Junior Perez,,AAA,Optioned,2026-03-08,Athletics optioned CF Junior Perez to Las Vegas Aviators.,891168
+MLB Stats API transactions,694425,Justice Bigbie,,MLB,Assigned,2026-02-21,RF Justice Bigbie assigned to Detroit Tigers.,886972
+MLB Stats API transactions,677865,Justin Bruihl,,MLB,Status Change,2026-01-06,St. Louis Cardinals activated LHP Justin Bruihl.,880967
+MLB Stats API transactions,702222,Justin Crawford,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster CF Justin Crawford to spring training.,882513
+MLB Stats API transactions,681909,Justin Dean,,AAA,Optioned,2026-03-12,Chicago Cubs optioned CF Justin Dean to Iowa Cubs.,891412
+MLB Stats API transactions,679822,Justin Foscue,,AAA,Optioned,2026-03-16,Texas Rangers optioned 1B Justin Foscue to Round Rock Express.,891839
+MLB Stats API transactions,663795,Justin Hagenman,,MLB,Status Change,2026-03-14,New York Mets placed RHP Justin Hagenman on the 60-day injured list. Rib Fracture.,891621
+MLB Stats API transactions,679885,Justin Martinez,,MLB,Status Change,2026-02-14,Arizona Diamondbacks placed RHP Justin Martinez on the 60-day injured list. Recovery from right ulnar collateral ligament surgery.,886526
+MLB Stats API transactions,434378,Justin Verlander,,MLB,Signed as Free Agent,2026-02-10,Detroit Tigers signed free agent RHP Justin Verlander.,885822
+MLB Stats API transactions,669234,Justyn-Henry Malloy,,AAA,Optioned,2026-03-20,Tampa Bay Rays optioned RF Justyn-Henry Malloy to Durham Bulls.,892558
+MLB Stats API transactions,687268,K.C. Hunt,,AA,Assigned,2026-03-24,RHP K.C. Hunt assigned to Montgomery Biscuits.,893249
+MLB Stats API transactions,669704,Kade Strowd,,AAA,Optioned,2026-03-20,Arizona Diamondbacks optioned RHP Kade Strowd to Reno Aces.,892638
+MLB Stats API transactions,696135,Kahlil Watson,,AAA,Optioned,2026-03-09,Cleveland Guardians optioned LF Kahlil Watson to Columbus Clippers.,891280
+MLB Stats API transactions,678906,Kai-Wei Teng,,MLB,Trade,2026-01-30,San Francisco Giants traded RHP Kai-Wei Teng to Houston Astros for C Jancel Villarroel and Future Considerations.,883228
+MLB Stats API transactions,670224,Kameron Misner,,AAA,Optioned,2026-03-17,Kansas City Royals optioned CF Kameron Misner to Omaha Storm Chasers.,892027
+MLB Stats API transactions,672960,Kazuma Okamoto,,MLB,Status Change,2026-01-04,Toronto Blue Jays activated 3B Kazuma Okamoto.,880130
+MLB Stats API transactions,624522,Keegan Thompson,,MLB,Claimed Off Waivers,2026-01-07,Colorado Rockies claimed RHP Keegan Thompson off waivers from Cincinnati Reds.,880320
+MLB Stats API transactions,672456,Keider Montero,,AAA,Optioned,2026-03-04,Detroit Tigers optioned RHP Keider Montero to Toledo Mud Hens.,889314
+MLB Stats API transactions,694580,Kemp Alderman,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster RF Kemp Alderman to spring training.,883186
+MLB Stats API transactions,686610,Ken Waldichuk,,MLB,Claimed Off Waivers,2026-02-05,Washington Nationals claimed LHP Ken Waldichuk off waivers from Tampa Bay Rays.,884419
+MLB Stats API transactions,696070,Kendry Rojas,,AAA,Optioned,2026-03-09,Minnesota Twins optioned LHP Kendry Rojas to St. Paul Saints.,891265
+MLB Stats API transactions,665645,Kervin Castro,,AAA,Optioned,2026-03-20,New York Yankees optioned RHP Kervin Castro to Scranton/Wilkes-Barre RailRiders.,892621
+MLB Stats API transactions,682634,Kevin Alcántara,,AAA,Optioned,2026-03-23,Chicago Cubs optioned RF Kevin Alcántara to Iowa Cubs.,893158
+MLB Stats API transactions,805808,Kevin McGonigle,,MLB,Number Change,2026-03-24,SS Kevin McGonigle changed number to 7.,893340
+MLB Stats API transactions,621028,Kevin Newman,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster 3B Kevin Newman to spring training.,882950
+MLB Stats API transactions,489446,Kirby Yates,,MLB,Status Change,2026-01-06,Los Angeles Angels activated RHP Kirby Yates.,880730
+MLB Stats API transactions,681892,Kody Funderburk,,MLB,Number Change,2026-01-27,LHP Kody Funderburk changed number to 57.,883037
+MLB Stats API transactions,684442,Kohl Drake,,AAA,Optioned,2026-03-08,Arizona Diamondbacks optioned LHP Kohl Drake to Reno Aces.,891047
+MLB Stats API transactions,663465,Kolby Allard,,AAA,Assigned,2026-02-02,LHP Kolby Allard assigned to Columbus Clippers.,883709
+MLB Stats API transactions,804606,Konnor Griffin,,MLB,Status Change,2026-01-16,SS Konnor Griffin roster status changed by Pittsburgh Pirates.,883739
+MLB Stats API transactions,592178,Kris Bryant,,MLB,Status Change,2026-02-10,Colorado Rockies placed DH Kris Bryant on the 60-day injured list. Lumbar degenerative disk disease.,885809
+MLB Stats API transactions,692225,Kristian Campbell,,AAA,Optioned,2026-03-21,Boston Red Sox optioned 2B Kristian Campbell to Worcester Red Sox.,892683
+MLB Stats API transactions,677565,Kristian Robinson,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster LF Kristian Robinson to spring training.,883569
+MLB Stats API transactions,571657,Kyle Farmer,,MLB,Signed as Free Agent,2026-03-21,Atlanta Braves signed free agent 2B Kyle Farmer.,892807
+MLB Stats API transactions,690986,Kyle Harrison,,MLB,Trade,2026-02-09,"Boston Red Sox traded LHP Kyle Harrison, LHP Shane Drohan and 2B David Hamilton to Milwaukee Brewers for 3B Caleb Durbin, SS Andruw Monasterio, 2B Anthony Seigler and Future Considerations.",885496
+MLB Stats API transactions,669165,Kyle Hurt,,AAA,Optioned,2026-03-17,Los Angeles Dodgers optioned RHP Kyle Hurt to Oklahoma City Comets.,892109
+MLB Stats API transactions,664918,Kyle Keller,,AAA,Assigned,2026-02-06,RHP Kyle Keller assigned to Worcester Red Sox.,885139
+MLB Stats API transactions,668832,Kyle McCann,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster C Kyle McCann to spring training.,884521
+MLB Stats API transactions,693312,Kyle Nicolas,,AAA,Optioned,2026-03-22,Cincinnati Reds optioned RHP Kyle Nicolas to Louisville Bats.,892952
+MLB Stats API transactions,663656,Kyle Tucker,,MLB,Signed as Free Agent,2026-01-21,Los Angeles Dodgers signed free agent RF Kyle Tucker.,882297
+MLB Stats API transactions,657140,Kyle Wright,,AAA,Assigned,2026-02-18,RHP Kyle Wright assigned to Iowa Cubs.,886675
+MLB Stats API transactions,693459,Kyler Fedko,,MLB,Assigned,2026-02-09,Minnesota Twins invited non-roster LF Kyler Fedko to spring training.,885610
+MLB Stats API transactions,677347,Kyren Paris,,AAA,Optioned,2026-03-14,Los Angeles Angels optioned 2B Kyren Paris to Salt Lake Bees.,891559
+MLB Stats API transactions,664774,LaMonte Wade Jr.,,AAA,Released,2026-03-20,Charlotte Knights released 1B LaMonte Wade Jr..,892575
+MLB Stats API transactions,689017,Landon Knack,,MLB,Status Change,2026-03-22,"Los Angeles Dodgers placed RHP Landon Knack on the 15-day injured list retroactive to March 22, 2026.",893367
+MLB Stats API transactions,681751,Lazaro Estrada,,AAA,Optioned,2026-03-21,Toronto Blue Jays optioned RHP Lazaro Estrada to Buffalo Bisons.,892921
+MLB Stats API transactions,699114,Leo Balcazar,,AA,Optioned,2026-03-06,Cincinnati Reds optioned SS Leo Balcazar to Chattanooga Lookouts.,890749
+MLB Stats API transactions,699024,Leo Bernal,,AA,Assigned,2026-03-23,C Leo Bernal assigned to Springfield Cardinals from Memphis Redbirds.,893039
+MLB Stats API transactions,815888,Leo De Vries,,MLB,Assigned,2026-01-28,Athletics invited non-roster SS Leo De Vries to spring training.,883073
+MLB Stats API transactions,521230,Liam Hendriks,,AAA,Released,2026-03-20,St. Paul Saints released RHP Liam Hendriks.,892512
+MLB Stats API transactions,678894,Liover Peguero,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster SS Liover Peguero to spring training.,882530
+MLB Stats API transactions,663531,Logan Allen,,AA,Assigned,2026-03-23,LHP Logan Allen assigned to Tulsa Drillers.,893211
+MLB Stats API transactions,686482,Logan Driscoll,,MLB,Assigned,2026-01-30,Tampa Bay Rays invited non-roster C Logan Driscoll to spring training.,883243
+MLB Stats API transactions,701656,Logan Henderson,,AAA,Optioned,2026-03-19,Milwaukee Brewers optioned RHP Logan Henderson to Nashville Sounds.,892410
+MLB Stats API transactions,642152,Lou Trivino,,AAA,Assigned,2026-02-08,RHP Lou Trivino assigned to Lehigh Valley IronPigs.,885880
+MLB Stats API transactions,681123,Luca Tresh,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster C Luca Tresh to spring training.,882938
+MLB Stats API transactions,608371,Lucas Sims,,MLB,Assigned,2026-03-22,Chicago White Sox invited non-roster RHP Lucas Sims to spring training.,892955
+MLB Stats API transactions,828599,Lucas Spence,,MLB,Assigned,2026-01-16,Houston Astros invited non-roster OF Lucas Spence to spring training.,881418
+MLB Stats API transactions,679883,Luinder Avila,,AAA,Optioned,2026-03-20,Kansas City Royals optioned RHP Luinder Avila to Omaha Storm Chasers.,892670
+MLB Stats API transactions,650333,Luis Arraez,,MLB,Signed as Free Agent,2026-02-10,San Francisco Giants signed free agent IF Luis Arraez.,885799
+MLB Stats API transactions,681168,Luis Curvelo,,AAA,Optioned,2026-03-23,Texas Rangers optioned RHP Luis Curvelo to Round Rock Express.,893156
+MLB Stats API transactions,472610,Luis García,,MLB,Signed as Free Agent,2026-01-21,New York Mets signed free agent RHP Luis García.,882326
+MLB Stats API transactions,800325,Luis Lara,,MLB,Assigned,2026-01-27,Milwaukee Brewers invited non-roster CF Luis Lara to spring training.,882962
+MLB Stats API transactions,682825,Luis Mey,,AAA,Optioned,2026-03-18,Cincinnati Reds optioned RHP Luis Mey to Louisville Bats.,892258
+MLB Stats API transactions,806960,Luis Morales,,MLB,Number Change,2026-02-12,RHP Luis Morales changed number to 19.,886244
+MLB Stats API transactions,691384,Luis Perales,,AAA,Optioned,2026-03-08,Washington Nationals optioned RHP Luis Perales to Rochester Red Wings.,891026
+MLB Stats API transactions,678821,Luis Peralta,,AAA,Optioned,2026-03-08,Colorado Rockies optioned LHP Luis Peralta to Albuquerque Isotopes.,891089
+MLB Stats API transactions,650859,Luis Rengifo,,MLB,Signed as Free Agent,2026-02-16,Milwaukee Brewers signed free agent 3B Luis Rengifo.,886623
+MLB Stats API transactions,673357,Luis Robert Jr.,,MLB,Trade,2026-01-20,Chicago White Sox traded CF Luis Robert Jr. to New York Mets for 2B Luisangel Acuña and RHP Truman Pauley.,882279
+MLB Stats API transactions,692044,Luis Suisbel,,MLB,Status Change,2026-02-22,1B Luis Suisbel roster status changed by Seattle Mariners.,891992
+MLB Stats API transactions,649966,Luis Urías,,AAA,Assigned,2026-03-13,SS Luis Urías assigned to Reno Aces.,891932
+MLB Stats API transactions,682668,Luisangel Acuña,,MLB,Trade,2026-01-20,Chicago White Sox traded CF Luis Robert Jr. to New York Mets for 2B Luisangel Acuña and RHP Truman Pauley.,882279
+MLB Stats API transactions,681432,Luke Little,,AAA,Optioned,2026-03-12,Chicago Cubs optioned LHP Luke Little to Iowa Cubs.,891411
+MLB Stats API transactions,571912,Luke Maile,,Rookie,Assigned,2026-03-19,C Luke Maile assigned to ACL Royals.,893208
+MLB Stats API transactions,682239,Luke Ritter,,AA,Released,2026-03-21,Rocket City Trash Pandas released 2B Luke Ritter.,892898
+MLB Stats API transactions,663897,Luke Williams,,MLB,Status Change,2026-01-18,SS Luke Williams roster status changed by Atlanta Braves.,884122
+MLB Stats API transactions,663609,Luken Baker,,MLB,Status Change,2026-01-07,1B Luken Baker roster status changed by Arizona Diamondbacks.,883561
+MLB Stats API transactions,669004,MJ Melendez,,AAA,Optioned,2026-03-17,New York Mets optioned LF MJ Melendez to Syracuse Mets.,891864
+MLB Stats API transactions,669022,MacKenzie Gore,,MLB,Trade,2026-01-22,"Washington Nationals traded LHP MacKenzie Gore to Texas Rangers for 3B Gavin Fien, 1B Abimelec Ortiz, SS Devin Fitz-Gerald, RHP Alejandro Rosario and CF Yeremy Cabrera.",882371
+MLB Stats API transactions,655889,Manuel Rodríguez,,MLB,Status Change,2026-02-10,Tampa Bay Rays placed RHP Manuel Rodríguez on the 60-day injured list.,885903
+MLB Stats API transactions,687847,Marc Church,,AAA,Optioned,2026-03-16,Texas Rangers optioned RHP Marc Church to Round Rock Express.,891838
+MLB Stats API transactions,542303,Marcell Ozuna,,MLB,Signed as Free Agent,2026-02-16,Pittsburgh Pirates signed free agent DH Marcell Ozuna.,886610
+MLB Stats API transactions,701392,Marco Dinges,,MLB,Status Change,2026-02-27,C Marco Dinges roster status changed by Milwaukee Brewers.,888661
+MLB Stats API transactions,594835,Marco Gonzales,,AAA,Assigned,2026-02-04,LHP Marco Gonzales assigned to El Paso Chihuahuas.,884142
+MLB Stats API transactions,682617,Marco Luciano,,MLB,Assigned,2026-02-05,New York Yankees invited non-roster OF Marco Luciano to spring training.,884497
+MLB Stats API transactions,694397,Marco Raya,,AAA,Optioned,2026-03-09,Minnesota Twins optioned RHP Marco Raya to St. Paul Saints.,891267
+MLB Stats API transactions,592192,Mark Canha,,MLB,Assigned,2026-02-21,LF Mark Canha assigned to Texas Rangers.,887123
+MLB Stats API transactions,828319,Marshall Toole,,MLB,Assigned,2026-02-26,OF Marshall Toole assigned to Tampa Bay Rays.,888309
+MLB Stats API transactions,527048,Martín Pérez,,AAA,Assigned,2026-02-04,LHP Martín Pérez assigned to Gwinnett Stripers.,884110
+MLB Stats API transactions,686930,Mason Barnett,,AAA,Optioned,2026-03-09,Athletics optioned RHP Mason Barnett to Las Vegas Aviators.,891197
+MLB Stats API transactions,696131,Mason Black,,AAA,Optioned,2026-03-17,Kansas City Royals optioned RHP Mason Black to Omaha Storm Chasers.,892028
+MLB Stats API transactions,669200,Mason McCoy,,AAA,Optioned,2026-03-21,San Diego Padres optioned 2B Mason McCoy to El Paso Chihuahuas.,892912
+MLB Stats API transactions,689288,Matt Koperniak,,AA,Assigned,2026-03-23,LF Matt Koperniak assigned to Springfield Cardinals from Memphis Redbirds.,893045
+MLB Stats API transactions,642136,Matt Thaiss,,AAA,Assigned,2026-02-04,C Matt Thaiss assigned to Worcester Red Sox.,884056
+MLB Stats API transactions,669461,Matthew Liberatore,,MLB,Number Change,2026-01-14,LHP Matthew Liberatore changed number to 32.,880964
+MLB Stats API transactions,683090,Matthew Lugo,,AAA,Optioned,2026-03-01,Los Angeles Angels optioned LF Matthew Lugo to Salt Lake Bees.,888754
+MLB Stats API transactions,687783,Matthew Wood,,MLB,Assigned,2026-01-27,Milwaukee Brewers invited non-roster C Matthew Wood to spring training.,882967
+MLB Stats API transactions,801194,Max Anderson,,MLB,Assigned,2026-02-12,Detroit Tigers invited non-roster 2B Max Anderson to spring training.,886326
+MLB Stats API transactions,703601,Max Clark,,MLB,Assigned,2026-02-12,Detroit Tigers invited non-roster CF Max Clark to spring training.,886329
+MLB Stats API transactions,681132,Max Ferguson,,MLB,Assigned,2026-01-23,Boston Red Sox invited non-roster 2B Max Ferguson to spring training.,882676
+MLB Stats API transactions,453286,Max Scherzer,,MLB,Signed as Free Agent,2026-03-02,Toronto Blue Jays signed free agent RHP Max Scherzer.,888877
+MLB Stats API transactions,680474,Max Schuemann,,AAA,Optioned,2026-03-21,New York Yankees optioned 3B Max Schuemann to Scranton/Wilkes-Barre RailRiders.,892705
+MLB Stats API transactions,703197,Michael Arroyo,,MLB,Assigned,2026-01-30,Seattle Mariners invited non-roster SS Michael Arroyo to spring training.,883434
+MLB Stats API transactions,624424,Michael Conforto,,MLB,Status Change,2026-02-26,LF Michael Conforto roster status changed by Chicago Cubs.,891331
+MLB Stats API transactions,680737,Michael Helman,,AAA,Optioned,2026-03-23,Texas Rangers optioned CF Michael Helman to Round Rock Express.,893155
+MLB Stats API transactions,547179,Michael Lorenzen,,MLB,Signed as Free Agent,2026-01-15,Colorado Rockies signed free agent RHP Michael Lorenzen.,881100
+MLB Stats API transactions,672279,Michael Siani,,AAA,Optioned,2026-03-16,Los Angeles Dodgers optioned CF Michael Siani to Oklahoma City Comets.,891963
+MLB Stats API transactions,683021,Michael Stefanic,,MLB,Assigned,2026-01-28,Athletics invited non-roster 2B Michael Stefanic to spring training.,883091
+MLB Stats API transactions,669911,Michael Toglia,,MLB,Status Change,2026-01-07,1B Michael Toglia roster status changed by Cincinnati Reds.,880871
+MLB Stats API transactions,671305,Michel Otañez,,AAA,Optioned,2026-03-09,Texas Rangers optioned RHP Michel Otañez to Round Rock Express.,891224
+MLB Stats API transactions,681508,Mickey Gasper,,AAA,Optioned,2026-03-23,Boston Red Sox optioned 2B Mickey Gasper to Worcester Red Sox.,892957
+MLB Stats API transactions,609280,Miguel Andujar,,MLB,Signed as Free Agent,2026-02-11,San Diego Padres signed free agent LF Miguel Andujar.,885946
+MLB Stats API transactions,801670,Mike Boeve,,MLB,Status Change,2026-02-22,2B Mike Boeve roster status changed by Milwaukee Brewers.,888663
+MLB Stats API transactions,605182,Mike Clevinger,,AAA,Assigned,2026-02-04,RHP Mike Clevinger assigned to Indianapolis Indians.,884239
+MLB Stats API transactions,701527,Mike Sirota,,MLB,Assigned,2026-02-28,CF Mike Sirota assigned to Los Angeles Dodgers.,888586
+MLB Stats API transactions,643565,Mike Tauchman,,AAA,Assigned,2026-02-20,RF Mike Tauchman assigned to Syracuse Mets.,886897
+MLB Stats API transactions,702540,Mikey Romero,,MLB,Assigned,2026-01-23,Boston Red Sox invited non-roster SS Mikey Romero to spring training.,882675
+MLB Stats API transactions,571945,Miles Mikolas,,MLB,Signed as Free Agent,2026-02-11,Washington Nationals signed free agent RHP Miles Mikolas.,886101
+MLB Stats API transactions,683352,Mitch Bratt,,AAA,Optioned,2026-03-08,Arizona Diamondbacks optioned LHP Mitch Bratt to Reno Aces.,891045
+MLB Stats API transactions,815083,Mitch Farris,,AAA,Optioned,2026-03-19,Los Angeles Angels optioned LHP Mitch Farris to Salt Lake Bees.,892516
+MLB Stats API transactions,641598,Mitch Garver,,MLB,Assigned,2026-03-03,C Mitch Garver assigned to Seattle Mariners.,888906
+MLB Stats API transactions,687765,Mitch Spence,,AAA,Optioned,2026-03-18,Kansas City Royals optioned RHP Mitch Spence to Omaha Storm Chasers.,892243
+MLB Stats API transactions,680730,Mitchell Parker,,AAA,Optioned,2026-03-14,Washington Nationals optioned LHP Mitchell Parker to Rochester Red Wings.,891496
+MLB Stats API transactions,805373,Nacho Alvarez Jr.,,AAA,Optioned,2026-02-28,Atlanta Braves optioned SS Nacho Alvarez Jr. to Gwinnett Stripers.,888608
+MLB Stats API transactions,681987,Nate Eaton,,AAA,Optioned,2026-03-23,Boston Red Sox optioned 3B Nate Eaton to Worcester Red Sox.,892958
+MLB Stats API transactions,801501,Nate Furman,,AAA,Assigned,2026-03-22,2B Nate Furman assigned to Sacramento River Cats.,892949
+MLB Stats API transactions,687208,Nathan Hickey,,MLB,Assigned,2026-01-23,Boston Red Sox invited non-roster C Nathan Hickey to spring training.,882682
+MLB Stats API transactions,687210,Nathan Martorella,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster 1B Nathan Martorella to spring training.,883209
+MLB Stats API transactions,663993,Nathaniel Lowe,,AAA,Selected,2026-03-23,Cincinnati Reds selected the contract of 1B Nathaniel Lowe from Louisville Bats.,893134
+MLB Stats API transactions,703185,Nelson Rada,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster CF Nelson Rada to spring training.,884292
+MLB Stats API transactions,676369,Nelson Velázquez,,AA,Assigned,2026-03-23,OF Nelson Velázquez assigned to Springfield Cardinals from Memphis Redbirds.,893130
+MLB Stats API transactions,623433,Nick Anderson,,MLB,Assigned,2026-01-28,Athletics invited non-roster RHP Nick Anderson to spring training.,883082
+MLB Stats API transactions,592206,Nick Castellanos,,MLB,Signed as Free Agent,2026-02-15,San Diego Padres signed free agent RF Nick Castellanos.,886556
+MLB Stats API transactions,663611,Nick Madrigal,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster 3B Nick Madrigal to spring training.,884286
+MLB Stats API transactions,607259,Nick Martinez,,MLB,Signed as Free Agent,2026-02-10,Tampa Bay Rays signed free agent RHP Nick Martinez.,885904
+MLB Stats API transactions,703492,Nick Morabito,,AAA,Optioned,2026-03-09,New York Mets optioned CF Nick Morabito to Syracuse Mets.,891222
+MLB Stats API transactions,668472,Nick Pratto,,MLB,Assigned,2026-02-20,1B Nick Pratto assigned to Texas Rangers.,889252
+MLB Stats API transactions,695596,Nick Raposo,,MLB,Assigned,2026-01-30,Seattle Mariners invited non-roster C Nick Raposo to spring training.,883447
+MLB Stats API transactions,675919,Nick Raquet,,AA,Assigned,2026-03-23,LHP Nick Raquet assigned to Springfield Cardinals from Memphis Redbirds.,893036
+MLB Stats API transactions,680704,Nick Sandlin,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster RHP Nick Sandlin to spring training.,884276
+MLB Stats API transactions,669222,Nick Senzel,,MLB,Assigned,2026-02-09,Los Angeles Dodgers invited non-roster 3B Nick Senzel to spring training.,885753
+MLB Stats API transactions,686765,Nick Sogard,,AAA,Optioned,2026-03-19,Boston Red Sox optioned 1B Nick Sogard to Worcester Red Sox.,892288
+MLB Stats API transactions,670032,Nicky Lopez,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster 3B Nicky Lopez to spring training.,884523
+MLB Stats API transactions,694359,Niko Kavadas,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster OF Niko Kavadas to spring training.,884285
+MLB Stats API transactions,702273,Noah Schultz,,MLB,Assigned,2026-01-29,Chicago White Sox invited non-roster LHP Noah Schultz to spring training.,883161
+MLB Stats API transactions,571448,Nolan Arenado,,MLB,Trade,2026-01-13,St. Louis Cardinals traded 3B Nolan Arenado and cash to Arizona Diamondbacks for RHP Jack Martinez.,880743
+MLB Stats API transactions,676510,Nolan Hoffman,,AAA,Optioned,2026-03-15,Philadelphia Phillies optioned RHP Nolan Hoffman to Lehigh Valley IronPigs.,891769
+MLB Stats API transactions,666134,Nolan Jones,,AAA,Outrighted,2026-03-20,Cleveland Guardians sent RF Nolan Jones outright to Columbus Clippers.,892667
+MLB Stats API transactions,682619,Orelvis Martinez,,AAA,Released,2026-03-21,Rochester Red Wings released 2B Orelvis Martinez.,892927
+MLB Stats API transactions,606115,Orlando Arcia,,AAA,Assigned,2026-01-03,SS Orlando Arcia assigned to St. Paul Saints.,885604
+MLB Stats API transactions,687377,Orlando Ribalta,,AAA,Optioned,2026-03-23,Washington Nationals optioned RHP Orlando Ribalta to Rochester Red Wings.,893166
+MLB Stats API transactions,678545,Osleivis Basabe,,MLB,Assigned,2026-02-04,San Francisco Giants invited non-roster SS Osleivis Basabe to spring training.,884179
+MLB Stats API transactions,674370,Osvaldo Bido,,MLB,Claimed Off Waivers,2026-03-24,Atlanta Braves claimed RHP Osvaldo Bido off waivers from New York Yankees.,893253
+MLB Stats API transactions,672724,Oswald Peraza,,MLB,Number Change,2026-02-13,3B Oswald Peraza changed number to 17.,886511
+MLB Stats API transactions,665828,Oswaldo Cabrera,,AAA,Optioned,2026-03-21,New York Yankees optioned 3B Oswaldo Cabrera to Scranton/Wilkes-Barre RailRiders.,892704
+MLB Stats API transactions,683357,Owen Caissie,,MLB,Trade,2026-01-07,"Miami Marlins traded RHP Edward Cabrera to Chicago Cubs for RF Owen Caissie, SS Cristian Hernandez and IF Edgardo De Leon.",880322
+MLB Stats API transactions,680911,Owen Miller,,MLB,Assigned,2026-02-20,2B Owen Miller assigned to Chicago Cubs.,886877
+MLB Stats API transactions,664731,P.J. Higgins,,MLB,Assigned,2026-01-23,Cincinnati Reds invited non-roster C P.J. Higgins to spring training.,882668
+MLB Stats API transactions,692238,Parks Harber,,MLB,Assigned,2026-02-04,San Francisco Giants invited non-roster 3B Parks Harber to spring training.,884184
+MLB Stats API transactions,802117,Patrick Clohisy,,MLB,Status Change,2026-02-21,CF Patrick Clohisy roster status changed by Atlanta Braves.,891877
+MLB Stats API transactions,621550,Patrick Wisdom,,MLB,Status Change,2026-01-20,1B Patrick Wisdom roster status changed by Seattle Mariners.,883454
+MLB Stats API transactions,621112,Paul Blackburn,,MLB,Signed as Free Agent,2026-01-15,New York Yankees signed free agent RHP Paul Blackburn.,881272
+MLB Stats API transactions,657557,Paul DeJong,,AAA,Assigned,2026-01-08,3B Paul DeJong assigned to Scranton/Wilkes-Barre RailRiders.,880711
+MLB Stats API transactions,801434,Paul Gervase,,AAA,Optioned,2026-03-16,Los Angeles Dodgers optioned RHP Paul Gervase to Oklahoma City Comets.,891961
+MLB Stats API transactions,502671,Paul Goldschmidt,,MLB,Signed as Free Agent,2026-02-12,New York Yankees signed free agent 1B Paul Goldschmidt.,886469
+MLB Stats API transactions,682192,Paul McIntosh,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster C Paul McIntosh to spring training.,882524
+MLB Stats API transactions,623149,Paul Sewald,,MLB,Signed as Free Agent,2026-02-14,Arizona Diamondbacks signed free agent RHP Paul Sewald.,886524
+MLB Stats API transactions,687606,Paxton Schultz,,MLB,Status Change,2026-03-22,"Washington Nationals placed RHP Paxton Schultz on the 15-day injured list retroactive to March 22, 2026. Right elbow inflammation.",893139
+MLB Stats API transactions,801139,Payton Tolle,,AAA,Optioned,2026-03-23,Boston Red Sox optioned LHP Payton Tolle to Worcester Red Sox.,893133
+MLB Stats API transactions,658648,Pedro Avila,,AAA,Assigned,2026-03-22,RHP Pedro Avila assigned to Columbus Clippers.,893203
+MLB Stats API transactions,694175,Pedro León,,AAA,Optioned,2026-03-15,Philadelphia Phillies optioned RF Pedro León to Lehigh Valley IronPigs.,891770
+MLB Stats API transactions,699393,Pedro Ramírez,,AA,Optioned,2026-03-08,Chicago Cubs optioned 2B Pedro Ramirez to Knoxville Smokies.,891044
+MLB Stats API transactions,677337,Pete Hansen,,MLB,Assigned,2026-01-26,St. Louis Cardinals invited non-roster LHP Pete Hansen to spring training.,882894
+MLB Stats API transactions,690984,Petey Halpin,,AAA,Optioned,2026-03-20,Cleveland Guardians optioned CF Petey Halpin to Columbus Clippers.,892668
+MLB Stats API transactions,686523,Peyton Wilson,,MLB,Assigned,2026-01-27,Kansas City Royals invited non-roster 2B Peyton Wilson to spring training.,882940
+MLB Stats API transactions,691769,Philip Abner,,AAA,Optioned,2026-03-22,Arizona Diamondbacks optioned LHP Philip Abner to Reno Aces.,892943
+MLB Stats API transactions,701298,Phillip Glasser,,MLB,Assigned,2026-01-26,Washington Nationals invited non-roster LF Phillip Glasser to spring training.,882852
+MLB Stats API transactions,572955,Pierce Johnson,,MLB,Signed as Free Agent,2026-01-15,Cincinnati Reds signed free agent RHP Pierce Johnson.,881163
+MLB Stats API transactions,687273,Quinn Mathews,,AA,Assigned,2026-03-23,LHP Quinn Mathews assigned to Springfield Cardinals from Memphis Redbirds.,893031
+MLB Stats API transactions,702302,RJ Schreck,,MLB,Assigned,2026-01-21,Toronto Blue Jays invited non-roster LF RJ Schreck to spring training.,882325
+MLB Stats API transactions,804668,Rafael Flores Jr.,,AAA,Optioned,2026-03-22,Pittsburgh Pirates optioned C Rafael Flores Jr. to Indianapolis Indians.,892814
+MLB Stats API transactions,672463,Rafael Lantigua,,AAA,Assigned,2026-01-14,2B Rafael Lantigua assigned to Buffalo Bisons.,881014
+MLB Stats API transactions,606160,Rafael Montero,,AAA,Assigned,2026-02-13,RHP Rafael Montero assigned to Scranton/Wilkes-Barre RailRiders.,886481
+MLB Stats API transactions,823787,Rainiel Rodriguez,,MLB,Assigned,2026-02-22,C Rainiel Rodriguez assigned to St. Louis Cardinals.,887348
+MLB Stats API transactions,806252,Ralphy Velazquez,,MLB,Assigned,2026-01-30,Cleveland Guardians invited non-roster 1B Ralphy Velazquez to spring training.,883337
+MLB Stats API transactions,680636,Ramon Mendoza,,MLB,Assigned,2026-01-26,St. Louis Cardinals invited non-roster 2B Ramon Mendoza to spring training.,882908
+MLB Stats API transactions,602104,Ramón Urías,,MLB,Signed as Free Agent,2026-02-21,St. Louis Cardinals signed free agent 3B Ramón Urías.,887257
+MLB Stats API transactions,545341,Randal Grichuk,,AAA,Assigned,2026-02-25,RF Randal Grichuk assigned to Scranton/Wilkes-Barre RailRiders.,888512
+MLB Stats API transactions,703194,Randy De Jesus,,MLB,Assigned,2026-02-21,RF Randy De Jesus assigned to Los Angeles Angels.,887190
+MLB Stats API transactions,624133,Ranger Suarez,,MLB,Signed as Free Agent,2026-01-21,Boston Red Sox signed free agent LHP Ranger Suárez.,882296
+MLB Stats API transactions,804558,Raudi Rodriguez,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster CF Raudi Rodriguez to spring training.,884293
+MLB Stats API transactions,677956,Rece Hinds,,AAA,Optioned,2026-03-21,Cincinnati Reds optioned RF Rece Hinds to Louisville Bats.,892772
+MLB Stats API transactions,701655,Reed Trimble,,AAA,Status Change,2026-03-08,Norfolk Tides activated LF Reed Trimble.,893307
+MLB Stats API transactions,624512,Reese McGuire,,MLB,Signed as Free Agent,2026-03-22,Chicago White Sox signed free agent C Reese McGuire.,892939
+MLB Stats API transactions,650907,René Pinto,,MLB,Assigned,2026-01-23,Philadelphia Phillies invited non-roster C René Pinto to spring training.,882531
+MLB Stats API transactions,689041,Rhylan Thomas,,AAA,Optioned,2026-03-21,Seattle Mariners optioned LF Rhylan Thomas to Tacoma Rainiers.,892913
+MLB Stats API transactions,656555,Rhys Hoskins,,AAA,Assigned,2026-02-23,1B Rhys Hoskins assigned to Columbus Clippers.,887865
+MLB Stats API transactions,690916,Richard Fitts,,AA,Assigned,2026-03-23,RHP Richard Fitts assigned to Springfield Cardinals from Memphis Redbirds.,893027
+MLB Stats API transactions,663992,Richard Lovelady,,MLB,Status Change,2026-03-14,New York Mets activated LHP Richard Lovelady.,892320
+MLB Stats API transactions,680700,Richie Palacios,,AAA,Recalled,2026-03-24,Tampa Bay Rays recalled LF Richie Palacios from Durham Bulls.,893363
+MLB Stats API transactions,694357,Ricky Tiedemann,,AAA,Optioned,2026-03-08,Toronto Blue Jays optioned LHP Ricky Tiedemann to Buffalo Bisons.,891191
+MLB Stats API transactions,656180,Riley Adams,,AAA,Outrighted,2026-01-28,Washington Nationals sent C Riley Adams outright to Rochester Red Wings.,883107
+MLB Stats API transactions,683000,Riley Cornelio,,AAA,Optioned,2026-03-08,Washington Nationals optioned RHP Riley Cornelio to Rochester Red Wings.,891025
+MLB Stats API transactions,702303,Riley Martin,,AAA,Optioned,2026-03-08,Chicago Cubs optioned LHP Riley Martin to Iowa Cubs.,891040
+MLB Stats API transactions,676617,Riley O'Brien,,MLB,Number Change,2026-01-14,RHP Riley O'Brien changed number to 61.,880966
+MLB Stats API transactions,694661,Riley Tirotta,,MLB,Assigned,2026-01-21,Toronto Blue Jays invited non-roster 3B Riley Tirotta to spring training.,882324
+MLB Stats API transactions,624523,Riley Unroe,,MLB,Assigned,2026-01-16,Houston Astros invited non-roster 2B Riley Unroe to spring training.,881426
+MLB Stats API transactions,689981,River Ryan,,AAA,Optioned,2026-03-19,Los Angeles Dodgers optioned RHP River Ryan to Oklahoma City Comets.,892396
+MLB Stats API transactions,702281,Robby Snelling,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster LHP Robby Snelling to spring training.,883185
+MLB Stats API transactions,688107,Robert Gasser,,AAA,Optioned,2026-03-22,Milwaukee Brewers optioned LHP Robert Gasser to Nashville Sounds.,892945
+MLB Stats API transactions,690987,Robert Hassell III,,AAA,Optioned,2026-03-19,Washington Nationals optioned CF Robert Hassell III to Rochester Red Wings.,892413
+MLB Stats API transactions,673662,Robinson Ortiz,,AAA,Optioned,2026-03-14,Seattle Mariners optioned LHP Robinson Ortiz to Tacoma Rainiers.,891671
+MLB Stats API transactions,660710,Rodolfo Durán,,MLB,Assigned,2026-02-04,San Diego Padres invited non-roster C Rodolfo Durán to spring training.,884146
+MLB Stats API transactions,691548,Rolddy Muñoz,,AAA,Optioned,2026-03-04,Atlanta Braves optioned RHP Rolddy Muñoz to Gwinnett Stripers.,889313
+MLB Stats API transactions,663853,Romy Gonzalez,,MLB,Status Change,2026-03-12,Boston Red Sox placed 1B Romy Gonzalez on the 60-day injured list. Left shoulder surgery.,891430
+MLB Stats API transactions,691947,Ronan Kopp,,AAA,Optioned,2026-03-08,Los Angeles Dodgers optioned LHP Ronan Kopp to Oklahoma City Comets.,891171
+MLB Stats API transactions,677595,Ronny Mauricio,,AAA,Optioned,2026-03-19,New York Mets optioned 3B Ronny Mauricio to Syracuse Mets.,892412
+MLB Stats API transactions,642133,Rowdy Tellez,,AAA,Assigned,2026-03-23,1B Rowdy Tellez assigned to Gwinnett Stripers.,893185
+MLB Stats API transactions,657675,Rudy Martin,,MLB,Assigned,2026-03-06,RF Rudy Martin assigned to Kansas City Royals.,890854
+MLB Stats API transactions,686701,Ryan Bergert,,AAA,Optioned,2026-03-17,Kansas City Royals optioned RHP Ryan Bergert to Omaha Storm Chasers.,892081
+MLB Stats API transactions,621366,Ryan Borucki,,MLB,Status Change,2026-03-21,San Francisco Giants activated LHP Ryan Borucki.,893168
+MLB Stats API transactions,518489,Ryan Brasier,,AAA,Released,2026-03-21,Round Rock Express released RHP Ryan Brasier.,892918
+MLB Stats API transactions,691775,Ryan Clifford,,MLB,Assigned,2026-02-09,New York Mets invited non-roster 1B Ryan Clifford to spring training.,885468
+MLB Stats API transactions,681676,Ryan Fernandez,,AA,Assigned,2026-03-23,RHP Ryan Fernandez assigned to Springfield Cardinals from Memphis Redbirds.,893026
+MLB Stats API transactions,680837,Ryan Fitzgerald,,AAA,Outrighted,2026-01-20,Los Angeles Dodgers sent 3B Ryan Fitzgerald outright to Oklahoma City Comets.,882217
+MLB Stats API transactions,814436,Ryan Galanie,,MLB,Assigned,2026-02-20,1B Ryan Galanie assigned to Chicago White Sox.,886859
+MLB Stats API transactions,687473,Ryan Gusto,,AAA,Optioned,2026-03-15,Miami Marlins optioned RHP Ryan Gusto to Jacksonville Jumbo Shrimp.,891720
+MLB Stats API transactions,689877,Ryan Harbin,,AAA,Status Change,2026-03-18,Indianapolis Indians placed RHP Ryan Harbin on the 60-day injured list.,892372
+MLB Stats API transactions,668952,Ryan Kreidler,,AAA,Optioned,2026-03-23,Minnesota Twins optioned CF Ryan Kreidler to St. Paul Saints.,893150
+MLB Stats API transactions,822038,Ryan Lambert,,MLB,Assigned,2026-02-09,New York Mets invited non-roster RHP Ryan Lambert to spring training.,885476
+MLB Stats API transactions,702795,Ryan Loutos,,AAA,Optioned,2026-03-08,Seattle Mariners optioned RHP Ryan Loutos to Tacoma Rainiers.,891145
+MLB Stats API transactions,656811,Ryan O'Hearn,,MLB,Signed as Free Agent,2026-01-08,Pittsburgh Pirates signed free agent 1B Ryan O'Hearn.,880385
+MLB Stats API transactions,686752,Ryan Pepiot,,MLB,Status Change,2026-03-22,"Tampa Bay Rays placed RHP Ryan Pepiot on the 15-day injured list retroactive to March 22, 2026.",893359
+MLB Stats API transactions,669020,Ryan Rolison,,AAA,Optioned,2026-03-12,Chicago Cubs optioned LHP Ryan Rolison to Iowa Cubs.,891410
+MLB Stats API transactions,814439,Ryan Waldschmidt,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster CF Ryan Waldschmidt to spring training.,883571
+MLB Stats API transactions,669899,Ryan Ward,,AAA,Optioned,2026-03-08,Los Angeles Dodgers optioned LF Ryan Ward to Oklahoma City Comets.,891172
+MLB Stats API transactions,677960,Ryan Weathers,,MLB,Trade,2026-01-13,"Miami Marlins traded LHP Ryan Weathers to New York Yankees for CF Brendan Jones, OF Dillon Lewis, 1B Dylan Jasso and SS Juan Matheus.",880957
+MLB Stats API transactions,669067,Ryan Webb,,MLB,Assigned,2026-01-30,Cleveland Guardians invited non-roster LHP Ryan Webb to spring training.,883324
+MLB Stats API transactions,592773,Ryne Stanek,,MLB,Status Change,2026-01-13,St. Louis Cardinals activated RHP Ryne Stanek.,880962
+MLB Stats API transactions,691951,Sam Aldegheri,,AAA,Optioned,2026-03-01,Los Angeles Angels optioned LHP Sam Aldegheri to Salt Lake Bees.,888753
+MLB Stats API transactions,803011,Sam Antonacci,,MLB,Status Change,2026-01-29,SS Sam Antonacci roster status changed by Chicago White Sox.,888468
+MLB Stats API transactions,694848,Sam Brown,,MLB,Assigned,2026-02-21,1B Sam Brown assigned to Washington Nationals.,887315
+MLB Stats API transactions,695763,Sam Petersen,,MLB,Status Change,2026-02-21,CF Sam Petersen roster status changed by Washington Nationals.,887021
+MLB Stats API transactions,669392,Samad Taylor,,MLB,Status Change,2026-01-25,2B Samad Taylor roster status changed by San Diego Padres.,884160
+MLB Stats API transactions,671111,Sammy Peralta,,AAA,Optioned,2026-03-09,Milwaukee Brewers optioned LHP Sammy Peralta to Nashville Sounds.,891215
+MLB Stats API transactions,696519,Samy Natera Jr.,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster LHP Samy Natera Jr. to spring training.,884274
+MLB Stats API transactions,669289,Santiago Espinal,,AAA,Selected,2026-03-18,Los Angeles Dodgers selected the contract of 3B Santiago Espinal from Oklahoma City Comets.,892242
+MLB Stats API transactions,605130,Scott Barlow,,MLB,Signed as Free Agent,2026-02-10,Athletics signed free agent RHP Scott Barlow.,885899
+MLB Stats API transactions,656240,Scott Blewett,,AA,Assigned,2026-03-23,RHP Scott Blewett assigned to Springfield Cardinals from Memphis Redbirds.,893025
+MLB Stats API transactions,815873,Sean Keys,,MLB,Assigned,2026-01-21,Toronto Blue Jays invited non-roster 3B Sean Keys to spring training.,882320
+MLB Stats API transactions,696155,Sean Sullivan,,AAA,Status Change,2026-03-19,Indianapolis Indians placed RHP Sean Sullivan on the 60-day injured list.,893227
+MLB Stats API transactions,814409,Seaver King,,MLB,Assigned,2026-01-26,Washington Nationals invited non-roster SS Seaver King to spring training.,882848
+MLB Stats API transactions,665861,Sebastián Rivero,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster C Sebastián Rivero to spring training.,884284
+MLB Stats API transactions,664874,Seby Zavala,,AAA,Assigned,2026-02-05,C Seby Zavala assigned to Oklahoma City Comets.,885750
+MLB Stats API transactions,622554,Seranthony Domínguez,,MLB,Signed as Free Agent,2026-01-29,Chicago White Sox signed free agent RHP Seranthony Domínguez.,883151
+MLB Stats API transactions,642727,Sergio Alcántara,,AAA,Assigned,2026-01-28,SS Sergio Alcántara assigned to Rochester Red Wings.,885614
+MLB Stats API transactions,664913,Seth Brown,,AAA,Assigned,2026-01-18,LF Seth Brown assigned to Scranton/Wilkes-Barre RailRiders.,882355
+MLB Stats API transactions,686751,Seth Johnson,,AAA,Optioned,2026-03-19,Philadelphia Phillies optioned RHP Seth Johnson to Lehigh Valley IronPigs.,892397
+MLB Stats API transactions,675660,Shane Drohan,,AAA,Optioned,2026-03-22,Milwaukee Brewers optioned LHP Shane Drohan to Nashville Sounds.,892944
+MLB Stats API transactions,676063,Shane McGuire,,MLB,Assigned,2026-01-28,Athletics invited non-roster C Shane McGuire to spring training.,883080
+MLB Stats API transactions,690294,Shane Murphy,,MLB,Assigned,2026-01-29,Chicago White Sox invited non-roster LHP Shane Murphy to spring training.,883159
+MLB Stats API transactions,694376,Shay Whitcomb,,AAA,Optioned,2026-03-23,Houston Astros optioned LF Shay Whitcomb to Sugar Land Space Cowboys.,893109
+MLB Stats API transactions,829272,Shinnosuke Ogasawara,,MLB,Assigned,2026-01-26,Washington Nationals invited non-roster LHP Shinnosuke Ogasawara to spring training.,882844
+MLB Stats API transactions,681293,Spencer Arrighetti,,AAA,Optioned,2026-03-23,Houston Astros optioned RHP Spencer Arrighetti to Sugar Land Space Cowboys.,893148
+MLB Stats API transactions,702352,Spencer Bivens,,AAA,Optioned,2026-03-23,San Francisco Giants optioned RHP Spencer Bivens to Sacramento River Cats.,893344
+MLB Stats API transactions,682987,Spencer Jones,,AAA,Optioned,2026-03-09,New York Yankees optioned CF Spencer Jones to Scranton/Wilkes-Barre RailRiders.,891278
+MLB Stats API transactions,680885,Spencer Schwellenbach,,MLB,Status Change,2026-02-10,Atlanta Braves placed RHP Spencer Schwellenbach on the 60-day injured list.,885945
+MLB Stats API transactions,516782,Starling Marte,,MLB,Signed as Free Agent,2026-03-02,Kansas City Royals signed free agent LF Starling Marte.,888876
+MLB Stats API transactions,694514,Sterlin Thompson,,AAA,Optioned,2026-03-08,Colorado Rockies optioned OF Sterlin Thompson to Albuquerque Isotopes.,891090
+MLB Stats API transactions,674444,Steven Cruz,,AAA,Optioned,2026-03-20,Kansas City Royals optioned RHP Steven Cruz to Omaha Storm Chasers.,892669
+MLB Stats API transactions,681198,TJ Rumfield,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster 1B T.J. Rumfield to spring training.,884526
+MLB Stats API transactions,685299,Tanner Gordon,,AAA,Optioned,2026-03-17,Colorado Rockies optioned RHP Tanner Gordon to Albuquerque Isotopes.,891947
+MLB Stats API transactions,701780,Tanner McDougal,,AAA,Optioned,2026-03-07,Chicago White Sox optioned RHP Tanner McDougal to Charlotte Knights.,890970
+MLB Stats API transactions,695020,Tanner Murray,,AAA,Optioned,2026-03-09,Chicago White Sox optioned 2B Tanner Murray to Charlotte Knights.,891236
+MLB Stats API transactions,837227,Tatsuya Imai,,MLB,Signed as Free Agent,2026-01-02,Houston Astros signed free agent RHP Tatsuya Imai.,880053
+MLB Stats API transactions,642048,Tayler Saucedo,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster LHP Tayler Saucedo to spring training.,884277
+MLB Stats API transactions,664199,Taylor Clarke,,MLB,Signed as Free Agent,2026-01-15,Arizona Diamondbacks signed free agent RHP Taylor Clarke.,881182
+MLB Stats API transactions,573124,Taylor Rogers,,MLB,Signed as Free Agent,2026-01-23,Minnesota Twins signed free agent LHP Taylor Rogers.,882814
+MLB Stats API transactions,666211,Taylor Trammell,,MLB,Assigned,2026-01-16,Houston Astros invited non-roster LF Taylor Trammell to spring training.,881425
+MLB Stats API transactions,670764,Taylor Walls,,MLB,Status Change,2026-03-22,"Tampa Bay Rays placed SS Taylor Walls on the 10-day injured list retroactive to March 22, 2026.",893357
+MLB Stats API transactions,805891,Taylor Young,,MLB,Assigned,2026-03-14,2B Taylor Young assigned to Los Angeles Dodgers.,891624
+MLB Stats API transactions,642731,Thairo Estrada,,MLB,Released,2026-03-23,Baltimore Orioles released 2B Thairo Estrada.,893122
+MLB Stats API transactions,699073,Thayron Liranzo,,AA,Optioned,2026-03-09,Detroit Tigers optioned C Thayron Liranzo to Erie SeaWolves.,891194
+MLB Stats API transactions,815394,Theo Gillen,,MLB,Assigned,2026-03-01,OF Theo Gillen assigned to Tampa Bay Rays.,888620
+MLB Stats API transactions,802419,Thomas Harrington,,AAA,Optioned,2026-03-09,Pittsburgh Pirates optioned RHP Thomas Harrington to Indianapolis Indians.,891255
+MLB Stats API transactions,806258,Thomas White,,MLB,Assigned,2026-01-29,Miami Marlins invited non-roster LHP Thomas White to spring training.,883184
+MLB Stats API transactions,671284,Tim Elko,,AAA,Status Change,2026-03-17,Charlotte Knights placed 1B Tim Elko on the 60-day injured list.,892492
+MLB Stats API transactions,641835,Tim Mayza,,MLB,Signed as Free Agent,2026-03-22,Philadelphia Phillies signed free agent LHP Tim Mayza.,893160
+MLB Stats API transactions,693311,Tink Hence,,AA,Assigned,2026-03-23,RHP Tink Hence assigned to Springfield Cardinals from Memphis Redbirds.,893030
+MLB Stats API transactions,672359,Tirso Ornelas,,MLB,Assigned,2026-02-23,LF Tirso Ornelas assigned to San Diego Padres.,887879
+MLB Stats API transactions,668964,Tobias Myers,,MLB,Trade,2026-01-21,Milwaukee Brewers traded RHP Freddy Peralta and RHP Tobias Myers to New York Mets for RHP Brandon Sproat and SS Jett Williams.,882330
+MLB Stats API transactions,669242,Tommy Edman,,MLB,Status Change,2026-03-22,"Los Angeles Dodgers placed 2B Tommy Edman on the 10-day injured list retroactive to March 22, 2026.",893369
+MLB Stats API transactions,592454,Tommy Kahnle,,MLB,Signed as Free Agent,2026-03-19,Boston Red Sox signed free agent RHP Tommy Kahnle to a minor league contract and invited him to spring training.,892279
+MLB Stats API transactions,694371,Tommy Troy,,MLB,Assigned,2026-01-30,Arizona Diamondbacks invited non-roster SS Tommy Troy to spring training.,883566
+MLB Stats API transactions,608372,Tomoyuki Sugano,,MLB,Signed as Free Agent,2026-02-10,Colorado Rockies signed free agent RHP Tomoyuki Sugano.,885807
+MLB Stats API transactions,621512,Tomás Nido,,MLB,Assigned,2026-02-12,Detroit Tigers invited non-roster C Tomás Nido to spring training.,886325
+MLB Stats API transactions,683953,Travis Bazzana,,MLB,Assigned,2026-01-30,Cleveland Guardians invited non-roster 2B Travis Bazzana to spring training.,883332
+MLB Stats API transactions,691003,Tre' Morgan,,MLB,Assigned,2026-01-30,Tampa Bay Rays invited non-roster 1B Tre' Morgan to spring training.,883253
+MLB Stats API transactions,669360,Trei Cruz,,AAA,Optioned,2026-03-24,Detroit Tigers optioned CF Trei Cruz to Toledo Mud Hens.,893320
+MLB Stats API transactions,663423,Trent Thornton,,MLB,Status Change,2026-01-23,RHP Trent Thornton roster status changed by Chicago Cubs.,885523
+MLB Stats API transactions,686790,Trevor McDonald,,AAA,Optioned,2026-03-23,San Francisco Giants optioned RHP Trevor McDonald to Sacramento River Cats.,893345
+MLB Stats API transactions,592866,Trevor Williams,,MLB,Status Change,2026-02-10,Washington Nationals placed RHP Trevor Williams on the 60-day injured list.,885878
+MLB Stats API transactions,694346,Trey Gibson,,MLB,Assigned,2026-02-04,Baltimore Orioles invited non-roster RHP Trey Gibson to spring training.,884186
+MLB Stats API transactions,702358,Trey Lipscomb,,MLB,Assigned,2026-01-26,Washington Nationals invited non-roster 3B Trey Lipscomb to spring training.,882849
+MLB Stats API transactions,641820,Trey Mancini,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster 1B Trey Mancini to spring training.,884287
+MLB Stats API transactions,663941,Tristan Beck,,AAA,Optioned,2026-03-24,San Francisco Giants optioned RHP Tristan Beck to Sacramento River Cats.,893347
+MLB Stats API transactions,656484,Tristan Gray,,MLB,Trade,2026-01-21,Minnesota Twins traded C Nate Baez to Boston Red Sox for 3B Tristan Gray.,882281
+MLB Stats API transactions,675512,Troy Melton,,MLB,Status Change,2026-03-10,Detroit Tigers placed RHP Troy Melton on the 60-day injured list.,891334
+MLB Stats API transactions,700187,Troy Taylor,,AAA,Optioned,2026-03-13,Seattle Mariners optioned RHP Troy Taylor to Tacoma Rainiers.,891567
+MLB Stats API transactions,691907,Tsung-Che Cheng,,AAA,Optioned,2026-03-19,Boston Red Sox optioned SS Tsung-Che Cheng to Worcester Red Sox.,892289
+MLB Stats API transactions,687272,Tucker Flint,,MLB,Assigned,2026-02-21,RF Tucker Flint assigned to Los Angeles Angels.,887189
+MLB Stats API transactions,686654,Ty Adcock,,AAA,Optioned,2026-03-17,San Diego Padres optioned RHP Ty Adcock to El Paso Chihuahuas.,892032
+MLB Stats API transactions,664034,Ty France,,AAA,Assigned,2026-02-15,1B Ty France assigned to El Paso Chihuahuas.,886670
+MLB Stats API transactions,694494,Ty Johnson,,MLB,Assigned,2026-01-30,Tampa Bay Rays invited non-roster RHP Ty Johnson to spring training.,883232
+MLB Stats API transactions,680744,Ty Madden,,AAA,Optioned,2026-03-01,Detroit Tigers optioned RHP Ty Madden to Toledo Mud Hens.,888751
+MLB Stats API transactions,542881,Tyler Anderson,,AAA,Assigned,2026-02-04,LHP Tyler Anderson assigned to Salt Lake Bees.,884267
+MLB Stats API transactions,592122,Tyler Austin,,MLB,Status Change,2026-03-24,Chicago Cubs placed 1B Tyler Austin on the 60-day injured list.,893365
+MLB Stats API transactions,672012,Tyler Black,,AAA,Optioned,2026-03-19,Milwaukee Brewers optioned 3B Tyler Black to Nashville Sounds.,892409
+MLB Stats API transactions,682997,Tyler Callihan,,AAA,Optioned,2026-03-21,Pittsburgh Pirates optioned LF Tyler Callihan to Indianapolis Indians.,892690
+MLB Stats API transactions,621053,Tyler Ferguson,,AAA,Optioned,2026-03-19,Athletics optioned RHP Tyler Ferguson to Las Vegas Aviators.,892458
+MLB Stats API transactions,666149,Tyler Fitzgerald,,AAA,Optioned,2026-03-19,San Francisco Giants optioned 2B Tyler Fitzgerald to Sacramento River Cats.,892388
+MLB Stats API transactions,694355,Tyler Gentry,,MLB,Assigned,2026-02-20,RF Tyler Gentry assigned to Kansas City Royals.,886943
+MLB Stats API transactions,641755,Tyler Kinley,,MLB,Assigned,2026-01-10,RHP Tyler Kinley assigned to Atlanta Braves.,880635
+MLB Stats API transactions,682988,Tyler Locklear,,MLB,Number Change,2026-01-13,1B Tyler Locklear changed number to 31.,880751
+MLB Stats API transactions,641816,Tyler Mahle,,MLB,Signed as Free Agent,2026-01-05,San Francisco Giants signed free agent RHP Tyler Mahle.,880132
+MLB Stats API transactions,701719,Tyler Samaniego,,AAA,Optioned,2026-03-23,Boston Red Sox optioned LHP Tyler Samaniego to Worcester Red Sox.,893017
+MLB Stats API transactions,700413,Tyler Uberstine,,AAA,Optioned,2026-03-23,Boston Red Sox optioned RHP Tyler Uberstine to Worcester Red Sox.,893132
+MLB Stats API transactions,695695,Tyson Neighbors,,MLB,Assigned,2026-02-23,RHP Tyson Neighbors assigned to Baltimore Orioles.,887773
+MLB Stats API transactions,687093,Vaughn Grissom,,MLB,Status Change,2026-03-22,"Los Angeles Angels placed 2B Vaughn Grissom on the 10-day injured list retroactive to March 22, 2026.",893353
+MLB Stats API transactions,682674,Victor Bericoto,,AAA,Assigned,2026-03-22,RF Victor Bericoto assigned to Sacramento River Cats.,892948
+MLB Stats API transactions,605170,Victor Caratini,,MLB,Signed as Free Agent,2026-01-23,Minnesota Twins signed free agent C Victor Caratini.,882815
+MLB Stats API transactions,682989,Victor Mederos,,AAA,Optioned,2026-03-10,Los Angeles Angels optioned RHP Victor Mederos to Salt Lake Bees.,891335
+MLB Stats API transactions,683748,Victor Mesa Jr.,,AAA,Optioned,2026-03-11,Tampa Bay Rays optioned CF Victor Mesa Jr. to Durham Bulls.,891383
+MLB Stats API transactions,660644,Vidal Bruján,,MLB,Trade,2026-01-22,Minnesota Twins traded 3B Vidal Bruján to New York Mets for cash.,882424
+MLB Stats API transactions,605353,Vimael Machín,,MLB,Assigned,2026-02-05,Colorado Rockies invited non-roster SS Vimael Machín to spring training.,884528
+MLB Stats API transactions,685133,Wade Meckler,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster OF Wade Meckler to spring training.,884291
+MLB Stats API transactions,621111,Walker Buehler,,AAA,Assigned,2026-02-17,RHP Walker Buehler assigned to El Paso Chihuahuas.,886672
+MLB Stats API transactions,805805,Walker Jenkins,,MLB,Assigned,2026-02-09,Minnesota Twins invited non-roster CF Walker Jenkins to spring training.,885611
+MLB Stats API transactions,682653,Warming Bernabel,,AAA,Released,2026-03-21,Rochester Red Wings released 3B Warming Bernabel.,892926
+MLB Stats API transactions,700327,Welinton Herrera,,AAA,Optioned,2026-03-08,Colorado Rockies optioned LHP Welinton Herrera to Albuquerque Isotopes.,891086
+MLB Stats API transactions,672761,Wenceel Pérez,,AAA,Optioned,2026-03-24,Detroit Tigers optioned RF Wenceel Pérez to Toledo Mud Hens.,893321
+MLB Stats API transactions,642215,Weston Wilson,,MLB,Assigned,2026-02-07,Baltimore Orioles invited non-roster LF Weston Wilson to spring training.,887954
+MLB Stats API transactions,682790,Wikelman González,,AAA,Optioned,2026-03-09,Chicago White Sox optioned RHP Wikelman González to Charlotte Knights.,891234
+MLB Stats API transactions,696062,Wilber Dotel,,AAA,Optioned,2026-03-09,Pittsburgh Pirates optioned RHP Wilber Dotel to Indianapolis Indians.,891254
+MLB Stats API transactions,686823,Will Brennan,,AAA,Optioned,2026-03-24,San Francisco Giants optioned RF Will Brennan to Sacramento River Cats.,893349
+MLB Stats API transactions,695238,Will Wagner,,MLB,Number Change,2026-02-04,3B Will Wagner changed number to 7.,884161
+MLB Stats API transactions,701542,Will Warren,,MLB,Number Change,2026-03-24,RHP Will Warren changed number to 29.,893301
+MLB Stats API transactions,669717,Will Wilson,,MLB,Status Change,2026-01-26,3B Will Wilson roster status changed by Seattle Mariners.,883453
+MLB Stats API transactions,650489,Willi Castro,,MLB,Signed as Free Agent,2026-01-22,Colorado Rockies signed free agent LF Willi Castro.,882429
+MLB Stats API transactions,703151,William Bergolla Jr.,,MLB,Assigned,2026-01-29,Chicago White Sox invited non-roster 2B William Bergolla to spring training.,883166
+MLB Stats API transactions,687531,William Kempner,,AAA,Optioned,2026-03-08,Miami Marlins optioned RHP William Kempner to Jacksonville Jumbo Shrimp.,891030
+MLB Stats API transactions,680862,Willie MacIver,,AAA,Optioned,2026-03-15,Texas Rangers optioned C Willie MacIver to Round Rock Express.,891742
+MLB Stats API transactions,800060,Xavier Isaac,,MLB,Assigned,2026-01-30,Tampa Bay Rays invited non-roster 1B Xavier Isaac to spring training.,883251
+MLB Stats API transactions,692585,Yanquiel Fernández,,MLB,Assigned,2026-02-16,New York Yankees invited non-roster RF Yanquiel Fernández to spring training.,886622
+MLB Stats API transactions,807957,Yassel Soler,,MLB,Assigned,2026-02-23,3B Yassel Soler assigned to Arizona Diamondbacks.,887810
+MLB Stats API transactions,660787,Yerry De los Santos,,AAA,Optioned,2026-03-20,New York Yankees optioned RHP Yerry De los Santos to Scranton/Wilkes-Barre RailRiders.,892622
+MLB Stats API transactions,700270,Yilber Díaz,,AAA,Optioned,2026-03-05,Arizona Diamondbacks optioned RHP Yilber Díaz to Reno Aces.,890646
+MLB Stats API transactions,691002,Yohandy Morales,,MLB,Assigned,2026-01-26,Washington Nationals invited non-roster 1B Yohandy Morales to spring training.,882850
+MLB Stats API transactions,570560,Yolmer Sánchez,,MLB,Assigned,2026-02-04,Los Angeles Angels invited non-roster 3B Yolmer Sánchez to spring training.,884288
+MLB Stats API transactions,692414,Yoniel Curet,,AAA,Optioned,2026-03-07,Philadelphia Phillies optioned RHP Yoniel Curet to Lehigh Valley IronPigs.,890994
+MLB Stats API transactions,691172,Yosver Zulueta,,AAA,Optioned,2026-03-22,Seattle Mariners optioned RHP Yosver Zulueta to Tacoma Rainiers.,893151
+MLB Stats API transactions,660162,Yoán Moncada,,MLB,Signed as Free Agent,2026-02-02,Los Angeles Angels signed free agent 3B Yoán Moncada.,883705
+MLB Stats API transactions,668678,Zac Gallen,,MLB,Assigned,2026-02-15,RHP Zac Gallen assigned to Arizona Diamondbacks.,886549
+MLB Stats API transactions,836055,Zach Daudet,,MLB,Assigned,2026-02-22,SS Zach Daudet assigned to Houston Astros.,887388
+MLB Stats API transactions,701394,Zach Ehrhard,,MLB,Assigned,2026-02-09,Los Angeles Dodgers invited non-roster OF Zach Ehrhard to spring training.,885755
+MLB Stats API transactions,687209,Zach Maxwell,,AAA,Optioned,2026-03-21,Cincinnati Reds optioned RHP Zach Maxwell to Louisville Bats.,892773
+MLB Stats API transactions,685112,Zach McCambley,,AAA,Outrighted,2026-03-23,Miami Marlins sent RHP Zach McCambley outright to Jacksonville Jumbo Shrimp.,893159
+MLB Stats API transactions,680869,Zack Gelof,,AAA,Optioned,2026-03-19,Athletics optioned 2B Zack Gelof to Las Vegas Aviators.,892457
+MLB Stats API transactions,677161,Zack Kelly,,AAA,Optioned,2026-03-23,Boston Red Sox optioned RHP Zack Kelly to Worcester Red Sox.,893131
+MLB Stats API transactions,641793,Zack Littell,,MLB,Signed as Free Agent,2026-03-10,Washington Nationals signed free agent RHP Zack Littell.,891302
+MLB Stats API transactions,670097,Zack Short,,AAA,Assigned,2026-03-24,SS Zack Short assigned to Rochester Red Wings.,893339
+MLB Stats API transactions,687849,Zak Kent,,MLB,Claimed Off Waivers,2026-02-26,Minnesota Twins claimed RHP Zak Kent off waivers from St. Louis Cardinals.,888387
+MLB Stats API transactions,805673,Zebby Matthews,,AAA,Optioned,2026-03-20,Minnesota Twins optioned RHP Zebby Matthews to St. Paul Saints.,892513
+MLB Stats API transactions,640458,Óscar Mercado,,AAA,Released,2026-03-23,Reno Aces released RF Óscar Mercado.,893178
