@@ -74,9 +74,7 @@ function leadersCard(label, items) {
 
 function statusChip(player) {
   const injury = player.injury_status;
-  const transaction = player.transaction_status;
-  const text = injury || transaction;
-  return text ? `<span class="status-chip">${text}</span>` : '<span class="muted">Ready</span>';
+  return injury ? `<span class="status-chip">${injury}</span>` : '<span class="muted">Available</span>';
 }
 
 function hitterRow(player) {
@@ -142,7 +140,7 @@ function benchRow(player) {
       <td>${player.dynasty_rank || "-"}</td>
       <td>${player.adp || "-"}</td>
       <td>${actualLine || "-"}</td>
-      <td>${player.injury_status || player.transaction_status || "-"}</td>
+      <td>${player.injury_status || "Available"}</td>
     </tr>
   `;
 }
