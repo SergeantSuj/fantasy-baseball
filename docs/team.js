@@ -50,16 +50,26 @@ function currentTeamSlug() {
   return document.body.dataset.team || "";
 }
 
+function isMinorRosterPlayer(player) {
+  const rosterBucket = String(player.roster_bucket || "").trim().toUpperCase();
+  if (rosterBucket) {
+    return rosterBucket === "MINORS";
+  }
+  const level = String(player.current_level || "").trim().toUpperCase();
+  return Boolean(level) && level !== "MLB" && level !== "FA";
+}
+
+function rosterPlayerKey(player) {
+  return `${player.player_name}::${player.mlb_team || ""}`;
+}
+
 function minorLeaguePlayers(team) {
-  return team.roster.filter((player) => {
-    const level = String(player.current_level || "").toUpperCase();
-    return level && level !== "MLB" && level !== "FA";
-  });
+  return team.roster.filter((player) => isMinorRosterPlayer(player));
 }
 
 function majorLeaguePlayers(team) {
-  const minorKeys = new Set(minorLeaguePlayers(team).map((player) => player.player_name));
-  return team.roster.filter((player) => !minorKeys.has(player.player_name));
+  const minorKeys = new Set(minorLeaguePlayers(team).map((player) => rosterPlayerKey(player)));
+  return team.roster.filter((player) => !minorKeys.has(rosterPlayerKey(player)));
 }
 
 function lineupSlotSortValue(slot) {
@@ -75,13 +85,13 @@ function lineupSlotSortValue(slot) {
 
 function activePlayerKeySet(team) {
   return new Set(
-    [...team.active_hitters, ...team.active_pitchers].map((player) => `${player.player_name}::${player.mlb_team || ""}`),
+    [...team.active_hitters, ...team.active_pitchers].map((player) => rosterPlayerKey(player)),
   );
 }
 
 function reservePlayers(team) {
   const activeKeys = activePlayerKeySet(team);
-  return majorLeaguePlayers(team).filter((player) => !activeKeys.has(`${player.player_name}::${player.mlb_team || ""}`));
+  return majorLeaguePlayers(team).filter((player) => !activeKeys.has(rosterPlayerKey(player)));
 }
 
 function activeLineupPlayers(team) {
@@ -96,7 +106,7 @@ function activeLineupPlayers(team) {
 
 function playerStatus(team, player) {
   const activeKeys = activePlayerKeySet(team);
-  const playerKey = `${player.player_name}::${player.mlb_team || ""}`;
+  const playerKey = rosterPlayerKey(player);
   if (activeKeys.has(playerKey)) {
     return "Active";
   }

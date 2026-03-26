@@ -30,6 +30,7 @@ DISPLAY_COLUMNS = [
     "adp",
     "injury_status",
     "transaction_status",
+    "roster_bucket",
 ]
 
 

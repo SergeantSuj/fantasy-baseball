@@ -64,6 +64,10 @@ function normalizeMlbTeam(code) {
 }
 
 function isMinorLeaguer(player) {
+  const rosterBucket = String(player.roster_bucket || "").trim().toUpperCase();
+  if (rosterBucket) {
+    return rosterBucket === "MINORS";
+  }
   const level = String(player.current_level || "").trim().toUpperCase();
   return Boolean(level) && level !== "MLB";
 }
@@ -138,7 +142,7 @@ function render(data) {
     ? `Current roster data includes ${totalProspects} minor leaguer${totalProspects === 1 ? "" : "s"}. As the minor league draft is added, each MLB affiliate card below will fill in automatically.`
     : "No minor league prospects are assigned yet. Once the Boz Cup minor league draft is added to the roster files, this page will group each prospect under the correct MLB affiliate automatically.";
 
-  setText("page-note", "Prospects are grouped by MLB affiliate and filtered to players stored in non-MLB roster levels.");
+  setText("page-note", "Prospects are grouped by MLB affiliate and filtered to players stored in minor-league roster slots.");
   setText("prospect-summary", summaryText);
   setHtml(
     "prospect-grid",
