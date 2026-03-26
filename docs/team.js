@@ -62,10 +62,36 @@ function majorLeaguePlayers(team) {
   return team.roster.filter((player) => !minorKeys.has(player.player_name));
 }
 
+function lineupSlotSortValue(slot) {
+  const hitterOrder = ["C", "1B", "2B", "3B", "SS", "CI", "MI", "OF", "UTIL"];
+  if (hitterOrder.includes(slot)) {
+    return hitterOrder.indexOf(slot);
+  }
+  if (/^P\d+$/i.test(slot)) {
+    return 100 + Number(slot.slice(1));
+  }
+  return 999;
+}
+
 function activePlayerKeySet(team) {
   return new Set(
     [...team.active_hitters, ...team.active_pitchers].map((player) => `${player.player_name}::${player.mlb_team || ""}`),
   );
+}
+
+function reservePlayers(team) {
+  const activeKeys = activePlayerKeySet(team);
+  return majorLeaguePlayers(team).filter((player) => !activeKeys.has(`${player.player_name}::${player.mlb_team || ""}`));
+}
+
+function activeLineupPlayers(team) {
+  return [...team.active_hitters, ...team.active_pitchers].sort((left, right) => {
+    const slotGap = lineupSlotSortValue(String(left.lineup_slot || "")) - lineupSlotSortValue(String(right.lineup_slot || ""));
+    if (slotGap !== 0) {
+      return slotGap;
+    }
+    return String(left.player_name || "").localeCompare(String(right.player_name || ""));
+  });
 }
 
 function playerStatus(team, player) {
@@ -114,6 +140,97 @@ function rosterRow(team, player) {
       <td>${player.adp || "-"}</td>
       <td>${player.injury_status || "Available"}</td>
     </tr>
+  `;
+}
+
+function lineupRow(player) {
+  return `
+    <tr>
+      <td>${player.lineup_slot || "-"}</td>
+      <td>${player.player_name}</td>
+      <td>${player.mlb_team || "FA"}</td>
+      <td>${player.eligible_positions || "-"}</td>
+      <td>${player.age || "-"}</td>
+      <td>${player.dynasty_rank || "-"}</td>
+      <td>${player.adp || "-"}</td>
+      <td>${player.injury_status || "Available"}</td>
+    </tr>
+  `;
+}
+
+function reserveRow(player) {
+  return `
+    <tr>
+      <td>${player.player_name}</td>
+      <td>${player.mlb_team || "FA"}</td>
+      <td>${player.eligible_positions || "-"}</td>
+      <td>${player.current_level || "MLB"}</td>
+      <td>${player.age || "-"}</td>
+      <td>${player.dynasty_rank || "-"}</td>
+      <td>${player.adp || "-"}</td>
+      <td>${player.injury_status || "Available"}</td>
+    </tr>
+  `;
+}
+
+function renderMajorLeagueRosterPanel(team) {
+  const activeLineup = activeLineupPlayers(team);
+  const reserves = reservePlayers(team);
+  const section = document.getElementById("mlb-roster-body")?.closest(".panel");
+  if (!section) {
+    return;
+  }
+
+  section.innerHTML = `
+    <div class="panel-head">
+      <div>
+        <div class="section-kicker">Major League Roster</div>
+        <h2>Active Lineup And Reserves</h2>
+      </div>
+      <p>Active lineup is shown first by slot, followed by MLB reserves. Minor leaguers remain in the separate section below.</p>
+    </div>
+
+    <div class="roster-section">
+      <h3>Active Lineup</h3>
+      <div class="table-wrap">
+        <table class="roster-table">
+          <thead>
+            <tr>
+              <th>Slot</th>
+              <th>Player</th>
+              <th>MLB</th>
+              <th>Pos</th>
+              <th>Age</th>
+              <th>Dyn</th>
+              <th>ADP</th>
+              <th>Status Note</th>
+            </tr>
+          </thead>
+          <tbody>${activeLineup.map((player) => lineupRow(player)).join("")}</tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="roster-section">
+      <h3>Reserves</h3>
+      <div class="table-wrap">
+        <table class="roster-table">
+          <thead>
+            <tr>
+              <th>Player</th>
+              <th>MLB</th>
+              <th>Pos</th>
+              <th>Level</th>
+              <th>Age</th>
+              <th>Dyn</th>
+              <th>ADP</th>
+              <th>Status Note</th>
+            </tr>
+          </thead>
+          <tbody>${reserves.map((player) => reserveRow(player)).join("")}</tbody>
+        </table>
+      </div>
+    </div>
   `;
 }
 
@@ -214,7 +331,6 @@ function renderTeamPage(data) {
 
   const teams = data.teams;
   const minors = minorLeaguePlayers(team);
-  const mlbRoster = majorLeaguePlayers(team);
   const { hitters, pitchers } = playerContributionGroups(team);
   const totals = team.season_totals;
 
@@ -234,7 +350,7 @@ function renderTeamPage(data) {
     formulaCard("WHIP", "(H allowed + BB allowed) / IP", "Track hits allowed, walks allowed, and innings pitched for every counted outing."),
   ].join(""));
 
-  setHtml("mlb-roster-body", mlbRoster.map((player) => rosterRow(team, player)).join(""));
+  renderMajorLeagueRosterPanel(team);
   setHtml("minor-roster-content", minors.length
     ? `
         <div class="table-wrap">

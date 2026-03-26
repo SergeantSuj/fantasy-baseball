@@ -38,6 +38,14 @@ function setHtml(id, value) {
   }
 }
 
+function setSectionVisibility(id, isVisible) {
+  const element = document.getElementById(id);
+  const section = element ? element.closest(".roster-section") : null;
+  if (section) {
+    section.style.display = isVisible ? "block" : "none";
+  }
+}
+
 function ordinal(place) {
   const remainder100 = place % 100;
   if (remainder100 >= 11 && remainder100 <= 13) {
@@ -251,12 +259,13 @@ function summaryCard(label, value, sublabel) {
 }
 
 function renderTeam(team) {
-  setText("team-name-heading", `${team.name} Roster`);
-  setText("team-subheading", `Season-to-date standings remain at zero until 2026 league results are available.`);
+  setText("team-name-heading", `${team.name} Active Roster Snapshot`);
+  setText("team-subheading", `Snapshot view shows only the current active lineup. Use the team page for reserves, minors, and contribution detail.`);
 
   setHtml("active-hitters-body", team.active_hitters.map(hitterRow).join(""));
   setHtml("active-pitchers-body", team.active_pitchers.map(pitcherRow).join(""));
-  setHtml("bench-body", team.bench.map(benchRow).join(""));
+  setHtml("bench-body", "");
+  setSectionVisibility("bench-body", false);
 
   const totals = team.season_totals;
   setHtml("team-summary", [
