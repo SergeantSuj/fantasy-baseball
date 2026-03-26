@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-03-25T21:39:12.302844+00:00",
+  "source": "MLB Stats API affiliated player feeds and team endpoints",
+  "eligibility_rule": "all unrostered affiliated minor leaguers",
+  "sport_levels": {
+    "11": "AAA",
+    "12": "AA",
+    "13": "High-A",
+    "14": "Single-A",
+    "16": "Rookie"
+  },
+  "api_counts_by_level": {
+    "AAA": 2088,
+    "AA": 1744,
+    "High-A": 1771,
+    "Single-A": 2080,
+    "Rookie": 3437
+  },
+  "deduplicated_affiliated_players": 7813,
+  "fantasy_rostered_name_count": 300,
+  "excluded_rostered_players_found_in_affiliated_pool": 128,
+  "draft_pool_count": 7685,
+  "pool_counts_by_level": {
+    "AAA": 1985,
+    "AA": 1021,
+    "High-A": 1039,
+    "Single-A": 1268,
+    "Rookie": 2372
+  },
+  "top_parent_org_counts": [
+    {
+      "parent_org_name": "Miami Marlins",
+      "count": 282
+    },
+    {
+      "parent_org_name": "Pittsburgh Pirates",
+      "count": 277
+    },
+    {
+      "parent_org_name": "New York Mets",
+      "count": 270
+    },
+    {
+      "parent_org_name": "Cleveland Guardians",
+      "count": 267
+    },
+    {
+      "parent_org_name": "San Diego Padres",
+      "count": 267
+    },
+    {
+      "parent_org_name": "Houston Astros",
+      "count": 264
+    },
+    {
+      "parent_org_name": "Arizona Diamondbacks",
+      "count": 263
+    },
+    {
+      "parent_org_name": "Texas Rangers",
+      "count": 263
+    },
+    {
+      "parent_org_name": "Boston Red Sox",
+      "count": 261
+    },
+    {
+      "parent_org_name": "Chicago Cubs",
+      "count": 261
+    },
+    {
+      "parent_org_name": "Detroit Tigers",
+      "count": 261
+    },
+    {
+      "parent_org_name": "Toronto Blue Jays",
+      "count": 261
+    },
+    {
+      "parent_org_name": "Kansas City Royals",
+      "count": 260
+    },
+    {
+      "parent_org_name": "Baltimore Orioles",
+      "count": 259
+    },
+    {
+      "parent_org_name": "Tampa Bay Rays",
+      "count": 258
+    }
+  ],
+  "sample_excluded_players": [
+    {
+      "player_name": "Andr\u00e9s Gim\u00e9nez",
+      "mlbam_id": "665926",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Brendan Donovan",
+      "mlbam_id": "680977",
+      "current_level": "AA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Caleb Durbin",
+      "mlbam_id": "702332",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Emmet Sheehan",
+      "mlbam_id": "686218",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "George Kirby",
+      "mlbam_id": "669923",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Jake Burger",
+      "mlbam_id": "669394",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Kyle Bradish",
+      "mlbam_id": "680694",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Matt Wallner",
+      "mlbam_id": "670242",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Otto Lopez",
+      "mlbam_id": "672640",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Quinn Priester",
+      "mlbam_id": "682990",
+      "current_level": "AAA",
+      "rostered_by": "Chris"
+    },
+    {
+      "player_name": "Brandon Woodruff",
+      "mlbam_id": "605540",
+      "current_level": "AAA",
+      "rostered_by": "Greg"
+    },
+    {
+      "player_name": "Chris Sale",
+      "mlbam_id": "519242",
+      "current_level": "AAA",
+      "rostered_by": "Greg"
+    },
+    {
+      "player_name": "Giancarlo Stanton",
+      "mlbam_id": "519317",
+      "current_level": "AA",
+      "rostered_by": "Greg"
+    },
+    {
+      "player_name": "Joc Pederson",
+      "mlbam_id": "592626",
+      "current_level": "AA",
+      "rostered_by": "Greg"
+    },
+    {
+      "player_name": "Luis Castillo",
+      "mlbam_id": "699127",
+      "current_level": "High-A",
+      "rostered_by": "Greg"
+    }
+  ],
+  "output_file": "C:\\FantasyBaseball\\data\\minor-league-draft-pool-2026.csv"
+}

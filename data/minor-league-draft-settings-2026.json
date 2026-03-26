@@ -1,0 +1,24 @@
+{
+  "season": 2026,
+  "league_name": "10-team dynasty roto minor league prospect draft",
+  "draft_order_confirmed": true,
+  "draft_order_method": "reverse of the confirmed initial major league startup draft order from data/startup-draft-settings-2026.json",
+  "source_major_league_order_file": "data/startup-draft-settings-2026.json",
+  "draft_order": [
+    "Josh V",
+    "Greg",
+    "Shane",
+    "Josh M",
+    "Paul",
+    "Michael",
+    "Matt",
+    "Wendell",
+    "Rob",
+    "Chris"
+  ],
+  "notes": [
+    "This order is the exact reverse of the confirmed initial major league startup draft order.",
+    "Keep this file separate from startup-draft-settings-2026.json so startup simulations and league-site outputs continue to use the original MLB startup order.",
+    "Add pick-trade adjustments here later if any minor league draft picks are moved before the draft runs."
+  ]
+}

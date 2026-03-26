@@ -255,9 +255,15 @@ def derive_player_stage(base_row: dict[str, str], prospect_row: dict[str, str], 
 
 
 def derive_current_level(base_row: dict[str, str], prospect_row: dict[str, str], context_row: dict[str, str], transaction_row: dict[str, str]) -> str:
-    current_level = clean_value(context_row.get("current_level")) or clean_value(transaction_row.get("current_level"))
+    current_level = clean_value(context_row.get("current_level"))
     if current_level:
         return current_level
+    prospect_level = clean_value(prospect_row.get("current_level"))
+    if prospect_level:
+        return prospect_level
+    transaction_level = clean_value(transaction_row.get("current_level"))
+    if transaction_level:
+        return transaction_level
     if clean_value(prospect_row.get("prospect_rank")):
         return "Prospect"
     if clean_value(base_row.get("mlb_team")):
@@ -372,7 +378,7 @@ def merge_player_row(
     output["prospect_source"] = clean_value(prospect_row.get("source"))
     output["prospect_rank"] = clean_value(prospect_row.get("prospect_rank"))
     output["org_rank"] = clean_value(prospect_row.get("org_rank"))
-    output["current_level"] = derive_current_level(base_row, prospect_row, context_row, transaction_row) or clean_value(prospect_row.get("current_level"))
+    output["current_level"] = derive_current_level(base_row, prospect_row, context_row, transaction_row)
     output["eta"] = clean_value(prospect_row.get("eta"))
     output["prospect_fv"] = clean_value(prospect_row.get("prospect_fv"))
     output["prospect_risk"] = clean_value(prospect_row.get("prospect_risk"))

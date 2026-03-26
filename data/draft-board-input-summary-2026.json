@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-24T23:30:09.336408+00:00",
+  "generated_at": "2026-03-26T01:24:53.721122+00:00",
   "supplemental_file_rows": {
-    "dynasty_rankings": 1655,
-    "prospect_rankings": 0,
-    "market_adp": 1655,
+    "dynasty_rankings": 8259,
+    "prospect_rankings": 355,
+    "market_adp": 8259,
     "player_context": 0,
     "player_injuries": 0,
     "player_transactions": 794,
@@ -17,23 +17,21 @@
     "require_prospect_rankings_for_initial_prep": false
   },
   "coverage": {
-    "total_players": 1655,
-    "with_dynasty_rank": 1655,
-    "with_prospect_rank": 0,
-    "with_adp": 1655,
-    "with_market_timing_estimate": 1655,
-    "with_injury_status": 46,
-    "with_transaction_status": 794,
+    "total_players": 8259,
+    "with_dynasty_rank": 8259,
+    "with_prospect_rank": 358,
+    "with_adp": 8259,
+    "with_market_timing_estimate": 8259,
+    "with_injury_status": 48,
+    "with_transaction_status": 804,
     "with_role_security": 0,
     "with_skill_flag": 0,
-    "with_actual_2025_stats": 1236,
-    "with_source_specific_dynasty_rank": 437,
-    "with_source_specific_market_adp": 276,
-    "draft_ready_rows": 1655
+    "with_actual_2025_stats": 1248,
+    "with_source_specific_dynasty_rank": 482,
+    "with_source_specific_market_adp": 294,
+    "draft_ready_rows": 8259
   },
   "blocking_items": [],
-  "deferred_items": [
-    "Prospect rankings remain deferred for a later draft-prep pass"
-  ],
+  "deferred_items": [],
   "advisory_items": []
 }

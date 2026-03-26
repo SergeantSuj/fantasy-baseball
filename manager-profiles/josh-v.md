@@ -8,6 +8,8 @@ Josh V is the ceiling chaser. He actively looks for league-winning talent, will 
 
 - Patience with poor performance: Moderate for upside players, low for replaceable veterans
 - Veteran versus youth balance: Youth and upside leaning
+- Minor-league draft appetite: Very high
+- Preferred minors depth: Deep minors, including Single-A and other long-runway upside bets
 - Category adjustment aggression: Moderate
 - Free-agent activity: Active when upside exists
 - Injury handling: Will stash high-upside players longer than average
@@ -24,6 +26,7 @@ Josh V is the ceiling chaser. He actively looks for league-winning talent, will 
 - aggressively targets breakout candidates, premium tools, and young players with star upside
 - is comfortable taking on more variance than conservative managers
 - drafts prospects earlier if he believes the ceiling meaningfully beats the veteran alternative
+- is comfortable drafting further away from the majors if the upside outcome is star-level
 - will sacrifice some early floor to create a higher long-term team ceiling
 - prefers difference-makers over safe but replaceable production
 - is the most likely manager to trust a strong dynasty or skills signal even when market ADP is slower to catch up

@@ -1,1 +1,356 @@
 source,mlbam_id,fg_id,player_name,org,prospect_rank,org_rank,current_level,eta,prospect_fv,prospect_risk,notes
+MLB Pipeline Top 100 2026,804606,,Konnor Griffin,PIT,1,,AA,2026,70,,MLB Pipeline Top 100 rank 1; position SS; current level AA; ETA 2026; Pipeline overall grade 70
+MLB Pipeline Top 100 2026,805808,,Kevin McGonigle,DET,2,1,MLB,2026,65,,MLB Pipeline Top 100 rank 2; position SS; current level MLB; ETA 2026; Pipeline overall grade 65; source level ALL (2); age 21; 2025 OBP .401; OPS .853; HR 5; SB 22
+MLB Pipeline Top 100 2026,815908,,Jesús Made,MIL,3,1,AA,2027,60,,MLB Pipeline Top 100 rank 3; position SS/2B; current level AA; ETA 2027; Pipeline overall grade 60; position SS; source level ROK; age 18; 2025 OBP .458; OPS 1.012; HR 6; SB 28
+MLB Pipeline Top 100 2026,815888,,Leo De Vries,ATH,4,1,AA,2026,60,,MLB Pipeline Top 100 rank 4; position SS; current level AA; ETA 2026; Pipeline overall grade 60; source level A; age 19; 2025 OBP .361; OPS .802; HR 11; SB 13
+MLB Pipeline Top 100 2026,802139,,JJ Wetherholt,STL,5,1,MLB,2026,60,,MLB Pipeline Top 100 rank 5; position INF; current level MLB; ETA 2026; Pipeline overall grade 60; position SS; source level A; age 23; 2025 OBP .405; OPS .805; HR 2; SB 2
+MLB Pipeline Top 100 2026,690997,,Nolan McLean,NYM,6,,MLB,2026,60,,MLB Pipeline Top 100 rank 6; position RHP; current level MLB; ETA 2026; Pipeline overall grade 60
+MLB Pipeline Top 100 2026,806964,,Sebastian Walcott,TEX,7,1,AA,2027,60,,MLB Pipeline Top 100 rank 7; position SS/3B; current level AA; ETA 2027; Pipeline overall grade 60; position SS; source level ALL (2); age 20; 2025 OBP .344; OPS .796; HR 11; SB 27
+MLB Pipeline Top 100 2026,694212,,Samuel Basallo,BAL,8,1,MLB,2026,60,,MLB Pipeline Top 100 rank 8; position C/1B; current level MLB; ETA 2026; Pipeline overall grade 60; position C; source level ALL (2); age 21; 2025 OBP .341; OPS .790; HR 19; SB 10
+MLB Pipeline Top 100 2026,806068,,Colt Emerson,SEA,9,1,AAA,2026,60,,MLB Pipeline Top 100 rank 9; position SS; current level AAA; ETA 2026; Pipeline overall grade 60; source level ALL (3); age 20; 2025 OBP .393; OPS .769; HR 4; SB 15
+MLB Pipeline Top 100 2026,703601,,Max Clark,DET,10,2,AA,2026,60,,MLB Pipeline Top 100 rank 10; position OF; current level AA; ETA 2026; Pipeline overall grade 60; position CF; source level ALL (2); age 21; 2025 OBP .372; OPS .793; HR 9; SB 29
+MLB Pipeline Top 100 2026,696149,,Bubba Chandler,PIT,11,,MLB,2026,60,,MLB Pipeline Top 100 rank 11; position RHP; current level MLB; ETA 2026; Pipeline overall grade 60
+MLB Pipeline Top 100 2026,702056,,Trey Yesavage,TOR,12,,MLB,2026,60,,MLB Pipeline Top 100 rank 12; position RHP; current level MLB; ETA 2026; Pipeline overall grade 60
+MLB Pipeline Top 100 2026,816113,,Eli Willits,WSH,13,,Single-A,2028,60,,MLB Pipeline Top 100 rank 13; position SS; current level Single-A; ETA 2028; Pipeline overall grade 60
+MLB Pipeline Top 100 2026,805805,,Walker Jenkins,MIN,14,1,AAA,2026,60,,MLB Pipeline Top 100 rank 14; position OF; current level AAA; ETA 2026; Pipeline overall grade 60; position CF; source level ALL (4); age 21; 2025 OBP .394; OPS .833; HR 6; SB 17
+MLB Pipeline Top 100 2026,800543,,Josue De Paula,LAD,15,1,AA,2027,60,,MLB Pipeline Top 100 rank 15; position OF; current level AA; ETA 2027; Pipeline overall grade 60; position RF; source level ALL (2); age 20; 2025 OBP .404; OPS .809; HR 10; SB 27
+MLB Pipeline Top 100 2026,701807,,Carson Benge,NYM,16,2,MLB,2026,60,,MLB Pipeline Top 100 rank 16; position OF; current level MLB; ETA 2026; Pipeline overall grade 60; source level A; age 23; 2025 OBP .420; OPS .856; HR 2; SB 3
+MLB Pipeline Top 100 2026,806258,,Thomas White,MIA,17,,AAA,2026,60,,MLB Pipeline Top 100 rank 17; position LHP; current level AAA; ETA 2026; Pipeline overall grade 60
+MLB Pipeline Top 100 2026,695600,,Carter Jensen,KC,18,1,MLB,2026,60,,MLB Pipeline Top 100 rank 18; position C; current level MLB; ETA 2026; Pipeline overall grade 60; source level ALL (2); age 22; 2025 OBP .359; OPS .809; HR 18; SB 17
+MLB Pipeline Top 100 2026,801139,,Payton Tolle,BOS,19,,AAA,2026,55,,MLB Pipeline Top 100 rank 19; position LHP; current level AAA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,683953,,Travis Bazzana,CLE,20,1,AAA,2026,55,,MLB Pipeline Top 100 rank 20; position 2B; current level AAA; ETA 2026; Pipeline overall grade 55; source level A+; age 23; 2025 OBP .369; OPS .765; HR 3; SB 5
+MLB Pipeline Top 100 2026,807739,,Kade Anderson,SEA,21,,Rookie,2027,55,,MLB Pipeline Top 100 rank 21; position LHP; current level Rookie; ETA 2027; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,701398,,Sal Stewart,CIN,22,1,MLB,2026,55,,MLB Pipeline Top 100 rank 22; position INF; current level MLB; ETA 2026; Pipeline overall grade 55; position 3B; source level A+; age 22; 2025 OBP .391; OPS .845; HR 8; SB 10
+MLB Pipeline Top 100 2026,805795,,Aidan Miller,PHI,23,1,AAA,2026,55,,MLB Pipeline Top 100 rank 23; position SS; current level AAA; ETA 2026; Pipeline overall grade 55; source level ALL (3); age 21; 2025 OBP .366; OPS .812; HR 11; SB 23
+MLB Pipeline Top 100 2026,815787,,Ethan Holliday,COL,24,,Single-A,2029,55,,MLB Pipeline Top 100 rank 24; position SS; current level Single-A; ETA 2029; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,805811,,Bryce Eldridge,SF,25,1,AAA,2026,55,,MLB Pipeline Top 100 rank 25; position 1B; current level AAA; ETA 2026; Pipeline overall grade 55; source level ALL (4); age 21; 2025 OBP .374; OPS .890; HR 23; SB 6
+MLB Pipeline Top 100 2026,821270,,Luis Peña,MIL,26,2,High-A,2028,55,,MLB Pipeline Top 100 rank 26; position INF; current level High-A; ETA 2028; Pipeline overall grade 55; position SS; source level ROK; age 19; 2025 OBP .457; OPS 1.040; HR 1; SB 39
+MLB Pipeline Top 100 2026,814307,,Zyhir Hope,LAD,27,2,AA,2027,55,,MLB Pipeline Top 100 rank 27; position OF; current level AA; ETA 2027; Pipeline overall grade 55; position CF; source level ALL (2); age 21; 2025 OBP .419; OPS .903; HR 9; SB 9
+MLB Pipeline Top 100 2026,691725,,Andrew Painter,PHI,28,,MLB,2026,55,,MLB Pipeline Top 100 rank 28; position RHP; current level MLB; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,815825,,Seth Hernandez,PIT,29,,Rookie,2028,55,,MLB Pipeline Top 100 rank 29; position RHP; current level Rookie; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,808234,,Eduardo Quintero,LAD,30,3,High-A,2028,55,,MLB Pipeline Top 100 rank 30; position OF; current level High-A; ETA 2028; Pipeline overall grade 55; position CF; source level ALL (2); age 20; 2025 OBP .419; OPS .813; HR 3; SB 32
+MLB Pipeline Top 100 2026,808265,,Franklin Arias,BOS,31,2,AA,2027,55,,MLB Pipeline Top 100 rank 31; position SS; current level AA; ETA 2027; Pipeline overall grade 55; source level ALL (2); age 20; 2025 OBP .409; OPS .896; HR 9; SB 35
+MLB Pipeline Top 100 2026,806146,,George Lombard Jr.,NYY,32,1,AA,2027,55,,MLB Pipeline Top 100 rank 32; position INF; current level AA; ETA 2027; Pipeline overall grade 55; position SS; source level ALL (2); age 20; 2025 OBP .338; OPS .672; HR 5; SB 39
+MLB Pipeline Top 100 2026,815549,,Ryan Sloan,SEA,33,,High-A,2028,55,,MLB Pipeline Top 100 rank 33; position RHP; current level High-A; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,824604,,Liam Doyle,STL,34,,AA,2027,55,,MLB Pipeline Top 100 rank 34; position LHP; current level AA; ETA 2027; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,800614,,Bryce Rainer,DET,35,,Single-A,2028,55,,MLB Pipeline Top 100 rank 35; position SS; current level Single-A; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,695731,,Braden Montgomery,CWS,36,,AA,2026,55,,MLB Pipeline Top 100 rank 36; position OF; current level AA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,823787,,Rainiel Rodriguez,STL,37,3,High-A,2028,55,,MLB Pipeline Top 100 rank 37; position C; current level High-A; ETA 2028; Pipeline overall grade 55; source level ROK; age 19; 2025 OBP .462; OPS 1.145; HR 10; SB 1
+MLB Pipeline Top 100 2026,806957,,Alfredo Duno,CIN,38,2,Single-A,2028,55,,MLB Pipeline Top 100 rank 38; position C; current level Single-A; ETA 2028; Pipeline overall grade 55; source level A; age 20; 2025 OBP .367; OPS .789; HR 3; SB 2
+MLB Pipeline Top 100 2026,702281,,Robby Snelling,MIA,39,,AAA,2026,55,,MLB Pipeline Top 100 rank 39; position LHP; current level AAA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,800522,,Josue Briceño,DET,40,4,AA,2027,55,,MLB Pipeline Top 100 rank 40; position C/1B; current level AA; ETA 2027; Pipeline overall grade 55; position C; source level A; age 21; 2025 OBP .381; OPS .758; HR 2; SB 1
+MLB Pipeline Top 100 2026,701364,,Jamie Arnold,ATH,41,,Rookie,2027,55,,MLB Pipeline Top 100 rank 41; position LHP; current level Rookie; ETA 2027; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,683357,,Owen Caissie,MIA,42,3,MLB,2026,55,,MLB Pipeline Top 100 rank 42; position OF; current level MLB; ETA 2026; Pipeline overall grade 55; position RF; source level AAA; age 23; 2025 OBP .375; OPS .847; HR 19; SB 11
+MLB Pipeline Top 100 2026,703155,,Lazaro Montes,SEA,43,4,AA,2027,55,,MLB Pipeline Top 100 rank 43; position OF; current level AA; ETA 2027; Pipeline overall grade 55; position RF; source level ALL (2); age 21; 2025 OBP .397; OPS .881; HR 21; SB 5
+MLB Pipeline Top 100 2026,829034,,Josuar Gonzalez,SF,44,,Rookie,2029,55,,MLB Pipeline Top 100 rank 44; position SS; current level Rookie; ETA 2029; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,828098,,JoJo Parker,TOR,45,,Rookie,2029,55,,MLB Pipeline Top 100 rank 45; position SS; current level Rookie; ETA 2029; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,800050,,Chase DeLauter,CLE,46,2,MLB,2026,55,,MLB Pipeline Top 100 rank 46; position OF; current level MLB; ETA 2026; Pipeline overall grade 55; position RF; source level ALL (3); age 24; 2025 OBP .341; OPS .841; HR 8; SB 1
+MLB Pipeline Top 100 2026,804109,,Aiva Arquette,MIA,47,,High-A,2028,55,,MLB Pipeline Top 100 rank 47; position SS; current level High-A; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,804636,,Jonah Tong,NYM,48,,AAA,2026,55,,MLB Pipeline Top 100 rank 48; position RHP; current level AAA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,702273,,Noah Schultz,CWS,49,,AAA,2026,55,,MLB Pipeline Top 100 rank 49; position LHP; current level AAA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,821273,,Edward Florentino,PIT,50,4,Single-A,2028,55,,MLB Pipeline Top 100 rank 50; position OF/1B; current level Single-A; ETA 2028; Pipeline overall grade 55; position OF; source level ROK; age 19; 2025 OBP .432; OPS .891; HR 5; SB 8
+MLB Pipeline Top 100 2026,702518,,Jett Williams,MIL,51,3,AAA,2026,55,,MLB Pipeline Top 100 rank 51; position SS/2B/OF; current level AAA; ETA 2026; Pipeline overall grade 55; position SS; source level ALL (3); age 22; 2025 OBP .358; OPS .656; HR 0; SB 5
+MLB Pipeline Top 100 2026,701785,,Kaelen Culpepper,MIN,52,2,AA,2027,55,,MLB Pipeline Top 100 rank 52; position SS; current level AA; ETA 2027; Pipeline overall grade 55; source level ALL (2); age 23; 2025 OBP .330; OPS .724; HR 3; SB 4
+MLB Pipeline Top 100 2026,702222,,Justin Crawford,PHI,53,3,MLB,2026,55,,MLB Pipeline Top 100 rank 53; position OF; current level MLB; ETA 2026; Pipeline overall grade 55; position CF; source level ALL (2); age 22; 2025 OBP .360; OPS .804; HR 9; SB 42
+MLB Pipeline Top 100 2026,805809,,Travis Sykora,WSH,54,,AA,2028,55,,MLB Pipeline Top 100 rank 54; position RHP; current level AA; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,694208,,Moisés Ballesteros,CHC,55,1,MLB,2026,55,,MLB Pipeline Top 100 rank 55; position C; current level MLB; ETA 2026; Pipeline overall grade 55; source level ALL (2); age 22; 2025 OBP .354; OPS .825; HR 19; SB 1
+MLB Pipeline Top 100 2026,813349,,Connelly Early,BOS,56,,MLB,2026,55,,MLB Pipeline Top 100 rank 56; position LHP; current level MLB; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,695611,,Gage Jump,ATH,57,,AA,2026,55,,MLB Pipeline Top 100 rank 57; position LHP; current level AA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,694393,,Jaxon Wiggins,CHC,58,,AAA,2026,55,,MLB Pipeline Top 100 rank 58; position RHP; current level AAA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,814439,,Ryan Waldschmidt,AZ,59,1,AA,2026,55,,MLB Pipeline Top 100 rank 59; position OF; current level AA; ETA 2026; Pipeline overall grade 55; position CF; source level A; age 23; 2025 OBP .485; OPS .803; HR 0; SB 4
+MLB Pipeline Top 100 2026,701527,,Mike Sirota,LAD,60,,High-A,2027,55,,MLB Pipeline Top 100 rank 60; position OF; current level High-A; ETA 2027; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,815352,,Caleb Bonemer,CWS,61,,High-A,2028,55,,MLB Pipeline Top 100 rank 61; position SS/3B; current level High-A; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,691788,,Joe Mack,MIA,62,5,AAA,2026,55,,MLB Pipeline Top 100 rank 62; position C; current level AAA; ETA 2026; Pipeline overall grade 55; source level ALL (2); age 23; 2025 OBP .338; OPS .806; HR 24; SB 3
+MLB Pipeline Top 100 2026,700246,,Carson Williams,TB,63,1,MLB,2026,55,,MLB Pipeline Top 100 rank 63; position SS; current level MLB; ETA 2026; Pipeline overall grade 55; source level AA; age 22; 2025 OBP .352; OPS .821; HR 20; SB 33
+MLB Pipeline Top 100 2026,806198,,Cooper Pratt,MIL,64,4,AA,2026,55,,MLB Pipeline Top 100 rank 64; position SS; current level AA; ETA 2026; Pipeline overall grade 55; source level ALL (2); age 21; 2025 OBP .362; OPS .768; HR 8; SB 27
+MLB Pipeline Top 100 2026,806953,,Eduardo Tait,MIN,65,3,High-A,2028,55,,MLB Pipeline Top 100 rank 65; position C; current level High-A; ETA 2028; Pipeline overall grade 55; source level ALL (2); age 19; 2025 OBP .356; OPS .842; HR 11; SB 5
+MLB Pipeline Top 100 2026,694197,,Angel Genao,CLE,66,3,AAA,2026,55,,MLB Pipeline Top 100 rank 66; position SS; current level AAA; ETA 2026; Pipeline overall grade 55; position 3B; source level ALL (2); age 21; 2025 OBP .379; OPS .878; HR 10; SB 25
+MLB Pipeline Top 100 2026,703197,,Michael Arroyo,SEA,67,5,AA,2026,55,,MLB Pipeline Top 100 rank 67; position 2B; current level AA; ETA 2026; Pipeline overall grade 55; position SS; source level ALL (2); age 21; 2025 OBP .400; OPS .909; HR 23; SB 18
+MLB Pipeline Top 100 2026,807284,,Cam Caminiti,ATL,68,,Single-A,2027,55,,MLB Pipeline Top 100 rank 68; position LHP; current level Single-A; ETA 2027; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,687637,,Dylan Beavers,BAL,69,2,MLB,2026,55,,MLB Pipeline Top 100 rank 69; position OF; current level MLB; ETA 2026; Pipeline overall grade 55; position RF; source level ALL (2); age 24; 2025 OBP .342; OPS .750; HR 15; SB 31
+MLB Pipeline Top 100 2026,809707,,Charlie Condon,COL,70,2,AA,2026,55,,MLB Pipeline Top 100 rank 70; position 1B/OF; current level AA; ETA 2026; Pipeline overall grade 55; position OF; source level A+; age 22; 2025 OBP .248; OPS .518; HR 1; SB 4
+MLB Pipeline Top 100 2026,695670,,Harry Ford,WSH,71,3,AAA,2026,55,,MLB Pipeline Top 100 rank 71; position C; current level AAA; ETA 2026; Pipeline overall grade 55; source level AA; age 23; 2025 OBP .377; OPS .744; HR 7; SB 35
+MLB Pipeline Top 100 2026,696146,,Hagen Smith,CWS,72,,AA,2026,55,,MLB Pipeline Top 100 rank 72; position LHP; current level AA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,815814,,Billy Carlson,CWS,73,,Rookie,2029,55,,MLB Pipeline Top 100 rank 73; position SS; current level Rookie; ETA 2029; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,691181,,Emmanuel Rodriguez,MIN,74,4,AAA,2026,55,,MLB Pipeline Top 100 rank 74; position OF; current level AAA; ETA 2026; Pipeline overall grade 55; position CF; source level ALL (4); age 23; 2025 OBP .459; OPS 1.026; HR 9; SB 9
+MLB Pipeline Top 100 2026,805810,,Blake Mitchell,KC,75,2,High-A,2027,55,,MLB Pipeline Top 100 rank 75; position C; current level High-A; ETA 2027; Pipeline overall grade 55; source level ALL (2); age 21; 2025 OBP .368; OPS .792; HR 18; SB 26
+MLB Pipeline Top 100 2026,815394,,Theo Gillen,TB,76,2,Single-A,2028,55,,MLB Pipeline Top 100 rank 76; position OF; current level Single-A; ETA 2028; Pipeline overall grade 55; source level A; age 20; 2025 OBP .353; OPS .545; HR 0; SB 1
+MLB Pipeline Top 100 2026,805796,,Arjun Nimmala,TOR,77,3,High-A,2028,55,,MLB Pipeline Top 100 rank 77; position SS; current level High-A; ETA 2028; Pipeline overall grade 55; source level ALL (2); age 20; 2025 OBP .325; OPS .807; HR 17; SB 9
+MLB Pipeline Top 100 2026,806071,,Jonny Farmelo,SEA,78,6,High-A,2028,55,,MLB Pipeline Top 100 rank 78; position OF; current level High-A; ETA 2028; Pipeline overall grade 55; source level A; age 21; 2025 OBP .398; OPS .819; HR 4; SB 18
+MLB Pipeline Top 100 2026,801739,,Carlos Lagrange,NYY,79,,AA,2026,55,,MLB Pipeline Top 100 rank 79; position RHP; current level AA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,703186,,Jarlin Susana,WSH,80,,AA,2027,55,,MLB Pipeline Top 100 rank 80; position RHP; current level AA; ETA 2027; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,803285,,Tyler Bremner,LAA,81,,Rookie,2026,55,,MLB Pipeline Top 100 rank 81; position RHP; current level Rookie; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,695684,,Elmer Rodríguez,NYY,82,,AAA,2026,55,,MLB Pipeline Top 100 rank 82; position RHP; current level AAA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,829162,,Steele Hall,CIN,83,,Rookie,2029,55,,MLB Pipeline Top 100 rank 83; position SS; current level Rookie; ETA 2029; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,804817,,Kyson Witherspoon,BOS,84,,Rookie,2027,55,,MLB Pipeline Top 100 rank 84; position RHP; current level Rookie; ETA 2027; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,811315,,Brody Hopkins,TB,85,,AA,2026,55,,MLB Pipeline Top 100 rank 85; position RHP; current level AA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,695076,,Rhett Lowder,CIN,86,,MLB,2026,55,,MLB Pipeline Top 100 rank 86; position RHP; current level MLB; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,695491,,Joshua Báez,STL,87,4,AA,2026,55,,MLB Pipeline Top 100 rank 87; position OF; current level AA; ETA 2026; Pipeline overall grade 55; position RF; source level ALL (2); age 22; 2025 OBP .335; OPS .743; HR 11; SB 29
+MLB Pipeline Top 100 2026,828244,,Kruz Schoolcraft,SD,88,,Single-A,2029,55,,MLB Pipeline Top 100 rank 88; position LHP; current level Single-A; ETA 2029; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,806252,,Ralphy Velazquez,CLE,89,4,AA,2027,55,,MLB Pipeline Top 100 rank 89; position 1B/OF; current level AA; ETA 2027; Pipeline overall grade 55; position 1B; source level ALL (2); age 20; 2025 OBP .347; OPS .732; HR 11; SB 8
+MLB Pipeline Top 100 2026,702275,,JR Ritchie,ATL,90,,AAA,2026,55,,MLB Pipeline Top 100 rank 90; position RHP; current level AAA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,701388,,Jurrangelo Cijntje,STL,91,,AA,2026,55,,MLB Pipeline Top 100 rank 91; position RHP; current level AA; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,815896,,Emil Morales,LAD,92,5,Single-A,2029,55,,MLB Pipeline Top 100 rank 92; position SS; current level Single-A; ETA 2029; Pipeline overall grade 55; source level ROK; age 19; 2025 OBP .478; OPS 1.169; HR 14; SB 12
+MLB Pipeline Top 100 2026,825582,,Nate George,BAL,93,,High-A,2028,55,,MLB Pipeline Top 100 rank 93; position OF; current level High-A; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,828076,,Dax Kilby,NYY,94,,Single-A,2028,55,,MLB Pipeline Top 100 rank 94; position SS; current level Single-A; ETA 2028; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,800048,,Parker Messick,CLE,95,,MLB,2026,55,,MLB Pipeline Top 100 rank 95; position LHP; current level MLB; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,682995,,Hunter Barco,PIT,96,,MLB,2026,55,,MLB Pipeline Top 100 rank 96; position LHP; current level MLB; ETA 2026; Pipeline overall grade 55
+MLB Pipeline Top 100 2026,805999,,A.J. Ewing,NYM,97,4,AA,2027,55,,MLB Pipeline Top 100 rank 97; position OF/2B; current level AA; ETA 2027; Pipeline overall grade 55; position LF; source level ALL (2); age 21; 2025 OBP .361; OPS .751; HR 10; SB 13
+MLB Pipeline Top 100 2026,699024,,Leo Bernal,STL,98,6,AA,2027,55,,MLB Pipeline Top 100 rank 98; position C; current level AA; ETA 2027; Pipeline overall grade 55; source level ALL (2); age 22; 2025 OBP .336; OPS .739; HR 11; SB 7
+MLB Pipeline Top 100 2026,694876,,Cooper Ingle,CLE,99,6,AAA,2026,55,,MLB Pipeline Top 100 rank 99; position C; current level AAA; ETA 2026; Pipeline overall grade 55; source level ALL (2); age 24; 2025 OBP .419; OPS .897; HR 11; SB 7
+MLB Pipeline Top 100 2026,687075,,Brandon Sproat,MIL,100,,MLB,2026,55,,MLB Pipeline Top 100 rank 100; position RHP; current level MLB; ETA 2026; Pipeline overall grade 55
+Imported from Downloads prospects.csv,806956,,Ethan Salas,SD,101,2,High-A,,,,position C; source level A+; age 19; 2025 OBP .288; OPS .599; HR 4; SB 10
+Imported from Downloads prospects.csv,703606,,Jared Thomas,COL,102,3,Single-A,,,,position CF; source level A; age 22; 2025 OBP .389; OPS .934; HR 2; SB 1
+Imported from Downloads prospects.csv,703185,,Nelson Rada,LAA,103,3,AA,,,,position CF; source level AA; age 20; 2025 OBP .331; OPS .600; HR 1; SB 35
+Imported from Downloads prospects.csv,694728,,Brice Matthews,HOU,104,4,,,,,position SS; source level ALL (4); age 24; 2025 OBP .384; OPS .865; HR 15; SB 32
+Imported from Downloads prospects.csv,821041,,Roldy Brito,COL,105,4,Rookie,,,,position 2B; source level ROK; age 18; 2025 OBP .360; OPS .674; HR 0; SB 24
+Imported from Downloads prospects.csv,694371,,Tommy Troy,AZ,106,4,,,,,position SS; source level ALL (2); age 24; 2025 OBP .318; OPS .681; HR 5; SB 16
+Imported from Downloads prospects.csv,682634,,Kevin Alcántara,CHC,107,4,,,,,position RF; source level ALL (3); age 23; 2025 OBP .348; OPS .768; HR 14; SB 14
+Imported from Downloads prospects.csv,689200,,Jacob Melton,TB,108,4,,,,,position LF; source level ALL (2); age 25; 2025 OBP .310; OPS .736; HR 15; SB 30
+Imported from Downloads prospects.csv,815929,,Jhonny Level,SF,109,4,,,,,position ROK; source level ; age 18; 2025 OBP .393; OPS .910; HR 10; SB 18
+Imported from Downloads prospects.csv,702679,,Demetrio Crisantes,AZ,110,5,,,,,position SS; source level ALL (2); age 21; 2025 OBP .429; OPS .921; HR 7; SB 30
+Imported from Downloads prospects.csv,801194,,Max Anderson,DET,111,5,,,,,position 2B; source level ALL (2); age 24; 2025 OBP .315; OPS .702; HR 11; SB 1
+Imported from Downloads prospects.csv,801075,,Walker Janek,HOU,112,5,High-A,,,,position C; source level A+; age 23; 2025 OBP .214; OPS .503; HR 1; SB 0
+Imported from Downloads prospects.csv,703607,,Henry Bolte,ATH,113,5,,,,,position RF; source level ALL (2); age 22; 2025 OBP .368; OPS .834; HR 15; SB 46
+Imported from Downloads prospects.csv,800473,,Jefferson Rojas,CHC,114,5,High-A,,,,position SS; source level A+; age 20; 2025 OBP .310; OPS .646; HR 6; SB 21
+Imported from Downloads prospects.csv,691775,,Ryan Clifford,NYM,115,5,,,,,position 1B; source level ALL (2); age 22; 2025 OBP .372; OPS .793; HR 19; SB 4
+Imported from Downloads prospects.csv,806978,,Robert Calaz,COL,116,5,,,,,position OF; source level ALL (2); age 20; 2025 OBP .446; OPS 1.079; HR 12; SB 15
+Imported from Downloads prospects.csv,699302,,Héctor Rodríguez,CIN,117,6,High-A,,,,position LF; source level A+; age 22; 2025 OBP .309; OPS .729; HR 12; SB 12
+Imported from Downloads prospects.csv,702544,,Jacob Reimer,NYM,118,6,,,,,position 3B; source level ALL (3); age 22; 2025 OBP .358; OPS .640; HR 0; SB 0
+Imported from Downloads prospects.csv,691373,,Jhostynxon Garcia,PIT,119,6,,,,,position CF; source level ALL (3); age 23; 2025 OBP .356; OPS .892; HR 23; SB 17
+Imported from Downloads prospects.csv,701678,,Hao-Yu  Lee,DET,120,6,AA,,,,position 2B; source level AA; age 23; 2025 OBP .363; OPS .851; HR 12; SB 16
+Imported from Downloads prospects.csv,702607,,Dakota Jordan,SF,121,6,Single-A,,,,position OF; source level A; age 22; 2025 OBP .000; OPS .000; HR 0; SB 1
+Imported from Downloads prospects.csv,694249,,Cole Carrigg,COL,122,6,,,,,position 1B; source level ALL (2); age 23; 2025 OBP .359; OPS .850; HR 17; SB 53
+Imported from Downloads prospects.csv,821100,,Justin Gonzales,BOS,123,6,,,,,position CF; source level ALL (2); age 19; 2025 OBP .391; OPS .908; HR 5; SB 8
+Imported from Downloads prospects.csv,800169,,Aroon Escobar,PHI,124,6,Rookie,,,,position 2B; source level ROK; age 21; 2025 OBP .495; OPS .976; HR 3; SB 9
+Imported from Downloads prospects.csv,682987,,Spencer Jones,NYY,125,6,AA,,,,position CF; source level AA; age 24; 2025 OBP .336; OPS .788; HR 17; SB 25
+Imported from Downloads prospects.csv,806965,,Starlyn Caba,MIA,126,7,,,,,position SS; source level ALL (2); age 20; 2025 OBP .385; OPS .669; HR 2; SB 50
+Imported from Downloads prospects.csv,815589,,Bo Davidson,SF,127,7,,,,,position LF; source level ALL (2); age 23; 2025 OBP .437; OPS 1.042; HR 11; SB 7
+Imported from Downloads prospects.csv,806958,,Felnin Celesten,SEA,128,7,Rookie,,,,position SS; source level ROK; age 20; 2025 OBP .431; OPS .999; HR 3; SB 5
+Imported from Downloads prospects.csv,814409,,Seaver King,WSH,129,7,Single-A,,,,position SS; source level A; age 22; 2025 OBP .367; OPS .752; HR 0; SB 10
+Imported from Downloads prospects.csv,702253,,Cam Collier,CIN,130,7,High-A,,,,position 3B; source level A+; age 21; 2025 OBP .355; OPS .798; HR 20; SB 2
+Imported from Downloads prospects.csv,815894,,Jorge Quintana,SD,131,7,Rookie,,,,position SS; source level ROK; age 18; 2025 OBP .361; OPS .741; HR 2; SB 22
+Imported from Downloads prospects.csv,702261,,Termarr Johnson,PIT,132,7,,,,,position 2B; source level ALL (2); age 21; 2025 OBP .366; OPS .752; HR 15; SB 22
+Imported from Downloads prospects.csv,675085,,Jonathon Long,CHC,133,7,,,,,position 1B; source level ALL (2); age 24; 2025 OBP .391; OPS .852; HR 17; SB 2
+Imported from Downloads prospects.csv,815915,,Joswa Lugo,LAA,134,7,Rookie,,,,position SS; source level ROK; age 19; 2025 OBP .370; OPS .836; HR 5; SB 18
+Imported from Downloads prospects.csv,807276,,Dante Nori,PHI,135,7,Single-A,,,,position OF; source level A; age 21; 2025 OBP .424; OPS .704; HR 0; SB 4
+Imported from Downloads prospects.csv,699073,,Thayron Liranzo,DET,136,7,,,,,position C; source level ALL (2); age 22; 2025 OBP .378; OPS .786; HR 12; SB 1
+Imported from Downloads prospects.csv,694224,,Gabriel Gonzalez,MIN,137,7,,,,,position RF; source level ALL (2); age 22; 2025 OBP .326; OPS .707; HR 5; SB 5
+Imported from Downloads prospects.csv,815931,,Yolfran Castillo,TEX,138,8,,,,,position SS; source level ALL (2); age 19; 2025 OBP .481; OPS .896; HR 0; SB 10
+Imported from Downloads prospects.csv,687282,,Gabriel Rincones Jr.,PHI,139,8,,,,,position RF; source level ALL (2); age 25; 2025 OBP .347; OPS .800; HR 11; SB 23
+Imported from Downloads prospects.csv,808675,,Ramon Ramirez,KC,140,8,Rookie,,,,position C; source level ROK; age 20; 2025 OBP .379; OPS .838; HR 7; SB 1
+Imported from Downloads prospects.csv,690976,,Alex Freeland,LAD,141,8,,,,,position SS; source level ALL (3); age 24; 2025 OBP .387; OPS .829; HR 18; SB 31
+Imported from Downloads prospects.csv,699625,,Jimmy Crooks,STL,142,8,AA,,,,position C; source level AA; age 24; 2025 OBP .410; OPS .908; HR 11; SB 4
+Imported from Downloads prospects.csv,694203,,Denzer Guzman,LAA,143,8,,,,,position SS; source level ALL (2); age 22; 2025 OBP .302; OPS .617; HR 6; SB 10
+Imported from Downloads prospects.csv,803011,,Sam Antonacci,CWS,144,9,Single-A,,,,position SS; source level A; age 23; 2025 OBP .471; OPS .903; HR 0; SB 7
+Imported from Downloads prospects.csv,695720,,Tommy White,ATH,145,9,Single-A,,,,position 3B; source level A; age 23; 2025 OBP .303; OPS .602; HR 2; SB 0
+Imported from Downloads prospects.csv,800406,,Aron Estrada,BAL,146,9,,,,,position 2B; source level ALL (2); age 21; 2025 OBP .356; OPS .772; HR 9; SB 39
+Imported from Downloads prospects.csv,699393,,Pedro Ramírez,CHC,147,9,High-A,,,,position 2B; source level A+; age 21; 2025 OBP .348; OPS .729; HR 4; SB 14
+Imported from Downloads prospects.csv,694580,,Kemp Alderman,MIA,148,9,,,,,position RF; source level ALL (4); age 23; 2025 OBP .306; OPS .697; HR 8; SB 5
+Imported from Downloads prospects.csv,702302,,RJ Schreck,TOR,149,9,,,,,position LF; source level ALL (3); age 25; 2025 OBP .388; OPS .850; HR 17; SB 13
+Imported from Downloads prospects.csv,701649,,James Triantos,CHC,150,10,,,,,position 2B; source level ALL (2); age 23; 2025 OBP .346; OPS .773; HR 7; SB 47
+Imported from Downloads prospects.csv,691792,,Roc Riggio,COL,151,10,High-A,,,,position 2B; source level A+; age 23; 2025 OBP .349; OPS .746; HR 11; SB 27
+Imported from Downloads prospects.csv,690961,,Enrique Bradfield Jr.,BAL,152,10,,,,,position CF; source level ALL (2); age 24; 2025 OBP .358; OPS .729; HR 4; SB 74
+Imported from Downloads prospects.csv,808535,,John Gil,ATL,153,10,,,,,position 3B; source level ALL (2); age 19; 2025 OBP .358; OPS .688; HR 3; SB 40
+Imported from Downloads prospects.csv,702662,,Dylan Dreiling,TEX,154,10,High-A,,,,position OF; source level A+; age 22; 2025 OBP .340; OPS .619; HR 1; SB 5
+Imported from Downloads prospects.csv,804668,,Rafael Flores Jr.,PIT,155,10,,,,,position C; source level ALL (2); age 25; 2025 OBP .379; OPS .874; HR 21; SB 8
+Imported from Downloads prospects.csv,694410,,LuJames Groover,AZ,156,10,,,,,position 3B; source level ALL (3); age 23; 2025 OBP .367; OPS .841; HR 10; SB 4
+Imported from Downloads prospects.csv,682818,,Yohendrick Pinango,TOR,157,10,,,,,position LF; source level ALL (3); age 23; 2025 OBP .331; OPS .720; HR 10; SB 11
+Imported from Downloads prospects.csv,701392,,Marco Dinges,MIL,158,10,Single-A,,,,position C; source level A; age 22; 2025 OBP .364; OPS .718; HR 0; SB 0
+Imported from Downloads prospects.csv,811965,,Joshua Kuroda-Grauer,ATH,159,10,,,,,position SS; source level ALL (3); age 23; 2025 OBP .421; OPS .764; HR 0; SB 5
+Imported from Downloads prospects.csv,805904,,Zach Cole,HOU,160,11,,,,,position CF; source level ALL (2); age 25; 2025 OBP .308; OPS .727; HR 11; SB 15
+Imported from Downloads prospects.csv,696486,,James Tibbs III,LAD,161,11,,,,,position RF; source level ALL (2); age 23; 2025 OBP .293; OPS .636; HR 2; SB 0
+Imported from Downloads prospects.csv,689196,,Owen Ayers,CHC,162,11,Single-A,,,,position C; source level A; age 24; 2025 OBP .271; OPS .573; HR 1; SB 1
+Imported from Downloads prospects.csv,827665,,Dillon Lewis,MIA,163,11,Single-A,,,,position OF; source level A; age 22; 2025 OBP .304; OPS .689; HR 1; SB 3
+Imported from Downloads prospects.csv,815304,,Josh Adamczewski,MIL,164,11,,,,,position 2B; source level ALL (2); age 20; 2025 OBP .459; OPS .945; HR 3; SB 8
+Imported from Downloads prospects.csv,703151,,William Bergolla Jr.,CWS,165,11,,,,,position 2B; source level ALL (2); age 21; 2025 OBP .359; OPS .740; HR 1; SB 27
+Imported from Downloads prospects.csv,699013,,Esmerlyn Valdez,PIT,166,11,Single-A,,,,position OF; source level A; age 22; 2025 OBP .352; OPS .816; HR 22; SB 4
+Imported from Downloads prospects.csv,815911,,Edgar Montero,ATH,167,11,Rookie,,,,position SS; source level ROK; age 19; 2025 OBP .398; OPS .773; HR 3; SB 11
+Imported from Downloads prospects.csv,815902,,Yandel Ricardo,KC,168,11,Rookie,,,,position SS; source level ROK; age 19; 2025 OBP .330; OPS .696; HR 2; SB 14
+Imported from Downloads prospects.csv,821181,,Juneiker Caceres,CLE,169,11,Rookie,,,,position OF; source level ROK; age 18; 2025 OBP .425; OPS .929; HR 0; SB 9
+Imported from Downloads prospects.csv,701682,,Braedon Karpathios,SD,170,12,Single-A,,,,position RF; source level A; age 22; 2025 OBP .388; OPS .773; HR 8; SB 5
+Imported from Downloads prospects.csv,800508,,Franyerber Montilla,DET,171,12,,,,,position SS; source level ALL (2); age 20; 2025 OBP .374; OPS .736; HR 6; SB 30
+Imported from Downloads prospects.csv,821150,,Enddy Azocar,BOS,172,12,Rookie,,,,position CF; source level ROK; age 19; 2025 OBP .397; OPS .706; HR 0; SB 2
+Imported from Downloads prospects.csv,694230,,Hendry Mendez,MIN,173,12,High-A,,,,position OF; source level A+; age 22; 2025 OBP .386; OPS .777; HR 3; SB 3
+Imported from Downloads prospects.csv,692478,,Victor Arias,TOR,174,12,,,,,position CF; source level ALL (2); age 22; 2025 OBP .390; OPS .833; HR 8; SB 18
+Imported from Downloads prospects.csv,820986,,Hayden Alvarez,LAA,175,12,Rookie,,,,position OF; source level ROK; age 19; 2025 OBP .363; OPS .721; HR 1; SB 32
+Imported from Downloads prospects.csv,806223,,Aidan Smith,TB,176,12,,,,,position OF; source level ALL (2); age 21; 2025 OBP .401; OPS .874; HR 11; SB 41
+Imported from Downloads prospects.csv,806230,,Sammy Stafura,PIT,177,12,,,,,position SS; source level ALL (2); age 21; 2025 OBP .387; OPS .799; HR 8; SB 31
+Imported from Downloads prospects.csv,702693,,Jaison Chourio,CLE,178,12,Single-A,,,,position CF; source level A; age 20; 2025 OBP .414; OPS .812; HR 5; SB 44
+Imported from Downloads prospects.csv,800325,,Luis Lara,MIL,179,12,High-A,,,,position CF; source level A+; age 21; 2025 OBP .332; OPS .659; HR 4; SB 45
+Imported from Downloads prospects.csv,828599,,Lucas Spence,HOU,180,12,Single-A,,,,position OF; source level A; age 23; 2025 OBP .347; OPS .635; HR 1; SB 4
+Imported from Downloads prospects.csv,703492,,Nick Morabito,NYM,181,13,,,,,position CF; source level ALL (2); age 22; 2025 OBP .403; OPS .801; HR 4; SB 59
+Imported from Downloads prospects.csv,702540,,Mikey Romero,BOS,182,13,,,,,position SS; source level ALL (3); age 22; 2025 OBP .312; OPS .821; HR 16; SB 1
+Imported from Downloads prospects.csv,816120,,Griffin Burkholder,PHI,183,13,Single-A,,,,position OF; source level A; age 20; 2025 OBP .500; OPS 2.000; HR 0; SB 0
+Imported from Downloads prospects.csv,691728,,Zac Veen,COL,184,13,,,,,position LF; source level ALL (4); age 24; 2025 OBP .346; OPS .805; HR 11; SB 21
+Imported from Downloads prospects.csv,702726,,Luke Adams,MIL,185,13,High-A,,,,position 3B; source level A+; age 21; 2025 OBP .443; OPS .840; HR 11; SB 28
+Imported from Downloads prospects.csv,806988,,Welbyn Francisca,CLE,186,13,,,,,position SS; source level ALL (2); age 19; 2025 OBP .411; OPS .885; HR 7; SB 19
+Imported from Downloads prospects.csv,800306,,Jansel Luis,AZ,187,13,Single-A,,,,position 2B; source level A; age 21; 2025 OBP .337; OPS .751; HR 7; SB 20
+Imported from Downloads prospects.csv,688460,,Josh Kasevich,TOR,188,13,,,,,position SS; source level ALL (2); age 25; 2025 OBP .348; OPS .733; HR 6; SB 13
+Imported from Downloads prospects.csv,808684,,Javier Mogollon,CWS,189,13,Rookie,,,,position 2B; source level ROK; age 20; 2025 OBP .406; OPS .930; HR 8; SB 16
+Imported from Downloads prospects.csv,695508,,Cameron Cauley,TEX,190,13,,,,,position SS; source level ALL (2); age 23; 2025 OBP .304; OPS .739; HR 15; SB 27
+Imported from Downloads prospects.csv,692238,,Parks Harber,SF,191,14,Single-A,,,,position 3B; source level A; age 24; 2025 OBP .389; OPS .838; HR 1; SB 4
+Imported from Downloads prospects.csv,702501,,Eli Serrano III,NYM,192,14,Single-A,,,,position RF; source level A; age 22; 2025 OBP .333; OPS .777; HR 2; SB 1
+Imported from Downloads prospects.csv,813896,,Joseph Sullivan,HOU,193,14,Single-A,,,,position CF; source level A; age 23; 2025 OBP .416; OPS .740; HR 0; SB 8
+Imported from Downloads prospects.csv,800060,,Xavier Isaac,TB,194,14,,,,,position 1B; source level ALL (2); age 22; 2025 OBP .370; OPS .850; HR 18; SB 15
+Imported from Downloads prospects.csv,805804,,George Wolkow,CWS,195,14,,,,,position OF; source level ALL (2); age 20; 2025 OBP .357; OPS .808; HR 13; SB 9
+Imported from Downloads prospects.csv,815520,,Braylon Payne,MIL,196,14,Single-A,,,,position OF; source level A; age 19; 2025 OBP .526; OPS 1.151; HR 0; SB 4
+Imported from Downloads prospects.csv,806077,,Kendall George,LAD,197,14,Single-A,,,,position CF; source level A; age 21; 2025 OBP .384; OPS .712; HR 1; SB 36
+Imported from Downloads prospects.csv,694514,,Sterlin Thompson,COL,198,15,AA,,,,position OF; source level AA; age 24; 2025 OBP .319; OPS .704; HR 13; SB 12
+Imported from Downloads prospects.csv,828667,,Ching-Hsien Ko,LAD,199,15,Rookie,,,,position OF; source level ROK; age 19; 2025 OBP .450; OPS .898; HR 1; SB 1
+Imported from Downloads prospects.csv,696135,,Kahlil Watson,CLE,200,15,AA,,,,position LF; source level AA; age 22; 2025 OBP .305; OPS .712; HR 16; SB 15
+Imported from Downloads prospects.csv,800198,,Cristofer Torin,AZ,201,15,Single-A,,,,position 2B; source level A; age 20; 2025 OBP .381; OPS .725; HR 4; SB 15
+Imported from Downloads prospects.csv,699130,,Jadher Areinamo,TB,202,15,High-A,,,,position 2B; source level A+; age 22; 2025 OBP .349; OPS .791; HR 10; SB 32
+Imported from Downloads prospects.csv,694377,,Nick Yorke,PIT,203,15,,,,,position 2B; source level ALL (4); age 23; 2025 OBP .378; OPS .822; HR 14; SB 23
+Imported from Downloads prospects.csv,800419,,Jeral Perez,CWS,204,15,,,,,position 3B; source level ALL (2); age 21; 2025 OBP .370; OPS .793; HR 12; SB 4
+Imported from Downloads prospects.csv,807726,,John Peck,DET,205,15,,,,,position SS; source level ALL (3); age 23; 2025 OBP .360; OPS .762; HR 3; SB 33
+Imported from Downloads prospects.csv,806872,,Carlos Gutierrez,SF,206,15,Rookie,,,,position OF; source level ROK; age 21; 2025 OBP .385; OPS .968; HR 1; SB 0
+Imported from Downloads prospects.csv,807645,,Adolfo Sanchez,CIN,207,15,,,,,position OF; source level ALL (2); age 19; 2025 OBP .356; OPS .701; HR 2; SB 11
+Imported from Downloads prospects.csv,821107,,Yairo Padilla,STL,208,16,Rookie,,,,position SS; source level ROK; age 18; 2025 OBP .391; OPS .795; HR 1; SB 22
+Imported from Downloads prospects.csv,702258,,Druw Jones,AZ,209,16,Single-A,,,,position CF; source level A; age 22; 2025 OBP .409; OPS .814; HR 6; SB 21
+Imported from Downloads prospects.csv,804558,,Raudi Rodriguez,LAA,210,16,Rookie,,,,position CF; source level ROK; age 22; 2025 OBP .340; OPS .654; HR 1; SB 4
+Imported from Downloads prospects.csv,806984,,Arnaldo Lantigua,CIN,211,16,Rookie,,,,position OF; source level ROK; age 20; 2025 OBP .430; OPS 1.005; HR 11; SB 6
+Imported from Downloads prospects.csv,806210,,Alfonsin Rosario,CLE,212,16,Single-A,,,,position RF; source level A; age 21; 2025 OBP .344; OPS .767; HR 16; SB 20
+Imported from Downloads prospects.csv,694183,,Cristian Hernandez,MIA,213,16,,,,,position SS; source level ALL (2); age 22; 2025 OBP .374; OPS .755; HR 5; SB 44
+Imported from Downloads prospects.csv,801523,,Chris Suero,NYM,214,16,,,,,position C; source level ALL (2); age 22; 2025 OBP .361; OPS .730; HR 9; SB 20
+Imported from Downloads prospects.csv,702601,,Lamar King Jr.,SD,215,16,,,,,position C; source level ALL (2); age 22; 2025 OBP .379; OPS .800; HR 2; SB 0
+Imported from Downloads prospects.csv,814791,,Jared Sundstrom,SEA,216,17,High-A,,,,position OF; source level A+; age 24; 2025 OBP .380; OPS .814; HR 13; SB 26
+Imported from Downloads prospects.csv,815873,,Sean Keys,TOR,217,17,Single-A,,,,position 3B; source level A; age 22; 2025 OBP .378; OPS .829; HR 1; SB 2
+Imported from Downloads prospects.csv,806263,,Brandon Winokur,MIN,218,17,Single-A,,,,position SS; source level A; age 21; 2025 OBP .327; OPS .761; HR 14; SB 23
+Imported from Downloads prospects.csv,808024,,Carlos Virahonda,AZ,219,17,Rookie,,,,position C; source level ROK; age 20; 2025 OBP .279; OPS .510; HR 1; SB 2
+Imported from Downloads prospects.csv,808706,,Asbel Gonzalez,KC,220,17,,,,,position CF; source level ALL (2); age 20; 2025 OBP .397; OPS .773; HR 0; SB 23
+Imported from Downloads prospects.csv,692657,,Omar Alfonzo,PIT,221,17,,,,,position C; source level ALL (2); age 22; 2025 OBP .357; OPS .760; HR 13; SB 2
+Imported from Downloads prospects.csv,694194,,Miguel Bleis,BOS,222,17,,,,,position RF; source level ALL (2); age 22; 2025 OBP .303; OPS .657; HR 11; SB 38
+Imported from Downloads prospects.csv,682877,,Juan Brito,CLE,223,17,AAA,,,,position SS; source level AAA; age 24; 2025 OBP .365; OPS .808; HR 21; SB 13
+Imported from Downloads prospects.csv,815909,,Luis Cova,MIA,224,17,,,,,position OF; source level ALL (2); age 19; 2025 OBP .376; OPS .724; HR 3; SB 36
+Imported from Downloads prospects.csv,699114,,Leo Balcazar,CIN,225,17,High-A,,,,position SS; source level A+; age 21; 2025 OBP .295; OPS .649; HR 6; SB 9
+Imported from Downloads prospects.csv,811287,,Carson Roccaforte,KC,226,18,High-A,,,,position CF; source level A+; age 23; 2025 OBP .293; OPS .635; HR 10; SB 34
+Imported from Downloads prospects.csv,683679,,Jesus Rodriguez,SF,227,18,,,,,position C; source level ALL (2); age 23; 2025 OBP .375; OPS .856; HR 10; SB 9
+Imported from Downloads prospects.csv,815195,,Wilder Dalis,COL,228,18,Rookie,,,,position SS; source level ROK; age 19; 2025 OBP .445; OPS .895; HR 3; SB 21
+Imported from Downloads prospects.csv,702270,,Malcolm Moore,TEX,229,18,High-A,,,,position C; source level A+; age 22; 2025 OBP .298; OPS .672; HR 3; SB 3
+Imported from Downloads prospects.csv,701831,,Carson DeMartini,PHI,230,18,Single-A,,,,position SS; source level A; age 23; 2025 OBP .385; OPS .863; HR 2; SB 8
+Imported from Downloads prospects.csv,699115,,Carlos Jorge,CIN,231,18,High-A,,,,position CF; source level A+; age 22; 2025 OBP .291; OPS .685; HR 12; SB 28
+Imported from Downloads prospects.csv,681047,,Christian Franklin,WSH,232,18,AA,,,,position LF; source level AA; age 26; 2025 OBP .398; OPS .764; HR 5; SB 34
+Imported from Downloads prospects.csv,801126,,Brock Rodden,SEA,233,18,,,,,position 2B; source level ALL (2); age 25; 2025 OBP .343; OPS .759; HR 14; SB 29
+Imported from Downloads prospects.csv,820847,,Jordan Sanchez,BAL,234,18,Rookie,,,,position OF; source level ROK; age 20; 2025 OBP .432; OPS 1.037; HR 6; SB 5
+Imported from Downloads prospects.csv,806985,,Yoeilin Cespedes,BOS,235,18,Rookie,,,,position SS; source level ROK; age 20; 2025 OBP .400; OPS 1.015; HR 5; SB 3
+Imported from Downloads prospects.csv,695501,,Blake Burke,MIL,236,18,High-A,,,,position 1B; source level A+; age 22; 2025 OBP .333; OPS .583; HR 0; SB 0
+Imported from Downloads prospects.csv,701394,,Zach Ehrhard,LAD,237,18,High-A,,,,position OF; source level A+; age 23; 2025 OBP .264; OPS .459; HR 0; SB 4
+Imported from Downloads prospects.csv,806191,,Tai Peete,STL,238,18,Single-A,,,,position OF; source level A; age 20; 2025 OBP .343; OPS .751; HR 7; SB 45
+Imported from Downloads prospects.csv,815147,,Wilson Rodriguez,NYY,239,18,Rookie,,,,position CF; source level ROK; age 21; 2025 OBP .300; OPS .452; HR 0; SB 1
+Imported from Downloads prospects.csv,691003,,Tre' Morgan,TB,240,19,,,,,position 1B; source level ALL (3); age 23; 2025 OBP .408; OPS .891; HR 10; SB 20
+Imported from Downloads prospects.csv,687605,,Andrew Pinckney,WSH,241,19,,,,,position LF; source level ALL (2); age 25; 2025 OBP .329; OPS .691; HR 8; SB 27
+Imported from Downloads prospects.csv,805953,,Anthony Huezo,HOU,242,19,,,,,position CF; source level ALL (3); age 20; 2025 OBP .276; OPS .589; HR 5; SB 8
+Imported from Downloads prospects.csv,695735,,Creed Willems,BAL,243,19,,,,,position C; source level ALL (2); age 22; 2025 OBP .322; OPS .784; HR 17; SB 2
+Imported from Downloads prospects.csv,800957,,Brendan Jones,MIA,244,19,,,,,position CF; source level ALL (2); age 23; 2025 OBP .471; OPS .924; HR 3; SB 18
+Imported from Downloads prospects.csv,698927,,Edward Duran,TOR,245,19,Single-A,,,,position C; source level A; age 21; 2025 OBP .346; OPS .659; HR 0; SB 15
+Imported from Downloads prospects.csv,681371,,Dom Keegan,TB,246,20,AA,,,,position C; source level AA; age 25; 2025 OBP .371; OPS .806; HR 9; SB 0
+Imported from Downloads prospects.csv,800449,,Thomas Sosa,BAL,247,20,,,,,position CF; source level ALL (2); age 21; 2025 OBP .321; OPS .653; HR 4; SB 30
+Imported from Downloads prospects.csv,814458,,Fenwick Trimble,MIA,248,20,Single-A,,,,position OF; source level A; age 23; 2025 OBP .294; OPS .619; HR 0; SB 11
+Imported from Downloads prospects.csv,800393,,Yeremy Cabrera,WSH,249,20,,,,,position CF; source level ALL (2); age 20; 2025 OBP .395; OPS .858; HR 9; SB 24
+Imported from Downloads prospects.csv,669899,,Ryan Ward,LAD,250,20,,,,,position LF; source level ALL (2); age 28; 2025 OBP .325; OPS .883; HR 34; SB 11
+Imported from Downloads prospects.csv,694757,,Maui Ahuna,SF,251,20,,,,,position SS; source level ALL (2); age 24; 2025 OBP .369; OPS .763; HR 4; SB 8
+Imported from Downloads prospects.csv,695524,,Jacob Cozart,CLE,252,20,High-A,,,,position C; source level A+; age 23; 2025 OBP .245; OPS .388; HR 0; SB 0
+Imported from Downloads prospects.csv,813666,,Ariel Armas,CHC,253,20,High-A,,,,position C; source level A+; age 23; 2025 OBP .316; OPS .602; HR 0; SB 0
+Imported from Downloads prospects.csv,800305,,Jesús  Baéz,STL,254,20,,,,,position SS; source level ALL (2); age 21; 2025 OBP .335; OPS .782; HR 11; SB 9
+Imported from Downloads prospects.csv,701778,,Jace Avina,NYY,255,20,High-A,,,,position LF; source level A+; age 22; 2025 OBP .317; OPS .716; HR 10; SB 4
+Imported from Downloads prospects.csv,678577,,Junior Perez,ATH,256,20,AA,,,,position CF; source level AA; age 24; 2025 OBP .304; OPS .676; HR 8; SB 28
+Imported from Downloads prospects.csv,813844,,Will Bush,HOU,257,20,,,,,position C; source level ALL (2); age 22; 2025 OBP .332; OPS .687; HR 8; SB 5
+Imported from Downloads prospects.csv,703154,,Yordany De Los Santos,PIT,258,21,,,,,position SS; source level ALL (2); age 21; 2025 OBP .373; OPS .803; HR 6; SB 34
+Imported from Downloads prospects.csv,692039,,Carlos Jimenez,SEA,259,21,,,,,position CF; source level ALL (2); age 23; 2025 OBP .426; OPS .934; HR 8; SB 22
+Imported from Downloads prospects.csv,808129,,Juan Flores,LAA,260,21,,,,,position C; source level ALL (2); age 20; 2025 OBP .312; OPS .684; HR 5; SB 4
+Imported from Downloads prospects.csv,814414,,Kyle DeBarge,MIN,261,21,Single-A,,,,position SS; source level A; age 22; 2025 OBP .322; OPS .665; HR 1; SB 15
+Imported from Downloads prospects.csv,813880,,Devin Saltiban,PHI,262,21,Single-A,,,,position SS; source level A; age 21; 2025 OBP .346; OPS .774; HR 17; SB 22
+Imported from Downloads prospects.csv,807957,,Yassel Soler,AZ,263,21,,,,,position 3B; source level ALL (2); age 20; 2025 OBP .347; OPS .807; HR 6; SB 6
+Imported from Downloads prospects.csv,805782,,Ryan Lasko,ATH,264,21,,,,,position CF; source level ALL (2); age 23; 2025 OBP .353; OPS .681; HR 6; SB 33
+Imported from Downloads prospects.csv,701783,,Cole Messina,COL,265,21,High-A,,,,position C; source level A+; age 22; 2025 OBP .232; OPS .452; HR 1; SB 0
+Imported from Downloads prospects.csv,804614,,Marco Vargas,NYM,266,21,Single-A,,,,position SS; source level A; age 20; 2025 OBP .369; OPS .607; HR 0; SB 13
+Imported from Downloads prospects.csv,821657,,Gabriel Rodriguez,CLE,267,21,,,,,position SS; source level ALL (2); age 18; 2025 OBP .506; OPS .904; HR 2; SB 9
+Imported from Downloads prospects.csv,691740,,Daniel Susac,SF,268,21,AA,,,,position C; source level AA; age 24; 2025 OBP .300; OPS .734; HR 12; SB 7
+Imported from Downloads prospects.csv,806959,,Joendry Vargas,LAD,269,21,Rookie,,,,position SS; source level ROK; age 20; 2025 OBP .406; OPS .899; HR 4; SB 11
+Imported from Downloads prospects.csv,806994,,Luis Guanipa,ATL,270,21,,,,,position CF; source level ALL (2); age 20; 2025 OBP .286; OPS .577; HR 2; SB 10
+Imported from Downloads prospects.csv,703520,,Brett Bateman,CHC,271,21,,,,,position CF; source level ALL (2); age 24; 2025 OBP .382; OPS .705; HR 1; SB 30
+Imported from Downloads prospects.csv,800316,,Alexander Albertus,CWS,272,22,,,,,position SS; source level ALL (2); age 21; 2025 OBP .420; OPS .829; HR 3; SB 6
+Imported from Downloads prospects.csv,815897,,Robert Arias,CLE,273,22,Rookie,,,,position OF; source level ROK; age 19; 2025 OBP .367; OPS .714; HR 0; SB 29
+Imported from Downloads prospects.csv,691789,,Izaac Pacheco,DET,274,22,,,,,position SS; source level ALL (3); age 23; 2025 OBP .299; OPS .647; HR 7; SB 4
+Imported from Downloads prospects.csv,815889,,Paulino Santana,TEX,275,22,Rookie,,,,position OF; source level ROK; age 19; 2025 OBP .465; OPS .829; HR 0; SB 20
+Imported from Downloads prospects.csv,807511,,Nelly Taylor,BOS,276,22,,,,,position OF; source level ALL (2); age 23; 2025 OBP .337; OPS .713; HR 8; SB 33
+Imported from Downloads prospects.csv,800208,,Axiel Plaz,PIT,277,22,,,,,position C; source level ALL (2); age 20; 2025 OBP .304; OPS .725; HR 15; SB 1
+Imported from Downloads prospects.csv,821078,,José Castro,MIA,278,22,Rookie,,,,position OF; source level ROK; age 19; 2025 OBP .333; OPS .587; HR 5; SB 8
+Imported from Downloads prospects.csv,694385,,Brock Wilken,MIL,279,22,,,,,position 3B; source level ALL (2); age 23; 2025 OBP .314; OPS .679; HR 17; SB 1
+Imported from Downloads prospects.csv,695763,,Sam Petersen,WSH,280,22,Single-A,,,,position CF; source level A; age 23; 2025 OBP .400; OPS .991; HR 0; SB 5
+Imported from Downloads prospects.csv,808232,,Alirio Ferrebus,PHI,281,22,,,,,position C; source level ALL (2); age 20; 2025 OBP .424; OPS .982; HR 3; SB 3
+Imported from Downloads prospects.csv,821171,,Dauri Fernandez,CLE,282,23,Rookie,,,,position 2B; source level ROK; age 19; 2025 OBP .370; OPS .777; HR 1; SB 8
+Imported from Downloads prospects.csv,814297,,Edgleen Perez,PIT,283,23,Rookie,,,,position C; source level ROK; age 19; 2025 OBP .444; OPS .824; HR 2; SB 4
+Imported from Downloads prospects.csv,821073,,Jirvin Morillo,CIN,284,23,,,,,position C; source level ALL (2); age 19; 2025 OBP .442; OPS .889; HR 2; SB 3
+Imported from Downloads prospects.csv,813715,,Khadim Diaw,MIN,285,23,Single-A,,,,position C; source level A; age 22; 2025 OBP .374; OPS .715; HR 1; SB 4
+Imported from Downloads prospects.csv,806982,,Esmil Valencia,MIA,286,23,Rookie,,,,position CF; source level ROK; age 20; 2025 OBP .331; OPS .707; HR 2; SB 16
+Imported from Downloads prospects.csv,821692,,Cristian Arguelles,COL,287,23,,,,,position OF; source level ALL (2); age 18; 2025 OBP .352; OPS .654; HR 0; SB 11
+Imported from Downloads prospects.csv,701675,,Nathan Church,STL,288,23,AA,,,,position LF; source level AA; age 25; 2025 OBP .331; OPS .704; HR 9; SB 24
+Imported from Downloads prospects.csv,689041,,Rhylan Thomas,SEA,289,23,,,,,position LF; source level ALL (3); age 25; 2025 OBP .336; OPS .718; HR 6; SB 21
+Imported from Downloads prospects.csv,815906,,Angel Feliz,WSH,290,23,Rookie,,,,position SS; source level ROK; age 19; 2025 OBP .381; OPS .849; HR 4; SB 27
+Imported from Downloads prospects.csv,701771,,Billy Amick,MIN,291,24,Single-A,,,,position 3B; source level A; age 23; 2025 OBP .351; OPS .764; HR 3; SB 2
+Imported from Downloads prospects.csv,694673,,Abimelec Ortiz,WSH,292,24,AA,,,,position 1B; source level AA; age 24; 2025 OBP .328; OPS .760; HR 18; SB 2
+Imported from Downloads prospects.csv,815903,,Ashly Andujar,COL,293,24,Rookie,,,,position SS; source level ROK; age 18; 2025 OBP .376; OPS .728; HR 0; SB 17
+Imported from Downloads prospects.csv,807722,,Maxton Martin,TEX,294,24,Rookie,,,,position RF; source level ROK; age 20; 2025 OBP .314; OPS .670; HR 2; SB 6
+Imported from Downloads prospects.csv,805951,,Boston Baro,NYM,295,24,,,,,position SS; source level ALL (2); age 21; 2025 OBP .358; OPS .748; HR 4; SB 9
+Imported from Downloads prospects.csv,678218,,Brandon Valenzuela,TOR,296,24,,,,,position C; source level ALL (2); age 25; 2025 OBP .312; OPS .664; HR 9; SB 0
+Imported from Downloads prospects.csv,806967,,Brailer Guerrero,TB,297,24,Rookie,,,,position OF; source level ROK; age 19; 2025 OBP .452; OPS .918; HR 2; SB 13
+Imported from Downloads prospects.csv,703150,,Ricky Cabrera,CIN,298,24,Single-A,,,,position SS; source level A; age 21; 2025 OBP .331; OPS .730; HR 11; SB 19
+Imported from Downloads prospects.csv,702690,,Cutter Coffey,TOR,299,25,,,,,position 3B; source level ALL (2); age 21; 2025 OBP .318; OPS .732; HR 15; SB 9
+Imported from Downloads prospects.csv,683344,,Homer Bush Jr.,TB,300,25,,,,,position CF; source level ALL (2); age 24; 2025 OBP .363; OPS .726; HR 6; SB 57
+Imported from Downloads prospects.csv,806611,,Jancel Villarroel,SF,301,25,,,,,position C; source level ALL (2); age 21; 2025 OBP .359; OPS .721; HR 4; SB 11
+Imported from Downloads prospects.csv,687394,,Jack Brannigan,PIT,302,25,High-A,,,,position SS; source level A+; age 25; 2025 OBP .344; OPS .834; HR 18; SB 12
+Imported from Downloads prospects.csv,694378,,Jacob Gonzalez,CWS,303,25,,,,,position SS; source level ALL (2); age 23; 2025 OBP .307; OPS .650; HR 8; SB 17
+Imported from Downloads prospects.csv,806980,,Angel Cepeda,CHC,304,25,Rookie,,,,position SS; source level ROK; age 20; 2025 OBP .383; OPS .811; HR 3; SB 21
+Imported from Downloads prospects.csv,680664,,Eduardo Valencia,DET,305,25,,,,,position C; source level ALL (2); age 26; 2025 OBP .313; OPS .672; HR 4; SB 0
+Imported from Downloads prospects.csv,807383,,Randy Guzman,NYM,306,25,,,,,position OF; source level ALL (2); age 20; 2025 OBP .303; OPS .691; HR 2; SB 1
+Imported from Downloads prospects.csv,815899,,Jose Perdomo,ATL,307,25,Rookie,,,,position SS; source level ROK; age 19; 2025 OBP .318; OPS .568; HR 0; SB 2
+Imported from Downloads prospects.csv,672359,,Tirso Ornelas,SD,308,25,AAA,,,,position LF; source level AAA; age 26; 2025 OBP .367; OPS .864; HR 23; SB 7
+Imported from Downloads prospects.csv,691369,,Allan Castro,BOS,309,25,,,,,position CF; source level ALL (2); age 22; 2025 OBP .343; OPS .743; HR 15; SB 17
+Imported from Downloads prospects.csv,809944,,Elijah Hainline,LAD,310,26,Single-A,,,,position SS; source level A; age 23; 2025 OBP .333; OPS .533; HR 2; SB 8
+Imported from Downloads prospects.csv,802117,,Patrick Clohisy,ATL,311,26,,,,,position CF; source level ALL (2); age 24; 2025 OBP .318; OPS .627; HR 0; SB 4
+Imported from Downloads prospects.csv,807727,,Charles McAdoo,TOR,312,26,,,,,position 2B; source level ALL (3); age 24; 2025 OBP .364; OPS .843; HR 17; SB 21
+Imported from Downloads prospects.csv,702977,,Dillon Head,MIA,313,26,,,,,position CF; source level ALL (3); age 21; 2025 OBP .317; OPS .713; HR 2; SB 5
+Imported from Downloads prospects.csv,806987,,Daiverson Gutierrez,NYM,314,26,,,,,position C; source level ALL (3); age 20; 2025 OBP .396; OPS .831; HR 2; SB 1
+Imported from Downloads prospects.csv,694187,,Daniel Vazquez,KC,315,26,Single-A,,,,position SS; source level A; age 22; 2025 OBP .353; OPS .642; HR 0; SB 12
+Imported from Downloads prospects.csv,669360,,Trei Cruz,DET,316,26,AA,,,,position CF; source level AA; age 27; 2025 OBP .342; OPS .738; HR 9; SB 9
+Imported from Downloads prospects.csv,803175,,Ethan Anderson,BAL,317,26,,,,,position C; source level ALL (2); age 22; 2025 OBP .361; OPS .799; HR 1; SB 6
+Imported from Downloads prospects.csv,702556,,Austin Overn,TB,318,26,,,,,position OF; source level ALL (2); age 22; 2025 OBP .398; OPS .865; HR 1; SB 16
+Imported from Downloads prospects.csv,800724,,Eric Bitonti,MIL,319,26,,,,,position 3B; source level ALL (2); age 20; 2025 OBP .402; OPS .946; HR 16; SB 12
+Imported from Downloads prospects.csv,694977,,Nate Nankil,ATH,320,26,,,,,position OF; source level ALL (2); age 23; 2025 OBP .404; OPS .862; HR 11; SB 3
+Imported from Downloads prospects.csv,702547,,Caden Powell,HOU,321,27,Single-A,,,,position SS; source level A; age 22; 2025 OBP .287; OPS .666; HR 2; SB 6
+Imported from Downloads prospects.csv,691458,,Blaze Jordan,STL,322,27,AA,,,,position 1B; source level AA; age 23; 2025 OBP .305; OPS .693; HR 7; SB 2
+Imported from Downloads prospects.csv,808269,,Gerardo Rodriguez,BOS,323,27,,,,,position C; source level ALL (2); age 20; 2025 OBP .424; OPS .771; HR 1; SB 3
+Imported from Downloads prospects.csv,699912,,Jose Fernandez,AZ,324,27,,,,,position SS; source level ALL (2); age 22; 2025 OBP .289; OPS .630; HR 7; SB 10
+Imported from Downloads prospects.csv,701616,,Caleb Lomavita,WSH,325,27,Single-A,,,,position C; source level A; age 23; 2025 OBP .310; OPS .556; HR 0; SB 3
+Imported from Downloads prospects.csv,688457,,Gavin Cross,KC,326,27,AA,,,,position RF; source level AA; age 25; 2025 OBP .342; OPS .770; HR 15; SB 30
+Imported from Downloads prospects.csv,703563,,PJ Morlando,MIA,327,27,Single-A,,,,position RF; source level A; age 20; 2025 OBP .000; OPS .000; HR 0; SB 0
+Imported from Downloads prospects.csv,806992,,Enrique Jimenez,MIN,328,27,Rookie,,,,position C; source level ROK; age 20; 2025 OBP .366; OPS .742; HR 3; SB 5
+Imported from Downloads prospects.csv,703804,,Romeo Sanabria,SD,329,28,,,,,position 1B; source level ALL (3); age 23; 2025 OBP .396; OPS .823; HR 11; SB 3
+Imported from Downloads prospects.csv,821238,,Marlon Quintero,LAA,330,28,Rookie,,,,position C; source level ROK; age 19; 2025 OBP .367; OPS .707; HR 0; SB 3
+Imported from Downloads prospects.csv,800607,,Kehden Hettiger,PHI,331,28,Single-A,,,,position C; source level A; age 21; 2025 OBP .361; OPS .671; HR 5; SB 4
+Imported from Downloads prospects.csv,800176,,Carlos Sanchez,CIN,332,28,,,,,position 3B; source level ALL (2); age 21; 2025 OBP .356; OPS .608; HR 1; SB 10
+Imported from Downloads prospects.csv,691002,,Yohandy Morales,WSH,333,28,,,,,position 1B; source level ALL (2); age 24; 2025 OBP .368; OPS .784; HR 7; SB 5
+Imported from Downloads prospects.csv,815913,,Stiven Martinez,BAL,334,28,Rookie,,,,position OF; source level ROK; age 18; 2025 OBP .417; OPS .883; HR 4; SB 2
+Imported from Downloads prospects.csv,703190,,Johanfran Garcia,BOS,335,28,Single-A,,,,position C; source level A; age 21; 2025 OBP .467; OPS 1.063; HR 2; SB 0
+Imported from Downloads prospects.csv,803172,,Griff O'Ferrall,BAL,336,29,,,,,position SS; source level ALL (2); age 23; 2025 OBP .344; OPS .620; HR 0; SB 2
+Imported from Downloads prospects.csv,804858,,Bryan Rincon,PHI,337,29,,,,,position SS; source level ALL (2); age 22; 2025 OBP .331; OPS .653; HR 2; SB 8
+Imported from Downloads prospects.csv,801938,,Avery Owusu-Asiedu,AZ,338,29,Single-A,,,,position CF; source level A; age 22; 2025 OBP .287; OPS .614; HR 9; SB 17
+Imported from Downloads prospects.csv,701546,,Duce Gourson,PIT,339,29,,,,,position 2B; source level ALL (2); age 23; 2025 OBP .379; OPS .649; HR 0; SB 4
+Imported from Downloads prospects.csv,703152,,Anthony Gutierrez,TEX,340,29,,,,,position CF; source level ALL (2); age 21; 2025 OBP .315; OPS .631; HR 1; SB 43
+Imported from Downloads prospects.csv,695653,,Noah Miller,LAD,341,29,,,,,position SS; source level ALL (2); age 23; 2025 OBP .318; OPS .633; HR 6; SB 7
+Imported from Downloads prospects.csv,693850,,Kala'i Rosario,MIN,342,29,,,,,position RF; source level ALL (2); age 23; 2025 OBP .329; OPS .757; HR 10; SB 3
+Imported from Downloads prospects.csv,825924,,Jackson Strong,DET,343,29,Single-A,,,,position CF; source level A; age 22; 2025 OBP .361; OPS .767; HR 0; SB 3
+Imported from Downloads prospects.csv,671655,,George Valera,CLE,344,29,AAA,,,,position RF; source level AAA; age 25; 2025 OBP .337; OPS .789; HR 17; SB 6
+Imported from Downloads prospects.csv,802474,,Cameron Leary,ATH,345,29,Single-A,,,,position RF; source level A; age 24; 2025 OBP .309; OPS .704; HR 3; SB 4
+Imported from Downloads prospects.csv,691437,,Adrian Pinto,TOR,346,29,,,,,position 2B; source level ALL (3); age 23; 2025 OBP .378; OPS .951; HR 4; SB 2
+Imported from Downloads prospects.csv,805704,,Keaton Anthony,PHI,347,30,,,,,position 1B; source level ALL (3); age 24; 2025 OBP .414; OPS .868; HR 8; SB 3
+Imported from Downloads prospects.csv,806061,,Isaiah Drake,ATL,348,30,,,,,position OF; source level ALL (2); age 20; 2025 OBP .269; OPS .513; HR 2; SB 23
+Imported from Downloads prospects.csv,815464,,Lisbel Diaz,SF,349,30,,,,,position CF; source level ALL (2); age 20; 2025 OBP .354; OPS .814; HR 10; SB 9
+Imported from Downloads prospects.csv,815890,,Fernando Cruz,CHC,350,30,Rookie,,,,position SS; source level ROK; age 19; 2025 OBP .326; OPS .655; HR 2; SB 11
+Imported from Downloads prospects.csv,695521,,Gavin Conticello,AZ,351,30,,,,,position OF; source level ALL (2); age 22; 2025 OBP .343; OPS .774; HR 10; SB 20
+Imported from Downloads prospects.csv,802018,,Ryan Burrowes,CWS,352,30,,,,,position SS; source level ALL (2); age 21; 2025 OBP .308; OPS .568; HR 1; SB 24
+Imported from Downloads prospects.csv,823851,,Hansel Jimenez,CIN,353,30,Rookie,,,,position 3B; source level ROK; age 19; 2025 OBP .529; OPS 1.029; HR 0; SB 4
+Imported from Downloads prospects.csv,703156,,Tony Blanco Jr.,PIT,354,30,Rookie,,,,position 1B; source level ROK; age 20; 2025 OBP .385; OPS .890; HR 4; SB 1
+Imported from Downloads prospects.csv,703194,,Randy De Jesus,LAA,355,30,Single-A,,,,position RF; source level A; age 21; 2025 OBP .352; OPS .811; HR 12; SB 3

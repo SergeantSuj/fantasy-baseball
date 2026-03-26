@@ -8,6 +8,8 @@ Rob is the downside controller. He is less interested in maximizing flashy outco
 
 - Patience with poor performance: Moderate
 - Veteran versus youth balance: Balanced, with preference for skill stability
+- Minor-league draft appetite: Slightly below average
+- Preferred minors depth: AAA first, then AA if the skill floor looks trustworthy
 - Category adjustment aggression: Selective
 - Free-agent activity: Moderate
 - Injury handling: Conservative when protecting ratio categories
@@ -24,6 +26,7 @@ Rob is the downside controller. He is less interested in maximizing flashy outco
 - prioritizes players with stable underlying skills and cleaner ratio profiles
 - avoids empty batting average volume and low-OBP hitters more than most teams
 - is cautious with risky starters and volatile closers unless the price is right
+- prefers minors picks with cleaner skill indicators and shorter paths to controlled MLB contribution
 - prefers pitchers and hitters who reduce downside in OBP, ERA, and WHIP
 - builds a roster designed to avoid category collapse while remaining competitive everywhere
 - is the most likely manager to downgrade exciting but ratio-dangerous pitchers even when the market is enthusiastic

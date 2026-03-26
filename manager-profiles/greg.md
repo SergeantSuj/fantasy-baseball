@@ -8,6 +8,8 @@ Greg is the production banker. He trusts established MLB roles, discounts develo
 
 - Patience with poor performance: High for proven veterans, low for fringe players
 - Veteran versus youth balance: Veteran leaning
+- Minor-league draft appetite: Low
+- Preferred minors depth: AAA first, with only occasional AA interest once the MLB core is secure
 - Category adjustment aggression: Moderate
 - Free-agent activity: Opportunistic, mostly for reliable contributors
 - Injury handling: Quick to replace short-term missing production
@@ -24,6 +26,7 @@ Greg is the production banker. He trusts established MLB roles, discounts develo
 - prioritizes established MLB hitters and pitchers with secure roles
 - prefers bankable category production over speculative breakout bets
 - delays pure-prospect selections until the roster foundation is stable
+- strongly prefers prospect picks who are already close to helping the MLB roster
 - is more willing to draft aging stars at a discount if they can help immediately
 - builds for early competitiveness rather than a long development curve
 - is the most likely manager to treat a prospect-heavy room as an opportunity to scoop discounted veterans

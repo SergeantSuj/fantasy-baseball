@@ -16,9 +16,9 @@ SETTINGS_PATH = DATA_DIR / "startup-draft-settings-2026.json"
 OUTPUT_RESULTS_PATH = WORKSPACE_ROOT / "draft-results.csv"
 OUTPUT_ROSTERS_DIR = WORKSPACE_ROOT / "manager-rosters"
 
-TOTAL_ROUNDS = 30
-TOTAL_PICKS = 300
+DEFAULT_TOTAL_ROUNDS = 45
 TARGET_MLB_SLOTS = 30
+TARGET_MINOR_SLOTS = 15
 TARGET_HITTERS = 18
 TARGET_PITCHERS = 12
 ACTIVE_PITCHER_SLOTS = 9
@@ -57,6 +57,24 @@ POSITION_FAMILIES = {
 }
 
 MINOR_LEVELS = {"AAA", "AA", "HIGH-A", "SINGLE-A", "ROOKIE", "PROSPECT"}
+MINOR_LEVEL_BONUS = {
+    "MLB": 0.35,
+    "AAA": 0.30,
+    "AA": 0.24,
+    "HIGH-A": 0.16,
+    "SINGLE-A": 0.10,
+    "ROOKIE": 0.04,
+    "PROSPECT": 0.08,
+}
+MINOR_LEVEL_DEPTH = {
+    "MLB": 0,
+    "AAA": 1,
+    "AA": 2,
+    "HIGH-A": 3,
+    "SINGLE-A": 4,
+    "ROOKIE": 5,
+    "PROSPECT": 4,
+}
 
 
 @dataclass
@@ -76,6 +94,8 @@ class ManagerConfig:
     pitcher_aggression: float
     scarcity_bias: float
     scarcity_positions: tuple[str, ...]
+    minor_league_bias: float
+    preferred_minor_level: str
     early_minor_round: int
     focus_phrase: str
 
@@ -96,16 +116,16 @@ class TeamState:
 
 
 MANAGER_CONFIGS = {
-    "Chris": ManagerConfig(1.10, 1.00, 0.95, 0.70, 0.10, 0.00, -0.10, 0.15, 0.50, -0.20, 0.35, 0.25, 0.10, 0.00, (), 10, "consensus support across dynasty rank, ADP, and roster balance"),
-    "Greg": ManagerConfig(0.95, 1.00, 1.20, 1.00, -0.20, 0.45, -0.70, 0.45, 0.90, -0.15, 0.10, 0.10, 0.35, 0.00, (), 15, "present-year reliability and secure MLB roles"),
-    "Josh M": ManagerConfig(1.10, 1.05, 0.95, 0.80, 0.20, 0.05, 0.15, 0.15, 0.55, -0.10, 0.35, 0.15, 0.15, 0.42, ("C", "3B", "SS"), 9, "portfolio balance and optional roster construction"),
-    "Josh V": ManagerConfig(1.20, 0.75, 0.85, 0.55, 0.55, -0.15, 0.95, 0.00, 0.20, -0.10, 0.10, 0.20, 0.20, 0.18, ("3B", "SS"), 5, "long-term ceiling and upside over market conservatism"),
-    "Matt": ManagerConfig(0.90, 1.10, 1.05, 0.70, 0.05, 0.00, -0.50, 0.60, 0.55, 0.55, 0.55, 0.40, 0.25, 0.32, ("C", "3B", "SS"), 12, "weekly usability, flexibility, and role-driven edges"),
-    "Michael": ManagerConfig(1.20, 0.70, 0.85, 0.55, 0.60, -0.20, 0.90, 0.00, 0.35, -0.15, 0.10, 0.10, 0.10, 0.10, ("3B",), 5, "age-adjusted growth, minors value, and long-horizon assets"),
-    "Paul": ManagerConfig(0.95, 1.00, 1.15, 0.85, 0.00, 0.00, -0.20, 0.30, 0.45, 0.45, 0.15, 0.70, 0.20, 0.22, ("C", "SS"), 11, "category leverage in OBP, speed, saves, and point swings"),
-    "Rob": ManagerConfig(1.00, 0.95, 1.05, 0.85, 0.05, 0.00, -0.25, 0.25, 1.10, -0.25, 0.10, 0.25, 0.10, 0.00, (), 11, "ratio protection and downside control in OBP, ERA, and WHIP"),
-    "Shane": ManagerConfig(0.95, 1.05, 1.10, 0.80, 0.10, 0.10, -0.05, 0.50, 0.60, 0.30, 0.25, 0.35, 0.20, 0.12, ("C",), 10, "clear jobs, volume paths, and role-change usability"),
-    "Wendell": ManagerConfig(0.90, 1.15, 0.95, 1.00, -0.15, 0.40, -0.85, 0.20, 0.70, -0.20, 0.10, 0.05, 0.10, 0.00, (), 16, "track record, market comfort, and familiar MLB certainty"),
+    "Chris": ManagerConfig(1.10, 1.00, 0.95, 0.70, 0.10, 0.00, -0.10, 0.15, 0.50, -0.20, 0.35, 0.25, 0.10, 0.00, (), -0.15, "AA", 10, "consensus support across dynasty rank, ADP, and roster balance"),
+    "Greg": ManagerConfig(0.95, 1.00, 1.20, 1.00, -0.20, 0.45, -0.70, 0.45, 0.90, -0.15, 0.10, 0.10, 0.35, 0.00, (), -0.90, "AAA", 15, "present-year reliability and secure MLB roles"),
+    "Josh M": ManagerConfig(1.10, 1.05, 0.95, 0.80, 0.20, 0.05, 0.15, 0.15, 0.55, -0.10, 0.35, 0.15, 0.15, 0.42, ("C", "3B", "SS"), 0.10, "AA", 9, "portfolio balance and optional roster construction"),
+    "Josh V": ManagerConfig(1.20, 0.75, 0.85, 0.55, 0.55, -0.15, 0.95, 0.00, 0.20, -0.10, 0.10, 0.20, 0.20, 0.18, ("3B", "SS"), 1.10, "SINGLE-A", 5, "long-term ceiling and upside over market conservatism"),
+    "Matt": ManagerConfig(0.90, 1.10, 1.05, 0.70, 0.05, 0.00, -0.50, 0.60, 0.55, 0.55, 0.55, 0.40, 0.25, 0.32, ("C", "3B", "SS"), -0.55, "AAA", 12, "weekly usability, flexibility, and role-driven edges"),
+    "Michael": ManagerConfig(1.20, 0.70, 0.85, 0.55, 0.60, -0.20, 0.90, 0.00, 0.35, -0.15, 0.10, 0.10, 0.10, 0.10, ("3B",), 0.95, "HIGH-A", 5, "age-adjusted growth, minors value, and long-horizon assets"),
+    "Paul": ManagerConfig(0.95, 1.00, 1.15, 0.85, 0.00, 0.00, -0.20, 0.30, 0.45, 0.45, 0.15, 0.70, 0.20, 0.22, ("C", "SS"), -0.20, "AA", 11, "category leverage in OBP, speed, saves, and point swings"),
+    "Rob": ManagerConfig(1.00, 0.95, 1.05, 0.85, 0.05, 0.00, -0.25, 0.25, 1.10, -0.25, 0.10, 0.25, 0.10, 0.00, (), -0.30, "AAA", 11, "ratio protection and downside control in OBP, ERA, and WHIP"),
+    "Shane": ManagerConfig(0.95, 1.05, 1.10, 0.80, 0.10, 0.10, -0.05, 0.50, 0.60, 0.30, 0.25, 0.35, 0.20, 0.12, ("C",), 0.05, "AA", 10, "clear jobs, volume paths, and role-change usability"),
+    "Wendell": ManagerConfig(0.90, 1.15, 0.95, 1.00, -0.15, 0.40, -0.85, 0.20, 0.70, -0.20, 0.10, 0.05, 0.10, 0.00, (), -1.00, "AAA", 16, "track record, market comfort, and familiar MLB certainty"),
 }
 
 
@@ -279,17 +299,27 @@ def eligible_positions(row: dict[str, str]) -> list[str]:
 
 
 def determine_minor_eligibility(row: dict[str, str]) -> bool:
-    current_level = clean_value(row.get("current_level")).upper()
-    if current_level in MINOR_LEVELS:
-        return True
+    actual_ab = parse_float(row.get("actual_2025_ab")) or 0.0
+    actual_ip = parse_float(row.get("actual_2025_ip")) or 0.0
+    if actual_ab >= 130 or actual_ip >= 50:
+        return False
 
+    current_level = clean_value(row.get("current_level")).upper()
     player_stage = clean_value(row.get("player_stage")).upper()
+    prospect_rank = clean_value(row.get("prospect_rank"))
+    age = parse_int(row.get("age")) or 99
+
+    if player_stage == "MLB" and not prospect_rank and age >= 26:
+        return False
+
+    if current_level in MINOR_LEVELS:
+        if prospect_rank or player_stage == "PROSPECT":
+            return True
+        return age <= 25
+
     if player_stage == "PROSPECT":
         return True
 
-    actual_ab = parse_float(row.get("actual_2025_ab")) or 0.0
-    actual_ip = parse_float(row.get("actual_2025_ip")) or 0.0
-    age = parse_int(row.get("age")) or 99
     dynasty_rank = parse_int(row.get("dynasty_rank")) or 9999
     if age <= 24 and actual_ab < 130 and actual_ip < 50 and dynasty_rank <= 500:
         return True
@@ -311,8 +341,10 @@ def normalize_scores(rows: list[dict[str, str]], key: str) -> None:
 def enrich_board_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     dynasty_ranks = [parse_int(row.get("dynasty_rank")) or 9999 for row in rows]
     adp_ranks = [parse_float(row.get("adp")) or 9999.0 for row in rows]
+    prospect_ranks = [parse_int(row.get("prospect_rank")) for row in rows if parse_int(row.get("prospect_rank")) is not None]
     max_dynasty = max(dynasty_ranks)
     max_adp = max(adp_ranks)
+    max_prospect = max(prospect_ranks) if prospect_ranks else 0
 
     for row in rows:
         player_type = clean_value(row.get("player_type"))
@@ -328,6 +360,7 @@ def enrich_board_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
 
         dynasty_rank = parse_int(row.get("dynasty_rank")) or max_dynasty
         adp = parse_float(row.get("adp")) or max_adp
+        prospect_rank = parse_int(row.get("prospect_rank"))
         age = parse_int(row.get("age")) or 30
         injury_status = clean_value(row.get("injury_status"))
         sb = parse_float(row.get("proj_sb")) or 0.0
@@ -345,6 +378,10 @@ def enrich_board_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
         row["actual_score"] = f"{actual_score:.6f}"
         row["dynasty_score"] = f"{1.0 - ((dynasty_rank - 1) / max(max_dynasty - 1, 1)):.6f}"
         row["adp_score"] = f"{1.0 - ((adp - 1.0) / max(max_adp - 1.0, 1.0)):.6f}"
+        if prospect_rank is None or max_prospect <= 1:
+            row["prospect_score"] = "0.000000"
+        else:
+            row["prospect_score"] = f"{1.0 - ((prospect_rank - 1) / max(max_prospect - 1, 1)):.6f}"
         row["youth_score"] = f"{max(min((31 - age) / 12.0, 1.0), -1.0):.6f}"
         row["veteran_score"] = f"{max(min((age - 27) / 10.0, 1.0), 0.0):.6f}"
         row["risk_score"] = f"{-1.0 if injury_status else 0.0:.6f}"
@@ -368,8 +405,8 @@ def generate_snake_order(teams: list[str], rounds: int) -> list[str]:
     return order
 
 
-def remaining_minor_room(team: TeamState) -> int:
-    return 0
+def remaining_minor_room(team: TeamState, minor_slot_target: int) -> int:
+    return max(0, minor_slot_target - team.minor_count)
 
 
 def remaining_mlb_room(team: TeamState) -> int:
@@ -384,12 +421,37 @@ def remaining_active_pitcher_slots(team: TeamState) -> int:
     return max(0, ACTIVE_PITCHER_SLOTS - team.pitcher_count)
 
 
-def should_include_in_mlb_draft(row: dict[str, str]) -> bool:
-    if clean_value(row.get("minor_eligible")) == "yes":
-        return False
-    if clean_value(row.get("is_prospect_like")) == "yes":
-        return False
-    return True
+def eligible_roster_buckets(team: TeamState, row: dict[str, str], minor_slot_target: int) -> list[str]:
+    buckets: list[str] = []
+    if remaining_mlb_room(team) > 0:
+        buckets.append("MLB")
+    if clean_value(row.get("minor_eligible")) == "yes" and remaining_minor_room(team, minor_slot_target) > 0:
+        buckets.append("Minors")
+    return buckets
+
+
+def level_bonus(row: dict[str, str]) -> float:
+    current_level = clean_value(row.get("current_level")).upper()
+    return MINOR_LEVEL_BONUS.get(current_level, 0.0)
+
+
+def minor_depth_preference_bonus(config: ManagerConfig, row: dict[str, str]) -> tuple[float, str]:
+    current_level = clean_value(row.get("current_level")).upper()
+    player_depth = MINOR_LEVEL_DEPTH.get(current_level, MINOR_LEVEL_DEPTH["AA"])
+    preferred_depth = MINOR_LEVEL_DEPTH.get(config.preferred_minor_level.upper(), MINOR_LEVEL_DEPTH["AA"])
+    depth_gap = player_depth - preferred_depth
+
+    if depth_gap == 0:
+        if player_depth >= MINOR_LEVEL_DEPTH["HIGH-A"]:
+            return 0.22, "the depth of the prospect fit the manager's deep-minors appetite"
+        return 0.18, "upper-minors proximity matched the manager's draft comfort zone"
+
+    if depth_gap < 0:
+        bonus = max(0.02, 0.14 - (0.04 * abs(depth_gap)))
+        return bonus, "closer-to-MLB proximity still fit the manager's prospect plan"
+
+    penalty_scale = max(0.35, 1.0 - max(config.minor_league_bias, 0.0) * 0.35)
+    return -(0.10 * depth_gap * penalty_scale), "the prospect was deeper in the minors than this manager usually prefers"
 
 
 def best_open_hitter_slot(team: TeamState, row: dict[str, str]) -> tuple[str | None, float]:
@@ -469,7 +531,7 @@ def assign_hitter_slot(team: TeamState, row: dict[str, str]) -> float:
     return bonus
 
 
-def adp_timing_bonus(row: dict[str, str], overall_pick: int, round_number: int) -> float:
+def adp_timing_bonus(row: dict[str, str], overall_pick: int, round_number: int, total_rounds: int) -> float:
     adp = parse_float(row.get("adp"))
     if adp is None:
         return 0.0
@@ -481,7 +543,7 @@ def adp_timing_bonus(row: dict[str, str], overall_pick: int, round_number: int) 
     else:
         timing_score = max(timing_gap / 30.0, -1.0)
 
-    early_round_multiplier = max(0.35, 1.15 - ((round_number - 1) / max(TOTAL_ROUNDS - 1, 1)))
+    early_round_multiplier = max(0.35, 1.15 - ((round_number - 1) / max(total_rounds - 1, 1)))
     return timing_score * early_round_multiplier
 
 
@@ -526,6 +588,10 @@ def starting_lineup_pressure(team: TeamState, row: dict[str, str], round_number:
 
 def update_team_state(team: TeamState, row: dict[str, str], roster_bucket: str) -> None:
     team.picks.append(row)
+    if roster_bucket == "Minors":
+        team.minor_count += 1
+        return
+
     team.mlb_count += 1
     if clean_value(row.get("player_type")) in {"pitcher", "two-way"} and determine_position_bucket(row) in {"SP", "RP", "TWP"}:
         team.pitcher_count += 1
@@ -579,15 +645,15 @@ def build_reason(team: str, config: ManagerConfig, row: dict[str, str], round_nu
     return "; ".join(parts) + "."
 
 
-def candidate_score(team: TeamState, config: ManagerConfig, row: dict[str, str], round_number: int, overall_pick: int) -> tuple[float, str]:
+def candidate_score(team: TeamState, config: ManagerConfig, row: dict[str, str], round_number: int, overall_pick: int, roster_bucket: str, total_rounds: int, minor_slot_target: int) -> tuple[float, str]:
     dynasty_component = (parse_float(row.get("dynasty_score")) or 0.0) * config.dynasty_weight
     adp_component = (parse_float(row.get("adp_score")) or 0.0) * config.adp_weight
-    adp_timing_component = adp_timing_bonus(row, overall_pick, round_number) * (0.85 + (config.adp_weight * 0.55))
+    adp_timing_component = adp_timing_bonus(row, overall_pick, round_number, total_rounds) * (0.85 + (config.adp_weight * 0.55))
     projection_component = (parse_float(row.get("proj_score_norm")) or 0.0) * config.projection_weight
     actual_component = (parse_float(row.get("actual_score_norm")) or 0.0) * config.actual_weight
     youth_component = (parse_float(row.get("youth_score")) or 0.0) * config.youth_weight
     veteran_component = (parse_float(row.get("veteran_score")) or 0.0) * config.veteran_weight
-    prospect_component = 0.0
+    prospect_component = (parse_float(row.get("prospect_score")) or 0.0) * config.prospect_bias
     role_component = 0.0
     if determine_position_bucket(row) == "SP":
         role_component += 0.25 * config.pitcher_aggression
@@ -605,10 +671,48 @@ def candidate_score(team: TeamState, config: ManagerConfig, row: dict[str, str],
     score = dynasty_component + adp_component + adp_timing_component + projection_component + actual_component + youth_component + veteran_component + prospect_component + role_component + risk_component + category_component
     need_note = ""
 
-    remaining_picks = TOTAL_ROUNDS - len(team.picks)
+    remaining_picks = total_rounds - len(team.picks)
     remaining_mlb = remaining_mlb_room(team)
-    if remaining_mlb < 0:
+    remaining_minor = remaining_minor_room(team, minor_slot_target)
+    if remaining_mlb < 0 or remaining_minor < 0:
         return -10_000.0, need_note
+
+    is_pitcher = determine_position_bucket(row) in {"SP", "RP", "TWP"}
+    is_closer = clean_value(row.get("is_closer")) == "yes"
+
+    if roster_bucket == "Minors":
+        if clean_value(row.get("minor_eligible")) != "yes" or remaining_minor <= 0:
+            return -10_000.0, need_note
+
+        score += (parse_float(row.get("prospect_score")) or 0.0) * (0.85 + max(config.prospect_bias, 0.0))
+        score += config.minor_league_bias * 0.30
+        score += max(parse_float(row.get("youth_score")) or 0.0, 0.0) * 0.50
+        score -= (parse_float(row.get("veteran_score")) or 0.0) * 0.35
+        score += level_bonus(row)
+        depth_bonus, depth_note = minor_depth_preference_bonus(config, row)
+        score += depth_bonus
+        need_note = merge_notes(need_note, depth_note)
+
+        if round_number < config.early_minor_round:
+            early_minor_penalty = (config.early_minor_round - round_number + 1) * 0.18
+            if config.minor_league_bias > 0.0:
+                early_minor_penalty *= max(0.55, 1.0 - (config.minor_league_bias * 0.30))
+            elif config.minor_league_bias < 0.0:
+                early_minor_penalty *= 1.0 + (abs(config.minor_league_bias) * 0.20)
+            score -= early_minor_penalty
+        else:
+            score += min((round_number - config.early_minor_round + 1) * (0.04 + (max(config.minor_league_bias, 0.0) * 0.01)), 0.45)
+
+        if not clean_value(row.get("prospect_rank")):
+            score -= 0.45
+        if clean_value(row.get("player_stage")).upper() == "MLB":
+            score -= 0.20
+        if remaining_picks == remaining_minor:
+            score += 3.0
+            need_note = "minor-slot pressure required prospect inventory"
+        if clean_value(row.get("current_level")).upper() in {"AAA", "AA", "MLB"}:
+            need_note = merge_notes(need_note, "upper-minors proximity improved the stash appeal")
+        return score, need_note
 
     if remaining_mlb <= 0:
         return -10_000.0, need_note
@@ -616,12 +720,12 @@ def candidate_score(team: TeamState, config: ManagerConfig, row: dict[str, str],
         score += 3.0
         need_note = "MLB-slot pressure required immediate production"
 
-    is_pitcher = determine_position_bucket(row) in {"SP", "RP", "TWP"}
-    is_closer = clean_value(row.get("is_closer")) == "yes"
     if is_pitcher and round_number <= 3 and (parse_int(row.get("dynasty_rank")) or 999) > 15:
         score -= 1.2
     if is_closer and round_number <= 7:
         score -= 1.6
+    if clean_value(row.get("minor_eligible")) == "yes":
+        score -= 0.65
     if is_pitcher and round_number <= 8 and team.pitcher_count >= max(1, 1 + int(config.pitcher_aggression * 2)):
         score -= 0.7
     if not is_pitcher and round_number <= 8 and team.hitter_count < max(0, round_number - 2):
@@ -668,22 +772,24 @@ def candidate_score(team: TeamState, config: ManagerConfig, row: dict[str, str],
     return score, need_note
 
 
-def choose_player(team: TeamState, config: ManagerConfig, available_rows: list[dict[str, str]], round_number: int, overall_pick: int) -> tuple[dict[str, str], str, str]:
+def choose_player(team: TeamState, config: ManagerConfig, available_rows: list[dict[str, str]], round_number: int, overall_pick: int, total_rounds: int, minor_slot_target: int) -> tuple[dict[str, str], str, str]:
     best_row: dict[str, str] | None = None
+    best_bucket = "MLB"
     best_score = -10_000.0
     best_note = ""
     for row in available_rows:
-        score, need_note = candidate_score(team, config, row, round_number, overall_pick)
-        if score > best_score:
-            best_score = score
-            best_row = row
-            best_note = need_note
+        for roster_bucket in eligible_roster_buckets(team, row, minor_slot_target):
+            score, need_note = candidate_score(team, config, row, round_number, overall_pick, roster_bucket, total_rounds, minor_slot_target)
+            if score > best_score:
+                best_score = score
+                best_row = row
+                best_bucket = roster_bucket
+                best_note = need_note
     if best_row is None:
         raise RuntimeError(f"No candidate found for {team.name} at pick {overall_pick}")
 
-    roster_bucket = "MLB"
-    rationale = build_reason(team.name, config, best_row, round_number, roster_bucket, best_note)
-    return best_row, roster_bucket, rationale
+    rationale = build_reason(team.name, config, best_row, round_number, best_bucket, best_note)
+    return best_row, best_bucket, rationale
 
 
 def run_draft(board_rows: list[dict[str, str]], settings: dict) -> tuple[list[dict[str, str]], dict[str, TeamState]]:
@@ -691,13 +797,15 @@ def run_draft(board_rows: list[dict[str, str]], settings: dict) -> tuple[list[di
     if not order:
         raise RuntimeError("Draft order missing from startup-draft-settings-2026.json")
 
+    total_rounds = parse_int(str(settings.get("startup_draft_rounds") or "")) or DEFAULT_TOTAL_ROUNDS
+    minor_slot_target = max(total_rounds - TARGET_MLB_SLOTS, 0)
+
     teams = {name: TeamState(name=name) for name in order}
     available_by_id = {
         clean_value(row.get("mlbam_id")) or normalize_name(clean_value(row.get("player_name"))): row
         for row in board_rows
-        if should_include_in_mlb_draft(row)
     }
-    snake_order = generate_snake_order(order, TOTAL_ROUNDS)
+    snake_order = generate_snake_order(order, total_rounds)
 
     results: list[dict[str, str]] = []
     for overall_pick, team_name in enumerate(snake_order, start=1):
@@ -706,7 +814,7 @@ def run_draft(board_rows: list[dict[str, str]], settings: dict) -> tuple[list[di
         team = teams[team_name]
         config = MANAGER_CONFIGS[team_name]
         available_rows = list(available_by_id.values())
-        selected_row, roster_bucket, rationale = choose_player(team, config, available_rows, round_number, overall_pick)
+        selected_row, roster_bucket, rationale = choose_player(team, config, available_rows, round_number, overall_pick, total_rounds, minor_slot_target)
         player_key = clean_value(selected_row.get("mlbam_id")) or normalize_name(clean_value(selected_row.get("player_name")))
         available_by_id.pop(player_key, None)
 

@@ -8,6 +8,8 @@ Wendell is the comfort-with-certainty drafter. He trusts track record, dislikes 
 
 - Patience with poor performance: High
 - Veteran versus youth balance: Veteran leaning
+- Minor-league draft appetite: Very low
+- Preferred minors depth: AAA only as long as possible, with deep minors avoided unless the room forces it
 - Category adjustment aggression: Low
 - Free-agent activity: Low to moderate
 - Injury handling: Patient with core players, slower on marginal replacements
@@ -26,6 +28,7 @@ Wendell is the comfort-with-certainty drafter. He trusts track record, dislikes 
 - prefers roster certainty over speculative ceiling in the core rounds
 - values steady weekly contributors even if their long-term ceiling is modest
 - adds youth later, but mainly after the main lineup foundation is secure
+- prefers prospect picks who look like near-term insurance rather than long-horizon development bets
 - is the most likely manager to use ADP as a comfort check before making an aggressive reach
 
 ## Sunday Decision Style

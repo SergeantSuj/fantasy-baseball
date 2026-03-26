@@ -11,6 +11,8 @@ Each profile influences:
 - patience with slumping players
 - willingness to hold injured players
 - veteran versus prospect preference
+- appetite for taking minor leaguers in the startup
+- preferred prospect depth from upper minors versus deep developmental levels
 - aggressiveness in free-agent replacement
 - lineup flexibility for weekly category targeting
 - tolerance for short-term risk versus long-term dynasty value

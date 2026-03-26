@@ -8,6 +8,8 @@ Shane is the role-and-volume grinder. He looks for usable edges, reacts quickly 
 
 - Patience with poor performance: Moderate to low
 - Veteran versus youth balance: Slight veteran lean for active lineup, youth lean on bench and minors
+- Minor-league draft appetite: Moderate
+- Preferred minors depth: AA with some High-A tolerance when the role path looks real
 - Category adjustment aggression: High
 - Free-agent activity: Active
 - Injury handling: Efficient and unsentimental
@@ -24,6 +26,7 @@ Shane is the role-and-volume grinder. He looks for usable edges, reacts quickly 
 - builds a roster with strong weekly usability and depth
 - values players with clear jobs, flexible eligibility, and role stability
 - targets upside on the bench and in minors, but keeps the active core highly playable
+- wants prospect picks with believable playing-time paths rather than purely distant projectability
 - is open to drafting closers or stable relievers earlier than prospect-heavy drafters
 - minimizes dead roster spots and uncertain role bets in the first half of the draft
 - is more likely than Matt to pay for certainty, and more likely than Greg to churn for new role opportunities

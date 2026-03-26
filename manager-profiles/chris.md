@@ -8,6 +8,8 @@ Chris is the consensus drafter. He prefers balanced rosters, does not want to lo
 
 - Patience with poor performance: Moderate
 - Veteran versus youth balance: Even split
+- Minor-league draft appetite: Moderate but selective
+- Preferred minors depth: Upper minors, mostly AA before the very deep developmental tiers
 - Category adjustment aggression: Moderate
 - Free-agent activity: Selective and practical
 - Injury handling: Conservative with longer-term injuries, active on short-term replacements
@@ -26,6 +28,7 @@ Chris is the consensus drafter. He prefers balanced rosters, does not want to lo
 - mixes proven MLB production with a few younger upside pieces rather than going all-in on either side
 - waits on extreme risk unless the value discount is substantial
 - treats prospects as complementary assets, not the core of the startup build
+- prefers minor-league picks who are close enough to contribute without forcing the roster into a long development queue
 - prefers players supported by both dynasty rank and market price rather than outliers in only one source
 
 ## Sunday Decision Style

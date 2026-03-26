@@ -17,6 +17,7 @@ WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = WORKSPACE_ROOT / "data"
 CACHE_PATH = DATA_DIR / "mlb_search_cache.json"
 OUTPUT_PATH = DATA_DIR / "player-pool-2026.csv"
+MINOR_POOL_PATH = DATA_DIR / "minor-league-draft-pool-2026.csv"
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0 Safari/537.36"
 
@@ -66,6 +67,10 @@ def split_positions(value: str) -> list[str]:
     return positions
 
 
+def clean_value(value: str | None) -> str:
+    return str(value or "").strip()
+
+
 def merge_positions(*position_lists: list[str]) -> str:
     merged: list[str] = []
     for position_list in position_lists:
@@ -73,6 +78,13 @@ def merge_positions(*position_lists: list[str]) -> str:
             if position not in merged:
                 merged.append(position)
     return "/".join(merged)
+
+
+def read_csv_rows(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open("r", encoding="utf-8", newline="") as csv_file:
+        return list(csv.DictReader(csv_file))
 
 
 def parse_razzball_table(url: str, player_type: str) -> list[dict]:
@@ -253,6 +265,100 @@ def enrich_rows(rows: list[dict], metadata_by_name: dict[str, dict]) -> list[dic
     return enriched
 
 
+def infer_player_type(primary_position: str, position_type: str) -> str:
+    primary = clean_value(primary_position).upper()
+    position_kind = clean_value(position_type).lower()
+    if primary == "P" or position_kind == "pitcher":
+        return "pitcher"
+    return "hitter"
+
+
+def merge_affiliated_pool_rows(rows: list[dict], affiliated_rows: list[dict]) -> list[dict]:
+    if not affiliated_rows:
+        return rows
+
+    fieldnames: list[str] = []
+    for row in rows:
+        for field in row:
+            if field not in fieldnames:
+                fieldnames.append(field)
+
+    merged_by_key: dict[str, dict] = {}
+    order: list[str] = []
+    for row in rows:
+        key = clean_value(str(row.get("mlbam_id") or "")) or normalize_name(row.get("player_name", ""))
+        merged_by_key[key] = dict(row)
+        order.append(key)
+
+    for affiliated_row in affiliated_rows:
+        player_name = clean_value(affiliated_row.get("player_name"))
+        mlbam_id = clean_value(affiliated_row.get("mlbam_id"))
+        if not player_name:
+            continue
+
+        key = mlbam_id or normalize_name(player_name)
+        existing = merged_by_key.get(key)
+
+        current_level = clean_value(affiliated_row.get("current_level"))
+        primary_position = clean_value(affiliated_row.get("primary_position"))
+        eligible = merge_positions(split_positions(primary_position), split_positions(clean_value(affiliated_row.get("position_type"))))
+        inferred_type = infer_player_type(primary_position, clean_value(affiliated_row.get("position_type")))
+        org_team = clean_value(affiliated_row.get("parent_org_abbr")) or clean_value(affiliated_row.get("affiliated_team_abbr"))
+
+        affiliated_payload = {
+            "player_name": player_name,
+            "player_type": inferred_type,
+            "team": org_team,
+            "mlb_team": org_team,
+            "mlbam_id": mlbam_id,
+            "birth_date": clean_value(affiliated_row.get("birth_date")),
+            "age": clean_value(affiliated_row.get("age")),
+            "bat_side": clean_value(affiliated_row.get("bat_side")),
+            "pitch_hand": clean_value(affiliated_row.get("pitch_hand")),
+            "primary_position": primary_position,
+            "eligible_positions": eligible or primary_position,
+            "source_positions_espn": "",
+            "source_positions_yahoo": "",
+            "source_positions_razzball": "",
+            "projection_source": clean_value(affiliated_row.get("source")) or "MLB Stats API affiliated player feeds",
+            "current_level": current_level,
+            "levels_seen": clean_value(affiliated_row.get("levels_seen")),
+            "affiliated_team": clean_value(affiliated_row.get("affiliated_team")),
+            "affiliated_team_abbr": clean_value(affiliated_row.get("affiliated_team_abbr")),
+            "league_name": clean_value(affiliated_row.get("league_name")),
+            "parent_org_id": clean_value(affiliated_row.get("parent_org_id")),
+            "parent_org_name": clean_value(affiliated_row.get("parent_org_name")),
+            "draft_year": clean_value(affiliated_row.get("draft_year")),
+            "active": clean_value(affiliated_row.get("active")),
+        }
+
+        if existing is None:
+            new_row = {field: "" for field in fieldnames}
+            for field, value in affiliated_payload.items():
+                new_row[field] = value
+                if field not in fieldnames:
+                    fieldnames.append(field)
+            merged_by_key[key] = new_row
+            order.append(key)
+            continue
+
+        for field, value in affiliated_payload.items():
+            if field not in fieldnames:
+                fieldnames.append(field)
+            if field == "eligible_positions":
+                existing[field] = merge_positions(split_positions(existing.get(field, "")), split_positions(value))
+                continue
+            if field == "current_level":
+                existing_level = clean_value(existing.get(field))
+                if not existing_level or existing_level == "MLB":
+                    existing[field] = value
+                continue
+            if not clean_value(existing.get(field)) and value:
+                existing[field] = value
+
+    return [merged_by_key[key] for key in order]
+
+
 def write_csv(rows: list[dict]) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     fieldnames: list[str] = []
@@ -274,10 +380,17 @@ def main() -> None:
 
     metadata_by_name, unresolved = fetch_metadata(rows)
     enriched_rows = enrich_rows(rows, metadata_by_name)
-    write_csv(enriched_rows)
+    affiliated_rows = read_csv_rows(MINOR_POOL_PATH)
+    team_map = build_team_map()
+    for affiliated_row in affiliated_rows:
+        parent_org_id = clean_value(affiliated_row.get("parent_org_id"))
+        affiliated_row["parent_org_abbr"] = team_map.get(int(parent_org_id), "") if parent_org_id.isdigit() else ""
+    merged_rows = merge_affiliated_pool_rows(enriched_rows, affiliated_rows)
+    write_csv(merged_rows)
 
-    print(f"Wrote {len(enriched_rows)} rows to {OUTPUT_PATH}")
-    print(f"Unique players: {len({row['player_name'] for row in enriched_rows})}")
+    print(f"Wrote {len(merged_rows)} rows to {OUTPUT_PATH}")
+    print(f"Unique players: {len({row['player_name'] for row in merged_rows})}")
+    print(f"Affiliated-only additions: {max(len(merged_rows) - len(enriched_rows), 0)}")
     print(f"Unresolved ages/metadata: {len(unresolved)}")
     if unresolved:
         print("Sample unresolved names:")
