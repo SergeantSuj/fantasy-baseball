@@ -444,7 +444,8 @@ def build_team_payload(
         joined["mlb_team"] = clean_value(joined.get("mlb_team")) or clean_value(joined.get("proj_team"))
         roster.append(joined)
 
-    two_way_players = [player for player in roster if clean_value(player.get("player_type")) == "two-way"]
+    mlb_roster = [player for player in roster if clean_value(player.get("roster_bucket")) != "Minors"]
+    two_way_players = [player for player in mlb_roster if clean_value(player.get("player_type")) == "two-way"]
     scenario_results: list[dict[str, object]] = []
     scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
 
@@ -452,7 +453,7 @@ def build_team_payload(
         choice_map = {player_key(player): choice for player, choice in zip(two_way_players, choices)}
         hitters = []
         pitchers = []
-        for player in roster:
+        for player in mlb_roster:
             key = player_key(player)
             choice = choice_map.get(key)
             if clean_value(player.get("player_type")) == "two-way":
@@ -469,7 +470,7 @@ def build_team_payload(
         active_hitters, bench_hitters = assign_best_hitter_lineup(hitters)
         active_pitchers, bench_pitchers = assign_pitchers(pitchers)
         active_keys = {player_key(player) for player in active_hitters + active_pitchers}
-        bench_players = [dict(player) for player in roster if player_key(player) not in active_keys]
+        bench_players = [dict(player) for player in mlb_roster if player_key(player) not in active_keys]
         projected_hitting = aggregate_hitting(active_hitters)
         projected_pitching = aggregate_pitching(active_pitchers)
         projected_totals = {

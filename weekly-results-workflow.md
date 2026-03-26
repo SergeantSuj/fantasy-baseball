@@ -19,6 +19,11 @@ Monday stat import and standings outputs:
 - `data/season-results-2026.json`
 - `data/player-contributions-2026.csv`
 
+Optional Monday roster-compliance audit outputs:
+
+- `data/minor-league-eligibility-report-2026.json`
+- `data/minor-league-eligibility-report-2026.csv`
+
 ## Sunday Step
 
 Create the lineup snapshot template:
@@ -69,6 +74,27 @@ If a week's results need to be corrected and rebuilt:
 ```powershell
 c:/FantasyBaseball/.venv/Scripts/python.exe scripts/update_weekly_results.py --week 2026-week-01 --start-date 2026-03-29 --end-date 2026-04-04 --replace-week
 ```
+
+## Monday Minor-League Eligibility Audit
+
+After the weekly results update, run the minor-league eligibility audit before making new roster decisions for the next lock:
+
+```powershell
+c:/FantasyBaseball/.venv/Scripts/python.exe scripts/check_minor_league_eligibility.py
+```
+
+The audit:
+
+- reads all current `manager-rosters/*.csv` files
+- joins rostered players to `data/draft-board-input-2026.csv`
+- pulls live MLB career hitting and pitching totals from the MLB Stats API
+- flags any player still stored in a `Minors` roster slot who has crossed 130 MLB at-bats or 50 MLB innings pitched
+- suggests the two legal resolution paths for each offender:
+	- drop the offender and add a new eligible minor leaguer
+	- promote the offender to the MLB bucket, drop one MLB player, and add a new eligible minor leaguer
+- ranks likely MLB drop candidates and replacement minor-league adds for each team
+
+Review the generated JSON or CSV report before editing roster files for the next week.
 
 ## What Counts
 

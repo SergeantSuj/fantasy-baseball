@@ -174,7 +174,8 @@ def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_i
         joined["mlb_team"] = clean_value(joined.get("mlb_team")) or clean_value(joined.get("proj_team"))
         roster.append(joined)
 
-    two_way_players = [player for player in roster if clean_value(str(player.get("player_type", ""))) == "two-way"]
+    mlb_roster = [player for player in roster if clean_value(str(player.get("roster_bucket", ""))) != "Minors"]
+    two_way_players = [player for player in mlb_roster if clean_value(str(player.get("player_type", ""))) == "two-way"]
     scenario_results: list[dict[str, object]] = []
     scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
 
@@ -182,7 +183,7 @@ def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_i
         choice_map = {player_key(player): choice for player, choice in zip(two_way_players, choices)}
         hitters = []
         pitchers = []
-        for player in roster:
+        for player in mlb_roster:
             key = player_key(player)
             choice = choice_map.get(key)
             if clean_value(str(player.get("player_type", ""))) == "two-way":

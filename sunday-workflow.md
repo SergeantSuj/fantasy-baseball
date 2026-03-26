@@ -305,7 +305,8 @@ Convert the prior scoring week's active-lineup output into refreshed season tota
 5. Re-rank teams within each category
 6. Recompute total hitting points, pitching points, and overall roto points
 7. Update the published standings view and any downstream summary files
-8. Verify the refreshed standings before using them for the next Sunday decision cycle
+8. Run the minor-league eligibility audit and flag any minors who must be promoted or cut before the next lock
+9. Verify the refreshed standings and compliance report before using them for the next Sunday decision cycle
 
 ### Monday Validation Checklist
 
@@ -317,6 +318,7 @@ For each weekly standings refresh, confirm:
 - category leaders and trailing teams changed only where the new weekly stats justify it
 - team point totals equal the sum of category points
 - published standings and team summaries use the same updated totals
+- any minor leaguer who crossed 130 MLB at-bats or 50 MLB innings is surfaced for a required roster move before the next lock
 
 ## Decision Standard
 
