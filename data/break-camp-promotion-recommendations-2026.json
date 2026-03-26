@@ -1,0 +1,667 @@
+{
+  "season": 2026,
+  "opening_day": "2026-03-25",
+  "source": "MLB Stats API Opening Day active rosters + fantasy lineup optimizer",
+  "summary": {
+    "teams_checked": 10,
+    "starters": 6,
+    "bench_promotions": 12,
+    "keep_in_minors": 12
+  },
+  "teams": [
+    {
+      "team": "Chris",
+      "players": [
+        {
+          "player_name": "Connelly Early",
+          "real_team": "BOS",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "251",
+          "adp": "439.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 110.3,
+          "drop_candidate": {
+            "player_name": "Kristian Campbell",
+            "player_type": "hitter",
+            "eligible_positions": "2B/OF/INFIELDER",
+            "roster_value": 45.3,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        },
+        {
+          "player_name": "Jordan Lawlar",
+          "real_team": "AZ",
+          "eligible_positions": "3B/SS/INFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "296",
+          "adp": "134.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 190.9,
+          "drop_candidate": {
+            "player_name": "Kristian Campbell",
+            "player_type": "hitter",
+            "eligible_positions": "2B/OF/INFIELDER",
+            "roster_value": 45.3,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        },
+        {
+          "player_name": "Moises Ballesteros",
+          "real_team": "CHC",
+          "eligible_positions": "DH/C/CATCHER",
+          "player_type": "hitter",
+          "dynasty_rank": "293",
+          "adp": "229.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 105.7,
+          "drop_candidate": {
+            "player_name": "Kristian Campbell",
+            "player_type": "hitter",
+            "eligible_positions": "2B/OF/INFIELDER",
+            "roster_value": 45.3,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        }
+      ]
+    },
+    {
+      "team": "Rob",
+      "players": [
+        {
+          "player_name": "Owen Caissie",
+          "real_team": "MIA",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "361",
+          "adp": "241.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 161.8,
+          "drop_candidate": {
+            "player_name": "Coby Mayo",
+            "player_type": "hitter",
+            "eligible_positions": "1B/3B",
+            "roster_value": 91.2,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        }
+      ]
+    },
+    {
+      "team": "Wendell",
+      "players": [
+        {
+          "player_name": "Luis Morales",
+          "real_team": "ATH",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "354",
+          "adp": "401.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 106.6,
+          "drop_candidate": {
+            "player_name": "Kodai Senga",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 123.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Mick Abel",
+          "real_team": "MIN",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "379",
+          "adp": "260.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 107.6,
+          "drop_candidate": {
+            "player_name": "Kodai Senga",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 123.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        }
+      ]
+    },
+    {
+      "team": "Matt",
+      "players": [
+        {
+          "player_name": "Roki Sasaki",
+          "real_team": "LAD",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "135",
+          "adp": "109.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 121.5,
+          "drop_candidate": {
+            "player_name": "Pablo L\u00f3pez",
+            "player_type": "pitcher",
+            "eligible_positions": "P/PITCHER",
+            "roster_value": 0.0,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        }
+      ]
+    },
+    {
+      "team": "Michael",
+      "players": [
+        {
+          "player_name": "Carson Benge",
+          "real_team": "NYM",
+          "eligible_positions": "OF/OUTFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "147",
+          "adp": "141.5",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 133.9,
+          "drop_candidate": {
+            "player_name": "Cole Young",
+            "player_type": "hitter",
+            "eligible_positions": "2B/INFIELDER",
+            "roster_value": 129.6,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        },
+        {
+          "player_name": "Carter Jensen",
+          "real_team": "KC",
+          "eligible_positions": "C/CATCHER",
+          "player_type": "hitter",
+          "dynasty_rank": "242",
+          "adp": "440.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 136.0,
+          "drop_candidate": {
+            "player_name": "Cole Young",
+            "player_type": "hitter",
+            "eligible_positions": "2B/INFIELDER",
+            "roster_value": 129.6,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        },
+        {
+          "player_name": "J.J. Wetherholt",
+          "real_team": "STL",
+          "eligible_positions": "SS/INFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "486",
+          "adp": "259.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 213.9,
+          "drop_candidate": {
+            "player_name": "Cole Young",
+            "player_type": "hitter",
+            "eligible_positions": "2B/INFIELDER",
+            "roster_value": 129.6,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        }
+      ]
+    },
+    {
+      "team": "Paul",
+      "players": [
+        {
+          "player_name": "Alex Freeland",
+          "real_team": "LAD",
+          "eligible_positions": "3B/2B/SS/INFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "264",
+          "adp": "679.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 71.3,
+          "drop_candidate": {
+            "player_name": "Hunter Greene",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 103.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Brice Matthews",
+          "real_team": "HOU",
+          "eligible_positions": "2B/SS/INFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "464",
+          "adp": "639.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 81.3,
+          "drop_candidate": {
+            "player_name": "Hunter Greene",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 103.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Dylan Beavers",
+          "real_team": "BAL",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "318",
+          "adp": "261.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 185.4,
+          "drop_candidate": {
+            "player_name": "Hunter Greene",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 103.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        },
+        {
+          "player_name": "Justin Crawford",
+          "real_team": "PHI",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "338",
+          "adp": "249.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 202.0,
+          "drop_candidate": {
+            "player_name": "Hunter Greene",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 103.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        },
+        {
+          "player_name": "Nathan Church",
+          "real_team": "STL",
+          "eligible_positions": "OF/LF/OUTFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "764",
+          "adp": "768.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 58.5,
+          "drop_candidate": {
+            "player_name": "Hunter Greene",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 103.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        }
+      ]
+    },
+    {
+      "team": "Josh M",
+      "players": [
+        {
+          "player_name": "Chase DeLauter",
+          "real_team": "CLE",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "360",
+          "adp": "203.0",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 189.8,
+          "drop_candidate": {
+            "player_name": "Spencer Horwitz",
+            "player_type": "hitter",
+            "eligible_positions": "1B/INFIELDER",
+            "roster_value": 169.8,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        }
+      ]
+    },
+    {
+      "team": "Shane",
+      "players": [
+        {
+          "player_name": "Brandon Sproat",
+          "real_team": "MIL",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "394",
+          "adp": "275.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 91.0,
+          "drop_candidate": {
+            "player_name": "Tatsuya Imai",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 167.7,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Daniel Susac",
+          "real_team": "SF",
+          "eligible_positions": "C/CATCHER",
+          "player_type": "hitter",
+          "dynasty_rank": "856",
+          "adp": "939.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 37.7,
+          "drop_candidate": {
+            "player_name": "Tatsuya Imai",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 167.7,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Rhett Lowder",
+          "real_team": "CIN",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "449",
+          "adp": "298.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 105.9,
+          "drop_candidate": {
+            "player_name": "Tatsuya Imai",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 167.7,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        }
+      ]
+    },
+    {
+      "team": "Greg",
+      "players": [
+        {
+          "player_name": "Grant Taylor",
+          "real_team": "CWS",
+          "eligible_positions": "RP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "342",
+          "adp": "409.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 147.6,
+          "drop_candidate": {
+            "player_name": "Chris Bassitt",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 164.1,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Hunter Barco",
+          "real_team": "PIT",
+          "eligible_positions": "RP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "446",
+          "adp": "794.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 57.0,
+          "drop_candidate": {
+            "player_name": "Chris Bassitt",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 164.1,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Kyle Harrison",
+          "real_team": "MIL",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "427",
+          "adp": "487.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 91.9,
+          "drop_candidate": {
+            "player_name": "Chris Bassitt",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 164.1,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        },
+        {
+          "player_name": "Parker Messick",
+          "real_team": "CLE",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "440",
+          "adp": "350.0",
+          "recommendation": "Keep in minors for now",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 123.9,
+          "drop_candidate": {
+            "player_name": "Chris Bassitt",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 164.1,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Does not currently beat the weakest projected MLB roster player on the fantasy roster."
+        }
+      ]
+    },
+    {
+      "team": "Josh V",
+      "players": [
+        {
+          "player_name": "Andrew Painter",
+          "real_team": "PHI",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "221",
+          "adp": "122.0",
+          "recommendation": "Move to MLB roster as starter",
+          "projected_role_if_promoted": "Starter",
+          "projected_slot_if_promoted": "P9",
+          "candidate_projection_value": 97.8,
+          "drop_candidate": {
+            "player_name": "Spencer Schwellenbach",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 71.3,
+            "current_projected_role": "P9"
+          },
+          "rationale": "Would crack the active lineup at P9 under the current optimizer."
+        },
+        {
+          "player_name": "Bubba Chandler",
+          "real_team": "PIT",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "121",
+          "adp": "66.5",
+          "recommendation": "Move to MLB roster as starter",
+          "projected_role_if_promoted": "Starter",
+          "projected_slot_if_promoted": "P6",
+          "candidate_projection_value": 139.6,
+          "drop_candidate": {
+            "player_name": "Spencer Schwellenbach",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 71.3,
+            "current_projected_role": "P9"
+          },
+          "rationale": "Would crack the active lineup at P6 under the current optimizer."
+        },
+        {
+          "player_name": "Carson Williams",
+          "real_team": "TB",
+          "eligible_positions": "SS/INFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "317",
+          "adp": "186.0",
+          "recommendation": "Move to MLB roster as starter",
+          "projected_role_if_promoted": "Starter",
+          "projected_slot_if_promoted": "UTIL",
+          "candidate_projection_value": 224.6,
+          "drop_candidate": {
+            "player_name": "Kyle Teel",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "roster_value": 137.7,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Would crack the active lineup at UTIL under the current optimizer."
+        },
+        {
+          "player_name": "Kevin McGonigle",
+          "real_team": "DET",
+          "eligible_positions": "SS/INFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "51",
+          "adp": "45.5",
+          "recommendation": "Move to MLB roster as starter",
+          "projected_role_if_promoted": "Starter",
+          "projected_slot_if_promoted": "UTIL",
+          "candidate_projection_value": 232.5,
+          "drop_candidate": {
+            "player_name": "Kyle Teel",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "roster_value": 137.7,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Would crack the active lineup at UTIL under the current optimizer."
+        },
+        {
+          "player_name": "Nolan McLean",
+          "real_team": "NYM",
+          "eligible_positions": "SP/P/PITCHER",
+          "player_type": "pitcher",
+          "dynasty_rank": "102",
+          "adp": "85.0",
+          "recommendation": "Move to MLB roster as starter",
+          "projected_role_if_promoted": "Starter",
+          "projected_slot_if_promoted": "P3",
+          "candidate_projection_value": 182.1,
+          "drop_candidate": {
+            "player_name": "Spencer Schwellenbach",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "roster_value": 71.3,
+            "current_projected_role": "P9"
+          },
+          "rationale": "Would crack the active lineup at P3 under the current optimizer."
+        },
+        {
+          "player_name": "Sal Stewart",
+          "real_team": "CIN",
+          "eligible_positions": "1B/3B/INFIELDER",
+          "player_type": "hitter",
+          "dynasty_rank": "149",
+          "adp": "138.0",
+          "recommendation": "Move to MLB roster as starter",
+          "projected_role_if_promoted": "Starter",
+          "projected_slot_if_promoted": "1B",
+          "candidate_projection_value": 238.2,
+          "drop_candidate": {
+            "player_name": "Kyle Teel",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "roster_value": 137.7,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Would crack the active lineup at 1B under the current optimizer."
+        },
+        {
+          "player_name": "Samuel Basallo",
+          "real_team": "BAL",
+          "eligible_positions": "C/CATCHER",
+          "player_type": "hitter",
+          "dynasty_rank": "71",
+          "adp": "80.5",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 163.2,
+          "drop_candidate": {
+            "player_name": "Kyle Teel",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "roster_value": 137.7,
+            "current_projected_role": "Bench"
+          },
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        }
+      ]
+    }
+  ],
+  "output_files": {
+    "json": "data/break-camp-promotion-recommendations-2026.json",
+    "csv": "data/break-camp-promotion-recommendations-2026.csv"
+  }
+}

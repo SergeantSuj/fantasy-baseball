@@ -270,6 +270,46 @@ def assign_pitchers(players: list[dict[str, object]]) -> tuple[list[dict[str, ob
     return active, bench
 
 
+def optimize_roster(players: list[dict[str, object]]) -> dict[str, object]:
+    two_way_players = [player for player in players if clean_value(str(player.get("player_type", ""))) == "two-way"]
+    scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
+    scenario_results: list[dict[str, object]] = []
+
+    for choices in product(scenario_labels, repeat=len(two_way_players)):
+        choice_map = {player_key(player): choice for player, choice in zip(two_way_players, choices)}
+        hitters = []
+        pitchers = []
+        for player in players:
+            key = player_key(player)
+            choice = choice_map.get(key)
+            if clean_value(str(player.get("player_type", ""))) == "two-way":
+                if choice == "pitcher":
+                    pitchers.append(player)
+                else:
+                    hitters.append(player)
+                continue
+            if is_hitter(player):
+                hitters.append(player)
+            if is_pitcher(player):
+                pitchers.append(player)
+
+        active_hitters, _ = assign_best_hitter_lineup(hitters)
+        active_pitchers, _ = assign_pitchers(pitchers)
+        active_keys = {player_key(player) for player in [*active_hitters, *active_pitchers]}
+        bench_players = [dict(player) for player in players if player_key(player) not in active_keys]
+        score = sum(hitter_value(player) for player in active_hitters) + sum(pitcher_value(player) for player in active_pitchers)
+        scenario_results.append(
+            {
+                "score": score,
+                "active_hitters": active_hitters,
+                "active_pitchers": active_pitchers,
+                "bench_players": bench_players,
+            }
+        )
+
+    return max(scenario_results, key=lambda item: float(item["score"]))
+
+
 def projected_active_key_set(players: list[dict[str, object]]) -> set[str]:
     two_way_players = [player for player in players if clean_value(str(player.get("player_type", ""))) == "two-way"]
     scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
@@ -468,6 +508,55 @@ def build_drop_candidates(team_players: list[dict[str, object]], excluded_keys: 
     return mlb_players[:TOP_DROP_CANDIDATES]
 
 
+def evaluate_offender_action(offender: dict[str, object], team_players: list[dict[str, object]], excluded_keys: set[str]) -> dict[str, object]:
+    mlb_players = [player for player in team_players if not is_minor_roster_player(player) and player_key(player) not in excluded_keys]
+    promoted_offender = dict(offender)
+    promoted_offender["roster_bucket"] = "MLB"
+    optimized = optimize_roster(mlb_players + [promoted_offender])
+
+    active_role_map: dict[str, str] = {}
+    for player in optimized["active_hitters"]:
+        active_role_map[player_key(player)] = clean_value(str(player.get("lineup_slot", ""))) or "Active"
+    for player in optimized["active_pitchers"]:
+        active_role_map[player_key(player)] = clean_value(str(player.get("lineup_slot", ""))) or "Active"
+    for player in optimized["bench_players"]:
+        active_role_map[player_key(player)] = "Bench"
+
+    offender_key = player_key(promoted_offender)
+    offender_role = active_role_map.get(offender_key, "Bench")
+    offender_is_starter = offender_role != "Bench"
+
+    drop_candidates = build_drop_candidates(team_players, excluded_keys)
+    best_drop = drop_candidates[0] if drop_candidates else None
+    offender_value = round(player_projection_value(promoted_offender), 1)
+    best_drop_value = round(player_projection_value(best_drop), 1) if best_drop else 0.0
+
+    if offender_is_starter:
+        recommended_action = "Promote to MLB roster as starter"
+        rationale = f"Would enter the active lineup at {offender_role} under the current optimizer."
+    elif best_drop and player_projection_value(promoted_offender) > player_projection_value(best_drop):
+        recommended_action = "Promote to MLB roster as bench player"
+        rationale = "Profiles as a better MLB-bucket hold than the weakest current MLB roster player, even though the player would open on the fantasy bench."
+    else:
+        recommended_action = "Drop from minor league roster"
+        rationale = "Does not currently project better than the weakest MLB-bucket alternative, so the cleaner forced-move path is to cut the offender and refill the minors slot."
+
+    return {
+        "recommended_action": recommended_action,
+        "projected_role_if_promoted": "Starter" if offender_is_starter else "Bench",
+        "projected_slot_if_promoted": offender_role if offender_is_starter else "",
+        "offender_projection_value": offender_value,
+        "suggested_mlb_drop": {
+            "player_name": clean_value(str(best_drop.get("player_name", ""))) if best_drop else "",
+            "mlb_team": clean_value(str(best_drop.get("mlb_team", ""))) if best_drop else "",
+            "player_type": clean_value(str(best_drop.get("player_type", ""))) if best_drop else "",
+            "projected_role": clean_value(str(best_drop.get("projected_role", ""))) if best_drop else "",
+            "projection_value": best_drop_value,
+        },
+        "decision_rationale": rationale,
+    }
+
+
 def build_team_report(
     team_name: str,
     team_players: list[dict[str, object]],
@@ -507,12 +596,17 @@ def build_team_report(
 
     offender_keys = {clean_value(str(item.get("mlbam_id", ""))) or normalize_name(str(item.get("player_name", ""))) for item in offenders}
     drop_candidates = build_drop_candidates(team_players, offender_keys)
+    offender_lookup = {player_key(player): player for player in minors}
+    for offender in offenders:
+        decision = evaluate_offender_action(offender_lookup[player_key(offender)], team_players, offender_keys)
+        offender.update(decision)
     team_add_candidates = minor_add_candidates[:TOP_MINOR_ADD_CANDIDATES]
     notes = []
     if offenders:
         notes.append(
             f"{len(offenders)} minor leaguer(s) lost eligibility. Each resolution requires the minors slot to be refilled with a new eligible player."
         )
+        notes.append("Offender-level recommendations classify each forced move as a promotion to the MLB roster or a direct drop from the minors list based on the current lineup optimizer.")
     if unevaluated:
         notes.append("Unable to evaluate these minors because no MLBAM ID was available: " + ", ".join(sorted(unevaluated)))
 
@@ -613,6 +707,7 @@ def build_csv_rows(report: dict[str, object]) -> list[dict[str, object]]:
         drop_names = "; ".join(candidate["player_name"] for candidate in team.get("suggested_mlb_drops", []))
         add_names = "; ".join(candidate["player_name"] for candidate in team.get("suggested_minor_adds", []))
         for offender in team.get("offenders", []):
+            suggested_drop = offender.get("suggested_mlb_drop", {})
             rows.append(
                 {
                     "team": team.get("team", ""),
@@ -625,6 +720,12 @@ def build_csv_rows(report: dict[str, object]) -> list[dict[str, object]]:
                     "career_ip": offender.get("career_ip", "0.0"),
                     "career_outs": offender.get("career_outs", 0),
                     "reason": offender.get("reason", ""),
+                    "recommended_action": offender.get("recommended_action", ""),
+                    "projected_role_if_promoted": offender.get("projected_role_if_promoted", ""),
+                    "projected_slot_if_promoted": offender.get("projected_slot_if_promoted", ""),
+                    "offender_projection_value": offender.get("offender_projection_value", 0.0),
+                    "decision_rationale": offender.get("decision_rationale", ""),
+                    "suggested_single_mlb_drop": suggested_drop.get("player_name", ""),
                     "drop_offender_path": "Drop offender, then add a new eligible minor leaguer.",
                     "promotion_path": "Promote offender, drop one MLB player, then add a new eligible minor leaguer.",
                     "suggested_mlb_drop_candidates": drop_names,
@@ -666,6 +767,12 @@ def main() -> None:
             "career_ip",
             "career_outs",
             "reason",
+            "recommended_action",
+            "projected_role_if_promoted",
+            "projected_slot_if_promoted",
+            "offender_projection_value",
+            "decision_rationale",
+            "suggested_single_mlb_drop",
             "drop_offender_path",
             "promotion_path",
             "suggested_mlb_drop_candidates",

@@ -1,0 +1,31 @@
+player_name,mlbam_id,fantasy_team,fantasy_roster_bucket,eligible_positions,player_type,real_team,real_team_name,opening_day,roster_type,position_abbreviation,status_description,dynasty_rank,adp,transaction_status,current_level
+Connelly Early,813349,Chris,Minors,SP/P/PITCHER,pitcher,BOS,Boston Red Sox,2026-03-25,active,P,Active,251,439.0,,MLB
+Jordan Lawlar,691783,Chris,Minors,3B/SS/INFIELDER,hitter,AZ,Arizona Diamondbacks,2026-03-25,active,SS,Active,296,134.0,,MLB
+Moises Ballesteros,694208,Chris,Minors,DH/C/CATCHER,hitter,CHC,Chicago Cubs,2026-03-25,active,C,Active,293,229.0,,MLB
+Grant Taylor,691799,Greg,Minors,RP/P/PITCHER,pitcher,CWS,Chicago White Sox,2026-03-25,active,P,Active,342,409.0,,MLB
+Hunter Barco,682995,Greg,Minors,RP/P/PITCHER,pitcher,PIT,Pittsburgh Pirates,2026-03-25,active,P,Active,446,794.0,,MLB
+Kyle Harrison,690986,Greg,Minors,SP/P/PITCHER,pitcher,MIL,Milwaukee Brewers,2026-03-25,active,P,Active,427,487.0,Trade,MLB
+Parker Messick,800048,Greg,Minors,SP/P/PITCHER,pitcher,CLE,Cleveland Guardians,2026-03-25,active,P,Active,440,350.0,,MLB
+Chase DeLauter,800050,Josh M,Minors,OF/RF/OUTFIELDER,hitter,CLE,Cleveland Guardians,2026-03-25,active,RF,Active,360,203.0,,MLB
+Andrew Painter,691725,Josh V,Minors,SP/P/PITCHER,pitcher,PHI,Philadelphia Phillies,2026-03-25,active,P,Active,221,122.0,,MLB
+Bubba Chandler,696149,Josh V,Minors,SP/P/PITCHER,pitcher,PIT,Pittsburgh Pirates,2026-03-25,active,P,Active,121,66.5,Number Change,MLB
+Carson Williams,700246,Josh V,Minors,SS/INFIELDER,hitter,TB,Tampa Bay Rays,2026-03-25,active,SS,Active,317,186.0,Recalled,MLB
+Kevin McGonigle,805808,Josh V,Minors,SS/INFIELDER,hitter,DET,Detroit Tigers,2026-03-25,active,SS,Active,51,45.5,Number Change,MLB
+Nolan McLean,690997,Josh V,Minors,SP/P/PITCHER,pitcher,NYM,New York Mets,2026-03-25,active,P,Active,102,85.0,,MLB
+Sal Stewart,701398,Josh V,Minors,1B/3B/INFIELDER,hitter,CIN,Cincinnati Reds,2026-03-25,active,3B,Active,149,138.0,,MLB
+Samuel Basallo,694212,Josh V,Minors,C/CATCHER,hitter,BAL,Baltimore Orioles,2026-03-25,active,C,Active,71,80.5,,MLB
+Roki Sasaki,808963,Matt,Minors,SP/P/PITCHER,pitcher,LAD,Los Angeles Dodgers,2026-03-25,active,P,Active,135,109.0,,MLB
+Carson Benge,701807,Michael,Minors,OF/OUTFIELDER,hitter,NYM,New York Mets,2026-03-25,active,OF,Active,147,141.5,Number Change,MLB
+Carter Jensen,695600,Michael,Minors,C/CATCHER,hitter,KC,Kansas City Royals,2026-03-25,active,C,Active,242,440.0,,MLB
+J.J. Wetherholt,802139,Michael,Minors,SS/INFIELDER,hitter,STL,St. Louis Cardinals,2026-03-25,active,SS,Active,486,259.0,Number Change,MLB
+Alex Freeland,690976,Paul,Minors,3B/2B/SS/INFIELDER,hitter,LAD,Los Angeles Dodgers,2026-03-25,active,SS,Active,264,679.0,,Prospect
+Brice Matthews,694728,Paul,Minors,2B/SS/INFIELDER,hitter,HOU,Houston Astros,2026-03-25,active,SS,Active,464,639.0,,Prospect
+Dylan Beavers,687637,Paul,Minors,OF/RF/OUTFIELDER,hitter,BAL,Baltimore Orioles,2026-03-25,active,RF,Active,318,261.0,,MLB
+Justin Crawford,702222,Paul,Minors,OF/CF/OUTFIELDER,hitter,PHI,Philadelphia Phillies,2026-03-25,active,CF,Active,338,249.0,Assigned,MLB
+Nathan Church,701675,Paul,Minors,OF/LF/OUTFIELDER,hitter,STL,St. Louis Cardinals,2026-03-25,active,LF,Active,764,768.0,,AA
+Owen Caissie,683357,Rob,Minors,OF/RF/OUTFIELDER,hitter,MIA,Miami Marlins,2026-03-25,active,RF,Active,361,241.0,Trade,MLB
+Brandon Sproat,687075,Shane,Minors,SP/P/PITCHER,pitcher,MIL,Milwaukee Brewers,2026-03-25,active,P,Active,394,275.0,Trade,MLB
+Daniel Susac,691740,Shane,Minors,C/CATCHER,hitter,SF,San Francisco Giants,2026-03-25,active,C,Active,856,939.0,,AA
+Rhett Lowder,695076,Shane,Minors,SP/P/PITCHER,pitcher,CIN,Cincinnati Reds,2026-03-25,active,P,Active,449,298.0,,MLB
+Luis Morales,806960,Wendell,Minors,SP/P/PITCHER,pitcher,ATH,Athletics,2026-03-25,active,P,Active,354,401.0,Number Change,MLB
+Mick Abel,690953,Wendell,Minors,SP/P/PITCHER,pitcher,MIN,Minnesota Twins,2026-03-25,active,P,Active,379,260.0,,MLB

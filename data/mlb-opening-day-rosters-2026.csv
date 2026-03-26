@@ -1,0 +1,780 @@
+season,opening_day,roster_type,team_id,team_name,team_abbreviation,team_location,player_name,mlbam_id,jersey_number,position_code,position_name,position_type,position_abbreviation,status_code,status_description
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Alek Thomas,677950,5,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Andrew Hoffmann,694851,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Brandon Pfaadt,694297,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Carlos Santana,467793,41,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Corbin Carroll,682998,7,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Eduardo Rodriguez,593958,57,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Gabriel Moreno,672515,14,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Geraldo Perdomo,672695,2,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Ildemaro Vargas,545121,6,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,James McCann,543510,8,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Joe Ross,605452,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Jonathan Loáisiga,642528,43,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Jordan Lawlar,691783,10,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Jorge Barrosa,678489,1,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Juan Morillo,666661,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Ketel Marte,606466,4,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Kevin Ginkel,656464,37,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Michael Soroka,647336,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Nolan Arenado,571448,28,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Paul Sewald,623149,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Pavin Smith,656976,26,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Ryan Thompson,657044,81,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Ryne Nelson,669194,19,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Taylor Clarke,664199,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Tim Tawa,694374,13,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,109,Arizona Diamondbacks,AZ,Phoenix,Zac Gallen,668678,23,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Aaron Civale,650644,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Andy Ibáñez,628451,77,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Austin Wynns,642851,29,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Brent Rooker,667670,25,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Carlos Cortes,666126,26,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Darell Hernaiz,687231,2,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Denzel Clarke,672016,1,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Elvis Alvarado,665660,61,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Hogan Harris,663687,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,J.T. Ginn,669372,35,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Jacob Lopez,682052,57,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Jacob Wilson,805779,5,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Jeff McNeil,643446,22,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Jeffrey Springs,605488,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Justin Sterner,686993,60,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Lawrence Butler,671732,4,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Luis Medina,665622,46,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Luis Morales,806960,19,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Luis Severino,622663,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Mark Leiter Jr.,643410,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Max Muncy,691777,3,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Michael Kelly,547184,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Nick Kurtz,701762,16,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Scott Barlow,605130,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Shea Langeliers,669127,23,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,133,Athletics,ATH,Sacramento,Tyler Soderstrom,691016,21,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Aaron Bummer,607481,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Austin Riley,663586,27,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Bryce Elder,693821,55,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Chris Sale,519242,51,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Didier Fuentes,800311,72,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Dominic Smith,642086,8,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Drake Baldwin,686948,30,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Dylan Lee,669276,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Eli White,642201,36,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Grant Holmes,656550,66,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Joel Payamps,606303,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Jonah Heim,641680,20,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Jorge Mateo,622761,2,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,José Suarez,660761,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Kyle Farmer,571657,15,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Matt Olson,621566,28,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Mauricio Dubón,643289,14,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Michael Harris II,671739,23,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Mike Yastrzemski,573262,18,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Osvaldo Bido,674370,,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Ozzie Albies,645277,1,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Raisel Iglesias,628452,26,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Reynaldo López,625643,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Robert Suarez,663158,75,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Ronald Acuña Jr.,660670,13,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,144,Atlanta Braves,ATL,Atlanta,Tyler Kinley,641755,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Adley Rutschman,668939,35,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Anthony Nunez,689296,66,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Blaze Alexander,677942,23,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Chris Bassitt,605135,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Coby Mayo,691723,16,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Colton Cowser,681297,17,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Dietrich Enns,608650,71,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Dylan Beavers,687637,12,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Grant Wolfram,664991,48,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Gunnar Henderson,683002,2,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Jeremiah Jackson,669236,82,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Kyle Bradish,680694,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Leody Taveras,665750,30,O,Outfield,Outfielder,OF,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Pete Alonso,624413,25,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Rico Garcia,670329,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Ryan Helsley,664854,21,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Ryan Mountcastle,663624,6,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Samuel Basallo,694212,29,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Shane Baz,669358,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Taylor Ward,621493,3,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Trevor Rogers,669432,28,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Tyler O'Neill,641933,9,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Tyler Wells,669330,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Yaramil Hiraldo,682274,76,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Yennier Cano,666974,78,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,110,Baltimore Orioles,BAL,Baltimore,Zach Eflin,621107,24,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Andruw Monasterio,655316,32,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Aroldis Chapman,547973,44,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Brayan Bello,678394,66,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Caleb Durbin,702332,5,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Carlos Narváez,665966,75,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Ceddanne Rafaela,678882,3,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Connelly Early,813349,71,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Connor Wong,657136,12,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Danny Coulombe,543056,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Garrett Crochet,676979,35,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Garrett Whitlock,676477,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Greg Weissert,669711,57,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Isiah Kiner-Falefa,643396,2,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Jarren Duran,680776,16,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Johan Oviedo,670912,29,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Jovani Morán,663558,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Justin Slaten,686580,63,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Marcelo Mayer,691785,11,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Masataka Yoshida,807799,7,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Ranger Suarez,624133,55,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Roman Anthony,701350,19,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Ryan Watson,670245,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Sonny Gray,543243,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Trevor Story,596115,10,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Willson Contreras,575929,40,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,111,Boston Red Sox,BOS,Boston,Wilyer Abreu,677800,52,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Alex Bregman,608324,3,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Ben Brown,676962,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Cade Horton,690990,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Caleb Thielbar,573204,24,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Carson Kelly,608348,15,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Colin Rea,607067,53,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Daniel Palencia,694037,48,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Dansby Swanson,621020,7,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Dylan Carlson,666185,5,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Edward Cabrera,665795,30,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Hoby Milner,571948,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Hunter Harvey,640451,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Ian Happ,664023,8,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Jacob Webb,657097,71,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Jameson Taillon,592791,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Matt Shaw,807713,6,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Matthew Boyd,571510,16,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Michael Busch,683737,29,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Michael Conforto,624424,20,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Miguel Amaya,665804,9,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Moisés Ballesteros,694208,25,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Nico Hoerner,663538,2,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Pete Crow-Armstrong,691718,4,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Phil Maton,664208,88,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Scott Kingery,664068,12,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,112,Chicago Cubs,CHC,Chicago,Shota Imanaga,684007,18,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Andrew Benintendi,643217,23,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Anthony Kay,641743,18,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Austin Hays,669720,21,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Chase Meidroth,805367,10,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Chris Murphy,669684,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Colson Montgomery,695657,12,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Davis Martin,663436,65,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Derek Hill,656537,25,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Edgar Quero,700337,7,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Erick Fedde,607200,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Everson Pereira,677592,28,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Grant Taylor,691799,31,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Jedixson Paez,699151,63,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Jordan Hicks,663855,44,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Jordan Leasure,673929,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Lenyn Sosa,672820,50,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Luisangel Acuña,682668,0,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Miguel Vargas,678246,20,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Munetaka Murakami,808959,5,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Reese McGuire,624512,30,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Sean Burke,680732,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Sean Newcomb,656794,15,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Seranthony Domínguez,622554,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Shane Smith,681343,64,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Tristan Peters,671976,29,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,145,Chicago White Sox,CWS,Chicago,Tyler Gilbert,656457,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Andrew Abbott,671096,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Brady Singer,663903,51,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Brandon Williamson,682227,55,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Brock Burke,656271,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Chase Burns,695505,26,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Connor Phillips,683175,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Dane Myers,667472,17,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Elly De La Cruz,682829,44,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Emilio Pagán,641941,15,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Eugenio Suárez,553993,28,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Graham Ashcraft,668933,23,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Jose Franco,683742,74,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Jose Trevino,624431,35,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Ke'Bryan Hayes,663647,3,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Matt McLain,680574,9,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Nathaniel Lowe,663993,31,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Noelvi Marte,682622,4,O,Outfield,Outfielder,OF,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Pierce Johnson,572955,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Rhett Lowder,695076,25,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Sal Stewart,701398,27,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Sam Moll,594580,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Spencer Steer,668715,7,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,TJ Friedl,670770,29,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Tony Santillan,663574,64,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Tyler Stephenson,663886,37,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,113,Cincinnati Reds,CIN,Cincinnati,Will Benson,666181,30,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Angel Martínez,682657,1,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Austin Hedges,595978,27,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Bo Naylor,666310,23,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Brayan Rocchio,677587,4,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,CJ Kayfus,692216,2,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Cade Smith,671922,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Chase DeLauter,800050,24,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Colin Holderman,670059,35,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Connor Brogdon,641401,75,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Daniel Schneemann,682177,10,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,David Fry,681807,6,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Erik Sabrowski,681870,62,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Gabriel Arias,672356,13,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Gavin Williams,668909,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Joey Cantillo,676282,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,José Ramírez,608070,11,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Kyle Manzardo,700932,9,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Matt Festa,670036,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Parker Messick,800048,77,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Peyton Pallette,688883,63,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Rhys Hoskins,656555,8,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Shawn Armstrong,542888,43,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Slade Cecconi,677944,44,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Steven Kwan,680757,38,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Tanner Bibee,676440,28,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,114,Cleveland Guardians,CLE,Cleveland,Tim Herrin,682120,29,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Antonio Senzatela,622608,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Brennan Bernardino,657514,83,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Brenton Doyle,686668,9,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Brett Sullivan,664954,26,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Chase Dollander,801403,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Edouard Julien,666397,6,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Ezequiel Tovar,678662,14,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Hunter Goodman,696100,15,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Jaden Hill,677955,0,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Jake McCarthy,664983,31,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Jimmy Herget,623474,44,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Jordan Beck,687597,27,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Jose Quintana,500779,62,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Juan Mejia,675848,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Kyle Freeland,607536,21,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Kyle Karros,691720,12,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Michael Lorenzen,547179,24,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Mickey Moniak,666160,22,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Ryan Feltner,663372,18,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Ryan Ritter,690022,8,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,TJ Rumfield,681198,7,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Tomoyuki Sugano,608372,11,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Troy Johnston,687859,20,O,Outfield,Outfielder,OF,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Victor Vodnik,680767,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Willi Castro,650489,3,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,115,Colorado Rockies,COL,Denver,Zach Agnos,688642,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Brant Hurter,676428,48,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Casey Mize,663554,12,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Colt Keith,690993,33,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Connor Seabold,657756,43,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Dillon Dingler,693307,13,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Drew Anderson,623454,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Enmanuel De Jesus,646241,37,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Framber Valdez,664285,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Gleyber Torres,650402,25,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Jack Flaherty,656427,9,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Jahmai Jones,663330,18,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Jake Rogers,668670,34,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Javier Báez,595879,28,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Justin Verlander,434378,35,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Kenley Jansen,445276,74,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Kerry Carpenter,681481,30,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Kevin McGonigle,805808,7,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Kyle Finnegan,640448,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Matt Vierling,663837,8,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Parker Meadows,678009,22,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Riley Greene,682985,31,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Spencer Torkelson,679529,20,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Tarik Skubal,669373,29,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Tyler Holton,663947,87,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Will Vest,676684,19,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,116,Detroit Tigers,DET,Detroit,Zach McKinstry,656716,39,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,AJ Blubaugh,805123,69,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Brice Matthews,694728,0,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Bryan Abreu,650556,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Bryan King,687911,74,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Cam Smith,701358,11,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Carlos Correa,621043,1,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Christian Roa,685005,73,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Christian Vázquez,543877,2,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Christian Walker,572233,8,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Cristian Javier,664299,53,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Hunter Brown,686613,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Isaac Paredes,670623,15,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Jake Meyers,676694,6,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Jeremy Peña,665161,3,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Joey Loperfido,694388,10,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Jose Altuve,514888,27,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Kai-Wei Teng,678906,17,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Lance McCullers Jr.,621121,43,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Mike Burrows,681347,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Nick Allen,669397,20,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Roddery Muñoz,682610,46,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Ryan Weiss,680802,51,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Steven Okert,595345,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Tatsuya Imai,837227,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Yainer Diaz,673237,21,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,117,Houston Astros,HOU,Houston,Yordan Alvarez,670541,44,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Alex Lange,656638,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Bailey Falter,663559,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Bobby Witt Jr.,677951,7,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Carlos Estévez,608032,53,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Carter Jensen,695600,22,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Cole Ragans,666142,55,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Daniel Lynch IV,663738,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Isaac Collins,686555,1,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Jac Caglianone,695506,14,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,John Schreiber,670167,46,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Jonathan India,663697,6,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Kris Bubic,663460,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Kyle Isbel,664728,28,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Lane Thomas,657041,15,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Lucas Erceg,668674,60,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Maikel Garcia,672580,11,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Matt Strahm,621381,25,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Michael Wacha,608379,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Nick Loftin,679845,12,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Nick Mears,683232,31,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Noah Cameron,702070,65,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Salvador Perez,521692,13,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Seth Lugo,607625,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Starling Marte,516782,0,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Tyler Tolbert,686475,2,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,118,Kansas City Royals,KC,Kansas City,Vinnie Pasquantino,686469,9,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Adam Frazier,624428,20,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Brent Suter,608718,37,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Bryce Teodosio,669326,22,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Chase Silseth,681217,63,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Drew Pomeranz,519141,13,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Jack Kochanowicz,686799,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Jeimer Candelario,600869,46,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Jo Adell,666176,7,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Joey Lucchesi,664192,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Jordan Romano,605447,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Jorge Soler,624585,12,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Josh Lowe,666139,3,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,José Soriano,667755,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Logan O'Hoppe,681351,14,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Mike Trout,545361,27,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Nolan Schanuel,694384,18,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Oswald Peraza,672724,2,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Reid Detmers,672282,48,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Ryan Johnson,696270,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Ryan Zeferjahn,666171,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Sam Bachman,696147,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Travis d'Arnaud,518595,25,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Walbert Urena,700712,57,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Yoán Moncada,660162,10,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Yusei Kikuchi,579328,16,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,108,Los Angeles Angels,LAA,Anaheim,Zach Neto,687263,9,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Alex Call,669743,12,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Alex Freeland,690976,76,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Alex Vesia,681911,51,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Andy Pages,681624,44,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Ben Casparius,676508,78,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Blake Treinen,595014,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Dalton Rushing,687221,68,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Edgardo Henriquez,683618,60,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Edwin Díaz,621242,3,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Emmet Sheehan,686218,80,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Freddie Freeman,518692,5,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Jack Dreyer,676263,86,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Justin Wrobleski,680736,70,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Kyle Tucker,663656,23,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Max Muncy,571970,13,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Miguel Rojas,500743,72,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Mookie Betts,605141,50,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Roki Sasaki,808963,11,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Santiago Espinal,669289,21,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Shohei Ohtani,660271,17,Y,Two-Way Player,Two-Way Player,TWP,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Tanner Scott,656945,66,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Teoscar Hernández,606192,37,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Tyler Glasnow,607192,31,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Will Klein,694361,61,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Will Smith,669257,16,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,119,Los Angeles Dodgers,LAD,Los Angeles,Yoshinobu Yamamoto,808967,18,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Agustín Ramírez,682663,50,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Andrew Nardi,677053,43,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Anthony Bender,669622,37,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Austin Slater,596103,15,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Calvin Faucher,676534,53,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Chris Paddack,663978,33,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Christopher Morel,666624,5,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Connor Norby,681393,1,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Eury Pérez,691587,39,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Graham Pauley,688363,21,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Griffin Conine,665052,18,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Heriberto Hernández,681715,13,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Jakob Marsee,805300,87,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Janson Junk,676083,26,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Javier Sanoja,691594,8,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,John King,667463,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Lake Bachar,669199,84,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Liam Hicks,689414,34,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Max Meyer,676974,23,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Michael Petersen,656848,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Otto Lopez,672640,6,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Owen Caissie,683357,17,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Pete Fairbanks,664126,29,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Sandy Alcantara,645261,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Tyler Phillips,663969,30,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,146,Miami Marlins,MIA,Miami,Xavier Edwards,669364,9,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Aaron Ashby,676879,26,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Abner Uribe,682842,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Andrew Vaughn,683734,28,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Angel Zerpa,672582,61,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Brandon Lockridge,663604,20,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Brandon Sproat,687075,23,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Brandon Woodruff,605540,53,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Brice Turang,668930,2,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Chad Patrick,694477,39,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Christian Yelich,592885,22,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,DL Hall,669084,37,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,David Hamilton,666152,6,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Garrett Mitchell,669003,5,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Gary Sánchez,596142,99,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Grant Anderson,681982,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Jacob Misiorowski,694819,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Jake Bauers,641343,9,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Jake Woodford,663765,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Jared Koenig,657649,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Joey Ortiz,687401,3,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Kyle Harrison,690986,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Luis Rengifo,650859,13,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Sal Frelick,686217,10,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,Trevor Megill,656730,29,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,158,Milwaukee Brewers,MIL,Milwaukee,William Contreras,661388,24,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Anthony Banda,607455,43,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Austin Martin,668885,16,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Bailey Ober,641927,17,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Brooks Lee,686797,22,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Byron Buxton,621439,25,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Cody Laweryson,689520,65,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Cole Sands,663485,44,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Eric Orze,679358,19,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,James Outman,681546,30,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Joe Ryan,657746,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Josh Bell,605137,56,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Justin Topa,623437,48,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Kody Clemens,665019,2,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Kody Funderburk,681892,57,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Luke Keaschall,807712,15,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Matt Wallner,670242,38,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Mick Abel,690953,20,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Royce Lewis,668904,23,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Ryan Jeffers,680777,27,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Simeon Woods Richardson,680573,24,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Taj Bradley,671737,26,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Taylor Rogers,573124,55,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Trevor Larnach,663616,9,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Tristan Gray,656484,4,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Victor Caratini,605170,37,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,142,Minnesota Twins,MIN,Minneapolis,Zak Kent,687849,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Bo Bichette,666182,19,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Brett Baty,683146,7,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Brooks Raley,548384,25,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Carson Benge,701807,3,O,Outfield,Outfielder,OF,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Clay Holmes,605280,35,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,David Peterson,656849,23,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Devin Williams,642207,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Francisco Alvarez,682626,4,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Francisco Lindor,596019,12,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Freddy Peralta,642547,51,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Huascar Brazobán,623211,43,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Jared Young,676724,29,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Jorge Polanco,593871,11,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Juan Soto,665742,22,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Kodai Senga,673540,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Luis García,472610,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Luis Robert Jr.,673357,88,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Luis Torrens,620443,13,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Luke Weaver,596133,30,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Marcus Semien,543760,10,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Mark Vientos,668901,27,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Nolan McLean,690997,26,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Richard Lovelady,663992,76,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Sean Manaea,640455,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Tobias Myers,668964,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,121,New York Mets,NYM,Flushing,Tyrone Taylor,621438,15,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Aaron Judge,592450,99,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Amed Rosario,642708,14,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Austin Wells,669224,28,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Ben Rice,700250,22,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Brent Headrick,687396,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Cade Winquest,685464,39,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Cam Schlittler,693645,31,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Camilo Doval,666808,75,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Cody Bellinger,641355,35,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,David Bednar,670280,53,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Fernando Cruz,518585,63,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Giancarlo Stanton,519317,27,10,Designated Hitter,Hitter,DH,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,J.C. Escarra,641555,25,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Jake Bird,656234,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Jazz Chisholm Jr.,665862,13,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,José Caballero,676609,72,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Max Fried,608331,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Paul Blackburn,621112,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Paul Goldschmidt,502671,48,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Randal Grichuk,545341,34,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Ryan McMahon,641857,19,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Ryan Weathers,677960,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Ryan Yarbrough,642232,33,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Tim Hill,657612,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Trent Grisham,663757,12,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,147,New York Yankees,NYY,Bronx,Will Warren,701542,29,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Aaron Nola,605400,27,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Adolis García,666969,53,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Alec Bohm,664761,28,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Andrew Painter,691725,24,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Brad Keller,641745,40,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Brandon Marsh,669016,16,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Bryce Harper,547180,3,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Bryson Stott,681082,5,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Cristopher Sánchez,650911,61,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Dylan Moore,664238,25,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Edmundo Sosa,624641,33,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,J.T. Realmuto,592663,10,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Jesús Luzardo,666200,44,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Jhoan Duran,661395,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Jonathan Bowlan,680742,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,José Alvarado,621237,46,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Justin Crawford,702222,2,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Kyle Backhus,679775,19,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Kyle Schwarber,656941,12,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Otto Kemp,805249,4,O,Outfield,Outfielder,OF,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Rafael Marchán,665561,13,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Taijuan Walker,592836,99,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Tanner Banks,621383,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Tim Mayza,641835,37,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Trea Turner,607208,7,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,143,Philadelphia Phillies,PHI,Philadelphia,Zach Pop,647315,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Billy Cook,695257,25,O,Outfield,Outfielder,OF,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Brandon Lowe,664040,5,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Braxton Ashcraft,677952,35,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Bryan Reynolds,668804,10,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Bubba Chandler,696149,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Carmen Mlodzinski,669387,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Dennis Santana,642701,60,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Gregory Soto,642397,31,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Henry Davis,680779,32,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Hunter Barco,682995,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Isaac Mattson,676755,72,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Jake Mangum,663968,28,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Jared Triolo,669707,19,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Joey Bart,663698,14,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,José Urquidy,664353,65,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Justin Lawrence,664875,61,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Marcell Ozuna,542303,24,10,Designated Hitter,Hitter,DH,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Mason Montgomery,682254,46,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Mitch Keller,656605,23,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Nick Gonzales,693304,3,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Nick Yorke,694377,38,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Oneil Cruz,665833,15,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Paul Skenes,694973,30,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Ryan O'Hearn,656811,29,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Spencer Horwitz,687462,2,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,134,Pittsburgh Pirates,PIT,Pittsburgh,Yohan Ramírez,670990,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Adrian Morejon,670970,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Bradgley Rodriguez,699134,72,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Bryce Johnson,669369,29,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,David Morgan,688158,66,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Fernando Tatis Jr.,665487,23,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Freddy Fermin,666023,54,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Gavin Sheets,657757,30,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Germán Márquez,608566,33,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Jackson Merrill,701538,3,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Jake Cronenworth,630105,9,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Jeremiah Estrada,669093,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Kyle Hart,606996,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Luis Campusano,669134,12,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Manny Machado,592518,13,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Mason Miller,695243,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Michael King,650633,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Miguel Andujar,609280,41,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Nick Castellanos,592206,21,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Nick Pivetta,601713,27,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Ramón Laureano,657656,5,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Randy Vásquez,681190,98,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Ron Marinaccio,676760,97,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Ty France,664034,4,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Walker Buehler,621111,10,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Wandy Peralta,593974,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,135,San Diego Padres,SD,San Diego,Xander Bogaerts,593428,2,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Adrian Houser,605288,12,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Caleb Kilian,668873,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Casey Schmitt,669477,10,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Christian Koss,683766,50,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Daniel Susac,691740,6,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Erik Miller,669062,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Harrison Bader,664056,9,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Heliot Ramos,671218,17,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,JT Brubaker,664141,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Jared Oliva,666931,56,O,Outfield,Outfielder,OF,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Jerar Encarnacion,666464,19,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,José Buttó,676130,70,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Jung Hoo Lee,808982,51,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Keaton Winn,676775,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Landen Roupp,694738,65,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Logan Webb,657277,62,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Luis Arraez,650333,1,I,Infield,Infielder,IF,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Matt Chapman,656305,26,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Matt Gage,657424,93,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Patrick Bailey,672275,14,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Rafael Devers,646240,16,10,Designated Hitter,Hitter,DH,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Robbie Ray,592662,38,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Ryan Borucki,621366,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Ryan Walker,676254,74,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Tyler Mahle,641816,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,137,San Francisco Giants,SF,San Francisco,Willy Adames,642715,2,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Andrés Muñoz,662253,75,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Brendan Donovan,680977,33,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Bryan Woo,693433,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Cal Raleigh,663728,29,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Carlos Vargas,672841,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Casey Legumina,668984,64,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Cole Young,702284,2,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Cooper Criswell,681867,18,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Dominic Canzone,686527,8,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Eduard Bazardo,660825,83,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Emerson Hancock,676106,26,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Gabe Speier,642100,55,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,George Kirby,669923,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Jose A. Ferrer,678606,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Josh Naylor,647304,12,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Julio Rodríguez,677594,44,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Leo Rivas,660844,76,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Logan Gilbert,669302,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Luis Castillo,622491,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Luke Raley,670042,20,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Matt Brash,666374,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Mitch Garver,641598,18,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Randy Arozarena,668227,56,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Rob Refsnyder,608701,30,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Ryan Bliss,669208,1,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,136,Seattle Mariners,SEA,Seattle,Victor Robles,645302,10,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Alec Burleson,676475,41,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Andre Pallante,669467,53,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Chris Roycroft,688297,58,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Dustin May,669160,3,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,George Soriano,666277,65,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Iván Herrera,671056,48,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,JJ Wetherholt,802139,26,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,JoJo Romero,668941,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Jordan Walker,691023,18,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,José Fermín,665877,15,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Justin Bruihl,677865,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Kyle Leahy,681517,62,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Masyn Winn,691026,0,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Matt Pushard,690155,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Matt Svanson,694335,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Matthew Liberatore,669461,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Michael McGreevy,700241,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Nathan Church,701675,27,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Nolan Gorman,669357,16,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Pedro Pagés,686780,43,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Ramón Urías,602104,33,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Riley O'Brien,676617,61,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Ryne Stanek,592773,55,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Thomas Saggese,695336,25,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Victor Scott II,687363,11,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,138,St. Louis Cardinals,STL,St. Louis,Yohel Pozo,650968,63,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Ben Williamson,810938,15,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Bryan Baker,641329,47,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Carson Williams,700246,7,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Cedric Mullins,656775,31,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Chandler Simpson,802415,14,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Cole Sulser,642121,71,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Drew Rasmussen,656876,57,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Garrett Cleavinger,664076,60,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Griffin Jax,643377,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Hunter Feduccia,676439,9,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Ian Seymour,693855,61,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Jake Fraley,641584,17,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Joe Boyle,671212,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Jonathan Aranda,666018,8,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Jonny DeLuca,676356,21,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Junior Caminero,691406,13,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Kevin Kelly,687330,49,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Mason Englert,669438,59,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Nick Fortes,663743,40,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Nick Martinez,607259,28,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Richie Palacios,680700,1,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Ryan Vilade,668723,26,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Shane McClanahan,663556,18,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Steven Matz,571927,32,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Yandy Díaz,650490,2,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,139,Tampa Bay Rays,TB,St. Petersburg,Yoendrys Gómez,672782,94,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Andrew McCutchen,457705,4,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Brandon Nimmo,607043,24,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Carter Baumler,691945,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Chris Martin,455119,31,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Cole Winn,668390,60,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Corey Seager,608369,5,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Danny Jansen,643376,9,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Evan Carter,694497,32,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Ezequiel Duran,677649,20,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Jack Leiter,683004,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Jacob Latz,656641,67,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Jacob deGrom,594798,48,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Jake Burger,669394,21,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Jakob Junis,596001,16,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Jalen Beeks,656222,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Joc Pederson,592626,3,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Josh Jung,673962,6,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Josh Smith,669701,8,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Kumar Rocker,677958,80,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Kyle Higashioka,543309,11,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,MacKenzie Gore,669022,1,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Nathan Eovaldi,543135,17,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Robert Garcia,676395,62,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Sam Haggerty,664059,0,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Tyler Alexander,641302,13,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,140,Texas Rangers,TEX,Arlington,Wyatt Langford,694671,36,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Addison Barger,680718,47,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Alejandro Kirk,672386,30,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Andrés Giménez,665926,0,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Braydon Fisher,680755,63,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Brendon Little,663893,54,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Cody Ponce,664074,66,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Daulton Varsho,662139,5,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Davis Schneider,676914,36,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Dylan Cease,656302,84,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Eric Lauer,641778,56,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Ernie Clement,676391,22,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,George Springer,543807,4,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Jeff Hoffman,656546,23,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Jesús Sánchez,660821,12,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Kazuma Okamoto,672960,7,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Kevin Gausman,592332,34,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Louis Varland,686973,77,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Mason Fluharty,689254,68,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Max Scherzer,453286,31,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Myles Straw,664702,3,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Nathan Lukes,664770,38,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Spencer Miles,693686,62,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Tommy Nance,667297,45,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Tyler Heineman,623168,55,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Tyler Rogers,643511,71,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,141,Toronto Blue Jays,TOR,Toronto,Vladimir Guerrero Jr.,665489,27,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Andre Granillo,701552,79,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Andrés Chaparro,665953,87,3,First Base,Infielder,1B,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Brad Lord,695418,41,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Brady House,691781,12,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,CJ Abrams,682928,5,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Cade Cavalli,676917,24,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Cionel Pérez,672335,51,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Clayton Beeter,690925,39,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Cole Henry,669371,99,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Daylen Lile,695734,4,9,Outfielder,Outfielder,RF,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Drew Millas,686452,14,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Foster Griffin,656492,22,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Gus Varland,681402,76,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Jacob Young,696285,30,8,Outfielder,Outfielder,CF,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Jake Irvin,663623,27,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,James Wood,695578,29,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Joey Wiemer,686894,21,7,Outfielder,Outfielder,LF,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Jorbit Vivas,678391,84,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,José Tena,677588,8,5,Third Base,Infielder,3B,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Keibert Ruiz,660688,20,2,Catcher,Catcher,C,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Ken Waldichuk,686610,52,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Luis García Jr.,671277,2,4,Second Base,Infielder,2B,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Miles Mikolas,571945,36,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Nasim Nuñez,683083,26,6,Shortstop,Infielder,SS,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,PJ Poulin,676571,50,1,Pitcher,Pitcher,P,A,Active
+2026,2026-03-25,active,120,Washington Nationals,WSH,Washington,Zack Littell,641793,18,1,Pitcher,Pitcher,P,A,Active

@@ -319,6 +319,7 @@ For each weekly standings refresh, confirm:
 - team point totals equal the sum of category points
 - published standings and team summaries use the same updated totals
 - any minor leaguer who crossed 130 MLB at-bats or 50 MLB innings is surfaced for a required roster move before the next lock
+- each forced roster move includes a recommended promote-vs-drop decision and a projected starter-or-bench label if promoted
 
 ## Decision Standard
 

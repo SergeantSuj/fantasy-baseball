@@ -89,6 +89,8 @@ The audit:
 - joins rostered players to `data/draft-board-input-2026.csv`
 - pulls live MLB career hitting and pitching totals from the MLB Stats API
 - flags any player still stored in a `Minors` roster slot who has crossed 130 MLB at-bats or 50 MLB innings pitched
+- evaluates each flagged player as a forced roster decision and recommends whether to promote the player or cut the player outright
+- labels any promotion recommendation as a projected fantasy starter or bench move under the current optimizer
 - suggests the two legal resolution paths for each offender:
 	- drop the offender and add a new eligible minor leaguer
 	- promote the offender to the MLB bucket, drop one MLB player, and add a new eligible minor leaguer
