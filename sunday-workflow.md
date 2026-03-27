@@ -17,6 +17,14 @@ The league week has two distinct operating checkpoints.
 
 Use the Sunday process to prepare each team for the scoring period that begins at Sunday 12:00 AM.
 
+Recommended automation entry point:
+
+```powershell
+c:/FantasyBaseball/.venv/Scripts/python.exe scripts/build_weekly_roster_decisions.py --week 2026-week-01
+```
+
+That command writes both the editable weekly lineup snapshot and a current-state decision report covering active-lineup choices and rostered-minors promotion recommendations.
+
 This is the decision window for:
 
 - lineup choices

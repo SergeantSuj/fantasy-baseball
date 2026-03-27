@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T23:24:56.783641+00:00",
+  "generated_at": "2026-03-26T23:42:18.331108+00:00",
   "season": 2026,
   "thresholds": {
     "hitters_at_bats": 130,
@@ -15,28 +15,18 @@
     "teams_checked": 10,
     "teams_requiring_action": 0,
     "total_ineligible_minor_leaguers": 0,
-    "replacement_minor_pool_size": 7765
+    "replacement_minor_pool_size": 7779
   },
   "teams": [
     {
       "team": "Chris",
-      "roster_count": 45,
+      "roster_count": 44,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 14,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
-        {
-          "player_name": "Kristian Campbell",
-          "mlb_team": "BOS",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "AAA",
-          "dynasty_rank": "186",
-          "adp": "115.0",
-          "projection_value": 45.3
-        },
         {
           "player_name": "Matt Shaw",
           "mlb_team": "CHC",
@@ -76,6 +66,16 @@
           "dynasty_rank": "402",
           "adp": "315.0",
           "projection_value": 185.3
+        },
+        {
+          "player_name": "Jordan Lawlar",
+          "mlb_team": "AZ",
+          "player_type": "hitter",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "296",
+          "adp": "134.0",
+          "projection_value": 190.9
         }
       ],
       "suggested_minor_adds": [
@@ -180,22 +180,22 @@
     },
     {
       "team": "Rob",
-      "roster_count": 45,
+      "roster_count": 44,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 14,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
         {
-          "player_name": "Coby Mayo",
-          "mlb_team": "BAL",
+          "player_name": "Owen Caissie",
+          "mlb_team": "MIA",
           "player_type": "hitter",
           "projected_role": "Reserve",
           "current_level": "MLB",
-          "dynasty_rank": "235",
-          "adp": "149.0",
-          "projection_value": 91.2
+          "dynasty_rank": "361",
+          "adp": "241.0",
+          "projection_value": 161.8
         },
         {
           "player_name": "Anthony Volpe",
@@ -340,22 +340,22 @@
     },
     {
       "team": "Wendell",
-      "roster_count": 45,
+      "roster_count": 44,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 14,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
         {
-          "player_name": "Kodai Senga",
-          "mlb_team": "NYM",
-          "player_type": "pitcher",
+          "player_name": "George Valera",
+          "mlb_team": "CLE",
+          "player_type": "hitter",
           "projected_role": "Reserve",
-          "current_level": "MLB",
-          "dynasty_rank": "268",
-          "adp": "198.0",
-          "projection_value": 123.8
+          "current_level": "AAA",
+          "dynasty_rank": "550",
+          "adp": "416.0",
+          "projection_value": 141.9
         },
         {
           "player_name": "Michael Wacha",
@@ -500,13 +500,23 @@
     },
     {
       "team": "Matt",
-      "roster_count": 45,
+      "roster_count": 44,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 14,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
+        {
+          "player_name": "Roki Sasaki",
+          "mlb_team": "LAD",
+          "player_type": "pitcher",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "135",
+          "adp": "109.0",
+          "projection_value": 121.5
+        },
         {
           "player_name": "Spencer Steer",
           "mlb_team": "CIN",
@@ -546,16 +556,6 @@
           "dynasty_rank": "356",
           "adp": "274.0",
           "projection_value": 210.9
-        },
-        {
-          "player_name": "Adley Rutschman",
-          "mlb_team": "BAL",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "MLB",
-          "dynasty_rank": "174",
-          "adp": "117.0",
-          "projection_value": 217.6
         }
       ],
       "suggested_minor_adds": [
@@ -660,33 +660,13 @@
     },
     {
       "team": "Michael",
-      "roster_count": 45,
+      "roster_count": 43,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 13,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
-        {
-          "player_name": "Cole Young",
-          "mlb_team": "SEA",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "MLB",
-          "dynasty_rank": "377",
-          "adp": "290.0",
-          "projection_value": 129.6
-        },
-        {
-          "player_name": "Edgar Quero",
-          "mlb_team": "CWS",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "MLB",
-          "dynasty_rank": "395",
-          "adp": "415.0",
-          "projection_value": 140.0
-        },
         {
           "player_name": "Brady House",
           "mlb_team": "WSH",
@@ -716,6 +696,26 @@
           "dynasty_rank": "414",
           "adp": "320.0",
           "projection_value": 182.6
+        },
+        {
+          "player_name": "Francisco Alvarez",
+          "mlb_team": "NYM",
+          "player_type": "hitter",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "276",
+          "adp": "227.0",
+          "projection_value": 190.0
+        },
+        {
+          "player_name": "Ryan Jeffers",
+          "mlb_team": "MIN",
+          "player_type": "hitter",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "489",
+          "adp": "258.0",
+          "projection_value": 202.5
         }
       ],
       "suggested_minor_adds": [
@@ -820,22 +820,22 @@
     },
     {
       "team": "Paul",
-      "roster_count": 45,
+      "roster_count": 44,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 14,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
         {
-          "player_name": "Hunter Greene",
-          "mlb_team": "CIN",
-          "player_type": "pitcher",
+          "player_name": "Justin Crawford",
+          "mlb_team": "PHI",
+          "player_type": "hitter",
           "projected_role": "Reserve",
           "current_level": "MLB",
-          "dynasty_rank": "40",
-          "adp": "47.5",
-          "projection_value": 103.8
+          "dynasty_rank": "338",
+          "adp": "249.0",
+          "projection_value": 202.0
         },
         {
           "player_name": "Chase Meidroth",
@@ -980,23 +980,13 @@
     },
     {
       "team": "Josh M",
-      "roster_count": 45,
+      "roster_count": 44,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 14,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
-        {
-          "player_name": "Spencer Horwitz",
-          "mlb_team": "PIT",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "MLB",
-          "dynasty_rank": "513",
-          "adp": "351.0",
-          "projection_value": 169.8
-        },
         {
           "player_name": "Jesus Sanchez",
           "mlb_team": "TOR",
@@ -1036,6 +1026,16 @@
           "dynasty_rank": "203",
           "adp": "120.0",
           "projection_value": 179.9
+        },
+        {
+          "player_name": "Jeff McNeil",
+          "mlb_team": "ATH",
+          "player_type": "hitter",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "510",
+          "adp": "316.0",
+          "projection_value": 183.2
         }
       ],
       "suggested_minor_adds": [
@@ -1460,43 +1460,13 @@
     },
     {
       "team": "Josh V",
-      "roster_count": 45,
+      "roster_count": 39,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 15,
+      "minor_bucket_count": 9,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
       "suggested_mlb_drops": [
-        {
-          "player_name": "Kyle Teel",
-          "mlb_team": "CHW",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "",
-          "dynasty_rank": "213",
-          "adp": "216.0",
-          "projection_value": 137.7
-        },
-        {
-          "player_name": "Tyler Freeman",
-          "mlb_team": "COL",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "MLB",
-          "dynasty_rank": "534",
-          "adp": "418.0",
-          "projection_value": 157.4
-        },
-        {
-          "player_name": "Austin Wells",
-          "mlb_team": "NYY",
-          "player_type": "hitter",
-          "projected_role": "Reserve",
-          "current_level": "MLB",
-          "dynasty_rank": "392",
-          "adp": "300.0",
-          "projection_value": 181.9
-        },
         {
           "player_name": "Brayan Rocchio",
           "mlb_team": "CLE",
@@ -1516,6 +1486,36 @@
           "dynasty_rank": "234",
           "adp": "282.0",
           "projection_value": 192.9
+        },
+        {
+          "player_name": "Joey Ortiz",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "491",
+          "adp": "285.0",
+          "projection_value": 201.1
+        },
+        {
+          "player_name": "Nasim Nunez",
+          "mlb_team": "WSH",
+          "player_type": "hitter",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "495",
+          "adp": "342.0",
+          "projection_value": 201.9
+        },
+        {
+          "player_name": "Jung Hoo Lee",
+          "mlb_team": "SF",
+          "player_type": "hitter",
+          "projected_role": "Reserve",
+          "current_level": "MLB",
+          "dynasty_rank": "319",
+          "adp": "204.0",
+          "projection_value": 204.1
         }
       ],
       "suggested_minor_adds": [

@@ -12,6 +12,8 @@ The process has two parts:
 Sunday lineup snapshot:
 
 - `data/weekly-lineups/<week>.csv`
+- `data/weekly-decisions/<week>.json`
+- `data/weekly-decisions/<week>.csv`
 
 Monday stat import and standings outputs:
 
@@ -26,6 +28,21 @@ Optional Monday roster-compliance audit outputs:
 
 ## Sunday Step
 
+Preferred one-step automation:
+
+```powershell
+c:/FantasyBaseball/.venv/Scripts/python.exe scripts/build_weekly_roster_decisions.py --week 2026-week-01
+```
+
+That command:
+
+- rewrites the projected lineup snapshot in `data/weekly-lineups/<week>.csv`
+- writes a current-state decision report to `data/weekly-decisions/<week>.json`
+- writes a spreadsheet-friendly recommendation file to `data/weekly-decisions/<week>.csv`
+- flags any rostered minor leaguers who now project as better MLB-bucket holds or fantasy starters
+
+If you only want the lineup snapshot without the decision report, you can still run the narrower command below.
+
 Create the lineup snapshot template:
 
 ```powershell
@@ -39,6 +56,13 @@ That writes a CSV with one row per rostered player and these key fields:
 - `mlbam_id`
 - `player_name`
 - `player_type`
+
+The weekly decision report adds team-by-team automation for:
+
+- projected active hitters
+- projected active pitchers
+- projected bench players
+- current rostered minor leaguers who now merit MLB promotion consideration
 
 The script seeds the file with the workspace's projected best lineup. Review that CSV and edit it so it matches the lineup that was actually active at lock.
 
