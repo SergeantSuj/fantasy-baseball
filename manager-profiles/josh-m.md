@@ -8,7 +8,7 @@ Josh M is the allocator. He thinks in portfolio terms, dislikes concentrated ros
 
 - Patience with poor performance: Moderate
 - Veteran versus youth balance: Balanced with slight upside lean
-- Minor-league draft appetite: Moderate
+- Prospect stash appetite: Moderate
 - Preferred minors depth: AA-centered, with some willingness to dip into High-A when the portfolio fit is right
 - Category adjustment aggression: Moderate to high
 - Free-agent activity: Moderate to active
@@ -21,12 +21,12 @@ Josh M is the allocator. He thinks in portfolio terms, dislikes concentrated ros
 - Uses as tie-breakers: age curve, position scarcity, risk flags
 - Discounts relative to others: extreme projections without market support, extreme market prices without skill or dynasty support
 
-## Draft Strategy
+## Team-Building Strategy
 
 - blends reliable core production with selected upside bets
 - aims to diversify risk across hitters, pitchers, veterans, and younger assets
 - avoids building a roster that is too old, too prospect-heavy, or too specialized in one category shape
-- takes prospects when the value is strong, but not at the expense of overall roster balance
+- keeps prospects when the value is strong, but not at the expense of overall roster balance
 - prefers a mixed minors portfolio rather than loading only near-ready stashes or only long-fuse teenagers
 - prefers flexible construction that leaves multiple viable in-season paths
 - is more likely than most to break ties in favor of roster optionality rather than raw peak outcome

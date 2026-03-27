@@ -329,6 +329,20 @@ tbody tr:hover {
   gap: 24px;
 }
 
+.manager-profile-card {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel-strong);
+  padding: 20px 22px;
+}
+
+.manager-profile-summary {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  max-width: 76ch;
+}
+
 .usage-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

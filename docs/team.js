@@ -154,6 +154,28 @@ function summaryCard(label, value, sublabel) {
   `;
 }
 
+function renderManagerProfile(team) {
+  const section = document.getElementById("manager-profile-panel");
+  if (!section) {
+    return;
+  }
+  const summary = String(team.manager_profile_summary || "").trim();
+  if (!summary) {
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+  section.innerHTML = `
+    <div class="panel-head compact">
+      <div class="section-kicker">Manager Profile</div>
+      <h2>${team.name} In One Read</h2>
+    </div>
+    <div class="manager-profile-card">
+      <p class="manager-profile-summary">${summary}</p>
+    </div>
+  `;
+}
+
 function rosterRow(team, player) {
   return `
     <tr>
@@ -462,6 +484,7 @@ function renderTeamPage(data) {
     summaryCard("Hitting To Date", `${formatMaybe(totals.runs)} R / ${formatMaybe(totals.home_runs)} HR`, `${formatMaybe(totals.rbi)} RBI · ${formatMaybe(totals.stolen_bases)} SB · ${formatRateNoLeadingZero(totals.obp, 3)} OBP`),
     summaryCard("Pitching To Date", `${formatMaybe(totals.wins)} W / ${formatMaybe(totals.strikeouts)} K`, `${formatMaybe(totals.saves)} SV · ${formatMaybe(totals.era, 2)} ERA · ${formatMaybe(totals.whip, 2)} WHIP`),
   ].join(""));
+  renderManagerProfile(team);
 
   setHtml("formula-grid", [
     formulaCard("OBP", "(H + BB + HBP) / (AB + BB + HBP + SF)", "Track hits, walks, hit by pitch, at-bats, and sacrifice flies for every counted plate appearance."),

@@ -141,6 +141,38 @@ def read_json_file(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def read_manager_profile_summary(path: Path) -> str:
+    if not path.exists():
+        return ""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    in_summary = False
+    summary_lines: list[str] = []
+    for line in lines:
+        stripped = line.strip()
+        if not in_summary:
+            if stripped.lower() == "## profile summary":
+                in_summary = True
+            continue
+        if stripped.startswith("## "):
+            break
+        if stripped:
+            summary_lines.append(stripped)
+        elif summary_lines:
+            break
+    return " ".join(summary_lines).strip()
+
+
+def build_manager_profile_index(settings: dict) -> dict[str, str]:
+    profiles: dict[str, str] = {}
+    for team in settings.get("teams", []):
+        team_name = clean_value(team.get("name"))
+        profile_path = clean_value(team.get("profile"))
+        if not team_name or not profile_path:
+            continue
+        profiles[team_name] = read_manager_profile_summary(WORKSPACE_ROOT / profile_path)
+    return profiles
+
+
 def fetch_json(url: str) -> dict:
     with urllib.request.urlopen(url) as response:
         return json.loads(response.read().decode("utf-8"))
@@ -581,6 +613,7 @@ def build_team_payload(
     board_index: dict[str, dict[str, str]],
     live_stats_index: dict[str, dict[str, dict[str, object]]],
     season_team_result: dict[str, object] | None = None,
+    manager_profile_summary: str = "",
 ) -> dict[str, object]:
     roster = join_roster_rows(roster_rows, board_index)
 
@@ -642,6 +675,7 @@ def build_team_payload(
     season_totals = dict(season_team_result.get("season_totals", zero_category_totals())) if season_team_result else zero_category_totals()
     return {
         "name": team_name,
+        "manager_profile_summary": manager_profile_summary,
         "roster_count": len(roster),
         "active_hitters": [enrich_player_payload(player, contribution_index, live_stats_index) for player in best["active_hitters"]],
         "active_pitchers": [enrich_player_payload(player, contribution_index, live_stats_index) for player in best["active_pitchers"]],
@@ -654,6 +688,7 @@ def build_team_payload(
 
 def main() -> None:
     settings = read_settings()
+    manager_profile_index = build_manager_profile_index(settings)
     board_rows = read_csv_rows(BOARD_PATH)
     board_index = board_index_rows(board_rows)
     season_results = read_json_file(RESULTS_PATH)
@@ -668,7 +703,16 @@ def main() -> None:
 
     teams = []
     for team_name, roster_rows in roster_rows_by_team:
-        teams.append(build_team_payload(team_name, roster_rows, board_index, live_stats_index, season_team_index.get(team_name)))
+        teams.append(
+            build_team_payload(
+                team_name,
+                roster_rows,
+                board_index,
+                live_stats_index,
+                season_team_index.get(team_name),
+                manager_profile_index.get(team_name, ""),
+            )
+        )
 
     standings = season_results.get("standings") or build_standings(teams)
     standings_by_team = {item["name"]: item for item in standings}

@@ -1,17 +1,17 @@
 # Manager Profiles
 
-This document is the index for the distinct operating profiles of each of the 10 teams in the league. These profiles are intended to guide Sunday roster decisions and startup-draft behavior while keeping every team competitive and internally consistent.
+This document is the index for the distinct operating profiles of each of the 10 teams in the league. These profiles are intended to guide Sunday roster decisions and long-term roster behavior while keeping every team competitive and internally consistent.
 
 Use these profiles alongside [sunday-workflow.md](sunday-workflow.md) and [dynasty-league-rules.md](dynasty-league-rules.md).
 
 Each profile influences:
 
-- startup draft behavior
+- overall roster-construction behavior
 - source trust hierarchy during close calls
 - patience with slumping players
 - willingness to hold injured players
 - veteran versus prospect preference
-- appetite for taking minor leaguers in the startup
+- appetite for carrying minor-league stashes
 - preferred prospect depth from upper minors versus deep developmental levels
 - aggressiveness in free-agent replacement
 - lineup flexibility for weekly category targeting
@@ -49,14 +49,14 @@ Manager personality should show up mostly in how these signals are prioritized i
 
 ## Cross-Team Usage Rules
 
-When using these profiles during Sunday roster management or draft simulation:
+When using these profiles during Sunday roster management or long-term roster planning:
 
 1. Always keep each team legal under the league rules.
 2. Always try to improve each team's expected scoring outlook.
 3. Apply the same information standard to every team.
 4. Let the manager profile affect close decisions, not obvious ones.
 5. Do not force bad moves just to create personality differences.
-6. During the startup draft, let each manager's profile influence roster construction, risk tolerance, and prospect timing.
+6. Let each manager's profile influence roster construction, risk tolerance, and prospect timing when choices are otherwise close.
 
 ## Close-Decision Guidance
 
@@ -67,8 +67,8 @@ Use manager profiles primarily when the decision is close, such as:
 - whether to activate a prospect now or wait another week
 - whether to chase steals or saves with a specialist
 - whether to protect OBP, ERA, and WHIP versus chasing volume
-- whether to draft a stable veteran versus a volatile upside play
-- whether to invest early in prospects versus immediate MLB production
+- whether to prefer a stable veteran versus a volatile upside play
+- whether to prioritize prospects versus immediate MLB production
 
 If one option is clearly superior for a team's weekly or long-term outcome, choose the superior option regardless of profile.
 

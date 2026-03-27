@@ -8,7 +8,7 @@ Paul is the roto engineer. He thinks in point swings, watches category pressure 
 
 - Patience with poor performance: Low to moderate
 - Veteran versus youth balance: Flexible, performance-driven
-- Minor-league draft appetite: Slightly below average
+- Prospect stash appetite: Slightly below average
 - Preferred minors depth: Mostly AA, occasionally AAA, with limited patience for very deep stash timelines
 - Category adjustment aggression: High
 - Free-agent activity: High
@@ -21,13 +21,13 @@ Paul is the roto engineer. He thinks in point swings, watches category pressure 
 - Uses as tie-breakers: OBP stability, saves access, steals volume, category scarcity
 - Discounts relative to others: passive stash value, low-impact prospects, players whose skills do not clearly convert to roto categories
 
-## Draft Strategy
+## Team-Building Strategy
 
-- drafts with category balance in mind from the beginning
+- builds with category balance in mind from the beginning
 - aggressively targets players who can swing scarce categories like OBP, saves, and stolen bases
-- is willing to take role-based relievers or speed specialists earlier than consensus if team construction calls for it
+- is willing to prioritize role-based relievers or speed specialists if team construction calls for it
 - avoids long dead-roster windows for injured or uncertain players
-- prefers prospect picks whose path to category impact is visible rather than purely developmental
+- prefers prospects whose path to category impact is visible rather than purely developmental
 - prefers players he can actively optimize around during the season
 - is the most likely manager to reach inside a tier for a categorical fit if the neutral board leaves a roster imbalance
 

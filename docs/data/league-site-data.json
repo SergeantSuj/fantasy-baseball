@@ -6,6 +6,7 @@
   "teams": [
     {
       "name": "Chris",
+      "manager_profile_summary": "Chris is the consensus builder. He prefers balanced rosters, does not want to lose categories through over-specialization, and trusts overlap between multiple sources more than any one loud signal.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -6435,6 +6436,7 @@
     },
     {
       "name": "Rob",
+      "manager_profile_summary": "Rob is the downside controller. He is less interested in maximizing flashy outcomes than in avoiding preventable damage, especially in OBP, ERA, and WHIP.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -7014,7 +7016,7 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
@@ -10165,7 +10167,7 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
@@ -12864,6 +12866,7 @@
     },
     {
       "name": "Wendell",
+      "manager_profile_summary": "Wendell is the comfort-with-certainty traditionalist. He trusts track record, dislikes paying for projection-only breakouts, and wants his core roster to look like a recognizable MLB team before he starts speculating.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -14977,12 +14980,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 1,
               "home_runs": 0,
               "rbi": 1,
               "stolen_bases": 0,
-              "obp": 0.5
+              "obp": 0.4
             },
             "pitching": {
               "games": 0,
@@ -17699,12 +17702,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 1,
               "home_runs": 0,
               "rbi": 1,
               "stolen_bases": 0,
-              "obp": 0.5
+              "obp": 0.4
             },
             "pitching": {
               "games": 0,
@@ -19293,6 +19296,7 @@
     },
     {
       "name": "Matt",
+      "manager_profile_summary": "Matt is the tactical operator. He values roster pieces he can deploy, move, and optimize in real time, and he hates passive roster spots that cannot help him win weekly edges.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -21581,7 +21585,7 @@
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 0,
-              "obp": 0.4
+              "obp": 0.333
             },
             "pitching": {
               "games": 0,
@@ -24473,7 +24477,7 @@
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 0,
-              "obp": 0.4
+              "obp": 0.333
             },
             "pitching": {
               "games": 0,
@@ -25722,6 +25726,7 @@
     },
     {
       "name": "Michael",
+      "manager_profile_summary": "Michael is the long-view builder. He treats roster construction as a multi-year asset build, values age-adjusted growth curves, and is willing to lag in immediate certainty if the long-term talent base improves.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -32151,6 +32156,7 @@
     },
     {
       "name": "Paul",
+      "manager_profile_summary": "Paul is the roto engineer. He thinks in point swings, watches category pressure closely, and is more willing than most to shape the roster around specific categorical leverage.",
       "roster_count": 46,
       "active_hitters": [
         {
@@ -32305,12 +32311,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 0,
-              "obp": 0.25
+              "obp": 0.2
             },
             "pitching": {
               "games": 0,
@@ -35116,12 +35122,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 0,
-              "obp": 0.25
+              "obp": 0.2
             },
             "pitching": {
               "games": 0,
@@ -38750,6 +38756,7 @@
     },
     {
       "name": "Josh M",
+      "manager_profile_summary": "Josh M is the allocator. He thinks in portfolio terms, dislikes concentrated roster risk, and prefers keeping multiple viable build paths open rather than forcing one hard identity too early.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -40521,7 +40528,7 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 0,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
@@ -40531,11 +40538,11 @@
             "pitching": {
               "games": 1,
               "wins": 0,
-              "strikeouts": 1,
+              "strikeouts": 4,
               "saves": 0,
-              "innings_pitched": "0.2",
+              "innings_pitched": "3.0",
               "era": 0.0,
-              "whip": 0.0
+              "whip": 0.33
             }
           }
         },
@@ -41203,12 +41210,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 1,
               "home_runs": 0,
               "rbi": 1,
               "stolen_bases": 0,
-              "obp": 0.25
+              "obp": 0.4
             },
             "pitching": {
               "games": 0,
@@ -42905,7 +42912,7 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 0,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
@@ -42915,11 +42922,11 @@
             "pitching": {
               "games": 1,
               "wins": 0,
-              "strikeouts": 1,
+              "strikeouts": 4,
               "saves": 0,
-              "innings_pitched": "0.2",
+              "innings_pitched": "3.0",
               "era": 0.0,
-              "whip": 0.0
+              "whip": 0.33
             }
           }
         },
@@ -44690,12 +44697,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 1,
               "home_runs": 0,
               "rbi": 1,
               "stolen_bases": 0,
-              "obp": 0.25
+              "obp": 0.4
             },
             "pitching": {
               "games": 0,
@@ -45179,6 +45186,7 @@
     },
     {
       "name": "Shane",
+      "manager_profile_summary": "Shane is the role-and-volume grinder. He looks for usable edges, reacts quickly to role changes, and prefers players whose paths to playing time and category contribution are easy to see.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -51608,6 +51616,7 @@
     },
     {
       "name": "Greg",
+      "manager_profile_summary": "Greg is the production banker. He trusts established MLB roles, discounts developmental timelines, and is more willing than most to pay for present-day reliability.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -51847,12 +51856,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 1,
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 1,
-              "obp": 0.5
+              "obp": 0.6
             },
             "pitching": {
               "games": 0,
@@ -53294,7 +53303,7 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 0,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
@@ -53304,11 +53313,11 @@
             "pitching": {
               "games": 1,
               "wins": 0,
-              "strikeouts": 0,
+              "strikeouts": 3,
               "saves": 0,
-              "innings_pitched": "1.0",
+              "innings_pitched": "3.0",
               "era": 0.0,
-              "whip": 0.0
+              "whip": 0.67
             }
           }
         },
@@ -54403,12 +54412,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 1,
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 1,
-              "obp": 0.5
+              "obp": 0.6
             },
             "pitching": {
               "games": 0,
@@ -56358,7 +56367,7 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 0,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
@@ -56368,11 +56377,11 @@
             "pitching": {
               "games": 1,
               "wins": 0,
-              "strikeouts": 0,
+              "strikeouts": 3,
               "saves": 0,
-              "innings_pitched": "1.0",
+              "innings_pitched": "3.0",
               "era": 0.0,
-              "whip": 0.0
+              "whip": 0.67
             }
           }
         },
@@ -58037,6 +58046,7 @@
     },
     {
       "name": "Josh V",
+      "manager_profile_summary": "Josh V is the ceiling chaser. He actively looks for league-winning talent, will tolerate more misses to secure impact outcomes, and is the least bothered by short-term variance if the long-term upside is real.",
       "roster_count": 45,
       "active_hitters": [
         {
@@ -58871,12 +58881,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 0,
-              "obp": 0.25
+              "obp": 0.4
             },
             "pitching": {
               "games": 0,
@@ -62192,12 +62202,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 1,
+              "games": 2,
               "runs": 0,
               "home_runs": 0,
               "rbi": 0,
               "stolen_bases": 0,
-              "obp": 0.25
+              "obp": 0.4
             },
             "pitching": {
               "games": 0,
