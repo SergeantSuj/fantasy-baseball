@@ -18,6 +18,7 @@ Sunday lineup snapshot:
 Monday stat import and standings outputs:
 
 - `data/weekly-stats/<week>.csv`
+- `data/weekly-stats/<week>-games.json`
 - `data/season-results-2026.json`
 - `data/player-contributions-2026.csv`
 
@@ -82,10 +83,13 @@ c:/FantasyBaseball/.venv/Scripts/python.exe scripts/update_weekly_results.py --w
 Default behavior:
 
 - reads `data/weekly-lineups/2026-week-01.csv`
-- fetches player stats for the date range from the MLB Stats API
+- fetches the MLB schedule for the date range, ingests only completed game IDs that have not already been processed, and builds player totals from game boxscores
 - writes `data/weekly-stats/2026-week-01.csv`
+- writes `data/weekly-stats/2026-week-01-games.json`
 - updates `data/season-results-2026.json`
 - updates `data/player-contributions-2026.csv`
+
+The weekly game ledger JSON is the source of truth for tracked ingestion state. It records which completed MLB games are already in the weekly CSV and which games in the requested date range are still pending, so the command can be rerun on demand without double-counting finished games.
 
 If you already have a weekly stats CSV and do not want the script to fetch data again:
 
@@ -93,11 +97,15 @@ If you already have a weekly stats CSV and do not want the script to fetch data 
 c:/FantasyBaseball/.venv/Scripts/python.exe scripts/update_weekly_results.py --week 2026-week-01 --start-date 2026-03-29 --end-date 2026-04-04 --skip-fetch
 ```
 
+`--skip-fetch` now expects the matching `data/weekly-stats/<week>-games.json` ledger to exist alongside the CSV.
+
 If a week's results need to be corrected and rebuilt:
 
 ```powershell
 c:/FantasyBaseball/.venv/Scripts/python.exe scripts/update_weekly_results.py --week 2026-week-01 --start-date 2026-03-29 --end-date 2026-04-04 --replace-week
 ```
+
+Rerunning the command for the same week without `--replace-week` updates that week in place and ingests only newly final games. Use `--replace-week` when you want to discard the current weekly CSV and ledger and rebuild the week from scratch.
 
 ## Monday Minor-League Eligibility Audit
 

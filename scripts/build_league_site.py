@@ -97,6 +97,31 @@ def zero_category_totals() -> dict[str, float]:
     }
 
 
+def format_short_date(value: str | None) -> str:
+    text = clean_value(value)
+    if len(text) != 10 or text.count("-") != 2:
+        return ""
+    year, month, day = text.split("-", 2)
+    if not (year.isdigit() and month.isdigit() and day.isdigit()):
+        return ""
+    return f"{int(month)}/{int(day)}"
+
+
+def build_stats_reflect_note(season_results: dict) -> str:
+    latest_date = ""
+    for week in season_results.get("weeks", []):
+        ingestion = week.get("ingestion", {})
+        for game in ingestion.get("ingested_games", []):
+            official_date = clean_value(game.get("official_date"))
+            if official_date > latest_date:
+                latest_date = official_date
+        week_end_date = clean_value(week.get("end_date"))
+        if not latest_date and week_end_date:
+            latest_date = week_end_date
+    short_date = format_short_date(latest_date)
+    return f"Statistics reflect results up to {short_date}." if short_date else ""
+
+
 def read_csv_rows(path: Path) -> list[dict[str, str]]:
     with path.open("r", encoding="utf-8", newline="") as csv_file:
         return list(csv.DictReader(csv_file))
@@ -540,6 +565,7 @@ def main() -> None:
         "title": "Boz Cup Baseball Hub",
         "generated_from": season_results.get("generated_from") or "draft-board-input-2026.csv and manager-rosters/*.csv",
         "standings_note": season_results.get("standings_note") or "Standings and league leaders are set to zero until real 2026 season data is available.",
+        "stats_reflect_note": build_stats_reflect_note(season_results),
         "teams": teams,
         "standings": standings,
         "leaders": season_results.get("leaders") or default_league_leaders(teams),

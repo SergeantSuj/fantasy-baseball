@@ -46,6 +46,13 @@ function setSectionVisibility(id, isVisible) {
   }
 }
 
+function setHidden(id, isHidden) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.hidden = isHidden;
+  }
+}
+
 function ordinal(place) {
   const remainder100 = place % 100;
   if (remainder100 >= 11 && remainder100 <= 13) {
@@ -278,6 +285,8 @@ function renderTeam(team) {
 function render(data) {
   setText("page-title", data.title);
   setText("page-note", data.standings_note);
+  setText("stats-reflect-note", data.stats_reflect_note || "");
+  setHidden("stats-reflect-note", !data.stats_reflect_note);
 
   const standingsPlaces = buildStandingsPlaces(data.standings);
   setHtml("standings-body", data.standings.map((team) => standingsRow(team, standingsPlaces)).join(""));

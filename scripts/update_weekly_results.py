@@ -19,6 +19,32 @@ STATS_DIR = DATA_DIR / "weekly-stats"
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0 Safari/537.36"
 
+WEEKLY_STATS_FIELDNAMES = [
+    "mlbam_id",
+    "player_name",
+    "team",
+    "weekly_pa",
+    "weekly_ab",
+    "weekly_r",
+    "weekly_hr",
+    "weekly_rbi",
+    "weekly_sb",
+    "weekly_h",
+    "weekly_bb",
+    "weekly_hbp",
+    "weekly_sf",
+    "weekly_obp",
+    "weekly_ip",
+    "weekly_w",
+    "weekly_sv",
+    "weekly_k",
+    "weekly_er",
+    "weekly_pitch_h",
+    "weekly_pitch_bb",
+    "weekly_era",
+    "weekly_whip",
+]
+
 ACTIVE_HITTER_SLOTS = {"C", "1B", "2B", "3B", "SS", "CI", "MI", "OF", "UTIL"}
 CATEGORY_LABELS = {
     "runs": "R",
@@ -135,103 +161,284 @@ def fetch_json(url: str) -> dict:
         return json.loads(response.read().decode("utf-8"))
 
 
-def by_date_range_url(group: str, start_date: str, end_date: str, season: int) -> str:
+def schedule_url(start_date: str, end_date: str) -> str:
     query = urllib.parse.urlencode(
         {
-            "stats": "byDateRange",
-            "group": group,
-            "season": season,
+            "sportId": 1,
             "startDate": start_date,
             "endDate": end_date,
-            "playerPool": "ALL",
-            "limit": 20000,
         }
     )
-    return f"https://statsapi.mlb.com/api/v1/stats?{query}"
+    return f"https://statsapi.mlb.com/api/v1/schedule?{query}"
 
 
-def stat_text(stat: dict, field: str) -> str:
-    value = stat.get(field, "")
-    return "" if value is None else str(value)
+def boxscore_url(game_pk: str) -> str:
+    return f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
 
 
-def build_stat_map(group: str, start_date: str, end_date: str, season: int) -> dict[str, dict]:
-    payload = fetch_json(by_date_range_url(group, start_date, end_date, season))
-    splits = payload.get("stats", [{}])[0].get("splits", [])
-    return {str(split.get("player", {}).get("id", "")): split for split in splits if split.get("player", {}).get("id")}
+def is_completed_game(game: dict) -> bool:
+    status = game.get("status", {}) if isinstance(game.get("status"), dict) else {}
+    abstract_state = clean_value(game.get("abstract_game_state")) or clean_value(status.get("abstractGameState"))
+    detailed_state = clean_value(game.get("status")) or clean_value(status.get("detailedState"))
+    return abstract_state == "Final" or detailed_state in {"Completed Early", "Game Over", "Final"}
 
 
-def fetch_and_write_weekly_stats(path: Path, start_date: str, end_date: str, season: int) -> list[dict[str, str]]:
-    hitting_map = build_stat_map("hitting", start_date, end_date, season)
-    pitching_map = build_stat_map("pitching", start_date, end_date, season)
-    all_keys = sorted(set(hitting_map) | set(pitching_map))
+def normalize_game_record(game: dict) -> dict[str, str]:
+    teams = game.get("teams", {})
+    away = teams.get("away", {}).get("team", {})
+    home = teams.get("home", {}).get("team", {})
+    status = game.get("status", {})
+    return {
+        "game_pk": str(game.get("gamePk", "")),
+        "official_date": clean_value(game.get("officialDate")),
+        "game_date": clean_value(game.get("gameDate")),
+        "abstract_game_state": clean_value(status.get("abstractGameState")),
+        "status": clean_value(status.get("detailedState")),
+        "status_code": clean_value(status.get("statusCode")),
+        "away_team": clean_value(away.get("abbreviation") or away.get("name")),
+        "home_team": clean_value(home.get("abbreviation") or home.get("name")),
+    }
 
+
+def fetch_schedule_games(start_date: str, end_date: str) -> list[dict[str, str]]:
+    payload = fetch_json(schedule_url(start_date, end_date))
+    games: list[dict[str, str]] = []
+    for date_entry in payload.get("dates", []):
+        for game in date_entry.get("games", []):
+            games.append(normalize_game_record(game))
+    games.sort(key=lambda item: (item["official_date"], item["game_date"], item["game_pk"]))
+    return games
+
+
+def ingestion_state_path(stats_path: Path) -> Path:
+    if stats_path.suffix:
+        return stats_path.with_name(f"{stats_path.stem}-games.json")
+    return stats_path.with_name(f"{stats_path.name}-games.json")
+
+
+def format_decimal(value: float, digits: int) -> str:
+    return f"{value:.{digits}f}"
+
+
+def zero_player_weekly_row() -> dict[str, str]:
+    return {
+        "mlbam_id": "",
+        "player_name": "",
+        "team": "",
+        "weekly_pa": "0",
+        "weekly_ab": "0",
+        "weekly_r": "0",
+        "weekly_hr": "0",
+        "weekly_rbi": "0",
+        "weekly_sb": "0",
+        "weekly_h": "0",
+        "weekly_bb": "0",
+        "weekly_hbp": "0",
+        "weekly_sf": "0",
+        "weekly_obp": "0.000",
+        "weekly_ip": "0.0",
+        "weekly_w": "0",
+        "weekly_sv": "0",
+        "weekly_k": "0",
+        "weekly_er": "0",
+        "weekly_pitch_h": "0",
+        "weekly_pitch_bb": "0",
+        "weekly_era": "0.00",
+        "weekly_whip": "0.00",
+    }
+
+
+def has_game_stats(player_boxscore: dict) -> bool:
+    batting = player_boxscore.get("stats", {}).get("batting", {})
+    pitching = player_boxscore.get("stats", {}).get("pitching", {})
+    return bool(batting) or bool(pitching)
+
+
+def build_game_player_rows(team_payload: dict) -> list[dict[str, str]]:
+    team_abbreviation = clean_value(team_payload.get("team", {}).get("abbreviation"))
     rows: list[dict[str, str]] = []
-    for mlbam_id in all_keys:
-        hitting_row = hitting_map.get(mlbam_id, {})
-        pitching_row = pitching_map.get(mlbam_id, {})
-        hitting_stat = hitting_row.get("stat", {})
-        pitching_stat = pitching_row.get("stat", {})
-        player_name = clean_value(hitting_row.get("player", {}).get("fullName")) or clean_value(pitching_row.get("player", {}).get("fullName"))
-        actual_team = clean_value(hitting_row.get("team", {}).get("abbreviation")) or clean_value(pitching_row.get("team", {}).get("abbreviation"))
+    players = team_payload.get("players", {})
+    for player in players.values():
+        if not has_game_stats(player):
+            continue
+        person = player.get("person", {})
+        batting = player.get("stats", {}).get("batting", {})
+        pitching = player.get("stats", {}).get("pitching", {})
+        outs_pitched = int(pitching.get("outs", 0) or 0)
+        denominator = parse_int(str(batting.get("atBats", 0))) + parse_int(str(batting.get("baseOnBalls", 0))) + parse_int(str(batting.get("hitByPitch", 0))) + parse_int(str(batting.get("sacFlies", 0)))
+        obp = ((parse_int(str(batting.get("hits", 0))) + parse_int(str(batting.get("baseOnBalls", 0))) + parse_int(str(batting.get("hitByPitch", 0)))) / denominator) if denominator else 0.0
+        innings = outs_pitched / 3 if outs_pitched else 0.0
+        era = ((parse_int(str(pitching.get("earnedRuns", 0))) * 9.0) / innings) if innings else 0.0
+        whip = ((parse_int(str(pitching.get("hits", 0))) + parse_int(str(pitching.get("baseOnBalls", 0)))) / innings) if innings else 0.0
         rows.append(
             {
-                "mlbam_id": mlbam_id,
-                "player_name": player_name,
-                "team": actual_team,
-                "weekly_pa": stat_text(hitting_stat, "plateAppearances"),
-                "weekly_ab": stat_text(hitting_stat, "atBats"),
-                "weekly_r": stat_text(hitting_stat, "runs"),
-                "weekly_hr": stat_text(hitting_stat, "homeRuns"),
-                "weekly_rbi": stat_text(hitting_stat, "rbi"),
-                "weekly_sb": stat_text(hitting_stat, "stolenBases"),
-                "weekly_h": stat_text(hitting_stat, "hits"),
-                "weekly_bb": stat_text(hitting_stat, "baseOnBalls"),
-                "weekly_hbp": stat_text(hitting_stat, "hitByPitch"),
-                "weekly_sf": stat_text(hitting_stat, "sacFlies"),
-                "weekly_obp": stat_text(hitting_stat, "obp"),
-                "weekly_ip": stat_text(pitching_stat, "inningsPitched"),
-                "weekly_w": stat_text(pitching_stat, "wins"),
-                "weekly_sv": stat_text(pitching_stat, "saves"),
-                "weekly_k": stat_text(pitching_stat, "strikeOuts"),
-                "weekly_er": stat_text(pitching_stat, "earnedRuns"),
-                "weekly_pitch_h": stat_text(pitching_stat, "hits"),
-                "weekly_pitch_bb": stat_text(pitching_stat, "baseOnBalls"),
-                "weekly_era": stat_text(pitching_stat, "era"),
-                "weekly_whip": stat_text(pitching_stat, "whip"),
+                "mlbam_id": str(person.get("id", "")),
+                "player_name": clean_value(person.get("fullName")),
+                "team": team_abbreviation,
+                "weekly_pa": str(batting.get("plateAppearances", 0) or 0),
+                "weekly_ab": str(batting.get("atBats", 0) or 0),
+                "weekly_r": str(batting.get("runs", 0) or 0),
+                "weekly_hr": str(batting.get("homeRuns", 0) or 0),
+                "weekly_rbi": str(batting.get("rbi", 0) or 0),
+                "weekly_sb": str(batting.get("stolenBases", 0) or 0),
+                "weekly_h": str(batting.get("hits", 0) or 0),
+                "weekly_bb": str(batting.get("baseOnBalls", 0) or 0),
+                "weekly_hbp": str(batting.get("hitByPitch", 0) or 0),
+                "weekly_sf": str(batting.get("sacFlies", 0) or 0),
+                "weekly_obp": format_decimal(obp, 3),
+                "weekly_ip": outs_to_display_innings(outs_pitched),
+                "weekly_w": str(pitching.get("wins", 0) or 0),
+                "weekly_sv": str(pitching.get("saves", 0) or 0),
+                "weekly_k": str(pitching.get("strikeOuts", 0) or 0),
+                "weekly_er": str(pitching.get("earnedRuns", 0) or 0),
+                "weekly_pitch_h": str(pitching.get("hits", 0) or 0),
+                "weekly_pitch_bb": str(pitching.get("baseOnBalls", 0) or 0),
+                "weekly_era": format_decimal(era, 2),
+                "weekly_whip": format_decimal(whip, 2),
             }
         )
-
-    write_csv(
-        path,
-        [
-            "mlbam_id",
-            "player_name",
-            "team",
-            "weekly_pa",
-            "weekly_ab",
-            "weekly_r",
-            "weekly_hr",
-            "weekly_rbi",
-            "weekly_sb",
-            "weekly_h",
-            "weekly_bb",
-            "weekly_hbp",
-            "weekly_sf",
-            "weekly_obp",
-            "weekly_ip",
-            "weekly_w",
-            "weekly_sv",
-            "weekly_k",
-            "weekly_er",
-            "weekly_pitch_h",
-            "weekly_pitch_bb",
-            "weekly_era",
-            "weekly_whip",
-        ],
-        rows,
-    )
     return rows
+
+
+def fetch_game_rows(game_pk: str) -> list[dict[str, str]]:
+    payload = fetch_json(boxscore_url(game_pk))
+    rows = build_game_player_rows(payload.get("teams", {}).get("home", {}))
+    rows.extend(build_game_player_rows(payload.get("teams", {}).get("away", {})))
+    return rows
+
+
+def merge_weekly_row(target: dict[str, str], source: dict[str, str]) -> None:
+    target["mlbam_id"] = clean_value(target.get("mlbam_id")) or clean_value(source.get("mlbam_id"))
+    target["player_name"] = clean_value(source.get("player_name")) or clean_value(target.get("player_name"))
+    target["team"] = clean_value(source.get("team")) or clean_value(target.get("team"))
+
+    counting_fields = [
+        "weekly_pa",
+        "weekly_ab",
+        "weekly_r",
+        "weekly_hr",
+        "weekly_rbi",
+        "weekly_sb",
+        "weekly_h",
+        "weekly_bb",
+        "weekly_hbp",
+        "weekly_sf",
+        "weekly_w",
+        "weekly_sv",
+        "weekly_k",
+        "weekly_er",
+        "weekly_pitch_h",
+        "weekly_pitch_bb",
+    ]
+    for field in counting_fields:
+        total = parse_int(target.get(field)) + parse_int(source.get(field))
+        target[field] = str(total)
+
+    outs_pitched = parse_innings_to_outs(target.get("weekly_ip")) + parse_innings_to_outs(source.get("weekly_ip"))
+    target["weekly_ip"] = outs_to_display_innings(outs_pitched)
+
+    obp_denominator = parse_int(target.get("weekly_ab")) + parse_int(target.get("weekly_bb")) + parse_int(target.get("weekly_hbp")) + parse_int(target.get("weekly_sf"))
+    obp = ((parse_int(target.get("weekly_h")) + parse_int(target.get("weekly_bb")) + parse_int(target.get("weekly_hbp"))) / obp_denominator) if obp_denominator else 0.0
+    innings = outs_pitched / 3 if outs_pitched else 0.0
+    era = ((parse_int(target.get("weekly_er")) * 9.0) / innings) if innings else 0.0
+    whip = ((parse_int(target.get("weekly_pitch_h")) + parse_int(target.get("weekly_pitch_bb"))) / innings) if innings else 0.0
+
+    target["weekly_obp"] = format_decimal(obp, 3)
+    target["weekly_era"] = format_decimal(era, 2)
+    target["weekly_whip"] = format_decimal(whip, 2)
+
+
+def aggregate_game_rows(game_rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    rows_by_player: dict[str, dict[str, str]] = {}
+    for row in game_rows:
+        mlbam_id = clean_value(row.get("mlbam_id"))
+        if not mlbam_id:
+            continue
+        target = rows_by_player.setdefault(mlbam_id, zero_player_weekly_row())
+        merge_weekly_row(target, row)
+    return [rows_by_player[key] for key in sorted(rows_by_player, key=lambda item: (clean_value(rows_by_player[item].get("player_name")), item))]
+
+
+def merge_weekly_rows(existing_rows: list[dict[str, str]], incoming_rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    rows_by_player: dict[str, dict[str, str]] = {}
+    for row in existing_rows:
+        mlbam_id = clean_value(row.get("mlbam_id"))
+        if not mlbam_id:
+            continue
+        rows_by_player[mlbam_id] = {field: clean_value(row.get(field)) for field in WEEKLY_STATS_FIELDNAMES}
+        for field in WEEKLY_STATS_FIELDNAMES:
+            rows_by_player[mlbam_id].setdefault(field, zero_player_weekly_row()[field])
+    for row in incoming_rows:
+        mlbam_id = clean_value(row.get("mlbam_id"))
+        if not mlbam_id:
+            continue
+        target = rows_by_player.setdefault(mlbam_id, zero_player_weekly_row())
+        merge_weekly_row(target, row)
+    return [rows_by_player[key] for key in sorted(rows_by_player, key=lambda item: (clean_value(rows_by_player[item].get("player_name")), item))]
+
+
+def build_ingestion_state(
+    week: str,
+    season: int,
+    start_date: str,
+    end_date: str,
+    stats_path: Path,
+    completed_games: list[dict[str, str]],
+    pending_games: list[dict[str, str]],
+) -> dict[str, object]:
+    return {
+        "week": week,
+        "season": season,
+        "start_date": start_date,
+        "end_date": end_date,
+        "weekly_stats_path": workspace_relative_path(stats_path),
+        "updated_at": datetime.now(UTC).isoformat(),
+        "completed_game_count": len(completed_games),
+        "ingested_game_count": len(completed_games),
+        "pending_game_count": len(pending_games),
+        "ingested_games": completed_games,
+        "pending_games": pending_games,
+    }
+
+
+def fetch_and_write_weekly_stats(
+    week: str,
+    path: Path,
+    start_date: str,
+    end_date: str,
+    season: int,
+    replace_existing: bool,
+) -> tuple[list[dict[str, str]], dict[str, object]]:
+    state_path = ingestion_state_path(path)
+    schedule_games = fetch_schedule_games(start_date, end_date)
+    completed_games = [game for game in schedule_games if is_completed_game(game)]
+    pending_games = [game for game in schedule_games if not is_completed_game(game)]
+
+    if not replace_existing and path.exists() and not state_path.exists():
+        raise ValueError(
+            f"Existing weekly stats found without a game ledger: {path}. Rerun with --replace-week to rebuild the week with tracked game state."
+        )
+
+    existing_rows = [] if replace_existing else read_csv_rows(path)
+    existing_state = {} if replace_existing else read_json(state_path)
+    ingested_game_pks = {
+        clean_value(str(game.get("game_pk", "")))
+        for game in existing_state.get("ingested_games", [])
+        if clean_value(str(game.get("game_pk", "")))
+    }
+    missing_games = [game for game in completed_games if clean_value(game.get("game_pk")) not in ingested_game_pks]
+
+    game_rows: list[dict[str, str]] = []
+    for game in missing_games:
+        game_rows.extend(fetch_game_rows(clean_value(game.get("game_pk"))))
+
+    incoming_rows = aggregate_game_rows(game_rows)
+    merged_rows = merge_weekly_rows(existing_rows, incoming_rows)
+
+    write_csv(path, WEEKLY_STATS_FIELDNAMES, merged_rows)
+    state = build_ingestion_state(week, season, start_date, end_date, path, completed_games, pending_games)
+    write_json(state_path, state)
+    return merged_rows, state
 
 
 def zero_team_components() -> dict[str, int | float]:
@@ -318,6 +525,7 @@ def build_week_result(
     end_date: str,
     lineup_path: Path,
     stats_path: Path,
+    ingestion_state: dict[str, object],
     lineup_rows: list[dict[str, str]],
     stat_rows: list[dict[str, str]],
 ) -> dict[str, object]:
@@ -405,6 +613,14 @@ def build_week_result(
         "end_date": end_date,
         "lineup_snapshot_path": workspace_relative_path(lineup_path),
         "weekly_stats_path": workspace_relative_path(stats_path),
+        "weekly_stats_game_ledger_path": workspace_relative_path(ingestion_state_path(stats_path)),
+        "ingestion": {
+            "completed_game_count": int(ingestion_state.get("completed_game_count", 0) or 0),
+            "ingested_game_count": int(ingestion_state.get("ingested_game_count", 0) or 0),
+            "pending_game_count": int(ingestion_state.get("pending_game_count", 0) or 0),
+            "ingested_games": ingestion_state.get("ingested_games", []),
+            "pending_games": ingestion_state.get("pending_games", []),
+        },
         "imported_at": datetime.now(UTC).isoformat(),
         "teams": teams,
     }
@@ -668,14 +884,34 @@ def main() -> None:
         stat_rows = read_csv_rows(stats_path)
         if not stat_rows:
             raise FileNotFoundError(f"Weekly stats CSV not found or empty: {stats_path}")
+        ingestion_state = read_json(ingestion_state_path(stats_path))
+        if not ingestion_state:
+            raise FileNotFoundError(
+                f"Weekly game ledger not found: {ingestion_state_path(stats_path)}. Rerun without --skip-fetch or use --replace-week to rebuild tracked stats."
+            )
     else:
-        stat_rows = fetch_and_write_weekly_stats(stats_path, args.start_date, args.end_date, args.season)
+        stat_rows, ingestion_state = fetch_and_write_weekly_stats(
+            args.week,
+            stats_path,
+            args.start_date,
+            args.end_date,
+            args.season,
+            args.replace_week,
+        )
 
-    week_result = build_week_result(args.week, args.season, args.start_date, args.end_date, lineup_path, stats_path, lineup_rows, stat_rows)
+    week_result = build_week_result(
+        args.week,
+        args.season,
+        args.start_date,
+        args.end_date,
+        lineup_path,
+        stats_path,
+        ingestion_state,
+        lineup_rows,
+        stat_rows,
+    )
     existing = read_json(RESULTS_PATH) or {"season": args.season, "weeks": []}
     existing_weeks = [week for week in existing.get("weeks", []) if clean_value(week.get("week")) != args.week]
-    if len(existing_weeks) != len(existing.get("weeks", [])) and not args.replace_week:
-        raise ValueError(f"Week {args.week} already exists in {RESULTS_PATH}. Rerun with --replace-week to overwrite it.")
     existing_weeks.append(week_result)
     existing_weeks.sort(key=lambda item: (clean_value(item.get("start_date")), clean_value(item.get("week"))))
 
@@ -696,6 +932,11 @@ def main() -> None:
 
     print(f"Wrote season results to {RESULTS_PATH}")
     print(f"Wrote player contribution totals to {CONTRIBUTIONS_PATH}")
+    print(f"Wrote weekly game ledger to {ingestion_state_path(stats_path)}")
+    print(
+        f"Ingested {int(ingestion_state.get('ingested_game_count', 0) or 0)} completed games; "
+        f"{int(ingestion_state.get('pending_game_count', 0) or 0)} games remain pending in the date range"
+    )
     print(f"Processed {args.week} for {args.start_date} through {args.end_date}")
 
 
