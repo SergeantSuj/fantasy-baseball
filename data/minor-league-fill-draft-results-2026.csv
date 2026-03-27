@@ -1,0 +1,15 @@
+pick_number,round,team,player_name,prospect_rank,org,current_level,eta,fv,position,is_deep_pick
+1,1,Josh V,Jesús Made,3,MIL,AA,2027,60,SS/2B,False
+2,1,Josh M,JJ Wetherholt,5,STL,MLB,2026,60,INF,False
+3,1,Paul,Kade Anderson,21,SEA,Rookie,2027,55,LHP,True
+4,1,Michael,Seth Hernandez,29,PIT,Rookie,2028,55,RHP,True
+5,1,Matt,Ryan Sloan,33,SEA,High-A,2028,55,RHP,False
+6,1,Wendell,Alfredo Duno,38,CIN,Single-A,2028,55,C,True
+7,1,Rob,Josue Briceño,40,DET,AA,2027,55,C/1B,False
+8,1,Chris,Jamie Arnold,41,ATH,Rookie,2027,55,LHP,True
+9,2,Michael,Josuar Gonzalez,44,SF,Rookie,2029,55,SS,True
+10,2,Josh V,JoJo Parker,45,TOR,Rookie,2029,55,SS,True
+11,3,Josh V,Moisés Ballesteros,55,CHC,MLB,2026,55,C,False
+12,4,Josh V,Caleb Bonemer,61,CWS,High-A,2028,55,SS/3B,False
+13,5,Josh V,Cam Caminiti,68,ATL,Single-A,2027,55,LHP,True
+14,6,Josh V,Billy Carlson,73,CWS,Rookie,2029,55,SS,True
