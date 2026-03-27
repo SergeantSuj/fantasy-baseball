@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T23:42:18.331108+00:00",
+  "generated_at": "2026-03-27T19:04:22.662495+00:00",
   "season": 2026,
   "thresholds": {
     "hitters_at_bats": 130,
@@ -15,14 +15,14 @@
     "teams_checked": 10,
     "teams_requiring_action": 0,
     "total_ineligible_minor_leaguers": 0,
-    "replacement_minor_pool_size": 7779
+    "replacement_minor_pool_size": 7774
   },
   "teams": [
     {
       "team": "Chris",
-      "roster_count": 44,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -80,18 +80,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -100,30 +88,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -174,15 +138,53 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
-      "notes": []
+      "notes": [
+        "Unable to evaluate these minors because no MLBAM ID was available: Jamie Arnold"
+      ]
     },
     {
       "team": "Rob",
-      "roster_count": 44,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -240,18 +242,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -260,30 +250,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -334,15 +300,53 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
-      "notes": []
+      "notes": [
+        "Unable to evaluate these minors because no MLBAM ID was available: Josue Brice\u00f1o"
+      ]
     },
     {
       "team": "Wendell",
-      "roster_count": 44,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -400,18 +404,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -420,30 +412,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -494,15 +462,51 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
       "notes": []
     },
     {
       "team": "Matt",
-      "roster_count": 44,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -560,18 +564,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -580,30 +572,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -654,15 +622,51 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
       "notes": []
     },
     {
       "team": "Michael",
-      "roster_count": 43,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 13,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -720,18 +724,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -740,30 +732,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -814,15 +782,53 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
-      "notes": []
+      "notes": [
+        "Unable to evaluate these minors because no MLBAM ID was available: Seth Hernandez"
+      ]
     },
     {
       "team": "Paul",
-      "roster_count": 44,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -880,18 +886,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -900,30 +894,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -974,15 +944,53 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
-      "notes": []
+      "notes": [
+        "Unable to evaluate these minors because no MLBAM ID was available: Kade Anderson"
+      ]
     },
     {
       "team": "Josh M",
-      "roster_count": 44,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -1040,18 +1048,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -1060,30 +1056,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -1134,9 +1106,47 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
-      "notes": []
+      "notes": [
+        "Unable to evaluate these minors because no MLBAM ID was available: JJ Wetherholt"
+      ]
     },
     {
       "team": "Shane",
@@ -1200,18 +1210,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -1220,30 +1218,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -1292,6 +1266,42 @@
           "dynasty_rank": "400",
           "prospect_rank": "78",
           "adp": "3106.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
           "career_ab": 0,
           "career_ip": "0.0"
         }
@@ -1360,18 +1370,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -1380,30 +1378,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -1454,15 +1428,51 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
       "notes": []
     },
     {
       "team": "Josh V",
-      "roster_count": 39,
+      "roster_count": 45,
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 9,
+      "minor_bucket_count": 15,
       "offender_count": 0,
       "requires_action": false,
       "offenders": [],
@@ -1520,18 +1530,6 @@
       ],
       "suggested_minor_adds": [
         {
-          "player_name": "Ryan Sloan",
-          "mlb_team": "SEA",
-          "player_type": "pitcher",
-          "current_level": "High-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "282",
-          "prospect_rank": "33",
-          "adp": "7431.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
           "player_name": "Brody Hopkins",
           "mlb_team": "TB",
           "player_type": "pitcher",
@@ -1540,30 +1538,6 @@
           "dynasty_rank": "333",
           "prospect_rank": "85",
           "adp": "5640.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Alfredo Duno",
-          "mlb_team": "CIN",
-          "player_type": "hitter",
-          "current_level": "Single-A",
-          "player_stage": "Prospect",
-          "dynasty_rank": "353",
-          "prospect_rank": "38",
-          "adp": "3249.0",
-          "career_ab": 0,
-          "career_ip": "0.0"
-        },
-        {
-          "player_name": "Josuar Gonzalez",
-          "mlb_team": "SF",
-          "player_type": "hitter",
-          "current_level": "Rookie",
-          "player_stage": "Prospect",
-          "dynasty_rank": "365",
-          "prospect_rank": "44",
-          "adp": "4197.0",
           "career_ab": 0,
           "career_ip": "0.0"
         },
@@ -1614,9 +1588,47 @@
           "adp": "3106.0",
           "career_ab": 0,
           "career_ip": "0.0"
+        },
+        {
+          "player_name": "Emil Morales",
+          "mlb_team": "LAD",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "401",
+          "prospect_rank": "92",
+          "adp": "3699.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Braylon Payne",
+          "mlb_team": "MIL",
+          "player_type": "hitter",
+          "current_level": "Single-A",
+          "player_stage": "Prospect",
+          "dynasty_rank": "424",
+          "prospect_rank": "196",
+          "adp": "3637.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
+        },
+        {
+          "player_name": "Jurrangelo Cijntje",
+          "mlb_team": "STL",
+          "player_type": "pitcher",
+          "current_level": "AA",
+          "player_stage": "Prospect",
+          "dynasty_rank": "442",
+          "prospect_rank": "91",
+          "adp": "6605.0",
+          "career_ab": 0,
+          "career_ip": "0.0"
         }
       ],
-      "notes": []
+      "notes": [
+        "Unable to evaluate these minors because no MLBAM ID was available: Billy Carlson, Jes\u00fas Made, JoJo Parker, Mois\u00e9s Ballesteros"
+      ]
     }
   ],
   "output_files": {

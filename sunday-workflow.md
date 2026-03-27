@@ -23,13 +23,14 @@ Recommended automation entry point:
 c:/FantasyBaseball/.venv/Scripts/python.exe scripts/build_weekly_roster_decisions.py --week 2026-week-01
 ```
 
-That command writes both the editable weekly lineup snapshot and a current-state decision report covering active-lineup choices and rostered-minors promotion recommendations.
+That command writes both the editable weekly lineup snapshot and a current-state decision report covering active-lineup choices, IL moves, unrostered injury replacements, and rostered-minors promotion recommendations. By default it also auto-applies clear IL moves into the manager roster CSVs before writing the final outputs.
 
 This is the decision window for:
 
 - lineup choices
 - benching and activation decisions
 - IR moves
+- unrostered injury replacements
 - minors compliance
 - free-agent replacements and short-term category targeting
 
@@ -93,11 +94,21 @@ For each injured player:
 - if IR-eligible, move the player to IR immediately
 - if not IR-eligible and projected to miss most or all of the week, remove the player from the active lineup
 - if day-to-day, compare expected playing time against available bench or free-agent alternatives
+- do not activate a player who is currently on an MLB injured list or disabled list
 
 When opening a roster spot through IR:
 
 - promote the best bench or minor league replacement who is eligible and likely to contribute
 - if internal replacements are weak, check free agency before finalizing the lineup
+- if the player is moving from the MLB bucket to the fantasy IL bucket, add a new MLB-bucket player from the unrostered pool so the team keeps a full legal reserve structure
+
+Recommended injury workflow:
+
+1. update the live injury inputs
+2. rebuild `data/draft-board-input-2026.csv`
+3. run `scripts/build_weekly_roster_decisions.py --week <week>`
+4. review the `auto_apply.applied_il_moves` and `auto_apply.blocked_il_moves` sections in the JSON output
+5. rerun only if you used `--skip-auto-apply` or if any blocked IL moves remain
 
 ## 3. Review Minor League Eligibility and Performance
 

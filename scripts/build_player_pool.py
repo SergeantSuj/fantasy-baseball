@@ -37,6 +37,63 @@ MLB_PLAYER_SOURCE_URLS = [
 MLB_TEAMS_URL = "https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026"
 MLB_SEARCH_URL = "https://statsapi.mlb.com/api/v1/people/search?names={name}"
 
+TEAM_ALIASES = {
+    "ARI": "AZ",
+    "AZ": "AZ",
+    "CHW": "CWS",
+    "CWS": "CWS",
+    "KCR": "KC",
+    "KC": "KC",
+    "OAK": "ATH",
+    "ATH": "ATH",
+    "SDP": "SD",
+    "SD": "SD",
+    "SFG": "SF",
+    "SF": "SF",
+    "TBR": "TB",
+    "TB": "TB",
+    "WSN": "WSH",
+    "WSH": "WSH",
+}
+
+VALID_ORGS = {
+    "AZ", "ATL", "BAL", "BOS", "CHC", "CIN", "CLE", "COL", "CWS", "DET", "HOU", "KC", "LAA", "LAD",
+    "MIA", "MIL", "MIN", "NYM", "NYY", "ATH", "PHI", "PIT", "SD", "SEA", "SF", "STL", "TB", "TEX", "TOR", "WSH", "FA",
+}
+
+TEAM_NAME_BY_ABBR = {
+    "AZ": "Arizona Diamondbacks",
+    "ATL": "Atlanta Braves",
+    "BAL": "Baltimore Orioles",
+    "BOS": "Boston Red Sox",
+    "CHC": "Chicago Cubs",
+    "CIN": "Cincinnati Reds",
+    "CLE": "Cleveland Guardians",
+    "COL": "Colorado Rockies",
+    "CWS": "Chicago White Sox",
+    "DET": "Detroit Tigers",
+    "HOU": "Houston Astros",
+    "KC": "Kansas City Royals",
+    "LAA": "Los Angeles Angels",
+    "LAD": "Los Angeles Dodgers",
+    "MIA": "Miami Marlins",
+    "MIL": "Milwaukee Brewers",
+    "MIN": "Minnesota Twins",
+    "NYM": "New York Mets",
+    "NYY": "New York Yankees",
+    "ATH": "Athletics",
+    "PHI": "Philadelphia Phillies",
+    "PIT": "Pittsburgh Pirates",
+    "SD": "San Diego Padres",
+    "SEA": "Seattle Mariners",
+    "SF": "San Francisco Giants",
+    "STL": "St. Louis Cardinals",
+    "TB": "Tampa Bay Rays",
+    "TEX": "Texas Rangers",
+    "TOR": "Toronto Blue Jays",
+    "WSH": "Washington Nationals",
+}
+
 
 def fetch_text(url: str) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -69,6 +126,11 @@ def split_positions(value: str) -> list[str]:
 
 def clean_value(value: str | None) -> str:
     return str(value or "").strip()
+
+
+def clean_team(value: str | None) -> str:
+    team = clean_value(value).upper()
+    return TEAM_ALIASES.get(team, team)
 
 
 def merge_positions(*position_lists: list[str]) -> str:
@@ -303,13 +365,21 @@ def merge_affiliated_pool_rows(rows: list[dict], affiliated_rows: list[dict]) ->
         primary_position = clean_value(affiliated_row.get("primary_position"))
         eligible = merge_positions(split_positions(primary_position), split_positions(clean_value(affiliated_row.get("position_type"))))
         inferred_type = infer_player_type(primary_position, clean_value(affiliated_row.get("position_type")))
-        org_team = clean_value(affiliated_row.get("parent_org_abbr")) or clean_value(affiliated_row.get("affiliated_team_abbr"))
+        org_team = clean_team(affiliated_row.get("parent_org_abbr") or affiliated_row.get("affiliated_team_abbr"))
+        preferred_org_team = org_team
+        preferred_org_name = clean_value(affiliated_row.get("parent_org_name"))
+
+        if existing is not None:
+            existing_team = clean_team(existing.get("team"))
+            if existing_team in VALID_ORGS and existing_team != org_team:
+                preferred_org_team = existing_team
+                preferred_org_name = TEAM_NAME_BY_ABBR.get(existing_team, preferred_org_name)
 
         affiliated_payload = {
             "player_name": player_name,
             "player_type": inferred_type,
             "team": org_team,
-            "mlb_team": org_team,
+            "mlb_team": preferred_org_team,
             "mlbam_id": mlbam_id,
             "birth_date": clean_value(affiliated_row.get("birth_date")),
             "age": clean_value(affiliated_row.get("age")),
@@ -327,7 +397,7 @@ def merge_affiliated_pool_rows(rows: list[dict], affiliated_rows: list[dict]) ->
             "affiliated_team_abbr": clean_value(affiliated_row.get("affiliated_team_abbr")),
             "league_name": clean_value(affiliated_row.get("league_name")),
             "parent_org_id": clean_value(affiliated_row.get("parent_org_id")),
-            "parent_org_name": clean_value(affiliated_row.get("parent_org_name")),
+            "parent_org_name": preferred_org_name,
             "draft_year": clean_value(affiliated_row.get("draft_year")),
             "active": clean_value(affiliated_row.get("active")),
         }

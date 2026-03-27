@@ -139,10 +139,10 @@ function render(data) {
   const prospects = collectProspects(data.teams || []);
   const totalProspects = MLB_TEAMS.reduce((count, team) => count + (prospects.get(team.code) || []).length, 0);
   const summaryText = totalProspects
-    ? `Current roster data includes ${totalProspects} minor leaguer${totalProspects === 1 ? "" : "s"}. As the minor league draft is added, each MLB affiliate card below will fill in automatically.`
-    : "No minor league prospects are assigned yet. Once the Boz Cup minor league draft is added to the roster files, this page will group each prospect under the correct MLB affiliate automatically.";
+    ? `Current roster data includes ${totalProspects} player${totalProspects === 1 ? "" : "s"} on minor-league rosters. Each MLB affiliate card below reflects only minor-league roster slots.`
+    : "No players are currently assigned to minor-league roster slots. Once the Boz Cup minor league draft is added to the roster files, this page will group those players under the correct MLB affiliate automatically.";
 
-  setText("page-note", "Prospects are grouped by MLB affiliate and filtered to players stored in minor-league roster slots.");
+  setText("page-note", "Players are grouped by MLB affiliate and filtered strictly to minor-league roster slots.");
   setText("prospect-summary", summaryText);
   setHtml(
     "prospect-grid",

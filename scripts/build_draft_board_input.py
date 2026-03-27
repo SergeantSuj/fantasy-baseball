@@ -33,6 +33,42 @@ MLB_TEAMS = {
     "ARI", "ATL", "BAL", "BOS", "CHC", "CIN", "CLE", "COL", "CWS", "DET", "HOU", "KC", "LAA", "LAD",
     "MIA", "MIL", "MIN", "NYM", "NYY", "ATH", "PHI", "PIT", "SD", "SEA", "SF", "STL", "TB", "TEX", "TOR", "WSH",
 }
+VALID_ORGS = MLB_TEAMS | {"FA"}
+
+TEAM_NAME_TO_ABBR = {
+    "Arizona Diamondbacks": "AZ",
+    "Atlanta Braves": "ATL",
+    "Baltimore Orioles": "BAL",
+    "Boston Red Sox": "BOS",
+    "Chicago Cubs": "CHC",
+    "Cincinnati Reds": "CIN",
+    "Cleveland Guardians": "CLE",
+    "Colorado Rockies": "COL",
+    "Chicago White Sox": "CWS",
+    "Detroit Tigers": "DET",
+    "Houston Astros": "HOU",
+    "Kansas City Royals": "KC",
+    "Los Angeles Angels": "LAA",
+    "Los Angeles Dodgers": "LAD",
+    "Miami Marlins": "MIA",
+    "Milwaukee Brewers": "MIL",
+    "Minnesota Twins": "MIN",
+    "New York Mets": "NYM",
+    "New York Yankees": "NYY",
+    "Athletics": "ATH",
+    "Philadelphia Phillies": "PHI",
+    "Pittsburgh Pirates": "PIT",
+    "San Diego Padres": "SD",
+    "Seattle Mariners": "SEA",
+    "San Francisco Giants": "SF",
+    "St. Louis Cardinals": "STL",
+    "Tampa Bay Rays": "TB",
+    "Texas Rangers": "TEX",
+    "Toronto Blue Jays": "TOR",
+    "Washington Nationals": "WSH",
+}
+
+TEAM_NAME_BY_ABBR = {abbr: name for name, abbr in TEAM_NAME_TO_ABBR.items()}
 
 NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
 
@@ -65,6 +101,10 @@ def clean_value(value: str | None) -> str:
 def clean_team(value: str | None) -> str:
     team = clean_value(value).upper()
     return TEAM_ALIASES.get(team, team)
+
+
+def team_from_name(value: str | None) -> str:
+    return TEAM_NAME_TO_ABBR.get(clean_value(value), "")
 
 
 def normalize_lookup_name(name: str) -> str:
@@ -271,6 +311,24 @@ def derive_current_level(base_row: dict[str, str], prospect_row: dict[str, str],
     return ""
 
 
+def is_non_mlb_level(current_level: str) -> bool:
+    return clean_value(current_level).upper() not in {"", "MLB", "MAJORS"}
+
+
+def derive_organization_team(base_row: dict[str, str], prospect_row: dict[str, str]) -> str:
+    candidates = [
+        clean_team(prospect_row.get("org")),
+        clean_team(base_row.get("team")),
+        clean_team(base_row.get("mlb_team")),
+        clean_team(base_row.get("proj_team")),
+        team_from_name(base_row.get("parent_org_name")),
+    ]
+    for candidate in candidates:
+        if candidate in VALID_ORGS:
+            return candidate
+    return next((candidate for candidate in candidates if candidate), "")
+
+
 def derive_risk_flag(base_row: dict[str, str], prospect_row: dict[str, str], context_row: dict[str, str]) -> str:
     explicit = clean_value(context_row.get("risk_flag"))
     if explicit:
@@ -369,6 +427,7 @@ def merge_player_row(
     actual_stats_row: dict[str, str],
 ) -> dict[str, str]:
     output = dict(base_row)
+    current_level = derive_current_level(base_row, prospect_row, context_row, transaction_row)
 
     output["dynasty_source"] = clean_value(dynasty_row.get("source"))
     output["dynasty_rank"] = clean_value(dynasty_row.get("dynasty_rank"))
@@ -378,11 +437,18 @@ def merge_player_row(
     output["prospect_source"] = clean_value(prospect_row.get("source"))
     output["prospect_rank"] = clean_value(prospect_row.get("prospect_rank"))
     output["org_rank"] = clean_value(prospect_row.get("org_rank"))
-    output["current_level"] = derive_current_level(base_row, prospect_row, context_row, transaction_row)
+    output["current_level"] = current_level
     output["eta"] = clean_value(prospect_row.get("eta"))
     output["prospect_fv"] = clean_value(prospect_row.get("prospect_fv"))
     output["prospect_risk"] = clean_value(prospect_row.get("prospect_risk"))
     output["prospect_notes"] = clean_value(prospect_row.get("notes"))
+
+    if is_non_mlb_level(current_level):
+        organization_team = derive_organization_team(base_row, prospect_row)
+        if organization_team:
+            output["team"] = organization_team
+            output["mlb_team"] = organization_team
+            output["parent_org_name"] = TEAM_NAME_BY_ABBR.get(organization_team, "")
 
     output["adp_source"] = clean_value(adp_row.get("source"))
     output["adp"] = clean_value(adp_row.get("adp"))

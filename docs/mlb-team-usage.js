@@ -36,6 +36,18 @@ const MLB_TEAM_ALIASES = {
   OAK: "ATH",
 };
 
+const POSITION_ORDER = {
+  SP: 0,
+  RP: 1,
+  C: 2,
+  "1B": 3,
+  "2B": 4,
+  "3B": 5,
+  SS: 6,
+  OF: 7,
+  DH: 8,
+};
+
 async function loadLeagueData() {
   const response = await fetch("data/league-site-data.json", { cache: "no-store" });
   if (!response.ok) {
@@ -63,12 +75,49 @@ function normalizeMlbTeam(code) {
   return MLB_TEAM_ALIASES[normalized] || normalized;
 }
 
+function isMajorLeaguer(player) {
+  const rosterBucket = String(player.roster_bucket || "").trim().toUpperCase();
+  if (rosterBucket) {
+    return rosterBucket !== "MINORS";
+  }
+  const level = String(player.current_level || "").trim().toUpperCase();
+  return !level || level === "MLB" || level === "FA";
+}
+
+function normalizePosition(position) {
+  const normalized = String(position || "").trim().toUpperCase();
+  if (["LF", "CF", "RF"].includes(normalized)) {
+    return "OF";
+  }
+  if (normalized === "P") {
+    return "RP";
+  }
+  return normalized;
+}
+
+function primaryPositionRank(positions) {
+  const parts = String(positions || "")
+    .split("/")
+    .map((part) => normalizePosition(part))
+    .filter(Boolean);
+
+  let bestRank = Number.MAX_SAFE_INTEGER;
+  for (const part of parts) {
+    const rank = POSITION_ORDER[part];
+    if (rank !== undefined && rank < bestRank) {
+      bestRank = rank;
+    }
+  }
+
+  return bestRank === Number.MAX_SAFE_INTEGER ? 999 : bestRank;
+}
+
 function collectUsage(teams) {
   const usage = new Map(MLB_TEAMS.map((team) => [team.code, []]));
 
   teams.forEach((fantasyTeam) => {
     const roster = Array.isArray(fantasyTeam.roster) ? fantasyTeam.roster : [];
-    roster.forEach((player) => {
+    roster.filter(isMajorLeaguer).forEach((player) => {
       const mlbTeam = normalizeMlbTeam(player.mlb_team);
       if (!usage.has(mlbTeam)) {
         return;
@@ -95,6 +144,10 @@ function collectUsage(teams) {
         return true;
       })
       .sort((left, right) => {
+        const positionGap = primaryPositionRank(left.positions) - primaryPositionRank(right.positions);
+        if (positionGap !== 0) {
+          return positionGap;
+        }
         const nameCompare = left.playerName.localeCompare(right.playerName);
         if (nameCompare !== 0) {
           return nameCompare;
@@ -138,7 +191,7 @@ function usageCard(team, players) {
 
 function render(data) {
   setText("page-title", "MLB Team Usage");
-  setText("page-note", "Every MLB team is listed with the Boz Cup players currently rostered from that club.");
+  setText("page-note", "Every MLB team is listed with the Boz Cup players currently stored on major-league rosters from that club.");
 
   const usage = collectUsage(data.teams || []);
   setHtml(

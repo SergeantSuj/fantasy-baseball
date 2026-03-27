@@ -1,0 +1,221 @@
+team,mlbam_id,player_name,player_type,mlb_team,weeks_active,runs,home_runs,rbi,stolen_bases,at_bats,hits,walks,hit_by_pitch,sac_flies,obp,wins,strikeouts,saves,innings_pitched,outs_pitched,earned_runs,hits_allowed,walks_allowed,era,whip
+Chris,664761,Alec Bohm,hitter,PHI,1,1,1,3,0,3,1,1,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,666182,Bo Bichette,hitter,NYM,1,0,0,1,0,4,0,0,0,1,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,677951,Bobby Witt Jr.,hitter,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,668804,Bryan Reynolds,hitter,PIT,1,0,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,641355,Cody Bellinger,hitter,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,666142,Cole Ragans,pitcher,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,656302,Dylan Cease,pitcher,TOR,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,686218,Emmet Sheehan,pitcher,LAD,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,668909,Gavin Williams,pitcher,CLE,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,695506,Jac Caglianone,hitter,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,663697,Jonathan India,hitter,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,680694,Kyle Bradish,pitcher,BAL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,671732,Lawrence Butler,hitter,ATH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,621566,Matt Olson,hitter,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,691718,Pete Crow-Armstrong,hitter,CHC,1,0,0,2,0,5,2,0,0,0,0.4,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,682985,Riley Greene,hitter,DET,1,1,0,0,0,4,0,1,0,0,0.2,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,645261,Sandy Alcantara,pitcher,MIA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,676440,Tanner Bibee,pitcher,CLE,1,0,0,0,0,0,0,0,0,0,0.0,0,7,0,5.0,15,3,4,2,5.4,1.2
+Chris,665489,Vladimir Guerrero Jr.,hitter,TOR,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,669257,Will Smith,hitter,LAD,1,1,1,3,0,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Chris,808967,Yoshinobu Yamamoto,pitcher,LAD,1,0,0,0,0,0,0,0,0,0,0.0,1,6,0,6.0,18,2,5,0,3.0,0.83
+Chris,668678,Zac Gallen,pitcher,AZ,1,0,0,0,0,0,0,0,0,0,0.0,0,2,0,4.0,12,4,5,2,9.0,1.75
+Rob,682663,Agustin Ramirez,hitter,MIA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,694297,Brandon Pfaadt,pitcher,AZ,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,667670,Brent Rooker,hitter,ATH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,693433,Bryan Woo,pitcher,SEA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,547180,Bryce Harper,hitter,PHI,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,681082,Bryson Stott,hitter,PHI,1,0,0,0,1,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,690990,Cade Horton,pitcher,CHC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,596019,Francisco Lindor,hitter,NYM,1,3,0,0,0,2,0,3,0,0,0.6,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,642547,Freddy Peralta,pitcher,NYM,1,0,0,0,0,0,0,0,0,0,0.0,1,7,0,5.0,15,4,6,0,7.2,1.2
+Rob,701538,Jackson Merrill,hitter,SD,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,666200,Jesus Luzardo,pitcher,PHI,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,666176,Jo Adell,hitter,LAA,1,1,0,0,0,3,2,1,1,0,0.8,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,667755,Jose Soriano,pitcher,LAA,1,0,0,0,0,0,0,0,0,0,0.0,1,7,0,6.0,18,0,2,4,0.0,1.0
+Rob,665742,Juan Soto,hitter,NYM,1,1,0,1,0,4,2,1,0,0,0.6,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,807712,Luke Keaschall,hitter,MIN,1,0,0,1,0,3,1,0,0,1,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,669022,MacKenzie Gore,pitcher,TEX,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,656305,Matt Chapman,hitter,SF,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,665833,Oneil Cruz,hitter,PIT,1,1,0,0,0,5,1,0,0,0,0.2,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,694973,Paul Skenes,pitcher,PIT,1,0,0,0,0,0,0,0,0,0,0.0,0,1,0,0.2,2,5,4,2,67.5,9.0
+Rob,624133,Ranger Suarez,pitcher,BOS,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,642715,Willy Adames,hitter,SF,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Rob,650490,Yandy Diaz,hitter,TB,1,1,0,0,0,5,3,1,0,0,0.667,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,592450,Aaron Judge,hitter,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,681624,Andy Pages,hitter,LAD,1,1,1,3,0,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,547973,Aroldis Chapman,pitcher,BOS,1,0,0,0,0,0,0,0,0,0,0.0,0,0,1,1.0,3,0,0,0,0.0,0.0
+Wendell,607074,Carlos Rodon,pitcher,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,608369,Corey Seager,hitter,TEX,1,1,0,0,0,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,621020,Dansby Swanson,hitter,CHC,1,1,0,1,0,2,0,2,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,656849,David Peterson,pitcher,NYM,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,664285,Framber Valdez,pitcher,DET,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,518692,Freddie Freeman,hitter,LAD,1,0,0,0,0,4,0,1,0,0,0.2,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,696100,Hunter Goodman,hitter,COL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,657746,Joe Ryan,pitcher,MIN,1,0,0,0,0,0,0,0,0,0,0.0,0,7,0,5.1,16,0,1,2,0.0,0.56
+Wendell,606466,Ketel Marte,hitter,AZ,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,669302,Logan Gilbert,pitcher,SEA,1,0,0,0,0,0,0,0,0,0,0.0,0,7,0,5.1,16,3,5,0,5.06,0.94
+Wendell,542303,Marcell Ozuna,hitter,PIT,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,545361,Mike Trout,hitter,LAA,1,1,1,1,1,2,1,3,0,0,0.8,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,543135,Nathan Eovaldi,pitcher,TEX,1,0,0,0,0,0,0,0,0,0,0.0,0,7,0,4.2,14,5,8,0,9.64,1.71
+Wendell,669357,Nolan Gorman,hitter,STL,1,1,0,2,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,624413,Pete Alonso,hitter,BAL,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,669373,Tarik Skubal,pitcher,DET,1,0,0,0,0,0,0,0,0,0,0.0,1,6,0,6.0,18,0,3,0,0.0,0.5
+Wendell,621493,Taylor Ward,hitter,BAL,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,607208,Trea Turner,hitter,PHI,1,2,0,0,0,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Wendell,607192,Tyler Glasnow,pitcher,LAD,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,668930,Brice Turang,hitter,MIL,1,0,0,0,0,4,2,1,0,0,0.6,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,682243,Bryce Miller,pitcher,SEA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,702332,Caleb Durbin,hitter,BOS,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,621043,Carlos Correa,hitter,HOU,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,608032,Carlos Estevez,pitcher,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,670280,David Bednar,pitcher,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,665795,Edward Cabrera,pitcher,CHC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,621242,Edwin Diaz,pitcher,LAD,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,682829,Elly De La Cruz,hitter,CIN,1,0,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,669923,George Kirby,pitcher,SEA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,686613,Hunter Brown,pitcher,HOU,1,0,0,0,0,0,0,0,0,0,0.0,0,9,0,4.2,14,0,4,4,0.0,1.71
+Matt,695578,James Wood,hitter,WSH,1,0,0,0,0,5,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,661395,Jhoan Duran,pitcher,PHI,1,0,0,0,0,0,0,0,0,0,0.0,0,1,1,0.2,2,0,1,0,0.0,1.5
+Matt,623352,Josh Hader,pitcher,HOU,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,647304,Josh Naylor,hitter,SEA,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,663656,Kyle Tucker,hitter,LAD,1,1,0,1,0,4,1,1,0,0,0.4,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,673357,Luis Robert Jr.,hitter,NYM,1,1,0,2,0,4,2,1,0,0,0.6,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,672580,Maikel Garcia,hitter,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,682622,Noelvi Marte,hitter,CIN,1,0,0,0,0,2,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,521692,Salvador Perez,hitter,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,677800,Wilyer Abreu,hitter,BOS,1,0,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Matt,670541,Yordan Alvarez,hitter,HOU,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,663554,Casey Mize,pitcher,DET,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,694477,Chad Patrick,pitcher,MIL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,695657,Colson Montgomery,hitter,CWS,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,695734,Daylen Lile,hitter,WSH,1,1,0,1,0,5,1,0,0,0,0.2,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,686611,Dylan Crews,hitter,WSH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,694497,Evan Carter,hitter,TEX,1,0,0,0,0,2,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,683004,Jack Leiter,pitcher,TEX,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,702616,Jackson Holliday,hitter,BAL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,666139,Josh Lowe,hitter,LAA,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,681481,Kerry Carpenter,hitter,DET,1,0,0,0,0,5,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,804606,Konnor Griffin,hitter,PIT,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,668901,Mark Vientos,hitter,NYM,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,691026,Masyn Winn,hitter,STL,1,1,0,0,0,5,1,0,0,0,0.2,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,669461,Matthew Liberatore,pitcher,STL,1,0,0,0,0,0,0,0,0,0,0.0,0,2,0,5.0,15,1,7,2,1.8,1.8
+Michael,701762,Nick Kurtz,hitter,ATH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,702070,Noah Cameron,pitcher,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,672640,Otto Lopez,hitter,MIA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,672282,Reid Detmers,pitcher,LAA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,680732,Sean Burke,pitcher,CWS,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,669127,Shea Langeliers,hitter,ATH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,671737,Taj Bradley,pitcher,MIN,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Michael,669432,Trevor Rogers,pitcher,BAL,1,0,0,0,0,0,0,0,0,0,0.0,1,5,0,7.0,21,0,3,4,0.0,1.0
+Paul,605483,Blake Snell,pitcher,LAD,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,621439,Byron Buxton,hitter,MIN,1,1,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,671922,Cade Smith,pitcher,CLE,1,0,0,0,0,0,0,0,0,0,0.0,0,1,1,1.0,3,0,0,0,0.0,0.0
+Paul,592885,Christian Yelich,hitter,MIL,1,2,0,1,0,4,2,1,0,0,0.6,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,682998,Corbin Carroll,hitter,AZ,1,1,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,650911,Cristopher Sanchez,pitcher,PHI,1,0,0,0,0,0,0,0,0,0,0.0,1,10,0,6.0,18,0,3,0,0.0,0.5
+Paul,642207,Devin Williams,pitcher,NYM,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,686948,Drake Baldwin,hitter,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,672695,Geraldo Perdomo,hitter,AZ,1,1,1,2,0,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,670623,Isaac Paredes,hitter,HOU,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,694192,Jackson Chourio,hitter,MIL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,669394,Jake Burger,hitter,TEX,1,1,1,2,0,4,3,0,0,0,0.75,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,656546,Jeff Hoffman,pitcher,TOR,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,665161,Jeremy Pena,hitter,HOU,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,695243,Mason Miller,pitcher,SD,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,608331,Max Fried,pitcher,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,666157,Nick Lodolo,pitcher,CIN,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,645277,Ozzie Albies,hitter,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,646240,Rafael Devers,hitter,SF,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,668227,Randy Arozarena,hitter,SEA,1,0,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Paul,664854,Ryan Helsley,pitcher,BAL,1,0,0,0,0,0,0,0,0,0,0.0,0,3,1,1.0,3,0,1,0,0.0,1.0
+Paul,694671,Wyatt Langford,hitter,TEX,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,678394,Brayan Bello,pitcher,BOS,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,686797,Brooks Lee,hitter,MIN,1,0,0,0,0,3,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,693645,Cam Schlittler,pitcher,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,695505,Chase Burns,pitcher,CIN,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,665487,Fernando Tatis Jr.,hitter,SD,1,1,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,671056,Ivan Herrera,hitter,STL,1,0,0,1,0,4,0,0,0,1,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,694819,Jacob Misiorowski,pitcher,MIL,1,0,0,0,0,0,0,0,0,0,0.0,1,11,0,5.0,15,1,2,3,1.8,1.0
+Josh M,805779,Jacob Wilson,hitter,ATH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,605488,Jeffrey Springs,pitcher,ATH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,677594,Julio Rodriguez,hitter,SEA,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,663460,Kris Bubic,pitcher,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,669065,Kyle Stowers,hitter,MIA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,592518,Manny Machado,hitter,SD,1,0,0,0,0,3,1,1,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,808959,Munetaka Murakami,hitter,CWS,1,1,1,1,0,2,1,2,0,0,0.75,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,701350,Roman Anthony,hitter,BOS,1,1,0,0,0,4,3,1,0,0,0.8,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,681343,Shane Smith,pitcher,CWS,1,0,0,0,0,0,0,0,0,0,0.0,0,2,0,1.2,5,3,3,2,16.2,3.0
+Josh M,660271,Shohei Ohtani,pitcher,LAD,1,1,0,0,0,3,1,1,1,0,0.6,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,684007,Shota Imanaga,pitcher,CHC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,680757,Steven Kwan,hitter,CLE,1,0,0,0,0,5,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,596115,Trevor Story,hitter,BOS,1,0,0,1,0,5,1,0,0,0,0.2,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,691016,Tyler Soderstrom,hitter,ATH,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh M,661388,William Contreras,hitter,MIL,1,1,0,3,0,3,1,2,0,0,0.6,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,662253,Andres Munoz,pitcher,SEA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,663586,Austin Riley,hitter,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,700250,Ben Rice,hitter,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,664040,Brandon Lowe,hitter,PIT,1,2,2,3,0,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,686668,Brenton Doyle,hitter,COL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,682928,CJ Abrams,hitter,WSH,1,0,0,2,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,678882,Ceddanne Rafaela,hitter,BOS,1,0,0,1,0,4,2,0,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,802415,Chandler Simpson,hitter,TB,1,1,0,1,0,3,1,0,0,0,0.333,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,694037,Daniel Palencia,pitcher,CHC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,691587,Eury Perez,pitcher,MIA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,676979,Garrett Crochet,pitcher,BOS,1,0,0,0,0,0,0,0,0,0,0.0,1,8,0,6.0,18,0,3,2,0.0,0.83
+Shane,680776,Jarren Duran,hitter,BOS,1,0,0,1,1,5,2,0,0,0,0.4,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,608070,Jose Ramirez,hitter,CLE,1,0,0,2,1,5,1,0,0,0,0.2,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,680574,Matt McLain,hitter,CIN,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,671739,Michael Harris II,hitter,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,650633,Michael King,pitcher,SD,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,601713,Nick Pivetta,pitcher,SD,1,0,0,0,0,0,0,0,0,0,0.0,0,4,0,3.0,9,6,7,3,18.0,3.33
+Shane,664126,Pete Fairbanks,pitcher,MIA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,628452,Raisel Iglesias,pitcher,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,660670,Ronald Acuna Jr.,hitter,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,663556,Shane McClanahan,pitcher,TB,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Shane,686469,Vinnie Pasquantino,hitter,KC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,666969,Adolis Garcia,hitter,PHI,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,608324,Alex Bregman,hitter,CHC,1,0,0,0,0,4,1,1,0,0,0.4,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,605540,Brandon Woodruff,pitcher,MIL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,663728,Cal Raleigh,hitter,SEA,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,519242,Chris Sale,pitcher,ATL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,553993,Eugenio Suarez,hitter,CIN,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,543807,George Springer,hitter,TOR,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,683002,Gunnar Henderson,hitter,BAL,1,0,0,0,0,4,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,594798,Jacob deGrom,pitcher,TEX,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,665862,Jazz Chisholm Jr.,hitter,NYY,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,514888,Jose Altuve,hitter,HOU,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,656941,Kyle Schwarber,hitter,PHI,1,1,1,2,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,657277,Logan Webb,pitcher,SF,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,622491,Luis Castillo,pitcher,SEA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,683737,Michael Busch,hitter,CHC,1,2,0,1,0,4,3,1,0,0,0.8,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,605141,Mookie Betts,hitter,LAD,1,1,0,1,0,4,1,0,1,0,0.4,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,592662,Robbie Ray,pitcher,SF,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,673548,Seiya Suzuki,hitter,CHC,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,543243,Sonny Gray,pitcher,BOS,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,606192,Teoscar Hernandez,hitter,LAD,1,1,0,0,0,4,1,0,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,579328,Yusei Kikuchi,pitcher,LAA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Greg,554430,Zack Wheeler,pitcher,PHI,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,682842,Abner Uribe,pitcher,MIL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,680718,Addison Barger,hitter,TOR,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,665926,Andres Gimenez,hitter,TOR,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,696149,Bubba Chandler,pitcher,PIT,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,681297,Colton Cowser,hitter,BAL,1,0,0,1,0,2,0,0,0,1,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,656876,Drew Rasmussen,pitcher,TB,1,0,0,0,0,0,0,0,0,0,0.0,0,2,0,5.0,15,1,4,0,1.8,0.8
+Josh V,678662,Ezequiel Tovar,hitter,COL,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,671218,Heliot Ramos,hitter,SF,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,656427,Jack Flaherty,pitcher,DET,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,805300,Jakob Marsee,hitter,MIA,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,691406,Junior Caminero,hitter,TB,1,1,0,0,0,2,1,4,0,0,0.833,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,805808,Kevin McGonigle,hitter,DET,1,2,0,2,0,5,4,0,0,0,0.8,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,670242,Matt Wallner,hitter,MIN,1,0,0,0,0,2,0,2,0,0,0.5,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,681347,Mike Burrows,pitcher,HOU,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,690997,Nolan McLean,pitcher,NYM,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,668904,Royce Lewis,hitter,MIN,1,0,0,0,0,2,0,0,1,0,0.333,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,669194,Ryne Nelson,pitcher,AZ,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,701398,Sal Stewart,hitter,CIN,1,0,0,0,0,4,3,0,0,0,0.75,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,677944,Slade Cecconi,pitcher,CLE,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,702056,Trey Yesavage,pitcher,TOR,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,673237,Yainer Diaz,hitter,HOU,1,0,0,0,0,3,0,1,0,0,0.25,0,0,0,0.0,0,0,0,0,0.0,0.0
+Josh V,687263,Zach Neto,hitter,LAA,1,0,0,0,0,5,0,0,0,0,0.0,0,0,0,0.0,0,0,0,0,0.0,0.0

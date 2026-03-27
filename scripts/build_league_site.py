@@ -5,6 +5,8 @@ import json
 from dataclasses import dataclass
 from itertools import product
 from pathlib import Path
+import urllib.parse
+import urllib.request
 
 
 WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
@@ -23,15 +25,21 @@ PITCHER_SLOTS = 9
 
 DISPLAY_COLUMNS = [
     "player_name",
+    "player_type",
     "mlb_team",
     "eligible_positions",
     "age",
     "dynasty_rank",
     "adp",
+    "prospect_rank",
+    "org_rank",
+    "prospect_fv",
     "injury_status",
     "transaction_status",
     "roster_bucket",
 ]
+
+LIVE_STATS_BATCH_SIZE = 50
 
 
 @dataclass(frozen=True)
@@ -133,6 +141,11 @@ def read_json_file(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def fetch_json(url: str) -> dict:
+    with urllib.request.urlopen(url) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
 def read_settings() -> dict:
     if not SETTINGS_PATH.exists():
         return {}
@@ -142,6 +155,16 @@ def read_settings() -> dict:
 def player_key(row: dict[str, str]) -> str:
     mlbam_id = clean_value(row.get("mlbam_id"))
     return mlbam_id or normalize_name(row.get("player_name", ""))
+
+
+def join_roster_rows(roster_rows: list[dict[str, str]], board_index: dict[str, dict[str, str]]) -> list[dict[str, str]]:
+    roster = []
+    for roster_row in roster_rows:
+        joined = dict(board_index.get(player_key(roster_row), {}))
+        joined.update(roster_row)
+        joined["mlb_team"] = clean_value(joined.get("mlb_team")) or clean_value(joined.get("proj_team"))
+        roster.append(joined)
+    return roster
 
 
 def board_index_rows(rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
@@ -308,6 +331,97 @@ def aggregate_pitching(players: list[dict[str, object]]) -> dict[str, float]:
     return totals
 
 
+def default_ytd_hitting() -> dict[str, object]:
+    return {
+        "games": 0,
+        "runs": 0,
+        "home_runs": 0,
+        "rbi": 0,
+        "stolen_bases": 0,
+        "obp": 0.0,
+    }
+
+
+def default_ytd_pitching() -> dict[str, object]:
+    return {
+        "games": 0,
+        "wins": 0,
+        "strikeouts": 0,
+        "saves": 0,
+        "innings_pitched": "0.0",
+        "era": 0.0,
+        "whip": 0.0,
+    }
+
+
+def live_stats_url(person_ids: list[str], season: int) -> str:
+    query = urllib.parse.urlencode(
+        {
+            "personIds": ",".join(person_ids),
+            "hydrate": f"stats(type=season,group=[hitting,pitching],season={season})",
+        }
+    )
+    return f"https://statsapi.mlb.com/api/v1/people?{query}"
+
+
+def live_ytd_payload(stats: list[dict[str, object]]) -> dict[str, dict[str, object]]:
+    payload = {
+        "hitting": default_ytd_hitting(),
+        "pitching": default_ytd_pitching(),
+    }
+    for stat_group in stats:
+        group_name = clean_value(str(stat_group.get("group", {}).get("displayName", ""))).lower()
+        splits = stat_group.get("splits", [])
+        if not splits:
+            continue
+        stat_values = splits[0].get("stat", {})
+        if group_name == "hitting":
+            payload["hitting"] = {
+                "games": parse_int(str(stat_values.get("gamesPlayed", 0))),
+                "runs": parse_int(str(stat_values.get("runs", 0))),
+                "home_runs": parse_int(str(stat_values.get("homeRuns", 0))),
+                "rbi": parse_int(str(stat_values.get("rbi", 0))),
+                "stolen_bases": parse_int(str(stat_values.get("stolenBases", 0))),
+                "obp": round_number(parse_float(str(stat_values.get("obp", 0.0))), 3),
+            }
+        elif group_name == "pitching":
+            payload["pitching"] = {
+                "games": parse_int(str(stat_values.get("gamesPlayed", 0))),
+                "wins": parse_int(str(stat_values.get("wins", 0))),
+                "strikeouts": parse_int(str(stat_values.get("strikeOuts", 0))),
+                "saves": parse_int(str(stat_values.get("saves", 0))),
+                "innings_pitched": clean_value(str(stat_values.get("inningsPitched", "0.0"))) or "0.0",
+                "era": round_number(parse_float(str(stat_values.get("era", 0.0))), 2),
+                "whip": round_number(parse_float(str(stat_values.get("whip", 0.0))), 2),
+            }
+    return payload
+
+
+def build_live_stats_index(roster_players: list[dict[str, str]], season: int) -> dict[str, dict[str, dict[str, object]]]:
+    person_ids = sorted(
+        {
+            clean_value(player.get("mlbam_id"))
+            for player in roster_players
+            if clean_value(player.get("mlbam_id")) and clean_value(player.get("roster_bucket")) != "Minors"
+        }
+    )
+    if not person_ids:
+        return {}
+
+    stats_index: dict[str, dict[str, dict[str, object]]] = {}
+    for start in range(0, len(person_ids), LIVE_STATS_BATCH_SIZE):
+        batch = person_ids[start : start + LIVE_STATS_BATCH_SIZE]
+        try:
+            payload = fetch_json(live_stats_url(batch, season))
+        except Exception:
+            continue
+        for person in payload.get("people", []):
+            person_id = clean_value(str(person.get("id", "")))
+            if person_id:
+                stats_index[person_id] = live_ytd_payload(person.get("stats", []))
+    return stats_index
+
+
 def roster_player_payload(player: dict[str, object]) -> dict[str, object]:
     payload = {column: clean_value(str(player.get(column, ""))) for column in DISPLAY_COLUMNS}
     payload.update(
@@ -450,9 +564,14 @@ def build_player_contribution_index(team_result: dict[str, object] | None) -> di
     return index
 
 
-def enrich_player_payload(player: dict[str, object], contribution_index: dict[str, dict[str, object]]) -> dict[str, object]:
+def enrich_player_payload(
+    player: dict[str, object],
+    contribution_index: dict[str, dict[str, object]],
+    live_stats_index: dict[str, dict[str, dict[str, object]]],
+) -> dict[str, object]:
     payload = roster_player_payload(player)
     payload["season_contribution"] = contribution_payload(contribution_index.get(player_key(player)))
+    payload["ytd"] = live_stats_index.get(clean_value(str(player.get("mlbam_id", ""))), {"hitting": default_ytd_hitting(), "pitching": default_ytd_pitching()})
     return payload
 
 
@@ -460,14 +579,10 @@ def build_team_payload(
     team_name: str,
     roster_rows: list[dict[str, str]],
     board_index: dict[str, dict[str, str]],
+    live_stats_index: dict[str, dict[str, dict[str, object]]],
     season_team_result: dict[str, object] | None = None,
 ) -> dict[str, object]:
-    roster = []
-    for roster_row in roster_rows:
-        joined = dict(board_index.get(player_key(roster_row), {}))
-        joined.update(roster_row)
-        joined["mlb_team"] = clean_value(joined.get("mlb_team")) or clean_value(joined.get("proj_team"))
-        roster.append(joined)
+    roster = join_roster_rows(roster_rows, board_index)
 
     mlb_roster = [player for player in roster if clean_value(player.get("roster_bucket")) != "Minors"]
     two_way_players = [player for player in mlb_roster if clean_value(player.get("player_type")) == "two-way"]
@@ -528,10 +643,10 @@ def build_team_payload(
     return {
         "name": team_name,
         "roster_count": len(roster),
-        "active_hitters": [enrich_player_payload(player, contribution_index) for player in best["active_hitters"]],
-        "active_pitchers": [enrich_player_payload(player, contribution_index) for player in best["active_pitchers"]],
-        "bench": [enrich_player_payload(player, contribution_index) for player in sorted(best["bench_players"], key=lambda item: (clean_value(item.get("player_type")), clean_value(item.get("player_name"))))],
-        "roster": [enrich_player_payload(player, contribution_index) for player in sorted(roster, key=lambda item: parse_int(item.get("pick_number")))],
+        "active_hitters": [enrich_player_payload(player, contribution_index, live_stats_index) for player in best["active_hitters"]],
+        "active_pitchers": [enrich_player_payload(player, contribution_index, live_stats_index) for player in best["active_pitchers"]],
+        "bench": [enrich_player_payload(player, contribution_index, live_stats_index) for player in sorted(best["bench_players"], key=lambda item: (clean_value(item.get("player_type")), clean_value(item.get("player_name"))))],
+        "roster": [enrich_player_payload(player, contribution_index, live_stats_index) for player in sorted(roster, key=lambda item: parse_int(item.get("pick_number")))],
         "projected_totals": best["projected_totals"],
         "season_totals": season_totals,
     }
@@ -543,11 +658,17 @@ def main() -> None:
     board_index = board_index_rows(board_rows)
     season_results = read_json_file(RESULTS_PATH)
     season_team_index = {clean_value(item.get("name")): item for item in season_results.get("teams", [])}
+    season = parse_int(str(season_results.get("season", 2026))) or 2026
+    roster_paths = roster_order(ROSTERS_DIR, settings)
+    roster_rows_by_team = [(clean_value(path.stem.replace("-roster", "").replace("-", " ")).title(), read_csv_rows(path)) for path in roster_paths]
+    live_stats_index = build_live_stats_index(
+        [player for _, roster_rows in roster_rows_by_team for player in join_roster_rows(roster_rows, board_index)],
+        season,
+    )
 
     teams = []
-    for roster_path in roster_order(ROSTERS_DIR, settings):
-        team_name = clean_value(roster_path.stem.replace("-roster", "").replace("-", " ")).title()
-        teams.append(build_team_payload(team_name, read_csv_rows(roster_path), board_index, season_team_index.get(team_name)))
+    for team_name, roster_rows in roster_rows_by_team:
+        teams.append(build_team_payload(team_name, roster_rows, board_index, live_stats_index, season_team_index.get(team_name)))
 
     standings = season_results.get("standings") or build_standings(teams)
     standings_by_team = {item["name"]: item for item in standings}

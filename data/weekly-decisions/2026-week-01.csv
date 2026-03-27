@@ -1,11 +1,12 @@
-week,team,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
-2026-week-01,Chris,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Rob,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Wendell,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Matt,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Michael,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Paul,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Josh M,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Shane,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Greg,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-01,Josh V,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
+2026-week-01,Chris,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Rob,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Wendell,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Matt,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Michael,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Paul,auto-applied-il-add,Blake Snell,15-day IL,Auto-applied IL move and replacement add,Ryan Walker,pitcher,RP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-01,Paul,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-01,Josh M,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Shane,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Greg,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-01,Josh V,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.

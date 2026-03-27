@@ -15,6 +15,8 @@ OUTPUT_DIR = DATA_DIR / "weekly-lineups"
 
 ACTIVE_HITTER_SLOTS = ["C", "1B", "2B", "3B", "SS", "CI", "MI", "OF", "OF", "OF", "OF", "OF", "UTIL"]
 PITCHER_SLOTS = 9
+IL_ROSTER_BUCKETS = {"IL", "INJURY LIST", "INJURED LIST"}
+IL_STATUS_TERMS = ("7-DAY IL", "10-DAY IL", "15-DAY IL", "60-DAY IL", "INJURED LIST", "DISABLED LIST")
 
 
 def clean_value(value: str | None) -> str:
@@ -40,6 +42,14 @@ def parse_int(value: str | None) -> int:
     return int(number) if number else 0
 
 
+def merge_player_rows(base_row: dict[str, str], override_row: dict[str, str]) -> dict[str, str]:
+    merged = dict(base_row)
+    for field, value in override_row.items():
+        if field not in merged or clean_value(value):
+            merged[field] = value
+    return merged
+
+
 def read_csv_rows(path: Path) -> list[dict[str, str]]:
     with path.open("r", encoding="utf-8", newline="") as csv_file:
         return list(csv.DictReader(csv_file))
@@ -56,6 +66,33 @@ def read_settings() -> dict:
 def player_key(row: dict[str, str] | dict[str, object]) -> str:
     mlbam_id = clean_value(str(row.get("mlbam_id", "")))
     return mlbam_id or normalize_name(str(row.get("player_name", "")))
+
+
+def roster_bucket_value(player: dict[str, str] | dict[str, object]) -> str:
+    return clean_value(str(player.get("roster_bucket", "")))
+
+
+def is_minor_roster_bucket(player: dict[str, str] | dict[str, object]) -> bool:
+    return roster_bucket_value(player).upper() == "MINORS"
+
+
+def is_il_roster_bucket(player: dict[str, str] | dict[str, object]) -> bool:
+    return roster_bucket_value(player).upper() in IL_ROSTER_BUCKETS
+
+
+def injury_status_summary(player: dict[str, str] | dict[str, object]) -> str:
+    injury_status = clean_value(str(player.get("injury_status", "")))
+    transaction_status = clean_value(str(player.get("transaction_status", "")))
+    return injury_status or transaction_status
+
+
+def is_injured_list_status(value: str | None) -> bool:
+    normalized = clean_value(value).upper()
+    return any(term in normalized for term in IL_STATUS_TERMS)
+
+
+def is_injured_list_player(player: dict[str, str] | dict[str, object]) -> bool:
+    return is_il_roster_bucket(player) or is_injured_list_status(injury_status_summary(player))
 
 
 def board_index_rows(rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
@@ -169,12 +206,11 @@ def assign_pitchers(players: list[dict[str, object]]) -> tuple[list[dict[str, ob
 def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_index: dict[str, dict[str, str]], week: str) -> list[dict[str, str]]:
     roster: list[dict[str, object]] = []
     for roster_row in roster_rows:
-        joined = dict(board_index.get(player_key(roster_row), {}))
-        joined.update(roster_row)
+        joined = merge_player_rows(board_index.get(player_key(roster_row), {}), roster_row)
         joined["mlb_team"] = clean_value(joined.get("mlb_team")) or clean_value(joined.get("proj_team"))
         roster.append(joined)
 
-    mlb_roster = [player for player in roster if clean_value(str(player.get("roster_bucket", ""))) != "Minors"]
+    mlb_roster = [player for player in roster if not is_minor_roster_bucket(player) and not is_injured_list_player(player)]
     two_way_players = [player for player in mlb_roster if clean_value(str(player.get("player_type", ""))) == "two-way"]
     scenario_results: list[dict[str, object]] = []
     scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
@@ -213,11 +249,17 @@ def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_i
     rows: list[dict[str, str]] = []
     for player in sorted(roster, key=lambda item: parse_int(str(item.get("pick_number", 0)))):
         active_player = active_lookup.get(player_key(player))
+        if active_player:
+            lineup_status = "ACTIVE"
+        elif is_injured_list_player(player):
+            lineup_status = "IL"
+        else:
+            lineup_status = "BENCH"
         rows.append(
             {
                 "week": week,
                 "team": team_name,
-                "lineup_status": "ACTIVE" if active_player else "BENCH",
+                "lineup_status": lineup_status,
                 "lineup_slot": clean_value(str(active_player.get("lineup_slot", ""))) if active_player else "",
                 "mlbam_id": clean_value(str(player.get("mlbam_id", ""))),
                 "player_name": clean_value(str(player.get("player_name", ""))),
@@ -225,6 +267,9 @@ def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_i
                 "eligible_positions": clean_value(str(player.get("eligible_positions", ""))),
                 "mlb_team": clean_value(str(player.get("mlb_team", ""))),
                 "current_level": clean_value(str(player.get("current_level", ""))),
+                "roster_bucket": roster_bucket_value(player),
+                "injury_status": clean_value(str(player.get("injury_status", ""))),
+                "transaction_status": clean_value(str(player.get("transaction_status", ""))),
             }
         )
     return rows
@@ -270,6 +315,9 @@ def main() -> None:
             "eligible_positions",
             "mlb_team",
             "current_level",
+            "roster_bucket",
+            "injury_status",
+            "transaction_status",
         ],
         rows,
     )

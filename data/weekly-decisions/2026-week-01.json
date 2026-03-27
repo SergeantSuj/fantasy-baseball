@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-03-26T23:48:40.218696+00:00",
+  "generated_at": "2026-03-27T20:40:09.778090+00:00",
   "week": "2026-week-01",
   "summary": {
     "teams_checked": 10,
+    "teams_with_recommended_il_moves": 0,
     "teams_with_recommended_promotions": 0,
+    "total_il_move_recommendations": 0,
     "total_promotion_recommendations": 0
   },
   "teams": [
@@ -11,7 +13,8 @@
       "team": "Chris",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "il_bucket_count": 0,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -291,13 +294,15 @@
           "projection_value": 173.9
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Rob",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "il_bucket_count": 0,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -577,13 +582,15 @@
           "projection_value": 256.4
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Wendell",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "il_bucket_count": 0,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -863,13 +870,15 @@
           "projection_value": 141.9
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Matt",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "il_bucket_count": 0,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -1149,13 +1158,15 @@
           "projection_value": 210.9
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Michael",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 13,
+      "il_bucket_count": 0,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -1435,13 +1446,15 @@
           "projection_value": 164.1
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Paul",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "il_bucket_count": 1,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -1620,12 +1633,21 @@
           "projection_value": 229.1
         },
         {
+          "player_name": "Ryan Walker",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 210.1
+        },
+        {
           "player_name": "Max Fried",
           "player_type": "pitcher",
           "eligible_positions": "SP",
           "mlb_team": "NYY",
           "current_level": "MLB",
-          "lineup_slot": "P7",
+          "lineup_slot": "P8",
           "projection_value": 210.0
         },
         {
@@ -1634,17 +1656,8 @@
           "eligible_positions": "SP",
           "mlb_team": "CIN",
           "current_level": "",
-          "lineup_slot": "P8",
-          "projection_value": 181.9
-        },
-        {
-          "player_name": "Blake Snell",
-          "player_type": "pitcher",
-          "eligible_positions": "SP",
-          "mlb_team": "LAD",
-          "current_level": "MLB",
           "lineup_slot": "P9",
-          "projection_value": 140.2
+          "projection_value": 181.9
         }
       ],
       "bench": [
@@ -1721,13 +1734,15 @@
           "projection_value": 272.9
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Josh M",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 14,
+      "il_bucket_count": 0,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -2007,12 +2022,14 @@
           "projection_value": 172.4
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Shane",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
+      "il_bucket_count": 0,
       "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
@@ -2293,12 +2310,14 @@
           "projection_value": 218.8
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Greg",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
+      "il_bucket_count": 0,
       "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
@@ -2579,13 +2598,15 @@
           "projection_value": 211.4
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     },
     {
       "team": "Josh V",
       "week": "2026-week-01",
       "mlb_bucket_count": 30,
-      "minor_bucket_count": 9,
+      "il_bucket_count": 0,
+      "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
       "bench_count": 8,
@@ -2865,9 +2886,25 @@
           "projection_value": 206.1
         }
       ],
+      "recommended_il_moves": [],
       "recommended_minor_promotions": []
     }
   ],
+  "auto_apply": {
+    "applied_il_moves": [
+      {
+        "team": "Paul",
+        "injured_player_name": "Blake Snell",
+        "injury_status": "15-day IL",
+        "replacement_player_name": "Ryan Walker",
+        "replacement_player_type": "pitcher",
+        "replacement_positions": "RP"
+      }
+    ],
+    "blocked_il_moves": [],
+    "applied_count": 1,
+    "blocked_count": 0
+  },
   "output_files": {
     "lineup_snapshot": "data/weekly-lineups/2026-week-01.csv",
     "decision_json": "data/weekly-decisions/2026-week-01.json",

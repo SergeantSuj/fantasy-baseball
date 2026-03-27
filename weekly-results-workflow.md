@@ -40,6 +40,8 @@ That command:
 - rewrites the projected lineup snapshot in `data/weekly-lineups/<week>.csv`
 - writes a current-state decision report to `data/weekly-decisions/<week>.json`
 - writes a spreadsheet-friendly recommendation file to `data/weekly-decisions/<week>.csv`
+- auto-applies clear IL or disabled-list moves into the fantasy IL bucket before lock
+- auto-adds an unrostered replacement for each applied IL move when an MLB slot opens
 - flags any rostered minor leaguers who now project as better MLB-bucket holds or fantasy starters
 
 If you only want the lineup snapshot without the decision report, you can still run the narrower command below.
@@ -63,6 +65,8 @@ The weekly decision report adds team-by-team automation for:
 - projected active hitters
 - projected active pitchers
 - projected bench players
+- IL moves that must be applied before lock
+- replacement adds from the unrostered pool after an IL move
 - current rostered minor leaguers who now merit MLB promotion consideration
 
 The script seeds the file with the workspace's projected best lineup. Review that CSV and edit it so it matches the lineup that was actually active at lock.
@@ -71,6 +75,8 @@ Required validation target for each team:
 
 - 13 active hitters
 - 9 active pitchers
+
+Players with an IL or disabled-list status are excluded from the projected weekly active lineup automatically. The weekly decision builder now updates clear IL moves in the roster CSVs before writing the final outputs. If the report still shows a blocked IL move, resolve that condition and rerun the command.
 
 ## Monday Step
 

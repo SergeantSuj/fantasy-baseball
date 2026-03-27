@@ -1,0 +1,11 @@
+week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
+2026-week-il-test,Chris,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Rob,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Wendell,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Matt,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Michael,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Paul,injury-il-add,Blake Snell,15-day IL,Move player to IL and review free agents manually,,,,,,,,,,,,"No strong unrostered replacement cleared the automated filter, so this IL move needs a manual add decision."
+2026-week-il-test,Josh M,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Shane,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Greg,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-il-test,Josh V,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.

@@ -167,8 +167,8 @@ function leadersCard(label, items) {
     : `
         <li class="leader-item">
           <div>
-            <div>Season not started</div>
-            <div class="muted">League totals will populate once games are played.</div>
+            <div>No qualifying totals yet</div>
+            <div class="muted">This category will populate once an active lineup records a counted total.</div>
           </div>
           <div class="leader-value">0</div>
         </li>
@@ -188,6 +188,7 @@ function statusChip(player) {
 }
 
 function hitterRow(player) {
+  const ytd = player.ytd?.hitting || {};
   return `
     <tr>
       <td>${player.lineup_slot}</td>
@@ -195,19 +196,19 @@ function hitterRow(player) {
       <td>${player.mlb_team || "FA"}</td>
       <td>${player.eligible_positions}</td>
       <td>${player.age || "-"}</td>
-      <td>${player.dynasty_rank || "-"}</td>
-      <td>${player.adp || "-"}</td>
-      <td>${formatMaybe(player.projection.runs)}</td>
-      <td>${formatMaybe(player.projection.home_runs)}</td>
-      <td>${formatMaybe(player.projection.rbi)}</td>
-      <td>${formatMaybe(player.projection.stolen_bases)}</td>
-      <td>${formatMaybe(player.projection.obp, 3)}</td>
+      <td>${formatMaybe(ytd.games, 0)}</td>
+      <td>${formatMaybe(ytd.runs, 0)}</td>
+      <td>${formatMaybe(ytd.home_runs, 0)}</td>
+      <td>${formatMaybe(ytd.rbi, 0)}</td>
+      <td>${formatMaybe(ytd.stolen_bases, 0)}</td>
+      <td>${formatRateNoLeadingZero(ytd.obp, 3)}</td>
       <td>${statusChip(player)}</td>
     </tr>
   `;
 }
 
 function pitcherRow(player) {
+  const ytd = player.ytd?.pitching || {};
   return `
     <tr>
       <td>${player.lineup_slot}</td>
@@ -215,14 +216,13 @@ function pitcherRow(player) {
       <td>${player.mlb_team || "FA"}</td>
       <td>${player.eligible_positions}</td>
       <td>${player.age || "-"}</td>
-      <td>${player.dynasty_rank || "-"}</td>
-      <td>${player.adp || "-"}</td>
-      <td>${formatMaybe(player.projection.wins)}</td>
-      <td>${formatMaybe(player.projection.strikeouts)}</td>
-      <td>${formatMaybe(player.projection.saves)}</td>
-      <td>${formatMaybe(player.projection.innings_pitched)}</td>
-      <td>${formatMaybe(player.projection.era, 2)}</td>
-      <td>${formatMaybe(player.projection.whip, 2)}</td>
+      <td>${formatMaybe(ytd.games, 0)}</td>
+      <td>${formatMaybe(ytd.wins, 0)}</td>
+      <td>${formatMaybe(ytd.strikeouts, 0)}</td>
+      <td>${formatMaybe(ytd.saves, 0)}</td>
+      <td>${ytd.innings_pitched || "0.0"}</td>
+      <td>${formatMaybe(ytd.era, 2)}</td>
+      <td>${formatMaybe(ytd.whip, 2)}</td>
       <td>${statusChip(player)}</td>
     </tr>
   `;

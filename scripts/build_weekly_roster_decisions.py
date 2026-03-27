@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 from itertools import product
 from pathlib import Path
@@ -15,8 +16,13 @@ from build_weekly_lineup_snapshot import (
     build_lineup_rows,
     clean_value,
     hitter_value,
+    injury_status_summary,
+    is_il_roster_bucket,
+    is_injured_list_player,
     is_hitter,
+    is_minor_roster_bucket,
     is_pitcher,
+    merge_player_rows,
     parse_float,
     parse_int,
     pitcher_value,
@@ -31,6 +37,14 @@ from build_weekly_lineup_snapshot import (
 WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = WORKSPACE_ROOT / "data"
 DECISION_DIR = DATA_DIR / "weekly-decisions"
+IL_SLOT_LIMIT = 5
+
+
+def resolve_output_path(path_value: str | None, default_path: Path) -> Path:
+    if not path_value:
+        return default_path
+    path = Path(path_value)
+    return path if path.is_absolute() else WORKSPACE_ROOT / path
 
 
 def workspace_relative_path(path: Path) -> str:
@@ -45,11 +59,29 @@ def write_json(path: Path, payload: dict[str, object]) -> None:
 def merge_roster_rows(roster_rows: list[dict[str, str]], board_index: dict[str, dict[str, str]]) -> list[dict[str, object]]:
     roster: list[dict[str, object]] = []
     for roster_row in roster_rows:
-        joined = dict(board_index.get(player_key(roster_row), {}))
-        joined.update(roster_row)
+        joined = merge_player_rows(board_index.get(player_key(roster_row), {}), roster_row)
         joined["mlb_team"] = clean_value(str(joined.get("mlb_team", ""))) or clean_value(str(joined.get("proj_team", "")))
         roster.append(joined)
     return roster
+
+
+def canonical_roster_key(roster_row: dict[str, str], board_index: dict[str, dict[str, str]]) -> str:
+    return player_key(merge_player_rows(board_index.get(player_key(roster_row), {}), roster_row))
+
+
+def find_roster_row(
+    roster_rows: list[dict[str, str]],
+    board_index: dict[str, dict[str, str]],
+    player_id: str,
+    player_name: str,
+) -> dict[str, str] | None:
+    normalized_name = clean_value(player_name)
+    for row in roster_rows:
+        if canonical_roster_key(row, board_index) == player_id:
+            return row
+        if normalized_name and clean_value(row.get("player_name", "")).lower() == normalized_name.lower():
+            return row
+    return None
 
 
 def team_name_from_path(roster_path: Path) -> str:
@@ -61,6 +93,65 @@ def player_value(player: dict[str, object]) -> float:
     pitcher_score = pitcher_value(player) if is_pitcher(player) else float("-inf")
     best = max(hitter_score, pitcher_score)
     return 0.0 if best == float("-inf") else best
+
+
+def dynasty_rank_value(player: dict[str, object]) -> int:
+    value = parse_int(str(player.get("dynasty_rank", "")))
+    return value if value > 0 else 999999
+
+
+def adp_value(player: dict[str, object]) -> float:
+    value = parse_float(str(player.get("adp", "")))
+    return value if value > 0 else 999999.0
+
+
+def is_major_league_level(player: dict[str, object]) -> bool:
+    level = clean_value(str(player.get("current_level", ""))).upper()
+    return level in {"", "MLB", "MAJORS"}
+
+
+def dedupe_board_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    merged_by_key: dict[str, dict[str, str]] = {}
+    order: list[str] = []
+    for row in rows:
+        key = player_key(row)
+        if not key:
+            continue
+        if key not in merged_by_key:
+            merged_by_key[key] = dict(row)
+            order.append(key)
+            continue
+        merged_by_key[key] = merge_player_rows(merged_by_key[key], row)
+    return [merged_by_key[key] for key in order]
+
+
+def build_free_agent_candidates(board_rows: list[dict[str, str]], rostered_keys: set[str]) -> list[dict[str, object]]:
+    candidates: list[dict[str, object]] = []
+    for board_row in dedupe_board_rows(board_rows):
+        key = player_key(board_row)
+        if not key or key in rostered_keys:
+            continue
+        candidate = dict(board_row)
+        candidate["mlb_team"] = clean_value(str(candidate.get("mlb_team", ""))) or clean_value(str(candidate.get("proj_team", "")))
+        if not is_major_league_level(candidate):
+            continue
+        if is_injured_list_player(candidate):
+            continue
+        if clean_value(str(candidate.get("mlb_team", ""))).upper() in {"", "FA"}:
+            continue
+        if player_value(candidate) <= 0:
+            continue
+        candidates.append(candidate)
+
+    candidates.sort(
+        key=lambda player: (
+            -player_value(player),
+            dynasty_rank_value(player),
+            adp_value(player),
+            clean_value(str(player.get("player_name", ""))),
+        )
+    )
+    return candidates
 
 
 def optimize_roster(players: list[dict[str, object]]) -> dict[str, object]:
@@ -134,6 +225,46 @@ def weakest_drop_candidate(players: list[dict[str, object]], exclude_keys: set[s
     return min(eligible, key=sort_key)
 
 
+def replacement_candidate_pool(
+    injured_player: dict[str, object],
+    free_agent_candidates: list[dict[str, object]],
+) -> list[dict[str, object]]:
+    if is_pitcher(injured_player) and not is_hitter(injured_player):
+        return [candidate for candidate in free_agent_candidates if is_pitcher(candidate)]
+    if is_hitter(injured_player) and not is_pitcher(injured_player):
+        return [candidate for candidate in free_agent_candidates if is_hitter(candidate)]
+    return free_agent_candidates
+
+
+def evaluate_free_agent_add(candidate: dict[str, object], current_mlb_roster: list[dict[str, object]]) -> dict[str, object]:
+    added_candidate = dict(candidate)
+    added_candidate["roster_bucket"] = "MLB"
+    optimized = optimize_roster([*current_mlb_roster, added_candidate])
+    active_keys = {player_key(player) for player in [*optimized["active_hitters"], *optimized["active_pitchers"]]}
+    candidate_key = player_key(added_candidate)
+    candidate_role = "Bench"
+    candidate_slot = ""
+    if candidate_key in active_keys:
+        candidate_role = "Starter"
+        for player in [*optimized["active_hitters"], *optimized["active_pitchers"]]:
+            if player_key(player) == candidate_key:
+                candidate_slot = clean_value(str(player.get("lineup_slot", "")))
+                break
+
+    candidate_value = round(player_value(added_candidate), 1)
+    if candidate_role == "Starter":
+        rationale = f"Best available unrostered replacement; would enter the active lineup at {candidate_slot or 'an active slot'} after the IL move."
+    else:
+        rationale = "Best available unrostered replacement for the MLB bucket after the IL move, even if the player opens on the bench."
+
+    return {
+        "projected_role_if_added": candidate_role,
+        "projected_slot_if_added": candidate_slot,
+        "candidate_projection_value": candidate_value,
+        "rationale": rationale,
+    }
+
+
 def evaluate_minor_promotion(candidate: dict[str, object], current_mlb_roster: list[dict[str, object]]) -> dict[str, object]:
     promoted_candidate = dict(candidate)
     promoted_candidate["roster_bucket"] = "MLB"
@@ -192,17 +323,252 @@ def summarize_player(player: dict[str, object]) -> dict[str, object]:
     }
 
 
+def build_il_move_recommendations(
+    team_name: str,
+    mlb_roster: list[dict[str, object]],
+    il_players: list[dict[str, object]],
+    free_agent_candidates: list[dict[str, object]],
+) -> list[dict[str, object]]:
+    recommendations: list[dict[str, object]] = []
+    il_slots_open = max(IL_SLOT_LIMIT - len(il_players), 0)
+    injured_players = [player for player in mlb_roster if is_injured_list_player(player)]
+
+    for index, injured_player in enumerate(
+        sorted(injured_players, key=lambda player: (-player_value(player), clean_value(str(player.get("player_name", "")))))
+    ):
+        open_slot = index < il_slots_open
+        replacement_pool = replacement_candidate_pool(injured_player, free_agent_candidates)
+        remaining_roster = [player for player in mlb_roster if player_key(player) != player_key(injured_player)]
+        replacement = replacement_pool[0] if replacement_pool else None
+        evaluation = evaluate_free_agent_add(replacement, remaining_roster) if replacement else {}
+
+        recommendation = "Move player to IL"
+        rationale = "Player has an IL or disabled-list status and should not remain in the active or bench MLB bucket for the scoring week."
+        if open_slot and replacement:
+            recommendation = "Move player to IL and add unrostered replacement"
+            rationale = evaluation["rationale"]
+        elif open_slot and not replacement:
+            recommendation = "Move player to IL and review free agents manually"
+            rationale = "No strong unrostered replacement cleared the automated filter, so this IL move needs a manual add decision."
+        elif not open_slot:
+            recommendation = "Open an IL slot before lock"
+            rationale = "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+
+        recommendations.append(
+            {
+                "team": team_name,
+                "injured_player_key": player_key(injured_player),
+                "injured_player_name": clean_value(str(injured_player.get("player_name", ""))),
+                "injured_player_type": clean_value(str(injured_player.get("player_type", ""))),
+                "injured_player_positions": clean_value(str(injured_player.get("eligible_positions", ""))),
+                "current_injury_status": injury_status_summary(injured_player),
+                "recommendation": recommendation,
+                "replacement_add": {
+                    "player_key": player_key(replacement) if replacement else "",
+                    "player_name": clean_value(str(replacement.get("player_name", ""))) if replacement else "",
+                    "player_type": clean_value(str(replacement.get("player_type", ""))) if replacement else "",
+                    "eligible_positions": clean_value(str(replacement.get("eligible_positions", ""))) if replacement else "",
+                    "mlb_team": clean_value(str(replacement.get("mlb_team", ""))) if replacement else "",
+                    "current_level": clean_value(str(replacement.get("current_level", ""))) if replacement else "",
+                    "projected_role_if_added": evaluation.get("projected_role_if_added", ""),
+                    "projected_slot_if_added": evaluation.get("projected_slot_if_added", ""),
+                    "candidate_projection_value": evaluation.get("candidate_projection_value", ""),
+                },
+                "rationale": rationale,
+            }
+        )
+
+    return recommendations
+
+
+def next_pick_number(roster_rows: list[dict[str, str]]) -> int:
+    existing = [parse_int(row.get("pick_number", "")) for row in roster_rows]
+    return max(existing, default=0) + 1
+
+
+def position_bucket_for_player(player: dict[str, str]) -> str:
+    primary_position = clean_value(player.get("primary_position", ""))
+    if primary_position:
+        return primary_position
+    proj_pos = clean_value(player.get("proj_pos", ""))
+    if proj_pos:
+        return proj_pos.split("/")[0]
+    eligible = clean_value(player.get("eligible_positions", ""))
+    return eligible.split("/")[0] if eligible else ""
+
+
+def build_auto_add_row(
+    team_name: str,
+    candidate: dict[str, str],
+    injured_player_name: str,
+    fieldnames: list[str],
+    pick_number: int,
+) -> dict[str, str]:
+    row = {field: "" for field in fieldnames}
+    row.update(
+        {
+            "pick_number": str(pick_number),
+            "round": "FA",
+            "pick_in_round": "",
+            "team": team_name,
+            "player_name": clean_value(candidate.get("player_name", "")),
+            "player_type": clean_value(candidate.get("player_type", "")),
+            "position_bucket": position_bucket_for_player(candidate),
+            "eligible_positions": clean_value(candidate.get("eligible_positions", "")),
+            "roster_bucket": "MLB",
+            "current_level": clean_value(candidate.get("current_level", "")),
+            "dynasty_rank": clean_value(candidate.get("dynasty_rank", "")),
+            "adp": clean_value(candidate.get("adp", "")),
+            "injury_status": clean_value(candidate.get("injury_status", "")),
+            "transaction_status": clean_value(candidate.get("transaction_status", "")),
+            "rationale": f"Auto-added as an IL replacement for {injured_player_name}.",
+        }
+    )
+    return row
+
+
+def write_roster_csv(path: Path, fieldnames: list[str], rows: list[dict[str, str]]) -> None:
+    with path.open("w", encoding="utf-8", newline="") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def apply_il_moves(board_rows: list[dict[str, str]]) -> dict[str, object]:
+    settings = read_settings()
+    board_index = board_index_rows(board_rows)
+    board_rows_by_key = {player_key(row): row for row in dedupe_board_rows(board_rows)}
+    roster_rows_by_team: list[tuple[Path, list[dict[str, str]]]] = []
+    rostered_keys: set[str] = set()
+
+    for roster_path in roster_order(ROSTERS_DIR, settings):
+        roster_rows = read_csv_rows(roster_path)
+        roster_rows_by_team.append((roster_path, roster_rows))
+        for row in roster_rows:
+            key = canonical_roster_key(row, board_index)
+            if key:
+                rostered_keys.add(key)
+
+    applied_moves: list[dict[str, object]] = []
+    blocked_moves: list[dict[str, object]] = []
+
+    for roster_path, roster_rows in roster_rows_by_team:
+        team_name = team_name_from_path(roster_path)
+        free_agent_candidates = build_free_agent_candidates(board_rows, rostered_keys)
+        _, team_report = build_team_report("auto-apply", team_name, roster_rows, board_index, free_agent_candidates)
+        fieldnames = list(roster_rows[0].keys()) if roster_rows else [
+            "pick_number",
+            "round",
+            "pick_in_round",
+            "team",
+            "player_name",
+            "player_type",
+            "position_bucket",
+            "eligible_positions",
+            "roster_bucket",
+            "current_level",
+            "dynasty_rank",
+            "adp",
+            "injury_status",
+            "transaction_status",
+            "rationale",
+        ]
+        changed = False
+        pick_number = next_pick_number(roster_rows)
+
+        for il_move in team_report["recommended_il_moves"]:
+            injured_key = clean_value(str(il_move.get("injured_player_key", "")))
+            injured_name = clean_value(str(il_move.get("injured_player_name", "")))
+            replacement_add = il_move.get("replacement_add", {})
+            replacement_key = clean_value(str(replacement_add.get("player_key", "")))
+
+            injured_row = find_roster_row(roster_rows, board_index, injured_key, injured_name)
+            if injured_row is None:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": injured_name,
+                        "reason": "Roster row not found for the injured player.",
+                    }
+                )
+                continue
+
+            if not replacement_key:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": injured_name,
+                        "reason": clean_value(str(il_move.get("rationale", ""))) or "No eligible replacement was available.",
+                    }
+                )
+                continue
+
+            replacement_row = board_rows_by_key.get(replacement_key)
+            if replacement_row is None:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": injured_name,
+                        "reason": "Replacement player was not found in the board input.",
+                    }
+                )
+                continue
+
+            if replacement_key in rostered_keys:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": injured_name,
+                        "reason": f"Replacement {clean_value(replacement_row.get('player_name', ''))} is already rostered.",
+                    }
+                )
+                continue
+
+            injured_row["roster_bucket"] = "IL"
+            current_injury_status = clean_value(str(il_move.get("current_injury_status", "")))
+            if current_injury_status:
+                injured_row["injury_status"] = current_injury_status
+
+            roster_rows.append(build_auto_add_row(team_name, replacement_row, injured_name, fieldnames, pick_number))
+            pick_number += 1
+            rostered_keys.add(replacement_key)
+            changed = True
+            applied_moves.append(
+                {
+                    "team": team_name,
+                    "injured_player_name": injured_name,
+                    "injury_status": current_injury_status,
+                    "replacement_player_name": clean_value(replacement_row.get("player_name", "")),
+                    "replacement_player_type": clean_value(replacement_row.get("player_type", "")),
+                    "replacement_positions": clean_value(replacement_row.get("eligible_positions", "")),
+                }
+            )
+
+        if changed:
+            write_roster_csv(roster_path, fieldnames, roster_rows)
+
+    return {
+        "applied_il_moves": applied_moves,
+        "blocked_il_moves": blocked_moves,
+        "applied_count": len(applied_moves),
+        "blocked_count": len(blocked_moves),
+    }
+
+
 def build_team_report(
     week: str,
     team_name: str,
     roster_rows: list[dict[str, str]],
     board_index: dict[str, dict[str, str]],
+    free_agent_candidates: list[dict[str, object]],
 ) -> tuple[list[dict[str, str]], dict[str, object]]:
     roster = merge_roster_rows(roster_rows, board_index)
-    mlb_roster = [player for player in roster if clean_value(str(player.get("roster_bucket", ""))) != "Minors"]
-    minors = [player for player in roster if clean_value(str(player.get("roster_bucket", ""))) == "Minors"]
+    mlb_roster = [player for player in roster if not is_minor_roster_bucket(player) and not is_il_roster_bucket(player)]
+    il_players = [player for player in roster if is_il_roster_bucket(player)]
+    minors = [player for player in roster if is_minor_roster_bucket(player)]
     optimized = optimize_roster(mlb_roster)
     lineup_rows = build_lineup_rows(team_name, roster_rows, board_index, week)
+    il_move_recommendations = build_il_move_recommendations(team_name, mlb_roster, il_players, free_agent_candidates)
 
     recommendations = []
     for candidate in minors:
@@ -232,6 +598,7 @@ def build_team_report(
         "team": team_name,
         "week": week,
         "mlb_bucket_count": len(mlb_roster),
+        "il_bucket_count": len(il_players),
         "minor_bucket_count": len(minors),
         "active_hitter_count": len(optimized["active_hitters"]),
         "active_pitcher_count": len(optimized["active_pitchers"]),
@@ -239,6 +606,7 @@ def build_team_report(
         "active_hitters": [summarize_player(player) for player in optimized["active_hitters"]],
         "active_pitchers": [summarize_player(player) for player in optimized["active_pitchers"]],
         "bench": [summarize_player(player) for player in optimized["bench_players"]],
+        "recommended_il_moves": il_move_recommendations,
         "recommended_minor_promotions": recommendations,
     }
 
@@ -249,22 +617,38 @@ def build_report(week: str) -> tuple[list[dict[str, str]], dict[str, object]]:
     board_index = board_index_rows(board_rows)
     lineup_rows: list[dict[str, str]] = []
     teams: list[dict[str, object]] = []
+    rostered_keys: set[str] = set()
+    roster_rows_by_team: list[tuple[Path, list[dict[str, str]]]] = []
 
     for roster_path in roster_order(ROSTERS_DIR, settings):
+        roster_rows = read_csv_rows(roster_path)
+        roster_rows_by_team.append((roster_path, roster_rows))
+        for row in roster_rows:
+            key = canonical_roster_key(row, board_index)
+            if key:
+                rostered_keys.add(key)
+
+    free_agent_candidates = build_free_agent_candidates(board_rows, rostered_keys)
+
+    for roster_path, roster_rows in roster_rows_by_team:
         team_name = team_name_from_path(roster_path)
-        team_lineup_rows, team_report = build_team_report(week, team_name, read_csv_rows(roster_path), board_index)
+        team_lineup_rows, team_report = build_team_report(week, team_name, roster_rows, board_index, free_agent_candidates)
         lineup_rows.extend(team_lineup_rows)
         teams.append(team_report)
 
     teams_with_promotions = [team for team in teams if team["recommended_minor_promotions"]]
+    teams_with_il_moves = [team for team in teams if team["recommended_il_moves"]]
     total_recommendations = sum(len(team["recommended_minor_promotions"]) for team in teams)
+    total_il_moves = sum(len(team["recommended_il_moves"]) for team in teams)
 
     return lineup_rows, {
         "generated_at": __import__("datetime").datetime.now(__import__("datetime").UTC).isoformat(),
         "week": week,
         "summary": {
             "teams_checked": len(teams),
+            "teams_with_recommended_il_moves": len(teams_with_il_moves),
             "teams_with_recommended_promotions": len(teams_with_promotions),
+            "total_il_move_recommendations": total_il_moves,
             "total_promotion_recommendations": total_recommendations,
         },
         "teams": teams,
@@ -273,13 +657,46 @@ def build_report(week: str) -> tuple[list[dict[str, str]], dict[str, object]]:
 
 def build_csv_rows(report: dict[str, object]) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
+    auto_apply_by_team: dict[str, list[dict[str, object]]] = {}
+    for move in report.get("auto_apply", {}).get("applied_il_moves", []):
+        team_name = clean_value(str(move.get("team", "")))
+        if team_name:
+            auto_apply_by_team.setdefault(team_name, []).append(move)
     for team in report.get("teams", []):
-        recommendations = team.get("recommended_minor_promotions", [])
-        if not recommendations:
+        team_name = clean_value(str(team.get("team", "")))
+        for applied_move in auto_apply_by_team.get(team_name, []):
             rows.append(
                 {
                     "week": report.get("week", ""),
-                    "team": team.get("team", ""),
+                    "team": team_name,
+                    "recommendation_type": "auto-applied-il-add",
+                    "trigger_player_name": applied_move.get("injured_player_name", ""),
+                    "trigger_reason": applied_move.get("injury_status", ""),
+                    "recommendation": "Auto-applied IL move and replacement add",
+                    "player_name": applied_move.get("replacement_player_name", ""),
+                    "player_type": applied_move.get("replacement_player_type", ""),
+                    "eligible_positions": applied_move.get("replacement_positions", ""),
+                    "current_level": "",
+                    "projected_role_if_promoted": "",
+                    "projected_slot_if_promoted": "",
+                    "candidate_projection_value": "",
+                    "drop_candidate_name": "",
+                    "drop_candidate_role": "",
+                    "drop_candidate_value": "",
+                    "improvement": "",
+                    "rationale": "Applied automatically before rebuilding the weekly lineup and decision outputs.",
+                }
+            )
+        il_moves = team.get("recommended_il_moves", [])
+        recommendations = team.get("recommended_minor_promotions", [])
+        if not il_moves and not recommendations:
+            rows.append(
+                {
+                    "week": report.get("week", ""),
+                    "team": team_name,
+                    "recommendation_type": "no-change",
+                    "trigger_player_name": "",
+                    "trigger_reason": "",
                     "recommendation": "No change recommended",
                     "player_name": "",
                     "player_type": "",
@@ -292,16 +709,47 @@ def build_csv_rows(report: dict[str, object]) -> list[dict[str, object]]:
                     "drop_candidate_role": "",
                     "drop_candidate_value": "",
                     "improvement": "",
-                    "rationale": "Current MLB bucket already optimizes above all rostered minor-league alternatives.",
+                    "rationale": (
+                        "Current MLB bucket already optimizes above all rostered minor-league alternatives."
+                        if not auto_apply_by_team.get(team_name)
+                        else "No additional moves recommended after auto-applying IL updates."
+                    ),
                 }
             )
             continue
+        for il_move in il_moves:
+            replacement = il_move.get("replacement_add", {})
+            rows.append(
+                {
+                    "week": report.get("week", ""),
+                    "team": team.get("team", ""),
+                    "recommendation_type": "injury-il-add",
+                    "trigger_player_name": il_move.get("injured_player_name", ""),
+                    "trigger_reason": il_move.get("current_injury_status", ""),
+                    "recommendation": il_move.get("recommendation", ""),
+                    "player_name": replacement.get("player_name", ""),
+                    "player_type": replacement.get("player_type", ""),
+                    "eligible_positions": replacement.get("eligible_positions", ""),
+                    "current_level": replacement.get("current_level", ""),
+                    "projected_role_if_promoted": replacement.get("projected_role_if_added", ""),
+                    "projected_slot_if_promoted": replacement.get("projected_slot_if_added", ""),
+                    "candidate_projection_value": replacement.get("candidate_projection_value", ""),
+                    "drop_candidate_name": "",
+                    "drop_candidate_role": "",
+                    "drop_candidate_value": "",
+                    "improvement": replacement.get("candidate_projection_value", ""),
+                    "rationale": il_move.get("rationale", ""),
+                }
+            )
         for recommendation in recommendations:
             drop_candidate = recommendation.get("drop_candidate", {})
             rows.append(
                 {
                     "week": report.get("week", ""),
                     "team": team.get("team", ""),
+                    "recommendation_type": "minor-promotion",
+                    "trigger_player_name": "",
+                    "trigger_reason": "",
                     "recommendation": recommendation.get("recommendation", ""),
                     "player_name": recommendation.get("player_name", ""),
                     "player_type": recommendation.get("player_type", ""),
@@ -328,16 +776,31 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--lineup-output", help="Optional explicit weekly lineup snapshot path")
     parser.add_argument("--report-json", help="Optional explicit weekly decision JSON path")
     parser.add_argument("--report-csv", help="Optional explicit weekly decision CSV path")
+    parser.add_argument(
+        "--skip-auto-apply",
+        action="store_true",
+        help="Do not auto-apply IL moves to manager roster CSVs before building the final report.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    lineup_output = Path(args.lineup_output) if args.lineup_output else LINEUP_DIR / f"{args.week}.csv"
-    report_json = Path(args.report_json) if args.report_json else DECISION_DIR / f"{args.week}.json"
-    report_csv = Path(args.report_csv) if args.report_csv else DECISION_DIR / f"{args.week}.csv"
+    lineup_output = resolve_output_path(args.lineup_output, LINEUP_DIR / f"{args.week}.csv")
+    report_json = resolve_output_path(args.report_json, DECISION_DIR / f"{args.week}.json")
+    report_csv = resolve_output_path(args.report_csv, DECISION_DIR / f"{args.week}.csv")
+
+    auto_apply_summary = {
+        "applied_il_moves": [],
+        "blocked_il_moves": [],
+        "applied_count": 0,
+        "blocked_count": 0,
+    }
+    if not args.skip_auto_apply:
+        auto_apply_summary = apply_il_moves(read_csv_rows(BOARD_PATH))
 
     lineup_rows, report = build_report(args.week)
+    report["auto_apply"] = auto_apply_summary
     report["output_files"] = {
         "lineup_snapshot": workspace_relative_path(lineup_output),
         "decision_json": workspace_relative_path(report_json),
@@ -357,6 +820,9 @@ def main() -> None:
             "eligible_positions",
             "mlb_team",
             "current_level",
+            "roster_bucket",
+            "injury_status",
+            "transaction_status",
         ],
         lineup_rows,
     )
@@ -366,6 +832,9 @@ def main() -> None:
         [
             "week",
             "team",
+            "recommendation_type",
+            "trigger_player_name",
+            "trigger_reason",
             "recommendation",
             "player_name",
             "player_type",
@@ -388,10 +857,17 @@ def main() -> None:
     print(f"Wrote weekly decision JSON report to {report_json}")
     print(f"Wrote weekly decision CSV report to {report_csv}")
     print(
+        "Teams with recommended IL moves: "
+        f"{summary['teams_with_recommended_il_moves']} / {summary['teams_checked']}"
+    )
+    print(
         "Teams with recommended promotions: "
         f"{summary['teams_with_recommended_promotions']} / {summary['teams_checked']}"
     )
+    print(f"Total IL move recommendations: {summary['total_il_move_recommendations']}")
     print(f"Total promotion recommendations: {summary['total_promotion_recommendations']}")
+    print(f"Auto-applied IL moves: {auto_apply_summary['applied_count']}")
+    print(f"Blocked auto-applied IL moves: {auto_apply_summary['blocked_count']}")
 
 
 if __name__ == "__main__":
