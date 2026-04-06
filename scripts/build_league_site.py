@@ -19,6 +19,7 @@ RESULTS_PATH = DATA_DIR / "season-results-2026.json"
 OUTPUT_DIR = WORKSPACE_ROOT / "docs"
 OUTPUT_DATA_DIR = OUTPUT_DIR / "data"
 OUTPUT_JSON_PATH = OUTPUT_DATA_DIR / "league-site-data.json"
+DECISIONS_DIR = DATA_DIR / "weekly-decisions"
 
 ACTIVE_HITTER_SLOTS = ["C", "1B", "2B", "3B", "SS", "CI", "MI", "OF", "OF", "OF", "OF", "OF", "UTIL"]
 PITCHER_SLOTS = 9
@@ -710,6 +711,98 @@ def build_team_payload(
     }
 
 
+def build_transaction_log() -> list[dict[str, str]]:
+    """Aggregate transaction records from all weekly decision JSONs."""
+    transactions: list[dict[str, str]] = []
+    decision_files = sorted(DECISIONS_DIR.glob("2026-week-*.json"))
+    for path in decision_files:
+        if "il-test" in path.name:
+            continue
+        data = read_json_file(path)
+        week = clean_value(str(data.get("week", path.stem)))
+        generated_at = clean_value(str(data.get("generated_at", "")))
+        date_str = generated_at[:10] if generated_at else ""
+
+        # Status refresh changes
+        for change in data.get("status_refresh", {}).get("changes", []):
+            updates = change.get("updates", {})
+            update_parts = []
+            if "injury_status" in updates:
+                status = updates["injury_status"]
+                update_parts.append(f"Placed on {status}" if status else "Activated from IL")
+            if "current_level" in updates:
+                level = updates["current_level"]
+                if level.upper() != "MLB":
+                    update_parts.append(f"Optioned to {level}")
+                else:
+                    update_parts.append("Recalled to MLB")
+            if "transaction_status" in updates and not update_parts:
+                update_parts.append(updates["transaction_status"])
+            transactions.append({
+                "week": week,
+                "date": date_str,
+                "team": clean_value(str(change.get("team", ""))),
+                "type": "Status Update",
+                "player_name": clean_value(str(change.get("player_name", ""))),
+                "detail": "; ".join(update_parts) if update_parts else "Status updated",
+                "related_player": "",
+            })
+
+        # Auto-applied IL moves (injured -> IL, replacement added)
+        for move in data.get("auto_apply", {}).get("applied_il_moves", []):
+            team = clean_value(str(move.get("team", "")))
+            injured = clean_value(str(move.get("injured_player_name", "")))
+            replacement = clean_value(str(move.get("replacement_player_name", "")))
+            injury = clean_value(str(move.get("injury_status", "")))
+            transactions.append({
+                "week": week,
+                "date": date_str,
+                "team": team,
+                "type": "IL Move",
+                "player_name": injured,
+                "detail": f"Moved to IL ({injury})" if injury else "Moved to IL",
+                "related_player": "",
+            })
+            if replacement:
+                transactions.append({
+                    "week": week,
+                    "date": date_str,
+                    "team": team,
+                    "type": "FA Add (IL Replacement)",
+                    "player_name": replacement,
+                    "detail": f"Added as replacement for {injured}",
+                    "related_player": injured,
+                })
+
+        # FA acquisitions
+        for acq in data.get("fa_acquisitions", {}).get("acquisitions", []):
+            team = clean_value(str(acq.get("team", "")))
+            added = clean_value(str(acq.get("added_player_name", "")))
+            dropped = clean_value(str(acq.get("dropped_player_name", "")))
+            added_val = acq.get("added_value", "")
+            dropped_val = acq.get("dropped_value", "")
+            transactions.append({
+                "week": week,
+                "date": date_str,
+                "team": team,
+                "type": "FA Acquisition",
+                "player_name": added,
+                "detail": f"Added from FA (value {added_val})",
+                "related_player": dropped,
+            })
+            transactions.append({
+                "week": week,
+                "date": date_str,
+                "team": team,
+                "type": "Drop",
+                "player_name": dropped,
+                "detail": f"Dropped for {added} (value {dropped_val})",
+                "related_player": added,
+            })
+
+    return transactions
+
+
 def main() -> None:
     settings = read_settings()
     manager_profile_index = build_manager_profile_index(settings)
@@ -750,6 +843,8 @@ def main() -> None:
             "category_points": summary["category_points"],
         }
 
+    transaction_log = build_transaction_log()
+
     payload = {
         "title": "Boz Cup Baseball Hub",
         "generated_from": season_results.get("generated_from") or "draft-board-input-2026.csv and manager-rosters/*.csv",
@@ -758,6 +853,7 @@ def main() -> None:
         "teams": teams,
         "standings": standings,
         "leaders": season_results.get("leaders") or default_league_leaders(teams),
+        "transactions": transaction_log,
     }
 
     OUTPUT_DATA_DIR.mkdir(parents=True, exist_ok=True)

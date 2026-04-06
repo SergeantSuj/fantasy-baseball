@@ -537,3 +537,34 @@ tbody tr:hover {
     text-align: left;
   }
 }
+
+/* Transaction type badges */
+.tx-type {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.tx-type.type-add {
+  background: rgba(12, 109, 97, 0.14);
+  color: #0c6d61;
+}
+
+.tx-type.type-drop {
+  background: rgba(180, 50, 50, 0.12);
+  color: #9b2c2c;
+}
+
+.tx-type.type-il {
+  background: rgba(180, 130, 40, 0.14);
+  color: #8a6d1b;
+}
+
+.tx-type.type-status {
+  background: rgba(60, 90, 140, 0.12);
+  color: #3c5a8c;
+}

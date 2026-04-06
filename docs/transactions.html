@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Transactions</title>
+  <meta name="description" content="Boz Cup transaction log — FA pickups, drops, IL moves, and status updates.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260327f">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Fantasy Baseball</p>
+        <h1 id="page-title">Transactions</h1>
+        <p id="page-note" class="hero-note"></p>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel">
+        <div class="detail-nav">
+          <a class="nav-link" href="index.html">League hub</a>
+          <a class="nav-link" href="mlb-team-usage.html">MLB Team Usage</a>
+          <a class="nav-link" href="minor-league-prospects.html">Minor League Prospects</a>
+        </div>
+        <div class="panel-head compact">
+          <h2>Transaction Log</h2>
+          <p>All roster moves across the league — free agent adds, drops, IL placements, and status updates.</p>
+        </div>
+
+        <div id="team-filter" class="team-buttons" style="margin-bottom:16px"></div>
+
+        <div id="transaction-empty" class="empty-state">No transactions recorded yet.</div>
+        <div class="table-wrap">
+          <table id="transaction-table" class="standings-table" hidden>
+            <thead>
+              <tr>
+                <th>Week</th>
+                <th>Date</th>
+                <th>Team</th>
+                <th>Type</th>
+                <th>Player</th>
+                <th>Detail</th>
+                <th>Related Player</th>
+              </tr>
+            </thead>
+            <tbody id="transaction-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="transactions.js?v=20260327f" defer></script>
+</body>
+</html>

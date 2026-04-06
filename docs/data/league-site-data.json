@@ -671,12 +671,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 5,
               "home_runs": 0,
               "rbi": 3,
               "stolen_bases": 3,
-              "obp": 0.278
+              "obp": 0.27
             },
             "pitching": {
               "games": 0,
@@ -2564,13 +2564,13 @@
           }
         },
         {
-          "player_name": "Matt Shaw",
+          "player_name": "Mike Yastrzemski",
           "player_type": "hitter",
-          "mlb_team": "CHC",
-          "eligible_positions": "3B",
-          "age": "24",
-          "dynasty_rank": "117",
-          "adp": "111.0",
+          "mlb_team": "ATL",
+          "eligible_positions": "OF",
+          "age": "35",
+          "dynasty_rank": "441",
+          "adp": "349.0",
           "prospect_rank": "",
           "org_rank": "",
           "prospect_fv": "",
@@ -2580,30 +2580,30 @@
           "lineup_slot": "",
           "current_level": "MLB",
           "projection": {
-            "runs": 34.1,
-            "home_runs": 8.3,
-            "rbi": 31.8,
-            "stolen_bases": 10.5,
-            "obp": 0.317,
+            "runs": 47.2,
+            "home_runs": 13.5,
+            "rbi": 46.2,
+            "stolen_bases": 4.2,
+            "obp": 0.315,
             "wins": 0.0,
             "strikeouts": 0.0,
             "saves": 0.0,
             "era": 0.0,
             "whip": 0.0,
             "innings_pitched": 0.0,
-            "plate_appearances": 286.0
+            "plate_appearances": 402.0
           },
           "actual_2025": {
-            "runs": 57,
-            "home_runs": 13,
-            "rbi": 44,
-            "stolen_bases": 17,
-            "obp": ".295",
+            "runs": 68,
+            "home_runs": 17,
+            "rbi": 46,
+            "stolen_bases": 7,
+            "obp": ".333",
             "wins": 0,
             "strikeouts": 0,
             "saves": 0,
-            "era": "",
-            "whip": ""
+            "era": "18.00",
+            "whip": "3.00"
           },
           "season_contribution": {
             "weeks_active": 0,
@@ -2630,12 +2630,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 8,
-              "runs": 2,
-              "home_runs": 1,
-              "rbi": 4,
-              "stolen_bases": 1,
-              "obp": 0.24
+              "games": 9,
+              "runs": 3,
+              "home_runs": 0,
+              "rbi": 3,
+              "stolen_bases": 0,
+              "obp": 0.324
             },
             "pitching": {
               "games": 0,
@@ -2972,12 +2972,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 5,
               "home_runs": 0,
               "rbi": 3,
               "stolen_bases": 3,
-              "obp": 0.278
+              "obp": 0.27
             },
             "pitching": {
               "games": 0,
@@ -3743,91 +3743,6 @@
               "rbi": 5,
               "stolen_bases": 0,
               "obp": 0.323
-            },
-            "pitching": {
-              "games": 0,
-              "wins": 0,
-              "strikeouts": 0,
-              "saves": 0,
-              "innings_pitched": "0.0",
-              "era": 0.0,
-              "whip": 0.0
-            }
-          }
-        },
-        {
-          "player_name": "Matt Shaw",
-          "player_type": "hitter",
-          "mlb_team": "CHC",
-          "eligible_positions": "3B",
-          "age": "24",
-          "dynasty_rank": "117",
-          "adp": "111.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 34.1,
-            "home_runs": 8.3,
-            "rbi": 31.8,
-            "stolen_bases": 10.5,
-            "obp": 0.317,
-            "wins": 0.0,
-            "strikeouts": 0.0,
-            "saves": 0.0,
-            "era": 0.0,
-            "whip": 0.0,
-            "innings_pitched": 0.0,
-            "plate_appearances": 286.0
-          },
-          "actual_2025": {
-            "runs": 57,
-            "home_runs": 13,
-            "rbi": 44,
-            "stolen_bases": 17,
-            "obp": ".295",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 8,
-              "runs": 2,
-              "home_runs": 1,
-              "rbi": 4,
-              "stolen_bases": 1,
-              "obp": 0.24
             },
             "pitching": {
               "games": 0,
@@ -6729,6 +6644,91 @@
               "whip": 0.0
             }
           }
+        },
+        {
+          "player_name": "Mike Yastrzemski",
+          "player_type": "hitter",
+          "mlb_team": "ATL",
+          "eligible_positions": "OF",
+          "age": "35",
+          "dynasty_rank": "441",
+          "adp": "349.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 47.2,
+            "home_runs": 13.5,
+            "rbi": 46.2,
+            "stolen_bases": 4.2,
+            "obp": 0.315,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 402.0
+          },
+          "actual_2025": {
+            "runs": 68,
+            "home_runs": 17,
+            "rbi": 46,
+            "stolen_bases": 7,
+            "obp": ".333",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "18.00",
+            "whip": "3.00"
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 9,
+              "runs": 3,
+              "home_runs": 0,
+              "rbi": 3,
+              "stolen_bases": 0,
+              "obp": 0.324
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
         }
       ],
       "projected_totals": {
@@ -7271,12 +7271,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 7,
               "home_runs": 2,
               "rbi": 10,
-              "stolen_bases": 0,
-              "obp": 0.488
+              "stolen_bases": 1,
+              "obp": 0.511
             },
             "pitching": {
               "games": 0,
@@ -8994,41 +8994,41 @@
           }
         },
         {
-          "player_name": "Owen Caissie",
+          "player_name": "Lourdes Gurriel Jr.",
           "player_type": "hitter",
-          "mlb_team": "MIA",
-          "eligible_positions": "OF/RF/OUTFIELDER",
-          "age": "23",
-          "dynasty_rank": "361",
-          "adp": "241.0",
-          "prospect_rank": "42",
-          "org_rank": "3",
-          "prospect_fv": "55",
+          "mlb_team": "ARI",
+          "eligible_positions": "OF",
+          "age": "32",
+          "dynasty_rank": "469",
+          "adp": "312.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
           "injury_status": "",
-          "transaction_status": "Trade",
+          "transaction_status": "",
           "roster_bucket": "MLB",
           "lineup_slot": "",
-          "current_level": "MLB",
+          "current_level": "",
           "projection": {
-            "runs": 43.1,
-            "home_runs": 12.0,
-            "rbi": 41.1,
-            "stolen_bases": 3.9,
-            "obp": 0.312,
+            "runs": 45.9,
+            "home_runs": 12.6,
+            "rbi": 50.3,
+            "stolen_bases": 6.1,
+            "obp": 0.311,
             "wins": 0.0,
             "strikeouts": 0.0,
             "saves": 0.0,
             "era": 0.0,
             "whip": 0.0,
             "innings_pitched": 0.0,
-            "plate_appearances": 389.0
+            "plate_appearances": 415.0
           },
           "actual_2025": {
-            "runs": 4,
-            "home_runs": 1,
-            "rbi": 4,
-            "stolen_bases": 0,
-            "obp": ".222",
+            "runs": 52,
+            "home_runs": 19,
+            "rbi": 80,
+            "stolen_bases": 10,
+            "obp": ".295",
             "wins": 0,
             "strikeouts": 0,
             "saves": 0,
@@ -9060,12 +9060,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 4,
-              "home_runs": 2,
-              "rbi": 9,
-              "stolen_bases": 1,
-              "obp": 0.333
+              "games": 0,
+              "runs": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "stolen_bases": 0,
+              "obp": 0.0
             },
             "pitching": {
               "games": 0,
@@ -11376,91 +11376,6 @@
           }
         },
         {
-          "player_name": "Owen Caissie",
-          "player_type": "hitter",
-          "mlb_team": "MIA",
-          "eligible_positions": "OF/RF/OUTFIELDER",
-          "age": "23",
-          "dynasty_rank": "361",
-          "adp": "241.0",
-          "prospect_rank": "42",
-          "org_rank": "3",
-          "prospect_fv": "55",
-          "injury_status": "",
-          "transaction_status": "Trade",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 43.1,
-            "home_runs": 12.0,
-            "rbi": 41.1,
-            "stolen_bases": 3.9,
-            "obp": 0.312,
-            "wins": 0.0,
-            "strikeouts": 0.0,
-            "saves": 0.0,
-            "era": 0.0,
-            "whip": 0.0,
-            "innings_pitched": 0.0,
-            "plate_appearances": 389.0
-          },
-          "actual_2025": {
-            "runs": 4,
-            "home_runs": 1,
-            "rbi": 4,
-            "stolen_bases": 0,
-            "obp": ".222",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 9,
-              "runs": 4,
-              "home_runs": 2,
-              "rbi": 9,
-              "stolen_bases": 1,
-              "obp": 0.333
-            },
-            "pitching": {
-              "games": 0,
-              "wins": 0,
-              "strikeouts": 0,
-              "saves": 0,
-              "innings_pitched": "0.0",
-              "era": 0.0,
-              "whip": 0.0
-            }
-          }
-        },
-        {
           "player_name": "Victor Scott II",
           "player_type": "hitter",
           "mlb_team": "STL",
@@ -12122,12 +12037,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 7,
               "home_runs": 2,
               "rbi": 10,
-              "stolen_bases": 0,
-              "obp": 0.488
+              "stolen_bases": 1,
+              "obp": 0.511
             },
             "pitching": {
               "games": 0,
@@ -13499,6 +13414,91 @@
               "whip": 0.25
             }
           }
+        },
+        {
+          "player_name": "Lourdes Gurriel Jr.",
+          "player_type": "hitter",
+          "mlb_team": "ARI",
+          "eligible_positions": "OF",
+          "age": "32",
+          "dynasty_rank": "469",
+          "adp": "312.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "",
+          "projection": {
+            "runs": 45.9,
+            "home_runs": 12.6,
+            "rbi": 50.3,
+            "stolen_bases": 6.1,
+            "obp": 0.311,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 415.0
+          },
+          "actual_2025": {
+            "runs": 52,
+            "home_runs": 19,
+            "rbi": 80,
+            "stolen_bases": 10,
+            "obp": ".295",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 0,
+              "runs": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "stolen_bases": 0,
+              "obp": 0.0
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
         }
       ],
       "projected_totals": {
@@ -14636,12 +14636,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 3,
+              "games": 10,
+              "runs": 4,
               "home_runs": 1,
               "rbi": 5,
               "stolen_bases": 0,
-              "obp": 0.257
+              "obp": 0.27
             },
             "pitching": {
               "games": 0,
@@ -15424,6 +15424,91 @@
       ],
       "bench": [
         {
+          "player_name": "Austin Wells",
+          "player_type": "hitter",
+          "mlb_team": "NYY",
+          "eligible_positions": "C",
+          "age": "26",
+          "dynasty_rank": "392",
+          "adp": "300.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 47.1,
+            "home_runs": 14.7,
+            "rbi": 46.8,
+            "stolen_bases": 4.4,
+            "obp": 0.295,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 375.0
+          },
+          "actual_2025": {
+            "runs": 51,
+            "home_runs": 21,
+            "rbi": 71,
+            "stolen_bases": 5,
+            "obp": ".275",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 8,
+              "runs": 2,
+              "home_runs": 0,
+              "rbi": 0,
+              "stolen_bases": 0,
+              "obp": 0.286
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
           "player_name": "Cedric Mullins",
           "player_type": "hitter",
           "mlb_team": "TB",
@@ -15490,12 +15575,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 2,
-              "home_runs": 0,
-              "rbi": 3,
+              "games": 10,
+              "runs": 3,
+              "home_runs": 1,
+              "rbi": 5,
               "stolen_bases": 2,
-              "obp": 0.135
+              "obp": 0.158
             },
             "pitching": {
               "games": 0,
@@ -16100,91 +16185,6 @@
               "innings_pitched": "0.0",
               "era": 0.0,
               "whip": 0.0
-            }
-          }
-        },
-        {
-          "player_name": "Michael Wacha",
-          "player_type": "pitcher",
-          "mlb_team": "KC",
-          "eligible_positions": "SP",
-          "age": "34",
-          "dynasty_rank": "512",
-          "adp": "209.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 94.8,
-            "home_runs": 26.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 10.8,
-            "strikeouts": 139.8,
-            "saves": 0.0,
-            "era": 4.75,
-            "whip": 1.31,
-            "innings_pitched": 175.6,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 10,
-            "strikeouts": 126,
-            "saves": 0,
-            "era": "3.86",
-            "whip": "1.22"
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 1,
-              "wins": 0,
-              "strikeouts": 7,
-              "saves": 0,
-              "innings_pitched": "6.0",
-              "era": 0.0,
-              "whip": 0.67
             }
           }
         }
@@ -18231,91 +18231,6 @@
           }
         },
         {
-          "player_name": "Michael Wacha",
-          "player_type": "pitcher",
-          "mlb_team": "KC",
-          "eligible_positions": "SP",
-          "age": "34",
-          "dynasty_rank": "512",
-          "adp": "209.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 94.8,
-            "home_runs": 26.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 10.8,
-            "strikeouts": 139.8,
-            "saves": 0.0,
-            "era": 4.75,
-            "whip": 1.31,
-            "innings_pitched": 175.6,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 10,
-            "strikeouts": 126,
-            "saves": 0,
-            "era": "3.86",
-            "whip": "1.22"
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 1,
-              "wins": 0,
-              "strikeouts": 7,
-              "saves": 0,
-              "innings_pitched": "6.0",
-              "era": 0.0,
-              "whip": 0.67
-            }
-          }
-        },
-        {
           "player_name": "Cedric Mullins",
           "player_type": "hitter",
           "mlb_team": "TB",
@@ -18382,12 +18297,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 2,
-              "home_runs": 0,
-              "rbi": 3,
+              "games": 10,
+              "runs": 3,
+              "home_runs": 1,
+              "rbi": 5,
               "stolen_bases": 2,
-              "obp": 0.135
+              "obp": 0.158
             },
             "pitching": {
               "games": 0,
@@ -18637,12 +18552,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 3,
+              "games": 10,
+              "runs": 4,
               "home_runs": 1,
               "rbi": 5,
               "stolen_bases": 0,
-              "obp": 0.257
+              "obp": 0.27
             },
             "pitching": {
               "games": 0,
@@ -20097,6 +20012,91 @@
               "innings_pitched": "4.0",
               "era": 11.25,
               "whip": 2.5
+            }
+          }
+        },
+        {
+          "player_name": "Austin Wells",
+          "player_type": "hitter",
+          "mlb_team": "NYY",
+          "eligible_positions": "C",
+          "age": "26",
+          "dynasty_rank": "392",
+          "adp": "300.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 47.1,
+            "home_runs": 14.7,
+            "rbi": 46.8,
+            "stolen_bases": 4.4,
+            "obp": 0.295,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 375.0
+          },
+          "actual_2025": {
+            "runs": 51,
+            "home_runs": 21,
+            "rbi": 71,
+            "stolen_bases": 5,
+            "obp": ".275",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 8,
+              "runs": 2,
+              "home_runs": 0,
+              "rbi": 0,
+              "stolen_bases": 0,
+              "obp": 0.286
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
             }
           }
         }
@@ -22449,6 +22449,91 @@
           }
         },
         {
+          "player_name": "Parker Meadows",
+          "player_type": "hitter",
+          "mlb_team": "DET",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "age": "26",
+          "dynasty_rank": "429",
+          "adp": "333.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 48.8,
+            "home_runs": 9.6,
+            "rbi": 39.3,
+            "stolen_bases": 10.2,
+            "obp": 0.299,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 425.0
+          },
+          "actual_2025": {
+            "runs": 22,
+            "home_runs": 4,
+            "rbi": 16,
+            "stolen_bases": 4,
+            "obp": ".291",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 8,
+              "runs": 3,
+              "home_runs": 0,
+              "rbi": 2,
+              "stolen_bases": 3,
+              "obp": 0.357
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
           "player_name": "Spencer Steer",
           "player_type": "hitter",
           "mlb_team": "CIN",
@@ -22955,91 +23040,6 @@
               "innings_pitched": "0.0",
               "era": 0.0,
               "whip": 0.0
-            }
-          }
-        },
-        {
-          "player_name": "Roki Sasaki",
-          "player_type": "pitcher",
-          "mlb_team": "LAD",
-          "eligible_positions": "SP/P/PITCHER",
-          "age": "24",
-          "dynasty_rank": "135",
-          "adp": "109.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 62.0,
-            "home_runs": 15.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 7.7,
-            "strikeouts": 106.7,
-            "saves": 0.0,
-            "era": 4.44,
-            "whip": 1.34,
-            "innings_pitched": 115.8,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 1,
-            "strikeouts": 28,
-            "saves": 0,
-            "era": "4.46",
-            "whip": "1.43"
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 2,
-              "wins": 0,
-              "strikeouts": 9,
-              "saves": 0,
-              "innings_pitched": "9.0",
-              "era": 7.0,
-              "whip": 1.56
             }
           }
         }
@@ -24827,91 +24827,6 @@
               "innings_pitched": "11.2",
               "era": 0.0,
               "whip": 0.69
-            }
-          }
-        },
-        {
-          "player_name": "Roki Sasaki",
-          "player_type": "pitcher",
-          "mlb_team": "LAD",
-          "eligible_positions": "SP/P/PITCHER",
-          "age": "24",
-          "dynasty_rank": "135",
-          "adp": "109.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 62.0,
-            "home_runs": 15.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 7.7,
-            "strikeouts": 106.7,
-            "saves": 0.0,
-            "era": 4.44,
-            "whip": 1.34,
-            "innings_pitched": 115.8,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 1,
-            "strikeouts": 28,
-            "saves": 0,
-            "era": "4.46",
-            "whip": "1.43"
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 2,
-              "wins": 0,
-              "strikeouts": 9,
-              "saves": 0,
-              "innings_pitched": "9.0",
-              "era": 7.0,
-              "whip": 1.56
             }
           }
         },
@@ -27209,6 +27124,91 @@
               "whip": 1.15
             }
           }
+        },
+        {
+          "player_name": "Parker Meadows",
+          "player_type": "hitter",
+          "mlb_team": "DET",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "age": "26",
+          "dynasty_rank": "429",
+          "adp": "333.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 48.8,
+            "home_runs": 9.6,
+            "rbi": 39.3,
+            "stolen_bases": 10.2,
+            "obp": 0.299,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 425.0
+          },
+          "actual_2025": {
+            "runs": 22,
+            "home_runs": 4,
+            "rbi": 16,
+            "stolen_bases": 4,
+            "obp": ".291",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 8,
+              "runs": 3,
+              "home_runs": 0,
+              "rbi": 2,
+              "stolen_bases": 3,
+              "obp": 0.357
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
         }
       ],
       "projected_totals": {
@@ -28346,12 +28346,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 4,
               "home_runs": 2,
               "rbi": 7,
               "stolen_bases": 0,
-              "obp": 0.318
+              "obp": 0.304
             },
             "pitching": {
               "games": 0,
@@ -29134,91 +29134,6 @@
       ],
       "bench": [
         {
-          "player_name": "Brady House",
-          "player_type": "hitter",
-          "mlb_team": "WSH",
-          "eligible_positions": "3B/INFIELDER",
-          "age": "22",
-          "dynasty_rank": "380",
-          "adp": "364.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 42.6,
-            "home_runs": 11.5,
-            "rbi": 44.5,
-            "stolen_bases": 4.9,
-            "obp": 0.277,
-            "wins": 0.0,
-            "strikeouts": 0.0,
-            "saves": 0.0,
-            "era": 0.0,
-            "whip": 0.0,
-            "innings_pitched": 0.0,
-            "plate_appearances": 423.0
-          },
-          "actual_2025": {
-            "runs": 26,
-            "home_runs": 4,
-            "rbi": 29,
-            "stolen_bases": 5,
-            "obp": ".252",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 9,
-              "runs": 6,
-              "home_runs": 1,
-              "rbi": 3,
-              "stolen_bases": 0,
-              "obp": 0.371
-            },
-            "pitching": {
-              "games": 0,
-              "wins": 0,
-              "strikeouts": 0,
-              "saves": 0,
-              "innings_pitched": "0.0",
-              "era": 0.0,
-              "whip": 0.0
-            }
-          }
-        },
-        {
           "player_name": "Connor Norby",
           "player_type": "hitter",
           "mlb_team": "MIA",
@@ -29716,6 +29631,91 @@
               "rbi": 1,
               "stolen_bases": 0,
               "obp": 0.333
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
+          "player_name": "Logan O\u2019Hoppe",
+          "player_type": "hitter",
+          "mlb_team": "LAA",
+          "eligible_positions": "C",
+          "age": "26",
+          "dynasty_rank": "501",
+          "adp": "291.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 46.2,
+            "home_runs": 17.2,
+            "rbi": 50.3,
+            "stolen_bases": 2.7,
+            "obp": 0.283,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 421.0
+          },
+          "actual_2025": {
+            "runs": 35,
+            "home_runs": 19,
+            "rbi": 43,
+            "stolen_bases": 2,
+            "obp": ".258",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 9,
+              "runs": 2,
+              "home_runs": 0,
+              "rbi": 3,
+              "stolen_bases": 0,
+              "obp": 0.3
             },
             "pitching": {
               "games": 0,
@@ -31752,12 +31752,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 4,
               "home_runs": 2,
               "rbi": 7,
               "stolen_bases": 0,
-              "obp": 0.318
+              "obp": 0.304
             },
             "pitching": {
               "games": 0,
@@ -33386,91 +33386,6 @@
           }
         },
         {
-          "player_name": "Brady House",
-          "player_type": "hitter",
-          "mlb_team": "WSH",
-          "eligible_positions": "3B/INFIELDER",
-          "age": "22",
-          "dynasty_rank": "380",
-          "adp": "364.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 42.6,
-            "home_runs": 11.5,
-            "rbi": 44.5,
-            "stolen_bases": 4.9,
-            "obp": 0.277,
-            "wins": 0.0,
-            "strikeouts": 0.0,
-            "saves": 0.0,
-            "era": 0.0,
-            "whip": 0.0,
-            "innings_pitched": 0.0,
-            "plate_appearances": 423.0
-          },
-          "actual_2025": {
-            "runs": 26,
-            "home_runs": 4,
-            "rbi": 29,
-            "stolen_bases": 5,
-            "obp": ".252",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 9,
-              "runs": 6,
-              "home_runs": 1,
-              "rbi": 3,
-              "stolen_bases": 0,
-              "obp": 0.371
-            },
-            "pitching": {
-              "games": 0,
-              "wins": 0,
-              "strikeouts": 0,
-              "saves": 0,
-              "innings_pitched": "0.0",
-              "era": 0.0,
-              "whip": 0.0
-            }
-          }
-        },
-        {
           "player_name": "Seth Hernandez",
           "player_type": "pitcher",
           "mlb_team": "",
@@ -33628,6 +33543,91 @@
               "rbi": 0,
               "stolen_bases": 0,
               "obp": 0.0
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
+          "player_name": "Logan O\u2019Hoppe",
+          "player_type": "hitter",
+          "mlb_team": "LAA",
+          "eligible_positions": "C",
+          "age": "26",
+          "dynasty_rank": "501",
+          "adp": "291.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 46.2,
+            "home_runs": 17.2,
+            "rbi": 50.3,
+            "stolen_bases": 2.7,
+            "obp": 0.283,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 421.0
+          },
+          "actual_2025": {
+            "runs": 35,
+            "home_runs": 19,
+            "rbi": 43,
+            "stolen_bases": 2,
+            "obp": ".258",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 9,
+              "runs": 2,
+              "home_runs": 0,
+              "rbi": 3,
+              "stolen_bases": 0,
+              "obp": 0.3
             },
             "pitching": {
               "games": 0,
@@ -35715,12 +35715,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 6,
               "home_runs": 4,
               "rbi": 7,
               "stolen_bases": 0,
-              "obp": 0.268
+              "obp": 0.279
             },
             "pitching": {
               "games": 0,
@@ -36140,12 +36140,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 6,
               "home_runs": 0,
-              "rbi": 3,
+              "rbi": 5,
               "stolen_bases": 4,
-              "obp": 0.436
+              "obp": 0.439
             },
             "pitching": {
               "games": 0,
@@ -37587,12 +37587,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 6,
               "home_runs": 0,
-              "rbi": 3,
+              "rbi": 5,
               "stolen_bases": 4,
-              "obp": 0.436
+              "obp": 0.439
             },
             "pitching": {
               "games": 0,
@@ -38522,12 +38522,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 6,
               "home_runs": 4,
               "rbi": 7,
               "stolen_bases": 0,
-              "obp": 0.268
+              "obp": 0.279
             },
             "pitching": {
               "games": 0,
@@ -40457,7 +40457,7 @@
     {
       "name": "Josh M",
       "manager_profile_summary": "Josh M is the allocator. He thinks in portfolio terms, dislikes concentrated roster risk, and prefers keeping multiple viable build paths open rather than forcing one hard identity too early.",
-      "roster_count": 46,
+      "roster_count": 47,
       "active_hitters": [
         {
           "player_name": "William Contreras",
@@ -42344,9 +42344,9 @@
           "prospect_rank": "",
           "org_rank": "",
           "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change",
+          "roster_bucket": "IL",
           "lineup_slot": "",
           "current_level": "MLB",
           "projection": {
@@ -42844,91 +42844,6 @@
           }
         },
         {
-          "player_name": "Jesus Sanchez",
-          "player_type": "hitter",
-          "mlb_team": "TOR",
-          "eligible_positions": "OF/RF/OUTFIELDER",
-          "age": "28",
-          "dynasty_rank": "518",
-          "adp": "369.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "Trade",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 40.4,
-            "home_runs": 11.2,
-            "rbi": 40.9,
-            "stolen_bases": 7.5,
-            "obp": 0.309,
-            "wins": 0.0,
-            "strikeouts": 0.0,
-            "saves": 0.0,
-            "era": 0.0,
-            "whip": 0.0,
-            "innings_pitched": 0.0,
-            "plate_appearances": 343.0
-          },
-          "actual_2025": {
-            "runs": 61,
-            "home_runs": 14,
-            "rbi": 48,
-            "stolen_bases": 13,
-            "obp": ".304",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 8,
-              "runs": 4,
-              "home_runs": 1,
-              "rbi": 4,
-              "stolen_bases": 0,
-              "obp": 0.407
-            },
-            "pitching": {
-              "games": 0,
-              "wins": 0,
-              "strikeouts": 0,
-              "saves": 0,
-              "innings_pitched": "0.0",
-              "era": 0.0,
-              "whip": 0.0
-            }
-          }
-        },
-        {
           "player_name": "Kyle Stowers",
           "player_type": "hitter",
           "mlb_team": "MIA",
@@ -43014,6 +42929,91 @@
           }
         },
         {
+          "player_name": "Lane Thomas",
+          "player_type": "hitter",
+          "mlb_team": "KC",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "age": "30",
+          "dynasty_rank": "505",
+          "adp": "327.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 41.0,
+            "home_runs": 10.8,
+            "rbi": 39.8,
+            "stolen_bases": 13.0,
+            "obp": 0.304,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 365.0
+          },
+          "actual_2025": {
+            "runs": 10,
+            "home_runs": 4,
+            "rbi": 11,
+            "stolen_bases": 4,
+            "obp": ".246",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 7,
+              "runs": 1,
+              "home_runs": 0,
+              "rbi": 1,
+              "stolen_bases": 0,
+              "obp": 0.25
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
           "player_name": "Marcelo Mayer",
           "player_type": "hitter",
           "mlb_team": "BOS",
@@ -43086,6 +43086,91 @@
               "rbi": 3,
               "stolen_bases": 0,
               "obp": 0.259
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
+          "player_name": "Nolan Arenado",
+          "player_type": "hitter",
+          "mlb_team": "AZ",
+          "eligible_positions": "3B",
+          "age": "34",
+          "dynasty_rank": "506",
+          "adp": "289.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "Trade",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 53.5,
+            "home_runs": 14.6,
+            "rbi": 57.0,
+            "stolen_bases": 2.4,
+            "obp": 0.308,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 496.0
+          },
+          "actual_2025": {
+            "runs": 48,
+            "home_runs": 12,
+            "rbi": 52,
+            "stolen_bases": 3,
+            "obp": ".289",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 9,
+              "runs": 3,
+              "home_runs": 0,
+              "rbi": 1,
+              "stolen_bases": 0,
+              "obp": 0.226
             },
             "pitching": {
               "games": 0,
@@ -46671,91 +46756,6 @@
           }
         },
         {
-          "player_name": "Jesus Sanchez",
-          "player_type": "hitter",
-          "mlb_team": "TOR",
-          "eligible_positions": "OF/RF/OUTFIELDER",
-          "age": "28",
-          "dynasty_rank": "518",
-          "adp": "369.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "Trade",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 40.4,
-            "home_runs": 11.2,
-            "rbi": 40.9,
-            "stolen_bases": 7.5,
-            "obp": 0.309,
-            "wins": 0.0,
-            "strikeouts": 0.0,
-            "saves": 0.0,
-            "era": 0.0,
-            "whip": 0.0,
-            "innings_pitched": 0.0,
-            "plate_appearances": 343.0
-          },
-          "actual_2025": {
-            "runs": 61,
-            "home_runs": 14,
-            "rbi": 48,
-            "stolen_bases": 13,
-            "obp": ".304",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 8,
-              "runs": 4,
-              "home_runs": 1,
-              "rbi": 4,
-              "stolen_bases": 0,
-              "obp": 0.407
-            },
-            "pitching": {
-              "games": 0,
-              "wins": 0,
-              "strikeouts": 0,
-              "saves": 0,
-              "innings_pitched": "0.0",
-              "era": 0.0,
-              "whip": 0.0
-            }
-          }
-        },
-        {
           "player_name": "J.P. Crawford",
           "player_type": "hitter",
           "mlb_team": "SEA",
@@ -46936,9 +46936,9 @@
           "prospect_rank": "",
           "org_rank": "",
           "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change",
+          "roster_bucket": "IL",
           "lineup_slot": "",
           "current_level": "MLB",
           "projection": {
@@ -46994,6 +46994,176 @@
             "hitting": {
               "games": 1,
               "runs": 0,
+              "home_runs": 0,
+              "rbi": 1,
+              "stolen_bases": 0,
+              "obp": 0.25
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
+          "player_name": "Nolan Arenado",
+          "player_type": "hitter",
+          "mlb_team": "AZ",
+          "eligible_positions": "3B",
+          "age": "34",
+          "dynasty_rank": "506",
+          "adp": "289.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "Trade",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 53.5,
+            "home_runs": 14.6,
+            "rbi": 57.0,
+            "stolen_bases": 2.4,
+            "obp": 0.308,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 496.0
+          },
+          "actual_2025": {
+            "runs": 48,
+            "home_runs": 12,
+            "rbi": 52,
+            "stolen_bases": 3,
+            "obp": ".289",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 9,
+              "runs": 3,
+              "home_runs": 0,
+              "rbi": 1,
+              "stolen_bases": 0,
+              "obp": 0.226
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
+          "player_name": "Lane Thomas",
+          "player_type": "hitter",
+          "mlb_team": "KC",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "age": "30",
+          "dynasty_rank": "505",
+          "adp": "327.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 41.0,
+            "home_runs": 10.8,
+            "rbi": 39.8,
+            "stolen_bases": 13.0,
+            "obp": 0.304,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 365.0
+          },
+          "actual_2025": {
+            "runs": 10,
+            "home_runs": 4,
+            "rbi": 11,
+            "stolen_bases": 4,
+            "obp": ".246",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 7,
+              "runs": 1,
               "home_runs": 0,
               "rbi": 1,
               "stolen_bases": 0,
@@ -47976,12 +48146,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 4,
+              "games": 10,
+              "runs": 5,
               "home_runs": 0,
               "rbi": 1,
-              "stolen_bases": 2,
-              "obp": 0.432
+              "stolen_bases": 4,
+              "obp": 0.436
             },
             "pitching": {
               "games": 0,
@@ -48751,13 +48921,13 @@
               "obp": 0.0
             },
             "pitching": {
-              "games": 1,
+              "games": 2,
               "wins": 0,
-              "strikeouts": 4,
+              "strikeouts": 9,
               "saves": 0,
-              "innings_pitched": "4.2",
-              "era": 3.86,
-              "whip": 1.07
+              "innings_pitched": "8.0",
+              "era": 4.5,
+              "whip": 1.25
             }
           }
         },
@@ -49189,6 +49359,91 @@
           }
         },
         {
+          "player_name": "J.T. Realmuto",
+          "player_type": "hitter",
+          "mlb_team": "PHI",
+          "eligible_positions": "C",
+          "age": "35",
+          "dynasty_rank": "439",
+          "adp": "309.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "Signed as Free Agent",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 50.1,
+            "home_runs": 12.7,
+            "rbi": 51.8,
+            "stolen_bases": 5.7,
+            "obp": 0.298,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 462.0
+          },
+          "actual_2025": {
+            "runs": 57,
+            "home_runs": 12,
+            "rbi": 52,
+            "stolen_bases": 8,
+            "obp": ".315",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 7,
+              "runs": 3,
+              "home_runs": 1,
+              "rbi": 1,
+              "stolen_bases": 0,
+              "obp": 0.357
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
           "player_name": "Jake Cronenworth",
           "player_type": "hitter",
           "mlb_team": "SD",
@@ -49525,91 +49780,6 @@
               "innings_pitched": "11.0",
               "era": 3.27,
               "whip": 1.18
-            }
-          }
-        },
-        {
-          "player_name": "Tatsuya Imai",
-          "player_type": "pitcher",
-          "mlb_team": "HOU",
-          "eligible_positions": "SP",
-          "age": "27",
-          "dynasty_rank": "157",
-          "adp": "193.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "Signed as Free Agent",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 85.8,
-            "home_runs": 21.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 9.7,
-            "strikeouts": 151.6,
-            "saves": 0.0,
-            "era": 4.59,
-            "whip": 1.39,
-            "innings_pitched": 157.7,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 2,
-              "wins": 1,
-              "strikeouts": 13,
-              "saves": 0,
-              "innings_pitched": "8.1",
-              "era": 4.32,
-              "whip": 1.56
             }
           }
         }
@@ -50787,12 +50957,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 4,
+              "games": 10,
+              "runs": 5,
               "home_runs": 0,
               "rbi": 1,
-              "stolen_bases": 2,
-              "obp": 0.432
+              "stolen_bases": 4,
+              "obp": 0.436
             },
             "pitching": {
               "games": 0,
@@ -50965,13 +51135,13 @@
               "obp": 0.0
             },
             "pitching": {
-              "games": 1,
+              "games": 2,
               "wins": 0,
-              "strikeouts": 4,
+              "strikeouts": 9,
               "saves": 0,
-              "innings_pitched": "4.2",
-              "era": 3.86,
-              "whip": 1.07
+              "innings_pitched": "8.0",
+              "era": 4.5,
+              "whip": 1.25
             }
           }
         },
@@ -51567,91 +51737,6 @@
               "innings_pitched": "8.0",
               "era": 6.75,
               "whip": 1.63
-            }
-          }
-        },
-        {
-          "player_name": "Tatsuya Imai",
-          "player_type": "pitcher",
-          "mlb_team": "HOU",
-          "eligible_positions": "SP",
-          "age": "27",
-          "dynasty_rank": "157",
-          "adp": "193.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "Signed as Free Agent",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 85.8,
-            "home_runs": 21.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 9.7,
-            "strikeouts": 151.6,
-            "saves": 0.0,
-            "era": 4.59,
-            "whip": 1.39,
-            "innings_pitched": 157.7,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": "",
-            "whip": ""
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 2,
-              "wins": 1,
-              "strikeouts": 13,
-              "saves": 0,
-              "innings_pitched": "8.1",
-              "era": 4.32,
-              "whip": 1.56
             }
           }
         },
@@ -53439,6 +53524,91 @@
               "whip": 0.0
             }
           }
+        },
+        {
+          "player_name": "J.T. Realmuto",
+          "player_type": "hitter",
+          "mlb_team": "PHI",
+          "eligible_positions": "C",
+          "age": "35",
+          "dynasty_rank": "439",
+          "adp": "309.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "Signed as Free Agent",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 50.1,
+            "home_runs": 12.7,
+            "rbi": 51.8,
+            "stolen_bases": 5.7,
+            "obp": 0.298,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 462.0
+          },
+          "actual_2025": {
+            "runs": 57,
+            "home_runs": 12,
+            "rbi": 52,
+            "stolen_bases": 8,
+            "obp": ".315",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 7,
+              "runs": 3,
+              "home_runs": 1,
+              "rbi": 1,
+              "stolen_bases": 0,
+              "obp": 0.357
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
         }
       ],
       "projected_totals": {
@@ -53487,7 +53657,7 @@
     {
       "name": "Greg",
       "manager_profile_summary": "Greg is the production banker. He trusts established MLB roles, discounts developmental timelines, and is more willing than most to pay for present-day reliability.",
-      "roster_count": 47,
+      "roster_count": 48,
       "active_hitters": [
         {
           "player_name": "Cal Raleigh",
@@ -53641,12 +53811,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 5,
+              "games": 10,
+              "runs": 6,
               "home_runs": 0,
               "rbi": 1,
               "stolen_bases": 0,
-              "obp": 0.316
+              "obp": 0.325
             },
             "pitching": {
               "games": 0,
@@ -53981,12 +54151,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 2,
               "home_runs": 2,
               "rbi": 3,
               "stolen_bases": 0,
-              "obp": 0.268
+              "obp": 0.256
             },
             "pitching": {
               "games": 0,
@@ -55364,6 +55534,91 @@
       ],
       "bench": [
         {
+          "player_name": "Bo Naylor",
+          "player_type": "hitter",
+          "mlb_team": "CLE",
+          "eligible_positions": "C",
+          "age": "26",
+          "dynasty_rank": "504",
+          "adp": "326.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 45.8,
+            "home_runs": 14.6,
+            "rbi": 45.7,
+            "stolen_bases": 4.2,
+            "obp": 0.301,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 399.0
+          },
+          "actual_2025": {
+            "runs": 46,
+            "home_runs": 14,
+            "rbi": 47,
+            "stolen_bases": 1,
+            "obp": ".282",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 7,
+              "runs": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "stolen_bases": 0,
+              "obp": 0.214
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
           "player_name": "Christian Walker",
           "player_type": "hitter",
           "mlb_team": "HOU",
@@ -55619,6 +55874,91 @@
           }
         },
         {
+          "player_name": "Jorge Soler",
+          "player_type": "hitter",
+          "mlb_team": "LAA",
+          "eligible_positions": "OF",
+          "age": "34",
+          "dynasty_rank": "514",
+          "adp": "293.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 49.2,
+            "home_runs": 18.3,
+            "rbi": 53.2,
+            "stolen_bases": 0.8,
+            "obp": 0.309,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 427.0
+          },
+          "actual_2025": {
+            "runs": 31,
+            "home_runs": 12,
+            "rbi": 34,
+            "stolen_bases": 0,
+            "obp": ".293",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 10,
+              "runs": 4,
+              "home_runs": 1,
+              "rbi": 8,
+              "stolen_bases": 0,
+              "obp": 0.295
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
           "player_name": "Josh Bell",
           "player_type": "hitter",
           "mlb_team": "MIN",
@@ -55789,13 +56129,13 @@
           }
         },
         {
-          "player_name": "Brady Singer",
+          "player_name": "Bailey Ober",
           "player_type": "pitcher",
-          "mlb_team": "CIN",
-          "eligible_positions": "SP",
-          "age": "29",
-          "dynasty_rank": "398",
-          "adp": "189.0",
+          "mlb_team": "MIN",
+          "eligible_positions": "SP/P/PITCHER",
+          "age": "30",
+          "dynasty_rank": "316",
+          "adp": "288.0",
           "prospect_rank": "",
           "org_rank": "",
           "prospect_fv": "",
@@ -55805,17 +56145,17 @@
           "lineup_slot": "",
           "current_level": "MLB",
           "projection": {
-            "runs": 85.4,
-            "home_runs": 24.0,
+            "runs": 87.2,
+            "home_runs": 27.0,
             "rbi": 0.0,
             "stolen_bases": 0.0,
             "obp": 0.0,
-            "wins": 9.1,
-            "strikeouts": 150.4,
+            "wins": 9.6,
+            "strikeouts": 145.3,
             "saves": 0.0,
-            "era": 4.6,
-            "whip": 1.32,
-            "innings_pitched": 163.2,
+            "era": 4.58,
+            "whip": 1.21,
+            "innings_pitched": 160.6,
             "plate_appearances": 0.0
           },
           "actual_2025": {
@@ -55824,11 +56164,11 @@
             "rbi": 0,
             "stolen_bases": 0,
             "obp": "",
-            "wins": 14,
-            "strikeouts": 163,
+            "wins": 6,
+            "strikeouts": 120,
             "saves": 0,
-            "era": "4.03",
-            "whip": "1.24"
+            "era": "5.10",
+            "whip": "1.30"
           },
           "season_contribution": {
             "weeks_active": 0,
@@ -55865,96 +56205,11 @@
             "pitching": {
               "games": 2,
               "wins": 0,
-              "strikeouts": 10,
+              "strikeouts": 5,
               "saves": 0,
-              "innings_pitched": "9.0",
-              "era": 5.0,
-              "whip": 1.56
-            }
-          }
-        },
-        {
-          "player_name": "Chris Bassitt",
-          "player_type": "pitcher",
-          "mlb_team": "BAL",
-          "eligible_positions": "SP",
-          "age": "37",
-          "dynasty_rank": "522",
-          "adp": "230.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "Signed as Free Agent",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 86.5,
-            "home_runs": 22.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 10.0,
-            "strikeouts": 146.0,
-            "saves": 0.0,
-            "era": 4.46,
-            "whip": 1.35,
-            "innings_pitched": 163.2,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 11,
-            "strikeouts": 166,
-            "saves": 0,
-            "era": "3.96",
-            "whip": "1.33"
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 2,
-              "wins": 0,
-              "strikeouts": 3,
-              "saves": 0,
-              "innings_pitched": "6.1",
-              "era": 14.21,
-              "whip": 2.84
+              "innings_pitched": "8.0",
+              "era": 6.75,
+              "whip": 1.38
             }
           }
         },
@@ -56054,9 +56309,9 @@
           "prospect_rank": "",
           "org_rank": "",
           "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
+          "injury_status": "15-day Injured List",
+          "transaction_status": "Status Change",
+          "roster_bucket": "IL",
           "lineup_slot": "",
           "current_level": "MLB",
           "projection": {
@@ -56877,12 +57132,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
+              "games": 10,
               "runs": 2,
               "home_runs": 2,
               "rbi": 3,
               "stolen_bases": 0,
-              "obp": 0.268
+              "obp": 0.256
             },
             "pitching": {
               "games": 0,
@@ -57217,12 +57472,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 5,
+              "games": 10,
+              "runs": 6,
               "home_runs": 0,
               "rbi": 1,
               "stolen_bases": 0,
-              "obp": 0.316
+              "obp": 0.325
             },
             "pitching": {
               "games": 0,
@@ -58001,91 +58256,6 @@
           }
         },
         {
-          "player_name": "Brady Singer",
-          "player_type": "pitcher",
-          "mlb_team": "CIN",
-          "eligible_positions": "SP",
-          "age": "29",
-          "dynasty_rank": "398",
-          "adp": "189.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 85.4,
-            "home_runs": 24.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 9.1,
-            "strikeouts": 150.4,
-            "saves": 0.0,
-            "era": 4.6,
-            "whip": 1.32,
-            "innings_pitched": 163.2,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 14,
-            "strikeouts": 163,
-            "saves": 0,
-            "era": "4.03",
-            "whip": "1.24"
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 2,
-              "wins": 0,
-              "strikeouts": 10,
-              "saves": 0,
-              "innings_pitched": "9.0",
-              "era": 5.0,
-              "whip": 1.56
-            }
-          }
-        },
-        {
           "player_name": "Teoscar Hernandez",
           "player_type": "hitter",
           "mlb_team": "LAD",
@@ -58436,9 +58606,9 @@
           "prospect_rank": "",
           "org_rank": "",
           "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "",
-          "roster_bucket": "MLB",
+          "injury_status": "15-day Injured List",
+          "transaction_status": "Status Change",
+          "roster_bucket": "IL",
           "lineup_slot": "",
           "current_level": "MLB",
           "projection": {
@@ -58507,91 +58677,6 @@
               "innings_pitched": "9.1",
               "era": 6.75,
               "whip": 1.18
-            }
-          }
-        },
-        {
-          "player_name": "Chris Bassitt",
-          "player_type": "pitcher",
-          "mlb_team": "BAL",
-          "eligible_positions": "SP",
-          "age": "37",
-          "dynasty_rank": "522",
-          "adp": "230.0",
-          "prospect_rank": "",
-          "org_rank": "",
-          "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "Signed as Free Agent",
-          "roster_bucket": "MLB",
-          "lineup_slot": "",
-          "current_level": "MLB",
-          "projection": {
-            "runs": 86.5,
-            "home_runs": 22.0,
-            "rbi": 0.0,
-            "stolen_bases": 0.0,
-            "obp": 0.0,
-            "wins": 10.0,
-            "strikeouts": 146.0,
-            "saves": 0.0,
-            "era": 4.46,
-            "whip": 1.35,
-            "innings_pitched": 163.2,
-            "plate_appearances": 0.0
-          },
-          "actual_2025": {
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": "",
-            "wins": 11,
-            "strikeouts": 166,
-            "saves": 0,
-            "era": "3.96",
-            "whip": "1.33"
-          },
-          "season_contribution": {
-            "weeks_active": 0,
-            "runs": 0,
-            "home_runs": 0,
-            "rbi": 0,
-            "stolen_bases": 0,
-            "obp": 0.0,
-            "wins": 0,
-            "strikeouts": 0,
-            "saves": 0,
-            "era": 0.0,
-            "whip": 0.0,
-            "at_bats": 0,
-            "hits": 0,
-            "walks": 0,
-            "hit_by_pitch": 0,
-            "sac_flies": 0,
-            "innings_pitched": "0.0",
-            "outs_pitched": 0,
-            "earned_runs": 0,
-            "hits_allowed": 0,
-            "walks_allowed": 0
-          },
-          "ytd": {
-            "hitting": {
-              "games": 0,
-              "runs": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "stolen_bases": 0,
-              "obp": 0.0
-            },
-            "pitching": {
-              "games": 2,
-              "wins": 0,
-              "strikeouts": 3,
-              "saves": 0,
-              "innings_pitched": "6.1",
-              "era": 14.21,
-              "whip": 2.84
             }
           }
         },
@@ -59286,8 +59371,8 @@
           "prospect_rank": "240",
           "org_rank": "19",
           "prospect_fv": "",
-          "injury_status": "",
-          "transaction_status": "Assigned",
+          "injury_status": "7-day Injured List",
+          "transaction_status": "Status Change",
           "roster_bucket": "Minors",
           "lineup_slot": "",
           "current_level": "MLB",
@@ -60209,6 +60294,261 @@
               "whip": 0.5
             }
           }
+        },
+        {
+          "player_name": "Bailey Ober",
+          "player_type": "pitcher",
+          "mlb_team": "MIN",
+          "eligible_positions": "SP/P/PITCHER",
+          "age": "30",
+          "dynasty_rank": "316",
+          "adp": "288.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 87.2,
+            "home_runs": 27.0,
+            "rbi": 0.0,
+            "stolen_bases": 0.0,
+            "obp": 0.0,
+            "wins": 9.6,
+            "strikeouts": 145.3,
+            "saves": 0.0,
+            "era": 4.58,
+            "whip": 1.21,
+            "innings_pitched": 160.6,
+            "plate_appearances": 0.0
+          },
+          "actual_2025": {
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": "",
+            "wins": 6,
+            "strikeouts": 120,
+            "saves": 0,
+            "era": "5.10",
+            "whip": "1.30"
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 0,
+              "runs": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "stolen_bases": 0,
+              "obp": 0.0
+            },
+            "pitching": {
+              "games": 2,
+              "wins": 0,
+              "strikeouts": 5,
+              "saves": 0,
+              "innings_pitched": "8.0",
+              "era": 6.75,
+              "whip": 1.38
+            }
+          }
+        },
+        {
+          "player_name": "Jorge Soler",
+          "player_type": "hitter",
+          "mlb_team": "LAA",
+          "eligible_positions": "OF",
+          "age": "34",
+          "dynasty_rank": "514",
+          "adp": "293.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 49.2,
+            "home_runs": 18.3,
+            "rbi": 53.2,
+            "stolen_bases": 0.8,
+            "obp": 0.309,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 427.0
+          },
+          "actual_2025": {
+            "runs": 31,
+            "home_runs": 12,
+            "rbi": 34,
+            "stolen_bases": 0,
+            "obp": ".293",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 10,
+              "runs": 4,
+              "home_runs": 1,
+              "rbi": 8,
+              "stolen_bases": 0,
+              "obp": 0.295
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
+        },
+        {
+          "player_name": "Bo Naylor",
+          "player_type": "hitter",
+          "mlb_team": "CLE",
+          "eligible_positions": "C",
+          "age": "26",
+          "dynasty_rank": "504",
+          "adp": "326.0",
+          "prospect_rank": "",
+          "org_rank": "",
+          "prospect_fv": "",
+          "injury_status": "",
+          "transaction_status": "",
+          "roster_bucket": "MLB",
+          "lineup_slot": "",
+          "current_level": "MLB",
+          "projection": {
+            "runs": 45.8,
+            "home_runs": 14.6,
+            "rbi": 45.7,
+            "stolen_bases": 4.2,
+            "obp": 0.301,
+            "wins": 0.0,
+            "strikeouts": 0.0,
+            "saves": 0.0,
+            "era": 0.0,
+            "whip": 0.0,
+            "innings_pitched": 0.0,
+            "plate_appearances": 399.0
+          },
+          "actual_2025": {
+            "runs": 46,
+            "home_runs": 14,
+            "rbi": 47,
+            "stolen_bases": 1,
+            "obp": ".282",
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": "",
+            "whip": ""
+          },
+          "season_contribution": {
+            "weeks_active": 0,
+            "runs": 0,
+            "home_runs": 0,
+            "rbi": 0,
+            "stolen_bases": 0,
+            "obp": 0.0,
+            "wins": 0,
+            "strikeouts": 0,
+            "saves": 0,
+            "era": 0.0,
+            "whip": 0.0,
+            "at_bats": 0,
+            "hits": 0,
+            "walks": 0,
+            "hit_by_pitch": 0,
+            "sac_flies": 0,
+            "innings_pitched": "0.0",
+            "outs_pitched": 0,
+            "earned_runs": 0,
+            "hits_allowed": 0,
+            "walks_allowed": 0
+          },
+          "ytd": {
+            "hitting": {
+              "games": 7,
+              "runs": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "stolen_bases": 0,
+              "obp": 0.214
+            },
+            "pitching": {
+              "games": 0,
+              "wins": 0,
+              "strikeouts": 0,
+              "saves": 0,
+              "innings_pitched": "0.0",
+              "era": 0.0,
+              "whip": 0.0
+            }
+          }
         }
       ],
       "projected_totals": {
@@ -60581,12 +60921,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 4,
-              "home_runs": 1,
-              "rbi": 2,
+              "games": 10,
+              "runs": 5,
+              "home_runs": 2,
+              "rbi": 3,
               "stolen_bases": 0,
-              "obp": 0.381
+              "obp": 0.386
             },
             "pitching": {
               "games": 0,
@@ -62400,10 +62740,10 @@
           "org_rank": "1",
           "prospect_fv": "55",
           "injury_status": "",
-          "transaction_status": "Recalled",
+          "transaction_status": "Optioned",
           "roster_bucket": "MLB",
           "lineup_slot": "",
-          "current_level": "MLB",
+          "current_level": "AAA",
           "projection": {
             "runs": 47.5,
             "home_runs": 14.7,
@@ -62967,12 +63307,12 @@
           },
           "ytd": {
             "hitting": {
-              "games": 9,
-              "runs": 4,
-              "home_runs": 1,
-              "rbi": 2,
+              "games": 10,
+              "runs": 5,
+              "home_runs": 2,
+              "rbi": 3,
               "stolen_bases": 0,
-              "obp": 0.381
+              "obp": 0.386
             },
             "pitching": {
               "games": 0,
@@ -64272,10 +64612,10 @@
           "org_rank": "1",
           "prospect_fv": "55",
           "injury_status": "",
-          "transaction_status": "Recalled",
+          "transaction_status": "Optioned",
           "roster_bucket": "MLB",
           "lineup_slot": "",
-          "current_level": "MLB",
+          "current_level": "AAA",
           "projection": {
             "runs": 47.5,
             "home_runs": 14.7,
@@ -67296,5 +67636,259 @@
         "value": 3
       }
     ]
-  }
+  },
+  "transactions": [
+    {
+      "week": "2026-week-01",
+      "date": "2026-03-27",
+      "team": "Paul",
+      "type": "IL Move",
+      "player_name": "Blake Snell",
+      "detail": "Moved to IL (15-day IL)",
+      "related_player": ""
+    },
+    {
+      "week": "2026-week-01",
+      "date": "2026-03-27",
+      "team": "Paul",
+      "type": "FA Add (IL Replacement)",
+      "player_name": "Ryan Walker",
+      "detail": "Added as replacement for Blake Snell",
+      "related_player": "Blake Snell"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Josh M",
+      "type": "Status Update",
+      "player_name": "Andrew Vaughn",
+      "detail": "Placed on 10-day Injured List",
+      "related_player": ""
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "Status Update",
+      "player_name": "Matthew Boyd",
+      "detail": "Placed on 15-day Injured List",
+      "related_player": ""
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "Status Update",
+      "player_name": "Tre\u2019 Morgan",
+      "detail": "Placed on 7-day Injured List",
+      "related_player": ""
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Josh V",
+      "type": "Status Update",
+      "player_name": "Carson Williams",
+      "detail": "Optioned to AAA",
+      "related_player": ""
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Josh M",
+      "type": "IL Move",
+      "player_name": "Andrew Vaughn",
+      "detail": "Moved to IL (10-day Injured List)",
+      "related_player": ""
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Josh M",
+      "type": "FA Add (IL Replacement)",
+      "player_name": "Nolan Arenado",
+      "detail": "Added as replacement for Andrew Vaughn",
+      "related_player": "Andrew Vaughn"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "IL Move",
+      "player_name": "Matthew Boyd",
+      "detail": "Moved to IL (15-day Injured List)",
+      "related_player": ""
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "FA Add (IL Replacement)",
+      "player_name": "Bailey Ober",
+      "detail": "Added as replacement for Matthew Boyd",
+      "related_player": "Matthew Boyd"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "FA Acquisition",
+      "player_name": "Jorge Soler",
+      "detail": "Added from FA (value 192.7)",
+      "related_player": "Chris Bassitt"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "Drop",
+      "player_name": "Chris Bassitt",
+      "detail": "Dropped for Jorge Soler (value 164.1)",
+      "related_player": "Jorge Soler"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Josh M",
+      "type": "FA Acquisition",
+      "player_name": "Lane Thomas",
+      "detail": "Added from FA (value 191.7)",
+      "related_player": "Jesus Sanchez"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Josh M",
+      "type": "Drop",
+      "player_name": "Jesus Sanchez",
+      "detail": "Dropped for Lane Thomas (value 170.9)",
+      "related_player": "Lane Thomas"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Shane",
+      "type": "FA Acquisition",
+      "player_name": "J.T. Realmuto",
+      "detail": "Added from FA (value 188.7)",
+      "related_player": "Tatsuya Imai"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Shane",
+      "type": "Drop",
+      "player_name": "Tatsuya Imai",
+      "detail": "Dropped for J.T. Realmuto (value 167.7)",
+      "related_player": "J.T. Realmuto"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Rob",
+      "type": "FA Acquisition",
+      "player_name": "Lourdes Gurriel Jr.",
+      "detail": "Added from FA (value 187.6)",
+      "related_player": "Owen Caissie"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Rob",
+      "type": "Drop",
+      "player_name": "Owen Caissie",
+      "detail": "Dropped for Lourdes Gurriel Jr. (value 161.8)",
+      "related_player": "Lourdes Gurriel Jr."
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Michael",
+      "type": "FA Acquisition",
+      "player_name": "Logan O\u2019Hoppe",
+      "detail": "Added from FA (value 187.5)",
+      "related_player": "Brady House"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Michael",
+      "type": "Drop",
+      "player_name": "Brady House",
+      "detail": "Dropped for Logan O\u2019Hoppe (value 164.1)",
+      "related_player": "Logan O\u2019Hoppe"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Wendell",
+      "type": "FA Acquisition",
+      "player_name": "Austin Wells",
+      "detail": "Added from FA (value 181.9)",
+      "related_player": "Michael Wacha"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Wendell",
+      "type": "Drop",
+      "player_name": "Michael Wacha",
+      "detail": "Dropped for Austin Wells (value 162.0)",
+      "related_player": "Austin Wells"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Chris",
+      "type": "FA Acquisition",
+      "player_name": "Mike Yastrzemski",
+      "detail": "Added from FA (value 180.3)",
+      "related_player": "Matt Shaw"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Chris",
+      "type": "Drop",
+      "player_name": "Matt Shaw",
+      "detail": "Dropped for Mike Yastrzemski (value 158.2)",
+      "related_player": "Mike Yastrzemski"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Matt",
+      "type": "FA Acquisition",
+      "player_name": "Parker Meadows",
+      "detail": "Added from FA (value 180.3)",
+      "related_player": "Roki Sasaki"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Matt",
+      "type": "Drop",
+      "player_name": "Roki Sasaki",
+      "detail": "Dropped for Parker Meadows (value 121.5)",
+      "related_player": "Parker Meadows"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "FA Acquisition",
+      "player_name": "Bo Naylor",
+      "detail": "Added from FA (value 178.3)",
+      "related_player": "Brady Singer"
+    },
+    {
+      "week": "2026-week-03",
+      "date": "2026-04-06",
+      "team": "Greg",
+      "type": "Drop",
+      "player_name": "Brady Singer",
+      "detail": "Dropped for Bo Naylor (value 164.2)",
+      "related_player": "Bo Naylor"
+    }
+  ]
 }
