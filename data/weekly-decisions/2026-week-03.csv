@@ -1,0 +1,25 @@
+week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
+2026-week-03,Chris,auto-applied-il-add,Jared Triolo,10-day Injured List,Auto-applied IL move and replacement add,Daulton Varsho,hitter,OF,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Chris,auto-applied-il-add,Jordan Lawlar,10-day Injured List,Auto-applied IL move and replacement add,Josh Jung,hitter,3B,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Chris,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-03,Rob,auto-applied-il-add,Anthony Volpe,10-day Injured List,Auto-applied IL move and replacement add,Kazuma Okamoto,hitter,3B,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Rob,auto-applied-il-add,Cade Horton,15-day Injured List,Auto-applied IL move and replacement add,Kevin Gausman,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Rob,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-03,Wendell,auto-applied-il-add,Carlos Rodon,15-day Injured List,Auto-applied IL move and replacement add,Griffin Jax,pitcher,RP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Wendell,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-03,Matt,auto-applied-il-add,Hunter Brown,15-day Injured List,Auto-applied IL move and replacement add,Trevor Megill,pitcher,RP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Matt,auto-applied-il-add,Josh Hader,15-day Injured List,Auto-applied IL move and replacement add,Emilio Pagan,pitcher,RP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Matt,auto-applied-il-add,Carlos Estevez,15-day Injured List,Auto-applied IL move and replacement add,Kenley Jansen,pitcher,RP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Matt,auto-applied-il-add,Bryce Miller,15-day Injured List,Auto-applied IL move and replacement add,Aaron Nola,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Matt,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-03,Michael,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-03,Paul,auto-applied-il-add,Jackson Chourio,10-day Injured List,Auto-applied IL move and replacement add,Joc Pederson,hitter,DH,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Paul,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-03,Josh M,auto-applied-il-add,Kyle Stowers,10-day Injured List,Auto-applied IL move and replacement add,Andrew Vaughn,hitter,1B,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Josh M,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-03,Shane,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-03,Greg,auto-applied-il-add,Mookie Betts,10-day Injured List,Auto-applied IL move and replacement add,Harrison Bader,hitter,OF,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Greg,auto-applied-il-add,Spencer Strider,15-day Injured List,Auto-applied IL move and replacement add,Dennis Santana,pitcher,RP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Greg,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-03,Josh V,auto-applied-il-add,Alejandro Kirk,10-day Injured List,Auto-applied IL move and replacement add,Austin Hays,hitter,OF,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-03,Josh V,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.

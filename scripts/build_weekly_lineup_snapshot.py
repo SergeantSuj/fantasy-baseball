@@ -95,6 +95,11 @@ def is_injured_list_player(player: dict[str, str] | dict[str, object]) -> bool:
     return is_il_roster_bucket(player) or is_injured_list_status(injury_status_summary(player))
 
 
+def is_major_league_level(player: dict[str, str] | dict[str, object]) -> bool:
+    level = clean_value(str(player.get("current_level", ""))).upper()
+    return level in {"", "MLB", "MAJORS"}
+
+
 def board_index_rows(rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
     index: dict[str, dict[str, str]] = {}
     for row in rows:
@@ -210,7 +215,7 @@ def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_i
         joined["mlb_team"] = clean_value(joined.get("mlb_team")) or clean_value(joined.get("proj_team"))
         roster.append(joined)
 
-    mlb_roster = [player for player in roster if not is_minor_roster_bucket(player) and not is_injured_list_player(player)]
+    mlb_roster = [player for player in roster if not is_minor_roster_bucket(player) and not is_injured_list_player(player) and is_major_league_level(player)]
     two_way_players = [player for player in mlb_roster if clean_value(str(player.get("player_type", ""))) == "two-way"]
     scenario_results: list[dict[str, object]] = []
     scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
