@@ -11,7 +11,6 @@ pick_number,round,pick_in_round,team,player_name,player_type,position_bucket,eli
 100,10,10,Chris,Bo Bichette,hitter,SS,SS,MLB,MLB,67,90.5,,Signed as Free Agent,"Chris prioritized consensus support across dynasty rank, ADP, and roster balance; Bo Bichette fit as a ss contributor; dynasty rank 67; market ADP 90.5; roster construction needed this position fit; team OBP build needed reinforcement."
 101,11,1,Chris,Cody Bellinger,hitter,OF,OF,MLB,MLB,69,100.5,,Signed as Free Agent,"Chris prioritized consensus support across dynasty rank, ADP, and roster balance; Cody Bellinger fit as a of contributor; dynasty rank 69; market ADP 100.5; roster construction needed this position fit; team OBP build needed reinforcement."
 120,12,10,Chris,Will Smith,hitter,C,C,MLB,MLB,116,124.0,,,"Chris prioritized consensus support across dynasty rank, ADP, and roster balance; Will Smith fit as a c contributor; dynasty rank 116; market ADP 124.0; roster construction needed this position fit; team OBP build needed reinforcement."
-121,13,1,Chris,Matt Shaw,hitter,3B,3B,MLB,MLB,117,111.0,,,"Chris prioritized consensus support across dynasty rank, ADP, and roster balance; Matt Shaw fit as a 3b contributor; dynasty rank 117; market ADP 111.0; roster construction needed this position fit; team OBP build needed reinforcement."
 140,14,10,Chris,Emmet Sheehan,pitcher,SP,SP,MLB,MLB,129,119.5,,,"Chris prioritized consensus support across dynasty rank, ADP, and roster balance; Emmet Sheehan fit as a sp contributor; dynasty rank 129; market ADP 119.5."
 141,15,1,Chris,Dylan Cease,pitcher,SP,SP,MLB,MLB,86,127.0,,,"Chris prioritized consensus support across dynasty rank, ADP, and roster balance; Dylan Cease fit as a sp contributor; dynasty rank 86; market ADP 127.0."
 161,17,1,Chris,Kyle Bradish,pitcher,SP,SP,MLB,MLB,120,143.0,,,"Chris prioritized consensus support across dynasty rank, ADP, and roster balance; Kyle Bradish fit as a sp contributor; dynasty rank 120; market ADP 143.0."
@@ -46,3 +45,4 @@ pick_number,round,pick_in_round,team,player_name,player_type,position_bucket,eli
 450,MiLB-1,1,Chris,Jamie Arnold,pitcher,LHP,LHP,Minors,Rookie,41,,,,Minor league fill draft pick; prospect rank 41; FV 55; ETA 2027; deep-minors priority pick
 451,FA,,Chris,Daulton Varsho,hitter,CF,OF,MLB,MLB,219,176.0,,,Auto-added as an IL replacement for Jared Triolo.
 452,FA,,Chris,Josh Jung,hitter,3B,3B,MLB,MLB,352,205.0,,,Auto-added as an IL replacement for Jordan Lawlar.
+453,FA,,Chris,Mike Yastrzemski,hitter,RF,OF,MLB,MLB,441,349.0,,,FA acquisition replacing Matt Shaw.

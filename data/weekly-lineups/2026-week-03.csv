@@ -11,7 +11,6 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Chris,ACTIVE,MI,666182,Bo Bichette,hitter,SS,NYM,MLB,MLB,,Signed as Free Agent
 2026-week-03,Chris,ACTIVE,OF,641355,Cody Bellinger,hitter,OF,NYY,MLB,MLB,,Signed as Free Agent
 2026-week-03,Chris,ACTIVE,C,669257,Will Smith,hitter,C,LAD,MLB,MLB,,
-2026-week-03,Chris,BENCH,,807713,Matt Shaw,hitter,3B,CHC,MLB,MLB,,
 2026-week-03,Chris,ACTIVE,P7,686218,Emmet Sheehan,pitcher,SP,LAD,MLB,MLB,,
 2026-week-03,Chris,ACTIVE,P3,656302,Dylan Cease,pitcher,SP,TOR,MLB,MLB,,
 2026-week-03,Chris,ACTIVE,P4,680694,Kyle Bradish,pitcher,SP,BAL,MLB,MLB,,
@@ -46,6 +45,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Chris,BENCH,,,Jamie Arnold,pitcher,LHP,,Rookie,Minors,,
 2026-week-03,Chris,ACTIVE,UTIL,662139,Daulton Varsho,hitter,OF,TOR,MLB,MLB,,
 2026-week-03,Chris,ACTIVE,3B,673962,Josh Jung,hitter,3B,TEX,MLB,MLB,,
+2026-week-03,Chris,BENCH,,573262,Mike Yastrzemski,hitter,OF,ATL,MLB,MLB,,
 2026-week-03,Rob,ACTIVE,OF,665742,Juan Soto,hitter,OF,NYM,MLB,MLB,,
 2026-week-03,Rob,ACTIVE,P1,694973,Paul Skenes,pitcher,SP,PIT,MLB,MLB,,
 2026-week-03,Rob,ACTIVE,SS,596019,Francisco Lindor,hitter,SS,NYM,MLB,MLB,,
@@ -68,7 +68,6 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Rob,ACTIVE,P8,624133,Ranger Suarez,pitcher,SP,BOS,MLB,MLB,,Signed as Free Agent
 2026-week-03,Rob,ACTIVE,P9,694297,Brandon Pfaadt,pitcher,SP,AZ,MLB,MLB,,
 2026-week-03,Rob,BENCH,,593428,Xander Bogaerts,hitter,SS,SD,MLB,MLB,,
-2026-week-03,Rob,BENCH,,683357,Owen Caissie,hitter,OF/RF/OUTFIELDER,MIA,MLB,MLB,,Trade
 2026-week-03,Rob,BENCH,,687363,Victor Scott II,hitter,OF,STL,MLB,MLB,,
 2026-week-03,Rob,BENCH,,700932,Kyle Manzardo,hitter,1B,CLE,MLB,MLB,,
 2026-week-03,Rob,IL,,683011,Anthony Volpe,hitter,SS,NYY,,IL,10-day Injured List,Status Change
@@ -93,6 +92,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Rob,BENCH,,,Josue Briceño,hitter,C,,AA,Minors,,
 2026-week-03,Rob,BENCH,,672960,Kazuma Okamoto,hitter,3B,TOR,MLB,MLB,,Status Change
 2026-week-03,Rob,ACTIVE,P6,592332,Kevin Gausman,pitcher,SP,TOR,MLB,MLB,,
+2026-week-03,Rob,BENCH,,666971,Lourdes Gurriel Jr.,hitter,OF,ARI,,MLB,,
 2026-week-03,Wendell,ACTIVE,OF,592450,Aaron Judge,hitter,OF,NYY,MLB,MLB,,
 2026-week-03,Wendell,ACTIVE,P1,669373,Tarik Skubal,pitcher,SP,DET,MLB,MLB,,
 2026-week-03,Wendell,ACTIVE,2B,606466,Ketel Marte,hitter,2B,AZ,MLB,MLB,,
@@ -117,7 +117,6 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Wendell,ACTIVE,OF,545361,Mike Trout,hitter,OF,LAA,MLB,MLB,,
 2026-week-03,Wendell,BENCH,,543760,Marcus Semien,hitter,2B,NYM,MLB,MLB,,
 2026-week-03,Wendell,BENCH,,657656,Ramon Laureano,hitter,OF,SD,MLB,MLB,,
-2026-week-03,Wendell,BENCH,,608379,Michael Wacha,pitcher,SP,KC,MLB,MLB,,
 2026-week-03,Wendell,BENCH,,656775,Cedric Mullins,hitter,OF,TB,MLB,MLB,,
 2026-week-03,Wendell,BENCH,,519317,Giancarlo Stanton,hitter,OF,NYY,MLB,MLB,,
 2026-week-03,Wendell,ACTIVE,P7,543135,Nathan Eovaldi,pitcher,SP,TEX,MLB,MLB,,
@@ -139,6 +138,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Wendell,BENCH,,802117,Patrick Clohisy,hitter,OF/OUTFIELDER,ATL,MLB,Minors,,Status Change
 2026-week-03,Wendell,BENCH,,806957,Alfredo Duno,hitter,C,CIN,Single-A,Minors,,
 2026-week-03,Wendell,ACTIVE,P8,643377,Griffin Jax,pitcher,RP,TB,MLB,MLB,,
+2026-week-03,Wendell,BENCH,,669224,Austin Wells,hitter,C,NYY,MLB,MLB,,
 2026-week-03,Matt,ACTIVE,SS,682829,Elly De La Cruz,hitter,SS,CIN,MLB,MLB,,
 2026-week-03,Matt,ACTIVE,OF,663656,Kyle Tucker,hitter,OF,LAD,MLB,MLB,,Signed as Free Agent
 2026-week-03,Matt,ACTIVE,OF,695578,James Wood,hitter,OF,WSH,MLB,MLB,,
@@ -160,7 +160,6 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Matt,IL,,623352,Josh Hader,pitcher,RP,HOU,,IL,15-day Injured List,Status Change
 2026-week-03,Matt,ACTIVE,P1,621242,Edwin Diaz,pitcher,RP,LAD,MLB,MLB,,
 2026-week-03,Matt,ACTIVE,P9,665795,Edward Cabrera,pitcher,SP,CHC,MLB,MLB,,Trade
-2026-week-03,Matt,BENCH,,808963,Roki Sasaki,pitcher,SP/P/PITCHER,LAD,MLB,MLB,,
 2026-week-03,Matt,ACTIVE,UTIL,621043,Carlos Correa,hitter,SS/3B,HOU,MLB,MLB,,
 2026-week-03,Matt,ACTIVE,CI,702332,Caleb Durbin,hitter,3B/2B,BOS,MLB,MLB,,Trade
 2026-week-03,Matt,BENCH,,702262,Jared Jones,pitcher,SP/1B/INFIELDER,PIT,MLB,Minors,,Assigned
@@ -188,6 +187,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Matt,ACTIVE,P6,641941,Emilio Pagan,pitcher,RP,CIN,MLB,MLB,,
 2026-week-03,Matt,ACTIVE,P7,445276,Kenley Jansen,pitcher,RP,DET,MLB,MLB,,
 2026-week-03,Matt,ACTIVE,P8,605400,Aaron Nola,pitcher,SP,PHI,MLB,MLB,,
+2026-week-03,Matt,BENCH,,678009,Parker Meadows,hitter,OF/CF/OUTFIELDER,DET,MLB,MLB,,
 2026-week-03,Michael,BENCH,,804606,Konnor Griffin,hitter,SS/INFIELDER,PIT,AA,MLB,,Status Change
 2026-week-03,Michael,ACTIVE,1B,701762,Nick Kurtz,hitter,1B,ATH,MLB,MLB,,
 2026-week-03,Michael,BENCH,,815908,Jesus Made,hitter,SS/INFIELDER,MIL,AA,Minors,,Assigned
@@ -230,9 +230,9 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Michael,BENCH,,686555,Isaac Collins,hitter,OF,KC,MLB,MLB,,
 2026-week-03,Michael,BENCH,,681393,Connor Norby,hitter,3B/INFIELDER,MIA,MLB,MLB,,
 2026-week-03,Michael,BENCH,,680777,Ryan Jeffers,hitter,C,MIN,MLB,MLB,,
-2026-week-03,Michael,BENCH,,691781,Brady House,hitter,3B/INFIELDER,WSH,MLB,MLB,,
 2026-week-03,Michael,BENCH,,,Seth Hernandez,pitcher,RHP,,Rookie,Minors,,
 2026-week-03,Michael,BENCH,,829034,Josuar Gonzalez,hitter,SS,SF,Rookie,Minors,,
+2026-week-03,Michael,BENCH,,681351,Logan O’Hoppe,hitter,C,LAA,MLB,MLB,,
 2026-week-03,Paul,ACTIVE,OF,682998,Corbin Carroll,hitter,OF,AZ,MLB,MLB,,
 2026-week-03,Paul,IL,,694192,Jackson Chourio,hitter,OF,MIL,MLB,IL,10-day Injured List,Status Change
 2026-week-03,Paul,ACTIVE,OF,694671,Wyatt Langford,hitter,OF,TEX,MLB,MLB,,
@@ -322,10 +322,11 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Josh M,ACTIVE,OF,676609,Jose Caballero,hitter,2B/SS/3B/OF,NYY,MLB,MLB,,
 2026-week-03,Josh M,BENCH,,676391,Ernie Clement,hitter,2B/SS/3B/1B,TOR,MLB,MLB,,
 2026-week-03,Josh M,BENCH,,643446,Jeff McNeil,hitter,2B/OF/INFIELDER,ATH,MLB,MLB,,
-2026-week-03,Josh M,BENCH,,660821,Jesus Sanchez,hitter,OF/RF/OUTFIELDER,TOR,MLB,MLB,,Trade
 2026-week-03,Josh M,BENCH,,641487,J.P. Crawford,hitter,SS,SEA,MLB,MLB,,Status Change
 2026-week-03,Josh M,BENCH,,,JJ Wetherholt,hitter,SS,,MLB,Minors,,
-2026-week-03,Josh M,BENCH,,683734,Andrew Vaughn,hitter,1B,MIL,MLB,MLB,,
+2026-week-03,Josh M,IL,,683734,Andrew Vaughn,hitter,1B,MIL,MLB,IL,10-day Injured List,Status Change
+2026-week-03,Josh M,BENCH,,571448,Nolan Arenado,hitter,3B,AZ,MLB,MLB,,Trade
+2026-week-03,Josh M,BENCH,,657041,Lane Thomas,hitter,OF/CF/OUTFIELDER,KC,MLB,MLB,,
 2026-week-03,Shane,ACTIVE,3B,608070,Jose Ramirez,hitter,3B,CLE,MLB,MLB,,
 2026-week-03,Shane,ACTIVE,OF,660670,Ronald Acuna Jr.,hitter,OF,ATL,MLB,MLB,,
 2026-week-03,Shane,ACTIVE,P2,676979,Garrett Crochet,pitcher,SP,BOS,MLB,MLB,,
@@ -349,7 +350,6 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Shane,BENCH,,805809,Travis Sykora,pitcher,P/PITCHER,WSH,AA,Minors,,
 2026-week-03,Shane,BENCH,,814439,Ryan Waldschmidt,hitter,OF/OUTFIELDER,AZ,AA,Minors,,Assigned
 2026-week-03,Shane,ACTIVE,P4,601713,Nick Pivetta,pitcher,SP,SD,MLB,MLB,,
-2026-week-03,Shane,BENCH,,837227,Tatsuya Imai,pitcher,SP,HOU,MLB,MLB,,Signed as Free Agent
 2026-week-03,Shane,IL,,800522,Josue Briceno,hitter,C/CATCHER,DET,AA,Minors,60-day Injured List,Status Change
 2026-week-03,Shane,BENCH,,824604,Liam Doyle,pitcher,P/PITCHER,STL,AA,Minors,,
 2026-week-03,Shane,ACTIVE,P3,694037,Daniel Palencia,pitcher,RP,CHC,MLB,MLB,,
@@ -371,6 +371,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Shane,BENCH,,805999,A.J. Ewing,hitter,SS/INFIELDER,NYM,AA,Minors,,
 2026-week-03,Shane,BENCH,,691740,Daniel Susac,hitter,C/CATCHER,SF,AA,Minors,,
 2026-week-03,Shane,BENCH,,815394,Theo Gillen,hitter,OF/OUTFIELDER,TB,Single-A,Minors,,Assigned
+2026-week-03,Shane,BENCH,,592663,J.T. Realmuto,hitter,C,PHI,MLB,MLB,,Signed as Free Agent
 2026-week-03,Greg,ACTIVE,C,663728,Cal Raleigh,hitter,C,SEA,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,SS,683002,Gunnar Henderson,hitter,SS,BAL,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,2B,665862,Jazz Chisholm Jr.,hitter,2B/3B,NYY,MLB,MLB,,
@@ -392,13 +393,11 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Greg,ACTIVE,P8,543243,Sonny Gray,pitcher,SP,BOS,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,P9,579328,Yusei Kikuchi,pitcher,SP,LAA,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,P5,622491,Luis Castillo,pitcher,SP,SEA,MLB,MLB,,
-2026-week-03,Greg,BENCH,,663903,Brady Singer,pitcher,SP,CIN,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,OF,606192,Teoscar Hernandez,hitter,OF,LAD,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,3B,553993,Eugenio Suarez,hitter,3B,CIN,MLB,MLB,,Signed as Free Agent
 2026-week-03,Greg,BENCH,,593871,Jorge Polanco,hitter,2B/3B,NYM,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,P7,592662,Robbie Ray,pitcher,SP,SF,MLB,MLB,,
-2026-week-03,Greg,BENCH,,571510,Matthew Boyd,pitcher,SP,CHC,MLB,MLB,,
-2026-week-03,Greg,BENCH,,605135,Chris Bassitt,pitcher,SP,BAL,MLB,MLB,,Signed as Free Agent
+2026-week-03,Greg,IL,,571510,Matthew Boyd,pitcher,SP,CHC,MLB,IL,15-day Injured List,Status Change
 2026-week-03,Greg,BENCH,,605137,Josh Bell,hitter,1B,MIN,MLB,MLB,,
 2026-week-03,Greg,ACTIVE,P6,605540,Brandon Woodruff,pitcher,SP,MIL,MLB,MLB,,
 2026-week-03,Greg,BENCH,,700363,AJ Smith-Shawver,pitcher,P/PITCHER,ATL,MLB,Minors,,
@@ -407,7 +406,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Greg,BENCH,,689200,Jacob Melton,hitter,OF/LF/OUTFIELDER,TB,AAA,Minors,,Optioned
 2026-week-03,Greg,BENCH,,694203,Denzer Guzman,hitter,SS/INFIELDER,LAA,AAA,Minors,,Optioned
 2026-week-03,Greg,BENCH,,683679,Jesus Rodriguez,hitter,C/CATCHER,SF,AAA,Minors,,Optioned
-2026-week-03,Greg,BENCH,,691003,Tre’ Morgan,hitter,1B/INFIELDER,TB,MLB,Minors,,Assigned
+2026-week-03,Greg,IL,,691003,Tre’ Morgan,hitter,1B/INFIELDER,TB,MLB,Minors,7-day Injured List,Status Change
 2026-week-03,Greg,IL,,805904,Zach Cole,hitter,OF/CF/OUTFIELDER,HOU,Prospect,Minors,7-day Injured List,Status Change
 2026-week-03,Greg,BENCH,,691799,Grant Taylor,pitcher,RP/P/PITCHER,CWS,MLB,Minors,,
 2026-week-03,Greg,BENCH,,804668,Rafael Flores Jr.,hitter,1B/C/CATCHER,PIT,AAA,Minors,,Optioned
@@ -418,6 +417,9 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Greg,BENCH,,690986,Kyle Harrison,pitcher,SP/P/PITCHER,MIL,MLB,Minors,,Trade
 2026-week-03,Greg,BENCH,,664056,Harrison Bader,hitter,OF,SF,MLB,MLB,,Signed as Free Agent
 2026-week-03,Greg,BENCH,,642701,Dennis Santana,pitcher,RP,PIT,MLB,MLB,,
+2026-week-03,Greg,BENCH,,641927,Bailey Ober,pitcher,SP/P/PITCHER,MIN,MLB,MLB,,
+2026-week-03,Greg,BENCH,,624585,Jorge Soler,hitter,OF,LAA,MLB,MLB,,
+2026-week-03,Greg,BENCH,,666310,Bo Naylor,hitter,C,CLE,MLB,MLB,,
 2026-week-03,Josh V,ACTIVE,3B,691406,Junior Caminero,hitter,3B,TB,MLB,MLB,,
 2026-week-03,Josh V,ACTIVE,UTIL,805808,Kevin McGonigle,hitter,SS/INFIELDER,DET,MLB,MLB,,Number Change
 2026-week-03,Josh V,BENCH,,694212,Samuel Basallo,hitter,C/CATCHER,BAL,MLB,Minors,,
@@ -434,7 +436,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-03,Josh V,BENCH,,703155,Lazaro Montes,hitter,OF/OUTFIELDER,SEA,AA,Minors,,
 2026-week-03,Josh V,BENCH,,816113,Eli Willits,hitter,SS/INFIELDER,WSH,Single-A,Minors,,
 2026-week-03,Josh V,BENCH,,815787,Ethan Holliday,hitter,SS/INFIELDER,COL,Single-A,Minors,,
-2026-week-03,Josh V,BENCH,,700246,Carson Williams,hitter,SS/INFIELDER,TB,MLB,MLB,,Recalled
+2026-week-03,Josh V,BENCH,,700246,Carson Williams,hitter,SS/INFIELDER,TB,AAA,MLB,,Optioned
 2026-week-03,Josh V,ACTIVE,OF,805300,Jakob Marsee,hitter,OF,MIA,MLB,MLB,,
 2026-week-03,Josh V,ACTIVE,OF,671218,Heliot Ramos,hitter,OF,SF,MLB,MLB,,
 2026-week-03,Josh V,ACTIVE,2B,665926,Andres Gimenez,hitter,2B/SS,TOR,MLB,MLB,,

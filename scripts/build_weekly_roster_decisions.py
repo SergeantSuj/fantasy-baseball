@@ -42,6 +42,8 @@ from build_weekly_lineup_snapshot import (
 WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = WORKSPACE_ROOT / "data"
 DECISION_DIR = DATA_DIR / "weekly-decisions"
+RESULTS_PATH = DATA_DIR / "season-results-2026.json"
+PROFILES_DIR = WORKSPACE_ROOT / "manager-profiles"
 IL_SLOT_LIMIT = 5
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0 Safari/537.36"
 REFRESH_SPORT_LEVELS = {1: "MLB", 11: "AAA", 12: "AA", 13: "High-A", 14: "Single-A"}
@@ -436,6 +438,332 @@ def write_roster_csv(path: Path, fieldnames: list[str], rows: list[dict[str, str
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
+
+
+# ---------------------------------------------------------------------------
+# Manager FA Profile Configuration
+# ---------------------------------------------------------------------------
+# Each profile encodes: how aggressively the manager acquires free agents,
+# whether they protect young assets, and how large an improvement they need
+# before dropping an active roster player.
+#
+# Fields:
+#   aggression       - 0.0 (very conservative) to 1.0 (very aggressive)
+#   min_improvement  - minimum player_value gap (FA minus drop candidate)
+#                      required for the manager to approve the swap
+#   protect_youth    - if True, young players (age <= 26 with dynasty_rank
+#                      <= 200) get a value floor boost and are harder to drop
+#   prefer_category  - list of roto categories this manager targets when
+#                      choosing among FA candidates of similar value
+
+MANAGER_FA_PROFILES: dict[str, dict[str, object]] = {
+    "Chris": {
+        "aggression": 0.5,
+        "min_improvement": 8.0,
+        "protect_youth": False,
+        "prefer_category": [],
+    },
+    "Greg": {
+        "aggression": 0.5,
+        "min_improvement": 10.0,
+        "protect_youth": False,
+        "prefer_category": [],
+    },
+    "Josh M": {
+        "aggression": 0.6,
+        "min_improvement": 6.0,
+        "protect_youth": True,
+        "prefer_category": [],
+    },
+    "Josh V": {
+        "aggression": 0.7,
+        "min_improvement": 4.0,
+        "protect_youth": True,
+        "prefer_category": [],
+    },
+    "Matt": {
+        "aggression": 0.9,
+        "min_improvement": 2.0,
+        "protect_youth": False,
+        "prefer_category": [],
+    },
+    "Michael": {
+        "aggression": 0.4,
+        "min_improvement": 10.0,
+        "protect_youth": True,
+        "prefer_category": [],
+    },
+    "Paul": {
+        "aggression": 0.8,
+        "min_improvement": 3.0,
+        "protect_youth": False,
+        "prefer_category": ["obp", "saves", "stolen_bases"],
+    },
+    "Rob": {
+        "aggression": 0.4,
+        "min_improvement": 10.0,
+        "protect_youth": False,
+        "prefer_category": ["obp", "era", "whip"],
+    },
+    "Shane": {
+        "aggression": 0.7,
+        "min_improvement": 4.0,
+        "protect_youth": False,
+        "prefer_category": ["saves", "stolen_bases"],
+    },
+    "Wendell": {
+        "aggression": 0.3,
+        "min_improvement": 12.0,
+        "protect_youth": False,
+        "prefer_category": [],
+    },
+}
+
+DEFAULT_FA_PROFILE: dict[str, object] = {
+    "aggression": 0.5,
+    "min_improvement": 8.0,
+    "protect_youth": False,
+    "prefer_category": [],
+}
+
+# Category->stat mapping for FA candidate preference scoring
+# These are small tiebreaker nudges, not dominant value overrides.
+CATEGORY_FA_BONUS: dict[str, tuple[str, float]] = {
+    "runs": ("proj_r", 0.05),
+    "home_runs": ("proj_hr", 0.2),
+    "rbi": ("proj_rbi", 0.06),
+    "stolen_bases": ("proj_sb", 0.25),
+    "obp": ("proj_obp", 8.0),
+    "wins": ("proj_w", 0.2),
+    "strikeouts": ("proj_k", 0.04),
+    "saves": ("proj_sv", 0.3),
+    "era": ("proj_era", -1.0),
+    "whip": ("proj_whip", -3.0),
+}
+
+
+def get_fa_profile(team_name: str) -> dict[str, object]:
+    return MANAGER_FA_PROFILES.get(team_name, DEFAULT_FA_PROFILE)
+
+
+def read_standings() -> list[dict[str, object]]:
+    """Read current standings from season-results-2026.json."""
+    if not RESULTS_PATH.exists():
+        return []
+    data = json.loads(RESULTS_PATH.read_text(encoding="utf-8"))
+    return data.get("standings", [])
+
+
+def waiver_order(standings: list[dict[str, object]], all_team_names: list[str]) -> list[str]:
+    """Return team names sorted worst-to-first (reverse standings order).
+
+    Teams not in standings yet (no games played) are ordered alphabetically
+    at the front of the waiver wire.
+    """
+    standings_by_name = {clean_value(str(s.get("name", ""))): s for s in standings}
+    ranked_teams = []
+    unranked_teams = []
+    for name in all_team_names:
+        entry = standings_by_name.get(name)
+        if entry:
+            ranked_teams.append((name, float(entry.get("total_points", 0)), int(entry.get("rank", 999))))
+        else:
+            unranked_teams.append(name)
+    # Sort ranked teams worst-first (lowest points first, highest rank number first)
+    ranked_teams.sort(key=lambda t: (t[1], -t[2]))
+    return sorted(unranked_teams) + [t[0] for t in ranked_teams]
+
+
+def youth_protected_value(player: dict[str, object]) -> float:
+    """Return a value floor for young, high-dynasty-rank players."""
+    age = parse_int(str(player.get("age", "")))
+    dynasty_rank = dynasty_rank_value(player)
+    base = player_value(player)
+    if age > 0 and age <= 26 and dynasty_rank <= 200:
+        # Boost effective value so youth is harder to drop
+        return max(base, base + 15.0)
+    return base
+
+
+def category_bonus(player: dict[str, object], prefer_categories: list[str]) -> float:
+    """Small tiebreaker bonus for FA candidates who contribute to preferred categories."""
+    if not prefer_categories:
+        return 0.0
+    bonus = 0.0
+    for cat in prefer_categories:
+        mapping = CATEGORY_FA_BONUS.get(cat)
+        if not mapping:
+            continue
+        field, weight = mapping
+        value = parse_float(str(player.get(field, "")))
+        bonus += value * weight
+    return bonus
+
+
+def build_fa_add_row(
+    team_name: str,
+    candidate: dict[str, str],
+    drop_player_name: str,
+    fieldnames: list[str],
+    pick_number: int,
+) -> dict[str, str]:
+    row = {field: "" for field in fieldnames}
+    row.update(
+        {
+            "pick_number": str(pick_number),
+            "round": "FA",
+            "pick_in_round": "",
+            "team": team_name,
+            "player_name": clean_value(candidate.get("player_name", "")),
+            "player_type": clean_value(candidate.get("player_type", "")),
+            "position_bucket": position_bucket_for_player(candidate),
+            "eligible_positions": clean_value(candidate.get("eligible_positions", "")),
+            "roster_bucket": "MLB",
+            "current_level": clean_value(candidate.get("current_level", "")),
+            "dynasty_rank": clean_value(candidate.get("dynasty_rank", "")),
+            "adp": clean_value(candidate.get("adp", "")),
+            "injury_status": clean_value(candidate.get("injury_status", "")),
+            "transaction_status": clean_value(candidate.get("transaction_status", "")),
+            "rationale": f"FA acquisition replacing {drop_player_name}.",
+        }
+    )
+    return row
+
+
+def apply_fa_acquisitions(board_rows: list[dict[str, str]]) -> dict[str, object]:
+    """Evaluate and execute FA acquisitions in waiver order (worst-to-first).
+
+    For each team, compare the best available free agent against the weakest
+    MLB-bucket player, adjusted by the manager's FA profile.  If the FA
+    clears the manager's improvement threshold, drop the weak player and
+    add the FA.  Repeat in passes until no team wants to make a move.
+    """
+    settings = read_settings()
+    board_index = board_index_rows(board_rows)
+    board_rows_by_key = {player_key(row): row for row in dedupe_board_rows(board_rows)}
+    standings = read_standings()
+
+    # Build roster state
+    roster_state: dict[str, tuple[Path, list[dict[str, str]]]] = {}
+    rostered_keys: set[str] = set()
+    all_team_names: list[str] = []
+
+    for roster_path in roster_order(ROSTERS_DIR, settings):
+        team_name = team_name_from_path(roster_path)
+        roster_rows = read_csv_rows(roster_path)
+        roster_state[team_name] = (roster_path, roster_rows)
+        all_team_names.append(team_name)
+        for row in roster_rows:
+            key = canonical_roster_key(row, board_index)
+            if key:
+                rostered_keys.add(key)
+
+    order = waiver_order(standings, all_team_names)
+    acquisitions: list[dict[str, object]] = []
+    dropped_keys_by_team: dict[str, set[str]] = {name: set() for name in all_team_names}
+    MAX_FA_PASSES = 5  # Max passes through the waiver order
+
+    for pass_number in range(MAX_FA_PASSES):
+        any_move_this_pass = False
+
+        for team_name in order:
+            roster_path, roster_rows = roster_state[team_name]
+            profile = get_fa_profile(team_name)
+            min_improvement = float(profile["min_improvement"])
+            protect_youth = bool(profile["protect_youth"])
+            prefer_cats = list(profile.get("prefer_category", []))
+
+            # Build current available roster (non-IL, non-minors, MLB-level)
+            roster = merge_roster_rows(roster_rows, board_index)
+            available_roster = [
+                p for p in roster
+                if not is_minor_roster_bucket(p)
+                and not is_il_roster_bucket(p)
+                and not is_injured_list_player(p)
+                and is_major_league_level(p)
+            ]
+
+            if not available_roster:
+                continue
+
+            # Find the weakest drop candidate
+            drop_candidate = weakest_drop_candidate(available_roster, set())
+            if not drop_candidate:
+                continue
+
+            drop_value = youth_protected_value(drop_candidate) if protect_youth else player_value(drop_candidate)
+            drop_key = player_key(drop_candidate)
+            drop_name = clean_value(str(drop_candidate.get("player_name", "")))
+
+            # Rebuild FA pool for this pick, excluding players this team already dropped
+            team_excluded = rostered_keys | dropped_keys_by_team[team_name]
+            free_agents = build_free_agent_candidates(board_rows, team_excluded)
+            if not free_agents:
+                continue
+
+            # Find the best FA for this manager
+            best_fa = None
+            best_fa_score = float("-inf")
+            for fa in free_agents:
+                fa_val = player_value(fa) + category_bonus(fa, prefer_cats)
+                if fa_val > best_fa_score:
+                    best_fa_score = fa_val
+                    best_fa = fa
+
+            if not best_fa:
+                continue
+
+            improvement = best_fa_score - drop_value
+            if improvement < min_improvement:
+                continue
+
+            # Execute the swap: drop the weak player, add the FA
+            fa_key = player_key(best_fa)
+            fa_name = clean_value(str(best_fa.get("player_name", "")))
+
+            # Find and remove the drop candidate from roster CSV rows
+            drop_roster_row = find_roster_row(roster_rows, board_index, drop_key, drop_name)
+            if drop_roster_row is None:
+                continue
+
+            fieldnames = list(roster_rows[0].keys()) if roster_rows else []
+            roster_rows.remove(drop_roster_row)
+
+            # Get FA board row for the add
+            fa_board_row = board_rows_by_key.get(fa_key)
+            if fa_board_row is None:
+                # Put the drop row back
+                roster_rows.append(drop_roster_row)
+                continue
+
+            pick_number = next_pick_number(roster_rows)
+            roster_rows.append(build_fa_add_row(team_name, fa_board_row, drop_name, fieldnames, pick_number))
+            rostered_keys.add(fa_key)
+            rostered_keys.discard(drop_key)
+            dropped_keys_by_team[team_name].add(drop_key)
+
+            write_roster_csv(roster_path, fieldnames, roster_rows)
+            any_move_this_pass = True
+            acquisitions.append({
+                "team": team_name,
+                "pass": pass_number + 1,
+                "added_player_name": fa_name,
+                "added_player_type": clean_value(str(best_fa.get("player_type", ""))),
+                "added_positions": clean_value(str(best_fa.get("eligible_positions", ""))),
+                "added_value": round(player_value(best_fa), 1),
+                "dropped_player_name": drop_name,
+                "dropped_player_type": clean_value(str(drop_candidate.get("player_type", ""))),
+                "dropped_value": round(player_value(drop_candidate), 1),
+                "improvement": round(improvement, 1),
+                "manager_profile": clean_value(str(profile.get("aggression", ""))),
+                "min_threshold": min_improvement,
+            })
+
+        if not any_move_this_pass:
+            break
+
+    print(f"FA acquisitions complete: {len(acquisitions)} moves across {pass_number + 1 if acquisitions else 0} passes")
+    return {"acquisitions": acquisitions, "acquisition_count": len(acquisitions)}
 
 
 def fetch_json(url: str) -> dict:
@@ -933,6 +1261,30 @@ def build_csv_rows(report: dict[str, object]) -> list[dict[str, object]]:
                     "rationale": recommendation.get("rationale", ""),
                 }
             )
+    # FA acquisition rows
+    for acq in report.get("fa_acquisitions", {}).get("acquisitions", []):
+        rows.append(
+            {
+                "week": report.get("week", ""),
+                "team": acq.get("team", ""),
+                "recommendation_type": "fa-acquisition",
+                "trigger_player_name": acq.get("dropped_player_name", ""),
+                "trigger_reason": f"Weakest active player (value {acq.get('dropped_value', '')})",
+                "recommendation": "Drop and add free agent",
+                "player_name": acq.get("added_player_name", ""),
+                "player_type": acq.get("added_player_type", ""),
+                "eligible_positions": acq.get("added_positions", ""),
+                "current_level": "",
+                "projected_role_if_promoted": "",
+                "projected_slot_if_promoted": "",
+                "candidate_projection_value": acq.get("added_value", ""),
+                "drop_candidate_name": acq.get("dropped_player_name", ""),
+                "drop_candidate_role": "",
+                "drop_candidate_value": acq.get("dropped_value", ""),
+                "improvement": acq.get("improvement", ""),
+                "rationale": f"FA acquisition (pass {acq.get('pass', '')}, threshold {acq.get('min_threshold', '')})",
+            }
+        )
     return rows
 
 
@@ -953,6 +1305,11 @@ def parse_args() -> argparse.Namespace:
         "--skip-status-refresh",
         action="store_true",
         help="Do not fetch recent MLB transactions to refresh roster injury and level statuses.",
+    )
+    parser.add_argument(
+        "--skip-fa-acquisitions",
+        action="store_true",
+        help="Do not run the waiver-order free agent acquisition pass.",
     )
     return parser.parse_args()
 
@@ -978,9 +1335,14 @@ def main() -> None:
     if not args.skip_auto_apply:
         auto_apply_summary = apply_il_moves(board_rows)
 
+    fa_acquisition_summary: dict[str, object] = {"acquisitions": [], "acquisition_count": 0}
+    if not args.skip_fa_acquisitions:
+        fa_acquisition_summary = apply_fa_acquisitions(board_rows)
+
     lineup_rows, report = build_report(args.week)
     report["status_refresh"] = status_refresh_summary
     report["auto_apply"] = auto_apply_summary
+    report["fa_acquisitions"] = fa_acquisition_summary
     report["output_files"] = {
         "lineup_snapshot": workspace_relative_path(lineup_output),
         "decision_json": workspace_relative_path(report_json),
@@ -1049,6 +1411,7 @@ def main() -> None:
     print(f"Status refresh updates: {status_refresh_summary['change_count']}")
     print(f"Auto-applied IL moves: {auto_apply_summary['applied_count']}")
     print(f"Blocked auto-applied IL moves: {auto_apply_summary['blocked_count']}")
+    print(f"FA acquisitions: {fa_acquisition_summary['acquisition_count']}")
 
 
 if __name__ == "__main__":

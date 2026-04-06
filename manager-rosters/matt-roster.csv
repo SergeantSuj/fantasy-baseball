@@ -20,7 +20,6 @@ pick_number,round,pick_in_round,team,player_name,player_type,position_bucket,eli
 197,20,7,Matt,Josh Hader,pitcher,RP,RP,IL,,126,196.0,15-day Injured List,Status Change,"Matt prioritized weekly usability, flexibility, and role-driven edges; Josh Hader fit as a late-inning reliever; dynasty rank 126; market ADP 196.0."
 204,21,4,Matt,Edwin Diaz,pitcher,RP,RP,MLB,MLB,93,211.0,,,"Matt prioritized weekly usability, flexibility, and role-driven edges; Edwin Diaz fit as a late-inning reliever; dynasty rank 93; market ADP 211.0."
 217,22,7,Matt,Edward Cabrera,pitcher,SP,SP,MLB,MLB,181,194.0,,Trade,"Matt prioritized weekly usability, flexibility, and role-driven edges; Edward Cabrera fit as a sp contributor; dynasty rank 181; market ADP 194.0."
-224,23,4,Matt,Roki Sasaki,pitcher,SP,SP/P/PITCHER,MLB,MLB,135,109.0,,,"Matt prioritized weekly usability, flexibility, and role-driven edges; Roki Sasaki fit as a sp contributor; dynasty rank 135; market ADP 109.0; as a minor-league stash; closer-to-MLB proximity still fit the manager's prospect plan; upper-minors proximity improved the stash appeal."
 237,24,7,Matt,Carlos Correa,hitter,SS,SS/3B,MLB,MLB,288,187.0,,,"Matt prioritized weekly usability, flexibility, and role-driven edges; Carlos Correa fit as a ss contributor; dynasty rank 288; market ADP 187.0; team OBP build needed reinforcement."
 244,25,4,Matt,Caleb Durbin,hitter,2B,3B/2B,MLB,MLB,310,217.0,,Trade,"Matt prioritized weekly usability, flexibility, and role-driven edges; Caleb Durbin fit as a 2b contributor; dynasty rank 310; market ADP 217.0; team OBP build needed reinforcement."
 257,26,7,Matt,Jared Jones,pitcher,SP,SP/1B/INFIELDER,Minors,MLB,153,140.0,,Assigned,"Matt prioritized weekly usability, flexibility, and role-driven edges; Jared Jones fit as a sp contributor; dynasty rank 153; market ADP 140.0; as a minor-league stash; closer-to-MLB proximity still fit the manager's prospect plan; upper-minors proximity improved the stash appeal."
@@ -48,3 +47,4 @@ pick_number,round,pick_in_round,team,player_name,player_type,position_bucket,eli
 460,FA,,Matt,Emilio Pagan,pitcher,P,RP,MLB,MLB,254,322.0,,,Auto-added as an IL replacement for Josh Hader.
 461,FA,,Matt,Kenley Jansen,pitcher,P,RP,MLB,MLB,287,371.0,,,Auto-added as an IL replacement for Carlos Estevez.
 462,FA,,Matt,Aaron Nola,pitcher,P,SP,MLB,MLB,206,209.0,,,Auto-added as an IL replacement for Bryce Miller.
+463,FA,,Matt,Parker Meadows,hitter,CF,OF/CF/OUTFIELDER,MLB,MLB,429,333.0,,,FA acquisition replacing Roki Sasaki.

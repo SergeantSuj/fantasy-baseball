@@ -23,6 +23,9 @@ OUTPUT_JSON_PATH = OUTPUT_DATA_DIR / "league-site-data.json"
 ACTIVE_HITTER_SLOTS = ["C", "1B", "2B", "3B", "SS", "CI", "MI", "OF", "OF", "OF", "OF", "OF", "UTIL"]
 PITCHER_SLOTS = 9
 
+IL_ROSTER_BUCKETS = {"IL", "INJURY LIST", "INJURED LIST"}
+IL_STATUS_TERMS = ("7-DAY IL", "10-DAY IL", "15-DAY IL", "60-DAY IL", "INJURED LIST", "DISABLED LIST")
+
 DISPLAY_COLUMNS = [
     "player_name",
     "player_type",
@@ -220,6 +223,26 @@ def is_pitcher(player: dict[str, object]) -> bool:
 
 def is_hitter(player: dict[str, object]) -> bool:
     return clean_value(str(player.get("player_type", ""))) in {"hitter", "two-way"} and bool(parse_float(str(player.get("proj_pa", 0.0))))
+
+
+def is_il_roster_bucket(player: dict[str, str] | dict[str, object]) -> bool:
+    return clean_value(str(player.get("roster_bucket", ""))).upper() in IL_ROSTER_BUCKETS
+
+
+def is_injured_list_status(value: str | None) -> bool:
+    normalized = clean_value(value).upper()
+    return any(term in normalized for term in IL_STATUS_TERMS)
+
+
+def is_injured_list_player(player: dict[str, str] | dict[str, object]) -> bool:
+    injury_status = clean_value(str(player.get("injury_status", "")))
+    transaction_status = clean_value(str(player.get("transaction_status", "")))
+    return is_il_roster_bucket(player) or is_injured_list_status(injury_status) or is_injured_list_status(transaction_status)
+
+
+def is_major_league_level(player: dict[str, str] | dict[str, object]) -> bool:
+    level = clean_value(str(player.get("current_level", ""))).upper()
+    return level in {"", "MLB", "MAJORS"}
 
 
 def can_fill_slot(player: dict[str, object], slot: str) -> bool:
@@ -618,7 +641,8 @@ def build_team_payload(
     roster = join_roster_rows(roster_rows, board_index)
 
     mlb_roster = [player for player in roster if clean_value(player.get("roster_bucket")) != "Minors"]
-    two_way_players = [player for player in mlb_roster if clean_value(player.get("player_type")) == "two-way"]
+    available_roster = [player for player in mlb_roster if not is_injured_list_player(player) and is_major_league_level(player)]
+    two_way_players = [player for player in available_roster if clean_value(player.get("player_type")) == "two-way"]
     scenario_results: list[dict[str, object]] = []
     scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
 
@@ -626,7 +650,7 @@ def build_team_payload(
         choice_map = {player_key(player): choice for player, choice in zip(two_way_players, choices)}
         hitters = []
         pitchers = []
-        for player in mlb_roster:
+        for player in available_roster:
             key = player_key(player)
             choice = choice_map.get(key)
             if clean_value(player.get("player_type")) == "two-way":

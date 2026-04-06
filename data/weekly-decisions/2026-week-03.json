@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T18:10:48.836450+00:00",
+  "generated_at": "2026-04-06T18:24:34.971512+00:00",
   "week": "2026-week-03",
   "summary": {
     "teams_checked": 10,
@@ -231,15 +231,6 @@
           "projection_value": 232.7
         },
         {
-          "player_name": "Matt Shaw",
-          "player_type": "hitter",
-          "eligible_positions": "3B",
-          "mlb_team": "CHC",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 158.2
-        },
-        {
           "player_name": "Cam Smith",
           "player_type": "hitter",
           "eligible_positions": "OF",
@@ -292,6 +283,15 @@
           "current_level": "MLB",
           "lineup_slot": "",
           "projection_value": 173.9
+        },
+        {
+          "player_name": "Mike Yastrzemski",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 180.3
         }
       ],
       "recommended_il_moves": [],
@@ -537,15 +537,6 @@
           "projection_value": 248.2
         },
         {
-          "player_name": "Owen Caissie",
-          "player_type": "hitter",
-          "eligible_positions": "OF/RF/OUTFIELDER",
-          "mlb_team": "MIA",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 161.8
-        },
-        {
           "player_name": "Victor Scott II",
           "player_type": "hitter",
           "eligible_positions": "OF",
@@ -580,6 +571,15 @@
           "current_level": "MLB",
           "lineup_slot": "",
           "projection_value": 218.0
+        },
+        {
+          "player_name": "Lourdes Gurriel Jr.",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "ARI",
+          "current_level": "",
+          "lineup_slot": "",
+          "projection_value": 187.6
         }
       ],
       "recommended_il_moves": [],
@@ -834,15 +834,6 @@
           "projection_value": 231.9
         },
         {
-          "player_name": "Michael Wacha",
-          "player_type": "pitcher",
-          "eligible_positions": "SP",
-          "mlb_team": "KC",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 162.0
-        },
-        {
           "player_name": "Cedric Mullins",
           "player_type": "hitter",
           "eligible_positions": "OF",
@@ -859,6 +850,15 @@
           "current_level": "MLB",
           "lineup_slot": "",
           "projection_value": 222.5
+        },
+        {
+          "player_name": "Austin Wells",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 181.9
         }
       ],
       "recommended_il_moves": [],
@@ -1095,15 +1095,6 @@
           "projection_value": 217.6
         },
         {
-          "player_name": "Roki Sasaki",
-          "player_type": "pitcher",
-          "eligible_positions": "SP/P/PITCHER",
-          "mlb_team": "LAD",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 121.5
-        },
-        {
           "player_name": "Josh Smith",
           "player_type": "hitter",
           "eligible_positions": "1B/SS/3B/OF",
@@ -1147,6 +1138,15 @@
           "current_level": "MLB",
           "lineup_slot": "",
           "projection_value": 210.9
+        },
+        {
+          "player_name": "Parker Meadows",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 180.3
         }
       ],
       "recommended_il_moves": [],
@@ -1410,13 +1410,13 @@
           "projection_value": 202.5
         },
         {
-          "player_name": "Brady House",
+          "player_name": "Logan O\u2019Hoppe",
           "player_type": "hitter",
-          "eligible_positions": "3B/INFIELDER",
-          "mlb_team": "WSH",
+          "eligible_positions": "C",
+          "mlb_team": "LAA",
           "current_level": "MLB",
           "lineup_slot": "",
-          "projection_value": 164.1
+          "projection_value": 187.5
         }
       ],
       "recommended_il_moves": [],
@@ -1714,7 +1714,7 @@
       "team": "Josh M",
       "week": "2026-week-03",
       "mlb_bucket_count": 30,
-      "il_bucket_count": 1,
+      "il_bucket_count": 2,
       "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
@@ -1968,15 +1968,6 @@
           "projection_value": 183.2
         },
         {
-          "player_name": "Jesus Sanchez",
-          "player_type": "hitter",
-          "eligible_positions": "OF/RF/OUTFIELDER",
-          "mlb_team": "TOR",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 170.9
-        },
-        {
           "player_name": "J.P. Crawford",
           "player_type": "hitter",
           "eligible_positions": "SS",
@@ -1986,13 +1977,22 @@
           "projection_value": 172.4
         },
         {
-          "player_name": "Andrew Vaughn",
+          "player_name": "Nolan Arenado",
           "player_type": "hitter",
-          "eligible_positions": "1B",
-          "mlb_team": "MIL",
+          "eligible_positions": "3B",
+          "mlb_team": "AZ",
           "current_level": "MLB",
           "lineup_slot": "",
-          "projection_value": 200.3
+          "projection_value": 193.7
+        },
+        {
+          "player_name": "Lane Thomas",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 191.7
         }
       ],
       "recommended_il_moves": [],
@@ -2238,15 +2238,6 @@
           "projection_value": 172.0
         },
         {
-          "player_name": "Tatsuya Imai",
-          "player_type": "pitcher",
-          "eligible_positions": "SP",
-          "mlb_team": "HOU",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 167.7
-        },
-        {
           "player_name": "Ryan O\u2019Hearn",
           "player_type": "hitter",
           "eligible_positions": "1B/OF",
@@ -2281,6 +2272,15 @@
           "current_level": "MLB",
           "lineup_slot": "",
           "projection_value": 218.8
+        },
+        {
+          "player_name": "J.T. Realmuto",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 188.7
         }
       ],
       "recommended_il_moves": [],
@@ -2290,7 +2290,7 @@
       "team": "Greg",
       "week": "2026-week-03",
       "mlb_bucket_count": 30,
-      "il_bucket_count": 2,
+      "il_bucket_count": 3,
       "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
@@ -2508,15 +2508,6 @@
           "projection_value": 243.7
         },
         {
-          "player_name": "Brady Singer",
-          "player_type": "pitcher",
-          "eligible_positions": "SP",
-          "mlb_team": "CIN",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 164.2
-        },
-        {
           "player_name": "Jorge Polanco",
           "player_type": "hitter",
           "eligible_positions": "2B/3B",
@@ -2524,24 +2515,6 @@
           "current_level": "MLB",
           "lineup_slot": "",
           "projection_value": 226.3
-        },
-        {
-          "player_name": "Matthew Boyd",
-          "player_type": "pitcher",
-          "eligible_positions": "SP",
-          "mlb_team": "CHC",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 167.4
-        },
-        {
-          "player_name": "Chris Bassitt",
-          "player_type": "pitcher",
-          "eligible_positions": "SP",
-          "mlb_team": "BAL",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 164.1
         },
         {
           "player_name": "Josh Bell",
@@ -2569,6 +2542,33 @@
           "current_level": "MLB",
           "lineup_slot": "",
           "projection_value": 170.9
+        },
+        {
+          "player_name": "Bailey Ober",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 170.9
+        },
+        {
+          "player_name": "Jorge Soler",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 192.7
+        },
+        {
+          "player_name": "Bo Naylor",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 178.3
         }
       ],
       "recommended_il_moves": [],
@@ -2582,7 +2582,7 @@
       "minor_bucket_count": 15,
       "active_hitter_count": 13,
       "active_pitcher_count": 9,
-      "bench_count": 8,
+      "bench_count": 7,
       "active_hitters": [
         {
           "player_name": "Yainer Diaz",
@@ -2787,15 +2787,6 @@
       ],
       "bench": [
         {
-          "player_name": "Carson Williams",
-          "player_type": "hitter",
-          "eligible_positions": "SS/INFIELDER",
-          "mlb_team": "TB",
-          "current_level": "MLB",
-          "lineup_slot": "",
-          "projection_value": 224.6
-        },
-        {
           "player_name": "Miguel Vargas",
           "player_type": "hitter",
           "eligible_positions": "1B/3B",
@@ -2866,393 +2857,201 @@
   "status_refresh": {
     "changes": [
       {
-        "team": "Chris",
-        "player_name": "Jordan Lawlar",
-        "mlbam_id": "691783",
-        "updates": {
-          "injury_status": "10-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Arizona Diamondbacks placed SS Jordan Lawlar on the 10-day injured list. Right wrist fracture."
-      },
-      {
-        "team": "Chris",
-        "player_name": "Jared Triolo",
-        "mlbam_id": "669707",
-        "updates": {
-          "injury_status": "10-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Pittsburgh Pirates placed SS Jared Triolo on the 10-day injured list retroactive to April 4, 2026. Right knee patellar tendon injury."
-      },
-      {
-        "team": "Chris",
-        "player_name": "Aiva Arquette",
-        "mlbam_id": "804109",
-        "updates": {
-          "injury_status": "7-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Beloit Sky Carp placed SS Aiva Arquette on the 7-day injured list."
-      },
-      {
-        "team": "Rob",
-        "player_name": "Cade Horton",
-        "mlbam_id": "690990",
-        "updates": {
-          "injury_status": "15-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Chicago Cubs placed RHP Cade Horton on the 15-day injured list retroactive to April 4, 2026. Right forearm strain."
-      },
-      {
-        "team": "Rob",
-        "player_name": "Anthony Volpe",
-        "mlbam_id": "683011",
-        "updates": {
-          "injury_status": "10-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "New York Yankees placed SS Anthony Volpe on the 10-day injured list retroactive to March 22, 2026. Left shoulder surgery recovery."
-      },
-      {
-        "team": "Rob",
-        "player_name": "Gabriel Rincones Jr.",
-        "mlbam_id": "687282",
-        "updates": {
-          "injury_status": "7-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Lehigh Valley IronPigs placed RF Gabriel Rincones Jr. on the 7-day injured list."
-      },
-      {
-        "team": "Wendell",
-        "player_name": "Carlos Rodon",
-        "mlbam_id": "607074",
-        "updates": {
-          "injury_status": "15-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "New York Yankees placed LHP Carlos Rod\u00f3n on the 15-day injured list retroactive to March 22, 2026. Left elbow surgery recovery."
-      },
-      {
-        "team": "Wendell",
-        "player_name": "Mickey Moniak",
-        "mlbam_id": "666160",
-        "updates": {
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Colorado Rockies activated RF Mickey Moniak from the 10-day injured list."
-      },
-      {
-        "team": "Wendell",
-        "player_name": "Jose Fernandez",
-        "mlbam_id": "699912",
-        "updates": {
-          "current_level": "MLB",
-          "transaction_status": "Recalled"
-        },
-        "transaction": "Arizona Diamondbacks recalled SS Jose Fernandez from Reno Aces."
-      },
-      {
-        "team": "Matt",
-        "player_name": "Hunter Brown",
-        "mlbam_id": "686613",
-        "updates": {
-          "injury_status": "15-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Houston Astros placed RHP Hunter Brown on the 15-day injured list retroactive to April 2, 2026. Right shoulder strain."
-      },
-      {
-        "team": "Matt",
-        "player_name": "Bryce Miller",
-        "mlbam_id": "682243",
-        "updates": {
-          "injury_status": "15-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Seattle Mariners placed RHP Bryce Miller on the 15-day injured list retroactive to March 22, 2026. Left oblique strain."
-      },
-      {
-        "team": "Matt",
-        "player_name": "Josh Hader",
-        "mlbam_id": "623352",
-        "updates": {
-          "injury_status": "15-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Houston Astros placed LHP Josh Hader on the 15-day injured list. Left biceps tendinitis."
-      },
-      {
-        "team": "Matt",
-        "player_name": "Carlos Estevez",
-        "mlbam_id": "608032",
-        "updates": {
-          "injury_status": "15-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Kansas City Royals placed RHP Carlos Est\u00e9vez on the 15-day injured list retroactive to March 29, 2026. Left foot contusion."
-      },
-      {
-        "team": "Matt",
-        "player_name": "Max Anderson",
-        "mlbam_id": "801194",
-        "updates": {
-          "injury_status": "7-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Toledo Mud Hens placed 2B Max Anderson on the 7-day injured list."
-      },
-      {
-        "team": "Michael",
-        "player_name": "Colt Emerson",
-        "mlbam_id": "806068",
-        "updates": {
-          "transaction_status": "Optioned"
-        },
-        "transaction": "Seattle Mariners optioned SS Colt Emerson to Tacoma Rainiers."
-      },
-      {
-        "team": "Paul",
-        "player_name": "Jackson Chourio",
-        "mlbam_id": "694192",
-        "updates": {
-          "injury_status": "10-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Milwaukee Brewers placed CF Jackson Chourio on the 10-day injured list retroactive to March 25, 2026. Left hand fracture."
-      },
-      {
-        "team": "Paul",
-        "player_name": "Blake Snell",
-        "mlbam_id": "605483",
-        "updates": {
-          "injury_status": "15-day Injured List"
-        },
-        "transaction": "Los Angeles Dodgers placed LHP Blake Snell on the 15-day injured list retroactive to March 22, 2026. Left shoulder fatigue."
-      },
-      {
         "team": "Josh M",
-        "player_name": "Kyle Stowers",
-        "mlbam_id": "669065",
+        "player_name": "Andrew Vaughn",
+        "mlbam_id": "683734",
         "updates": {
           "injury_status": "10-day Injured List",
           "transaction_status": "Status Change"
         },
-        "transaction": "Miami Marlins placed LF Kyle Stowers on the 10-day injured list retroactive to March 22, 2026. Right hamstring strain."
+        "transaction": "Milwaukee Brewers placed 1B Andrew Vaughn on the 10-day injured list retroactive to March 27, 2026. Left hamate fracture."
       },
       {
-        "team": "Josh M",
-        "player_name": "Cooper Pratt",
-        "mlbam_id": "806198",
+        "team": "Greg",
+        "player_name": "Matthew Boyd",
+        "mlbam_id": "571510",
+        "updates": {
+          "injury_status": "15-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Chicago Cubs placed LHP Matthew Boyd on the 15-day injured list retroactive to April 3, 2026. Left biceps strain."
+      },
+      {
+        "team": "Greg",
+        "player_name": "Tre\u2019 Morgan",
+        "mlbam_id": "691003",
+        "updates": {
+          "injury_status": "7-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Durham Bulls placed 1B Tre' Morgan on the 7-day injured list."
+      },
+      {
+        "team": "Josh V",
+        "player_name": "Carson Williams",
+        "mlbam_id": "700246",
         "updates": {
           "current_level": "AAA",
           "transaction_status": "Optioned"
         },
-        "transaction": "Milwaukee Brewers optioned SS Cooper Pratt to Nashville Sounds."
-      },
-      {
-        "team": "Josh M",
-        "player_name": "J.P. Crawford",
-        "mlbam_id": "641487",
-        "updates": {
-          "transaction_status": "Status Change",
-          "current_level": "MLB"
-        },
-        "transaction": "Seattle Mariners activated SS J.P. Crawford from the 10-day injured list."
-      },
-      {
-        "team": "Shane",
-        "player_name": "Josue Briceno",
-        "mlbam_id": "800522",
-        "updates": {
-          "injury_status": "60-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Erie SeaWolves placed C Josue Brice\u00f1o on the 60-day injured list."
-      },
-      {
-        "team": "Greg",
-        "player_name": "Mookie Betts",
-        "mlbam_id": "605141",
-        "updates": {
-          "injury_status": "10-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Los Angeles Dodgers placed SS Mookie Betts on the 10-day injured list. Right oblique strain."
-      },
-      {
-        "team": "Greg",
-        "player_name": "Spencer Strider",
-        "mlbam_id": "675911",
-        "updates": {
-          "injury_status": "15-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Atlanta Braves placed RHP Spencer Strider on the 15-day injured list. Left oblique muscle strain."
-      },
-      {
-        "team": "Greg",
-        "player_name": "Zach Cole",
-        "mlbam_id": "805904",
-        "updates": {
-          "injury_status": "7-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Sugar Land Space Cowboys placed CF Zach Cole on the 7-day injured list."
-      },
-      {
-        "team": "Greg",
-        "player_name": "Brandon Valenzuela",
-        "mlbam_id": "678218",
-        "updates": {
-          "current_level": "MLB",
-          "transaction_status": "Recalled"
-        },
-        "transaction": "Toronto Blue Jays recalled C Brandon Valenzuela from Buffalo Bisons."
-      },
-      {
-        "team": "Josh V",
-        "player_name": "Aidan Miller",
-        "mlbam_id": "805795",
-        "updates": {
-          "injury_status": "7-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Lehigh Valley IronPigs placed SS Aidan Miller on the 7-day injured list."
-      },
-      {
-        "team": "Josh V",
-        "player_name": "Alejandro Kirk",
-        "mlbam_id": "672386",
-        "updates": {
-          "injury_status": "10-day Injured List",
-          "transaction_status": "Status Change"
-        },
-        "transaction": "Toronto Blue Jays placed C Alejandro Kirk on the 10-day injured list. Left thumb fracture."
+        "transaction": "Tampa Bay Rays optioned SS Carson Williams to Durham Bulls."
       }
     ],
-    "change_count": 27
+    "change_count": 4
   },
   "auto_apply": {
     "applied_il_moves": [
       {
-        "team": "Chris",
-        "injured_player_name": "Jared Triolo",
-        "injury_status": "10-day Injured List",
-        "replacement_player_name": "Daulton Varsho",
-        "replacement_player_type": "hitter",
-        "replacement_positions": "OF"
-      },
-      {
-        "team": "Chris",
-        "injured_player_name": "Jordan Lawlar",
-        "injury_status": "10-day Injured List",
-        "replacement_player_name": "Josh Jung",
-        "replacement_player_type": "hitter",
-        "replacement_positions": "3B"
-      },
-      {
-        "team": "Rob",
-        "injured_player_name": "Anthony Volpe",
-        "injury_status": "10-day Injured List",
-        "replacement_player_name": "Kazuma Okamoto",
-        "replacement_player_type": "hitter",
-        "replacement_positions": "3B"
-      },
-      {
-        "team": "Rob",
-        "injured_player_name": "Cade Horton",
-        "injury_status": "15-day Injured List",
-        "replacement_player_name": "Kevin Gausman",
-        "replacement_player_type": "pitcher",
-        "replacement_positions": "SP"
-      },
-      {
-        "team": "Wendell",
-        "injured_player_name": "Carlos Rodon",
-        "injury_status": "15-day Injured List",
-        "replacement_player_name": "Griffin Jax",
-        "replacement_player_type": "pitcher",
-        "replacement_positions": "RP"
-      },
-      {
-        "team": "Matt",
-        "injured_player_name": "Hunter Brown",
-        "injury_status": "15-day Injured List",
-        "replacement_player_name": "Trevor Megill",
-        "replacement_player_type": "pitcher",
-        "replacement_positions": "RP"
-      },
-      {
-        "team": "Matt",
-        "injured_player_name": "Josh Hader",
-        "injury_status": "15-day Injured List",
-        "replacement_player_name": "Emilio Pagan",
-        "replacement_player_type": "pitcher",
-        "replacement_positions": "RP"
-      },
-      {
-        "team": "Matt",
-        "injured_player_name": "Carlos Estevez",
-        "injury_status": "15-day Injured List",
-        "replacement_player_name": "Kenley Jansen",
-        "replacement_player_type": "pitcher",
-        "replacement_positions": "RP"
-      },
-      {
-        "team": "Matt",
-        "injured_player_name": "Bryce Miller",
-        "injury_status": "15-day Injured List",
-        "replacement_player_name": "Aaron Nola",
-        "replacement_player_type": "pitcher",
-        "replacement_positions": "SP"
-      },
-      {
-        "team": "Paul",
-        "injured_player_name": "Jackson Chourio",
-        "injury_status": "10-day Injured List",
-        "replacement_player_name": "Joc Pederson",
-        "replacement_player_type": "hitter",
-        "replacement_positions": "DH"
-      },
-      {
         "team": "Josh M",
-        "injured_player_name": "Kyle Stowers",
+        "injured_player_name": "Andrew Vaughn",
         "injury_status": "10-day Injured List",
-        "replacement_player_name": "Andrew Vaughn",
+        "replacement_player_name": "Nolan Arenado",
         "replacement_player_type": "hitter",
-        "replacement_positions": "1B"
+        "replacement_positions": "3B"
       },
       {
         "team": "Greg",
-        "injured_player_name": "Mookie Betts",
-        "injury_status": "10-day Injured List",
-        "replacement_player_name": "Harrison Bader",
-        "replacement_player_type": "hitter",
-        "replacement_positions": "OF"
-      },
-      {
-        "team": "Greg",
-        "injured_player_name": "Spencer Strider",
+        "injured_player_name": "Matthew Boyd",
         "injury_status": "15-day Injured List",
-        "replacement_player_name": "Dennis Santana",
+        "replacement_player_name": "Bailey Ober",
         "replacement_player_type": "pitcher",
-        "replacement_positions": "RP"
-      },
-      {
-        "team": "Josh V",
-        "injured_player_name": "Alejandro Kirk",
-        "injury_status": "10-day Injured List",
-        "replacement_player_name": "Austin Hays",
-        "replacement_player_type": "hitter",
-        "replacement_positions": "OF"
+        "replacement_positions": "SP/P/PITCHER"
       }
     ],
     "blocked_il_moves": [],
-    "applied_count": 14,
+    "applied_count": 2,
     "blocked_count": 0
+  },
+  "fa_acquisitions": {
+    "acquisitions": [
+      {
+        "team": "Greg",
+        "pass": 1,
+        "added_player_name": "Jorge Soler",
+        "added_player_type": "hitter",
+        "added_positions": "OF",
+        "added_value": 192.7,
+        "dropped_player_name": "Chris Bassitt",
+        "dropped_player_type": "pitcher",
+        "dropped_value": 164.1,
+        "improvement": 28.6,
+        "manager_profile": "0.5",
+        "min_threshold": 10.0
+      },
+      {
+        "team": "Josh M",
+        "pass": 1,
+        "added_player_name": "Lane Thomas",
+        "added_player_type": "hitter",
+        "added_positions": "OF/CF/OUTFIELDER",
+        "added_value": 191.7,
+        "dropped_player_name": "Jesus Sanchez",
+        "dropped_player_type": "hitter",
+        "dropped_value": 170.9,
+        "improvement": 20.8,
+        "manager_profile": "0.6",
+        "min_threshold": 6.0
+      },
+      {
+        "team": "Shane",
+        "pass": 1,
+        "added_player_name": "J.T. Realmuto",
+        "added_player_type": "hitter",
+        "added_positions": "C",
+        "added_value": 188.7,
+        "dropped_player_name": "Tatsuya Imai",
+        "dropped_player_type": "pitcher",
+        "dropped_value": 167.7,
+        "improvement": 22.5,
+        "manager_profile": "0.7",
+        "min_threshold": 4.0
+      },
+      {
+        "team": "Rob",
+        "pass": 1,
+        "added_player_name": "Lourdes Gurriel Jr.",
+        "added_player_type": "hitter",
+        "added_positions": "OF",
+        "added_value": 187.6,
+        "dropped_player_name": "Owen Caissie",
+        "dropped_player_type": "hitter",
+        "dropped_value": 161.8,
+        "improvement": 28.3,
+        "manager_profile": "0.4",
+        "min_threshold": 10.0
+      },
+      {
+        "team": "Michael",
+        "pass": 1,
+        "added_player_name": "Logan O\u2019Hoppe",
+        "added_player_type": "hitter",
+        "added_positions": "C",
+        "added_value": 187.5,
+        "dropped_player_name": "Brady House",
+        "dropped_player_type": "hitter",
+        "dropped_value": 164.1,
+        "improvement": 23.5,
+        "manager_profile": "0.4",
+        "min_threshold": 10.0
+      },
+      {
+        "team": "Wendell",
+        "pass": 1,
+        "added_player_name": "Austin Wells",
+        "added_player_type": "hitter",
+        "added_positions": "C",
+        "added_value": 181.9,
+        "dropped_player_name": "Michael Wacha",
+        "dropped_player_type": "pitcher",
+        "dropped_value": 162.0,
+        "improvement": 19.8,
+        "manager_profile": "0.3",
+        "min_threshold": 12.0
+      },
+      {
+        "team": "Chris",
+        "pass": 1,
+        "added_player_name": "Mike Yastrzemski",
+        "added_player_type": "hitter",
+        "added_positions": "OF",
+        "added_value": 180.3,
+        "dropped_player_name": "Matt Shaw",
+        "dropped_player_type": "hitter",
+        "dropped_value": 158.2,
+        "improvement": 22.2,
+        "manager_profile": "0.5",
+        "min_threshold": 8.0
+      },
+      {
+        "team": "Matt",
+        "pass": 1,
+        "added_player_name": "Parker Meadows",
+        "added_player_type": "hitter",
+        "added_positions": "OF/CF/OUTFIELDER",
+        "added_value": 180.3,
+        "dropped_player_name": "Roki Sasaki",
+        "dropped_player_type": "pitcher",
+        "dropped_value": 121.5,
+        "improvement": 58.8,
+        "manager_profile": "0.9",
+        "min_threshold": 2.0
+      },
+      {
+        "team": "Greg",
+        "pass": 2,
+        "added_player_name": "Bo Naylor",
+        "added_player_type": "hitter",
+        "added_positions": "C",
+        "added_value": 178.3,
+        "dropped_player_name": "Brady Singer",
+        "dropped_player_type": "pitcher",
+        "dropped_value": 164.2,
+        "improvement": 14.0,
+        "manager_profile": "0.5",
+        "min_threshold": 10.0
+      }
+    ],
+    "acquisition_count": 9
   },
   "output_files": {
     "lineup_snapshot": "data/weekly-lineups/2026-week-03.csv",
