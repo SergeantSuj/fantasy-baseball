@@ -1,0 +1,20 @@
+week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
+2026-week-05,Chris,auto-applied-il-add,Jonathan India,10-day Injured List,Auto-applied IL move and replacement add,Ryan McMahon,hitter,3B,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Chris,auto-applied-il-add,Gabriel Moreno,10-day Injured List,Auto-applied IL move and replacement add,Luis Rengifo,hitter,2B/3B/SS,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Chris,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-05,Rob,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-05,Wendell,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-05,Matt,auto-applied-il-add,Edwin Diaz,15-day Injured List,Auto-applied IL move and replacement add,Tatsuya Imai,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Matt,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-05,Michael,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-05,Paul,auto-applied-il-add,Jeremy Pena,10-day Injured List,Auto-applied IL move and replacement add,Gavin Sheets,hitter,OF/1B,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Paul,auto-applied-il-add,Christian Yelich,10-day Injured List,Auto-applied IL move and replacement add,Brady House,hitter,3B/INFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Paul,minor-promotion,,,Move to MLB roster as bench player,Dylan Beavers,hitter,OF/RF/OUTFIELDER,MLB,Bench,,185.4,Brady House,Bench,164.1,21.3,Improves the 30-man MLB bucket even though the player would open on the fantasy bench.
+2026-week-05,Josh M,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-05,Shane,auto-applied-il-add,Brendan Donovan,10-day Injured List,Auto-applied IL move and replacement add,Owen Caissie,hitter,OF/RF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Shane,auto-applied-il-add,Nick Pivetta,15-day Injured List,Auto-applied IL move and replacement add,Brady Singer,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Shane,auto-applied-il-add,Raisel Iglesias,15-day Injured List,Auto-applied IL move and replacement add,Chris Bassitt,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Shane,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-05,Greg,auto-applied-il-add,Sonny Gray,15-day Injured List,Auto-applied IL move and replacement add,Robert Garcia,pitcher,RP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-05,Greg,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-05,Josh V,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.

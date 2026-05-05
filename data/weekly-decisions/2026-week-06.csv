@@ -1,0 +1,23 @@
+week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
+2026-week-06,Chris,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-06,Rob,auto-applied-il-add,Francisco Lindor,10-day Injured List,Auto-applied IL move and replacement add,Dominic Canzone,hitter,OF/RF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-06,Rob,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-06,Wendell,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-06,Matt,auto-applied-il-add,Tatsuya Imai,15-day Injured List,Auto-applied IL move and replacement add,Michael Wacha,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-06,Matt,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-06,Michael,auto-applied-il-add,Logan O’Hoppe,10-day Injured List,Auto-applied IL move and replacement add,Matt Shaw,hitter,3B,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-06,Michael,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-06,Paul,auto-applied-il-add,Wyatt Langford,10-day Injured List,Auto-applied IL move and replacement add,Tyler Freeman,hitter,OF/2B/RF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-06,Paul,minor-promotion,,,Move to MLB roster as bench player,Dylan Beavers,hitter,OF/RF/OUTFIELDER,MLB,Bench,,185.4,Bryan Abreu,Bench,158.0,27.4,Improves the 30-man MLB bucket even though the player would open on the fantasy bench.
+2026-week-06,Josh M,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-06,Shane,auto-applied-il-add,J.T. Realmuto,10-day Injured List,Auto-applied IL move and replacement add,Tyler O’Neill,hitter,OF/RF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-06,Shane,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-06,Greg,auto-applied-il-add,Eugenio Suarez,10-day Injured List,Auto-applied IL move and replacement add,Alek Thomas,hitter,OF,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-06,Greg,auto-applied-il-add,Robert Garcia,15-day Injured List,Auto-applied IL move and replacement add,Riley O’Brien,pitcher,RP/P/PITCHER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-06,Greg,minor-promotion,,,Move to MLB roster as bench player,Zach Cole,hitter,OF/CF/OUTFIELDER,Prospect,Bench,,160.2,Alek Thomas,Bench,155.2,5.0,Improves the 30-man MLB bucket even though the player would open on the fantasy bench.
+2026-week-06,Josh V,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-06,Paul,fa-acquisition,Tyler Freeman,Weakest active player (value 157.4),Drop and add free agent,David Hamilton,hitter,2B/SS/INFIELDER,,,,155.1,Tyler Freeman,,157.4,4.6,"FA acquisition (pass 1, threshold 3.0)"
+2026-week-06,Shane,fa-acquisition,Tyler O’Neill,Weakest active player (value 155.4),Drop and add free agent,Tyler Freeman,hitter,OF/2B/RF/OUTFIELDER,,,,157.4,Tyler O’Neill,,155.4,5.0,"FA acquisition (pass 1, threshold 4.0)"
+2026-week-06,Josh M,fa-acquisition,Payton Tolle,Weakest active player (value 70.7),Drop and add free agent,Luis Severino,pitcher,SP,,,,158.6,Payton Tolle,,70.7,72.9,"FA acquisition (pass 1, threshold 6.0)"
+2026-week-06,Paul,fa-acquisition,David Hamilton,Weakest active player (value 155.1),Drop and add free agent,Bryan Abreu,pitcher,RP,,,,158.0,David Hamilton,,155.1,5.0,"FA acquisition (pass 2, threshold 3.0)"
+2026-week-06,Josh M,fa-acquisition,Kris Bubic,Weakest active player (value 148.6),Drop and add free agent,Sean Manaea,pitcher,SP,,,,155.7,Kris Bubic,,148.6,7.1,"FA acquisition (pass 2, threshold 6.0)"
