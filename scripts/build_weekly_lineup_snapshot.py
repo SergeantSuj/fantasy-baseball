@@ -216,6 +216,12 @@ def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_i
         roster.append(joined)
 
     mlb_roster = [player for player in roster if not is_minor_roster_bucket(player) and not is_injured_list_player(player) and is_major_league_level(player)]
+    # Fallback: if not enough MLB-level players to fill 13H/9P, include MLB-bucket players at any level
+    mlb_bucket_all = [player for player in roster if not is_minor_roster_bucket(player) and not is_injured_list_player(player)]
+    hitter_count = sum(1 for p in mlb_roster if is_hitter(p))
+    pitcher_count = sum(1 for p in mlb_roster if is_pitcher(p))
+    if hitter_count < 13 or pitcher_count < 9:
+        mlb_roster = mlb_bucket_all
     two_way_players = [player for player in mlb_roster if clean_value(str(player.get("player_type", ""))) == "two-way"]
     scenario_results: list[dict[str, object]] = []
     scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
