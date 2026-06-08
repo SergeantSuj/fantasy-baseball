@@ -1,0 +1,22 @@
+week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
+2026-week-11,Chris,auto-applied-il-add,Nolan Schanuel,10-day Injured List,Auto-applied IL move and replacement add,Dillon Dingler,hitter,C,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Chris,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-11,Rob,auto-applied-il-add,Carlos Santana,60-day Injured List,Auto-applied IL move and replacement add,Heriberto Hernandez,hitter,OF/LF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Rob,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-11,Wendell,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-11,Matt,auto-applied-il-add,Kenley Jansen,15-day Injured List,Auto-applied IL move and replacement add,Eduardo Rodriguez,pitcher,SP/P/PITCHER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Matt,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-11,Michael,auto-applied-il-add,Luis Severino,15-day Injured List,Auto-applied IL move and replacement add,Will Warren,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Michael,auto-applied-il-add,Denzel Clarke,60-day Injured List,Auto-applied IL move and replacement add,Max Muncy,hitter,2B/3B/SS,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Michael,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-11,Paul,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-11,Josh M,auto-applied-il-add,Munetaka Murakami,10-day Injured List,Auto-applied IL move and replacement add,Danny Jansen,hitter,C,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Josh M,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-11,Shane,auto-applied-il-add,Eury Perez,15-day Injured List,Auto-applied IL move and replacement add,Kyle Freeland,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Shane,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-11,Greg,auto-applied-il-add,Teoscar Hernandez,10-day Injured List,Auto-applied IL move and replacement add,Carson Kelly,hitter,C,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Greg,auto-applied-il-add,Harrison Bader,10-day Injured List,Auto-applied IL move and replacement add,Cole Young,hitter,2B/INFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Greg,auto-applied-il-add,Bailey Ober,15-day Injured List,Auto-applied IL move and replacement add,Zach Eflin,pitcher,SP/P/PITCHER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Greg,auto-applied-il-add,Tyler Mahle,15-day Injured List,Auto-applied IL move and replacement add,Tanner Scott,pitcher,RP/P/PITCHER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-11,Greg,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-11,Josh V,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.

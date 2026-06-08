@@ -306,7 +306,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-09,Paul,BENCH,,681047,Christian Franklin,hitter,OF/LF/OUTFIELDER,WSH,AA,Minors,,Optioned
 2026-week-09,Paul,BENCH,,800325,Luis Lara,hitter,OF/CF/OUTFIELDER,MIL,High-A,Minors,,Assigned
 2026-week-09,Paul,BENCH,,,Kade Anderson,pitcher,LHP,,Rookie,Minors,,
-2026-week-09,Paul,BENCH,,676254,Ryan Walker,pitcher,RP,SF,AAA,MLB,,Optioned
+2026-week-09,Paul,ACTIVE,P9,676254,Ryan Walker,pitcher,RP,SF,AAA,MLB,,Optioned
 2026-week-09,Paul,BENCH,,592626,Joc Pederson,hitter,DH,TEX,MLB,MLB,,Number Change
 2026-week-09,Paul,BENCH,,657757,Gavin Sheets,hitter,OF/1B,SD,MLB,MLB,,
 2026-week-09,Paul,BENCH,,691781,Brady House,hitter,3B/INFIELDER,WSH,MLB,MLB,,
