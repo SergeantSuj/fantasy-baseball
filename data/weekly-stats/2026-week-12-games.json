@@ -1,0 +1,924 @@
+{
+  "week": "2026-week-12",
+  "season": 2026,
+  "start_date": "2026-06-08",
+  "end_date": "2026-06-14",
+  "weekly_stats_path": "data/weekly-stats/2026-week-12.csv",
+  "updated_at": "2026-06-23T15:52:27.563825+00:00",
+  "completed_game_count": 91,
+  "ingested_game_count": 91,
+  "pending_game_count": 0,
+  "ingested_games": [
+    {
+      "game_pk": "824829",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-08T22:35:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Seattle Mariners",
+      "home_team": "Baltimore Orioles"
+    },
+    {
+      "game_pk": "822972",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-08T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Boston Red Sox",
+      "home_team": "Tampa Bay Rays"
+    },
+    {
+      "game_pk": "824427",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-08T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "New York Yankees",
+      "home_team": "Cleveland Guardians"
+    },
+    {
+      "game_pk": "822806",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-08T23:07:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Toronto Blue Jays"
+    },
+    {
+      "game_pk": "824025",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-09T01:38:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Houston Astros",
+      "home_team": "Los Angeles Angels"
+    },
+    {
+      "game_pk": "823289",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-09T01:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Cincinnati Reds",
+      "home_team": "San Diego Padres"
+    },
+    {
+      "game_pk": "823218",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-09T01:45:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Washington Nationals",
+      "home_team": "San Francisco Giants"
+    },
+    {
+      "game_pk": "824998",
+      "official_date": "2026-06-08",
+      "game_date": "2026-06-09T02:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Athletics"
+    },
+    {
+      "game_pk": "824830",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T22:35:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Seattle Mariners",
+      "home_team": "Baltimore Orioles"
+    },
+    {
+      "game_pk": "822969",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Boston Red Sox",
+      "home_team": "Tampa Bay Rays"
+    },
+    {
+      "game_pk": "823374",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Pittsburgh Pirates"
+    },
+    {
+      "game_pk": "823858",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Miami Marlins"
+    },
+    {
+      "game_pk": "824267",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Minnesota Twins",
+      "home_team": "Detroit Tigers"
+    },
+    {
+      "game_pk": "824429",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "New York Yankees",
+      "home_team": "Cleveland Guardians"
+    },
+    {
+      "game_pk": "822805",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T23:07:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Toronto Blue Jays"
+    },
+    {
+      "game_pk": "823620",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T23:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "New York Mets"
+    },
+    {
+      "game_pk": "824105",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T23:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Texas Rangers",
+      "home_team": "Kansas City Royals"
+    },
+    {
+      "game_pk": "824591",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-09T23:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Atlanta Braves",
+      "home_team": "Chicago White Sox"
+    },
+    {
+      "game_pk": "824347",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-10T00:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Chicago Cubs",
+      "home_team": "Colorado Rockies"
+    },
+    {
+      "game_pk": "824023",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-10T01:38:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Houston Astros",
+      "home_team": "Los Angeles Angels"
+    },
+    {
+      "game_pk": "823290",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-10T01:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Cincinnati Reds",
+      "home_team": "San Diego Padres"
+    },
+    {
+      "game_pk": "823214",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-10T01:45:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Washington Nationals",
+      "home_team": "San Francisco Giants"
+    },
+    {
+      "game_pk": "824999",
+      "official_date": "2026-06-09",
+      "game_date": "2026-06-10T02:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Athletics"
+    },
+    {
+      "game_pk": "822970",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T17:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Boston Red Sox",
+      "home_team": "Tampa Bay Rays"
+    },
+    {
+      "game_pk": "824428",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T17:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "New York Yankees",
+      "home_team": "Cleveland Guardians"
+    },
+    {
+      "game_pk": "823215",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T19:45:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Washington Nationals",
+      "home_team": "San Francisco Giants"
+    },
+    {
+      "game_pk": "823287",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T20:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Cincinnati Reds",
+      "home_team": "San Diego Padres"
+    },
+    {
+      "game_pk": "824831",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T22:35:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Seattle Mariners",
+      "home_team": "Baltimore Orioles"
+    },
+    {
+      "game_pk": "823372",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Pittsburgh Pirates"
+    },
+    {
+      "game_pk": "823856",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Miami Marlins"
+    },
+    {
+      "game_pk": "824266",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Minnesota Twins",
+      "home_team": "Detroit Tigers"
+    },
+    {
+      "game_pk": "822804",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T23:07:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Toronto Blue Jays"
+    },
+    {
+      "game_pk": "823618",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T23:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "New York Mets"
+    },
+    {
+      "game_pk": "824103",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T23:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Texas Rangers",
+      "home_team": "Kansas City Royals"
+    },
+    {
+      "game_pk": "824590",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-10T23:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Atlanta Braves",
+      "home_team": "Chicago White Sox"
+    },
+    {
+      "game_pk": "824348",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-11T00:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Chicago Cubs",
+      "home_team": "Colorado Rockies"
+    },
+    {
+      "game_pk": "824996",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-11T01:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Athletics"
+    },
+    {
+      "game_pk": "824022",
+      "official_date": "2026-06-10",
+      "game_date": "2026-06-11T01:38:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Houston Astros",
+      "home_team": "Los Angeles Angels"
+    },
+    {
+      "game_pk": "823619",
+      "official_date": "2026-06-11",
+      "game_date": "2026-06-11T17:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "New York Mets"
+    },
+    {
+      "game_pk": "823855",
+      "official_date": "2026-06-11",
+      "game_date": "2026-06-11T17:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Miami Marlins"
+    },
+    {
+      "game_pk": "824265",
+      "official_date": "2026-06-11",
+      "game_date": "2026-06-11T17:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Minnesota Twins",
+      "home_team": "Detroit Tigers"
+    },
+    {
+      "game_pk": "824101",
+      "official_date": "2026-06-11",
+      "game_date": "2026-06-11T18:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Texas Rangers",
+      "home_team": "Kansas City Royals"
+    },
+    {
+      "game_pk": "824346",
+      "official_date": "2026-06-11",
+      "game_date": "2026-06-11T19:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Chicago Cubs",
+      "home_team": "Colorado Rockies"
+    },
+    {
+      "game_pk": "823371",
+      "official_date": "2026-06-11",
+      "game_date": "2026-06-11T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Pittsburgh Pirates"
+    },
+    {
+      "game_pk": "824827",
+      "official_date": "2026-06-11",
+      "game_date": "2026-06-11T23:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Seattle Mariners",
+      "home_team": "Baltimore Orioles"
+    },
+    {
+      "game_pk": "823370",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T22:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Miami Marlins",
+      "home_team": "Pittsburgh Pirates"
+    },
+    {
+      "game_pk": "822726",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T22:45:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Seattle Mariners",
+      "home_team": "Washington Nationals"
+    },
+    {
+      "game_pk": "824826",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "San Diego Padres",
+      "home_team": "Baltimore Orioles"
+    },
+    {
+      "game_pk": "824425",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Detroit Tigers",
+      "home_team": "Cleveland Guardians"
+    },
+    {
+      "game_pk": "824752",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Texas Rangers",
+      "home_team": "Boston Red Sox"
+    },
+    {
+      "game_pk": "823617",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:15:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Atlanta Braves",
+      "home_team": "New York Mets"
+    },
+    {
+      "game_pk": "824507",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:15:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Cincinnati Reds"
+    },
+    {
+      "game_pk": "822803",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:37:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "New York Yankees",
+      "home_team": "Toronto Blue Jays"
+    },
+    {
+      "game_pk": "823778",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Milwaukee Brewers"
+    },
+    {
+      "game_pk": "824588",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-12T23:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Chicago White Sox"
+    },
+    {
+      "game_pk": "823695",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-13T00:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "Minnesota Twins"
+    },
+    {
+      "game_pk": "824102",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-13T00:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Houston Astros",
+      "home_team": "Kansas City Royals"
+    },
+    {
+      "game_pk": "824020",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-13T01:38:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Los Angeles Angels"
+    },
+    {
+      "game_pk": "824997",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-13T02:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Colorado Rockies",
+      "home_team": "Athletics"
+    },
+    {
+      "game_pk": "823211",
+      "official_date": "2026-06-12",
+      "game_date": "2026-06-13T02:15:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Chicago Cubs",
+      "home_team": "San Francisco Giants"
+    },
+    {
+      "game_pk": "823694",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T18:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "Minnesota Twins"
+    },
+    {
+      "game_pk": "822802",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T19:07:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "New York Yankees",
+      "home_team": "Toronto Blue Jays"
+    },
+    {
+      "game_pk": "822725",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Seattle Mariners",
+      "home_team": "Washington Nationals"
+    },
+    {
+      "game_pk": "823369",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Miami Marlins",
+      "home_team": "Pittsburgh Pirates"
+    },
+    {
+      "game_pk": "824828",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "San Diego Padres",
+      "home_team": "Baltimore Orioles"
+    },
+    {
+      "game_pk": "823616",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Atlanta Braves",
+      "home_team": "New York Mets"
+    },
+    {
+      "game_pk": "824426",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Detroit Tigers",
+      "home_team": "Cleveland Guardians"
+    },
+    {
+      "game_pk": "824508",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Cincinnati Reds"
+    },
+    {
+      "game_pk": "824587",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Chicago White Sox"
+    },
+    {
+      "game_pk": "824749",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T20:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Texas Rangers",
+      "home_team": "Boston Red Sox"
+    },
+    {
+      "game_pk": "823776",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T23:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Milwaukee Brewers"
+    },
+    {
+      "game_pk": "824100",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-13T23:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Houston Astros",
+      "home_team": "Kansas City Royals"
+    },
+    {
+      "game_pk": "823213",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-14T02:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Chicago Cubs",
+      "home_team": "San Francisco Giants"
+    },
+    {
+      "game_pk": "824995",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-14T02:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Colorado Rockies",
+      "home_team": "Athletics"
+    },
+    {
+      "game_pk": "824019",
+      "official_date": "2026-06-13",
+      "game_date": "2026-06-14T02:07:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Los Angeles Angels"
+    },
+    {
+      "game_pk": "823368",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T16:15:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Miami Marlins",
+      "home_team": "Pittsburgh Pirates"
+    },
+    {
+      "game_pk": "822722",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T17:35:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Seattle Mariners",
+      "home_team": "Washington Nationals"
+    },
+    {
+      "game_pk": "824823",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T17:35:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "San Diego Padres",
+      "home_team": "Baltimore Orioles"
+    },
+    {
+      "game_pk": "822801",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T17:37:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "New York Yankees",
+      "home_team": "Toronto Blue Jays"
+    },
+    {
+      "game_pk": "823615",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T17:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Atlanta Braves",
+      "home_team": "New York Mets"
+    },
+    {
+      "game_pk": "824506",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T17:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Cincinnati Reds"
+    },
+    {
+      "game_pk": "823693",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T18:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "Minnesota Twins"
+    },
+    {
+      "game_pk": "823777",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T18:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Milwaukee Brewers"
+    },
+    {
+      "game_pk": "824099",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T18:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Houston Astros",
+      "home_team": "Kansas City Royals"
+    },
+    {
+      "game_pk": "824586",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T18:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Chicago White Sox"
+    },
+    {
+      "game_pk": "824994",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T19:05:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Colorado Rockies",
+      "home_team": "Athletics"
+    },
+    {
+      "game_pk": "823212",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T19:10:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Chicago Cubs",
+      "home_team": "San Francisco Giants"
+    },
+    {
+      "game_pk": "824021",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T20:07:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Los Angeles Angels"
+    },
+    {
+      "game_pk": "824751",
+      "official_date": "2026-06-14",
+      "game_date": "2026-06-14T23:20:00Z",
+      "abstract_game_state": "Final",
+      "status": "Final",
+      "status_code": "F",
+      "away_team": "Texas Rangers",
+      "home_team": "Boston Red Sox"
+    },
+    {
+      "game_pk": "824589",
+      "official_date": "2026-08-20",
+      "game_date": "2026-06-11T23:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Postponed",
+      "status_code": "DR",
+      "away_team": "Atlanta Braves",
+      "home_team": "Chicago White Sox"
+    },
+    {
+      "game_pk": "824424",
+      "official_date": "2026-09-04",
+      "game_date": "2026-06-14T17:40:00Z",
+      "abstract_game_state": "Final",
+      "status": "Postponed",
+      "status_code": "DI",
+      "away_team": "Detroit Tigers",
+      "home_team": "Cleveland Guardians"
+    }
+  ],
+  "pending_games": []
+}

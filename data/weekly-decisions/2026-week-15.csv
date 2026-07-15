@@ -1,0 +1,23 @@
+week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
+2026-week-15,Chris,auto-applied-il-add,Ryan McMahon,10-day Injured List,Auto-applied IL move and replacement add,Tyrone Taylor,hitter,OF/CF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Chris,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-15,Rob,minor-promotion,,,Move to MLB roster as starter,Elmer Rodriguez,pitcher,SP/P/PITCHER,AAA,Starter,P9,16.7,Lenyn Sosa,Bench,123.9,-107.2,Would crack the active lineup at P9 under the current optimizer.
+2026-week-15,Wendell,auto-applied-il-add,Marcus Semien,10-day Injured List,Auto-applied IL move and replacement add,Yoan Moncada,hitter,3B/INFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Wendell,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-15,Matt,auto-applied-il-add,Maikel Garcia,10-day Injured List,Auto-applied IL move and replacement add,Will Benson,hitter,OF/LF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Matt,auto-applied-il-add,Jesus Sanchez,10-day Injured List,Auto-applied IL move and replacement add,Nick Castellanos,hitter,OF,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Matt,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-15,Michael,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-15,Paul,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-15,Josh M,auto-applied-il-add,Tyler Soderstrom,10-day Injured List,Auto-applied IL move and replacement add,Blaze Alexander,hitter,3B/2B/SS/INFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Josh M,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-15,Shane,auto-applied-il-add,Robert Suarez,15-day Injured List,Auto-applied IL move and replacement add,Simeon Woods Richardson,pitcher,SP/P/PITCHER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Shane,minor-promotion,,,Move to MLB roster as starter,Arjun Nimmala,hitter,SS/INFIELDER,High-A,Starter,CI,18.0,Simeon Woods Richardson,Bench,125.6,-107.6,Would crack the active lineup at CI under the current optimizer.
+2026-week-15,Shane,minor-promotion,,,Move to MLB roster as starter,Hao-Yu Lee,hitter,3B/2B/INFIELDER,MLB,Starter,CI,12.3,Simeon Woods Richardson,Bench,125.6,-113.3,Would crack the active lineup at CI under the current optimizer.
+2026-week-15,Greg,auto-applied-il-add,Spencer Horwitz,10-day Injured List,Auto-applied IL move and replacement add,Brooks Baldwin,hitter,OF/2B/SS/3B/LF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Greg,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-15,Josh V,auto-applied-il-add,Marcelo Mayer,10-day Injured List,Auto-applied IL move and replacement add,Pedro Pages,hitter,C,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-15,Josh V,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-15,Josh V,fa-acquisition,Pedro Pages,Weakest active player (value 115.4),Drop and add free agent,Jeremiah Estrada,pitcher,RP,,,,125.1,Pedro Pages,,115.4,9.7,"FA acquisition (pass 1, threshold 4.0)"
+2026-week-15,Matt,fa-acquisition,Nick Castellanos,Weakest active player (value 118.3),Drop and add free agent,Kodai Senga,pitcher,SP,,,,123.8,Nick Castellanos,,118.3,5.5,"FA acquisition (pass 1, threshold 2.0)"
+2026-week-15,Matt,fa-acquisition,Will Benson,Weakest active player (value 118.7),Drop and add free agent,Kirby Yates,pitcher,RP/P/PITCHER,,,,121.8,Will Benson,,118.7,3.1,"FA acquisition (pass 2, threshold 2.0)"

@@ -128,11 +128,11 @@ def can_fill_slot(player: dict[str, object], slot: str) -> bool:
     if slot == "UTIL":
         return is_hitter(player)
     if slot == "CI":
-        return bool(positions.intersection({"1B", "3B"}))
+        return bool(positions.intersection({"1B", "3B", "INFIELDER"}))
     if slot == "MI":
-        return bool(positions.intersection({"2B", "SS"}))
+        return bool(positions.intersection({"2B", "SS", "INFIELDER"}))
     if slot == "OF":
-        return bool(positions.intersection({"OF", "LF", "CF", "RF"}))
+        return bool(positions.intersection({"OF", "LF", "CF", "RF", "OUTFIELDER"}))
     return slot in positions
 
 
@@ -222,40 +222,38 @@ def build_lineup_rows(team_name: str, roster_rows: list[dict[str, str]], board_i
     pitcher_count = sum(1 for p in mlb_roster if is_pitcher(p))
     if hitter_count < 13 or pitcher_count < 9:
         mlb_roster = mlb_bucket_all
-    two_way_players = [player for player in mlb_roster if clean_value(str(player.get("player_type", ""))) == "two-way"]
-    scenario_results: list[dict[str, object]] = []
-    scenario_labels = ["hitter", "pitcher"] if two_way_players else [""]
 
-    for choices in product(scenario_labels, repeat=len(two_way_players)):
-        choice_map = {player_key(player): choice for player, choice in zip(two_way_players, choices)}
-        hitters = []
-        pitchers = []
-        for player in mlb_roster:
-            key = player_key(player)
-            choice = choice_map.get(key)
-            if clean_value(str(player.get("player_type", ""))) == "two-way":
-                if choice == "pitcher":
-                    pitchers.append(player)
-                else:
-                    hitters.append(player)
-                continue
-            if is_hitter(player):
-                hitters.append(player)
-            if is_pitcher(player):
-                pitchers.append(player)
+    def _optimize_lineup(pool):
+        tw = [player for player in pool if clean_value(str(player.get("player_type", ""))) == "two-way"]
+        results = []
+        labels = ["hitter", "pitcher"] if tw else [""]
+        for choices in product(labels, repeat=len(tw)):
+            cmap = {player_key(p): c for p, c in zip(tw, choices)}
+            h_list, p_list = [], []
+            for p in pool:
+                k = player_key(p)
+                c = cmap.get(k)
+                if clean_value(str(p.get("player_type", ""))) == "two-way":
+                    (p_list if c == "pitcher" else h_list).append(p)
+                    continue
+                if is_hitter(p):
+                    h_list.append(p)
+                if is_pitcher(p):
+                    p_list.append(p)
+            ah, _ = assign_best_hitter_lineup(h_list)
+            ap, _ = assign_pitchers(p_list)
+            score = sum(hitter_value(x) for x in ah) + sum(pitcher_value(x) for x in ap)
+            results.append({"score": score, "active_hitters": ah, "active_pitchers": ap})
+        return max(results, key=lambda item: float(item["score"]))
 
-        active_hitters, _ = assign_best_hitter_lineup(hitters)
-        active_pitchers, _ = assign_pitchers(pitchers)
-        score = sum(hitter_value(player) for player in active_hitters) + sum(pitcher_value(player) for player in active_pitchers)
-        scenario_results.append(
-            {
-                "score": score,
-                "active_hitters": active_hitters,
-                "active_pitchers": active_pitchers,
-            }
-        )
+    best = _optimize_lineup(mlb_roster)
 
-    best = max(scenario_results, key=lambda item: float(item["score"]))
+    # If optimizer couldn't fill all slots due to position constraints, retry with full MLB-bucket pool
+    if len(best["active_hitters"]) < 13 or len(best["active_pitchers"]) < 9:
+        best_fallback = _optimize_lineup(mlb_bucket_all)
+        if len(best_fallback["active_hitters"]) > len(best["active_hitters"]) or len(best_fallback["active_pitchers"]) > len(best["active_pitchers"]):
+            best = best_fallback
+
     active_lookup = {player_key(player): player for player in [*best["active_hitters"], *best["active_pitchers"]]}
     rows: list[dict[str, str]] = []
     for player in sorted(roster, key=lambda item: parse_int(str(item.get("pick_number", 0)))):

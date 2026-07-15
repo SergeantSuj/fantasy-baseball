@@ -1,20 +1,14 @@
 week,team,recommendation_type,trigger_player_name,trigger_reason,recommendation,player_name,player_type,eligible_positions,current_level,projected_role_if_promoted,projected_slot_if_promoted,candidate_projection_value,drop_candidate_name,drop_candidate_role,drop_candidate_value,improvement,rationale
-2026-week-12,Chris,auto-applied-il-add,J.P. Crawford,10-day Injured List,Auto-applied IL move and replacement add,Jake Fraley,hitter,OF/RF/OUTFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
-2026-week-12,Chris,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-12,Chris,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
 2026-week-12,Rob,minor-promotion,,,Move to MLB roster as starter,Elmer Rodriguez,pitcher,SP/P/PITCHER,AAA,Starter,P9,16.7,Heriberto Hernandez,Bench,131.7,-115.0,Would crack the active lineup at P9 under the current optimizer.
-2026-week-12,Wendell,auto-applied-il-add,Aaron Judge,10-day Injured List,Auto-applied IL move and replacement add,CJ Kayfus,hitter,OF/1B/INFIELDER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
-2026-week-12,Wendell,auto-applied-il-add,Austin Wells,10-day Injured List,Auto-applied IL move and replacement add,Patrick Bailey,hitter,C,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
-2026-week-12,Wendell,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
+2026-week-12,Wendell,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
 2026-week-12,Matt,minor-promotion,,,Move to MLB roster as starter,Logan Henderson,pitcher,SP/P/PITCHER,MLB,Starter,P9,107.0,Edouard Julien,Bench,150.4,-43.4,Would crack the active lineup at P9 under the current optimizer.
 2026-week-12,Matt,minor-promotion,,,Move to MLB roster as starter,Jared Jones,pitcher,SP/1B/INFIELDER,MLB,Starter,P9,89.9,Edouard Julien,Bench,150.4,-60.5,Would crack the active lineup at P9 under the current optimizer.
 2026-week-12,Matt,minor-promotion,,,Move to MLB roster as starter,JR Ritchie,pitcher,SP/P/PITCHER,AAA,Starter,P9,16.8,Edouard Julien,Bench,150.4,-133.6,Would crack the active lineup at P9 under the current optimizer.
 2026-week-12,Michael,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
 2026-week-12,Paul,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
-2026-week-12,Josh M,auto-applied-il-add,Danny Jansen,10-day Injured List,Auto-applied IL move and replacement add,Keibert Ruiz,hitter,C/CATCHER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
-2026-week-12,Josh M,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
-2026-week-12,Shane,auto-applied-il-add,Chris Bassitt,15-day Injured List,Auto-applied IL move and replacement add,Nick Martinez,pitcher,SP,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
-2026-week-12,Shane,no-change,,,No change recommended,,,,,,,,,,,,No additional moves recommended after auto-applying IL updates.
-2026-week-12,Greg,auto-applied-il-add,Jorge Soler,10-day Injured List,Auto-applied IL move and replacement add,Sean Murphy,hitter,C/CATCHER,,,,,,,,,Applied automatically before rebuilding the weekly lineup and decision outputs.
+2026-week-12,Josh M,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
+2026-week-12,Shane,no-change,,,No change recommended,,,,,,,,,,,,Current MLB bucket already optimizes above all rostered minor-league alternatives.
 2026-week-12,Greg,minor-promotion,,,Move to MLB roster as starter,Jacob Melton,hitter,OF/LF/OUTFIELDER,AAA,Starter,OF,54.5,Sean Murphy,Bench,125.3,-70.8,Would crack the active lineup at OF under the current optimizer.
 2026-week-12,Greg,minor-promotion,,,Move to MLB roster as starter,Ryan Ward,hitter,OF/LF/OUTFIELDER,MLB,Starter,OF,19.6,Sean Murphy,Bench,125.3,-105.7,Would crack the active lineup at OF under the current optimizer.
 2026-week-12,Greg,minor-promotion,,,Move to MLB roster as starter,Rhylan Thomas,hitter,OF/LF/OUTFIELDER,AAA,Starter,OF,18.3,Sean Murphy,Bench,125.3,-107.0,Would crack the active lineup at OF under the current optimizer.

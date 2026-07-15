@@ -457,7 +457,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-12,Greg,ACTIVE,P1,519242,Chris Sale,pitcher,SP,ATL,MLB,MLB,,
 2026-week-12,Greg,IL,,514888,Jose Altuve,hitter,2B/OF,HOU,MLB,IL,,Status Change
 2026-week-12,Greg,ACTIVE,CI,572233,Christian Walker,hitter,1B,HOU,MLB,MLB,,
-2026-week-12,Greg,BENCH,,670770,TJ Friedl,hitter,OF,CIN,AAA,MLB,,Optioned
+2026-week-12,Greg,ACTIVE,OF,670770,TJ Friedl,hitter,OF,CIN,AAA,MLB,,Optioned
 2026-week-12,Greg,IL,,543243,Sonny Gray,pitcher,SP,BOS,MLB,IL,,Status Change
 2026-week-12,Greg,IL,,579328,Yusei Kikuchi,pitcher,SP,LAA,MLB,IL,15-day Injured List,Status Change
 2026-week-12,Greg,ACTIVE,P4,622491,Luis Castillo,pitcher,SP,SEA,MLB,MLB,,
@@ -475,7 +475,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-12,Greg,BENCH,,694203,Denzer Guzman,hitter,SS/INFIELDER,LAA,MLB,Minors,,Recalled
 2026-week-12,Greg,BENCH,,683679,Jesus Rodriguez,hitter,C/CATCHER,SF,AAA,Minors,,Optioned
 2026-week-12,Greg,IL,,691003,Tre’ Morgan,hitter,1B/INFIELDER,TB,MLB,Minors,7-day Injured List,Status Change
-2026-week-12,Greg,BENCH,,805904,Zach Cole,hitter,OF/CF/OUTFIELDER,HOU,AAA,MLB,,Optioned
+2026-week-12,Greg,ACTIVE,OF,805904,Zach Cole,hitter,OF/CF/OUTFIELDER,HOU,AAA,MLB,,Optioned
 2026-week-12,Greg,ACTIVE,P8,691799,Grant Taylor,pitcher,RP/P/PITCHER,CWS,MLB,MLB,,
 2026-week-12,Greg,BENCH,,804668,Rafael Flores Jr.,hitter,1B/C/CATCHER,PIT,AAA,Minors,,Optioned
 2026-week-12,Greg,IL,,801126,Brock Rodden,hitter,2B/SS/INFIELDER,SEA,MLB,Minors,7-day Injured List,Status Change
@@ -494,14 +494,14 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-12,Greg,ACTIVE,P7,676617,Riley O’Brien,pitcher,RP/P/PITCHER,STL,MLB,MLB,,Number Change
 2026-week-12,Greg,ACTIVE,P9,543037,Gerrit Cole,pitcher,SP,NYY,MLB,MLB,,Status Change
 2026-week-12,Greg,IL,,641816,Tyler Mahle,pitcher,SP/P/PITCHER,SF,MLB,IL,15-day Injured List,Status Change
-2026-week-12,Greg,ACTIVE,OF,669236,Jeremiah Jackson,hitter,OF/3B/2B/INFIELDER,BAL,MLB,MLB,,
+2026-week-12,Greg,BENCH,,669236,Jeremiah Jackson,hitter,OF/3B/2B/INFIELDER,BAL,MLB,MLB,,
 2026-week-12,Greg,BENCH,,608348,Carson Kelly,hitter,C,CHC,MLB,MLB,,
 2026-week-12,Greg,BENCH,,702284,Cole Young,hitter,2B/INFIELDER,SEA,MLB,MLB,,
 2026-week-12,Greg,BENCH,,621107,Zach Eflin,pitcher,SP/P/PITCHER,BAL,MLB,MLB,,
 2026-week-12,Greg,BENCH,,656945,Tanner Scott,pitcher,RP/P/PITCHER,LAD,MLB,MLB,,
 2026-week-12,Greg,BENCH,,669221,Sean Murphy,hitter,C/CATCHER,ATL,MLB,MLB,,
 2026-week-12,Josh V,ACTIVE,3B,691406,Junior Caminero,hitter,3B,TB,MLB,MLB,,
-2026-week-12,Josh V,ACTIVE,UTIL,805808,Kevin McGonigle,hitter,SS/INFIELDER,DET,MLB,MLB,,Number Change
+2026-week-12,Josh V,ACTIVE,CI,805808,Kevin McGonigle,hitter,SS/INFIELDER,DET,MLB,MLB,,Number Change
 2026-week-12,Josh V,ACTIVE,C,694212,Samuel Basallo,hitter,C/CATCHER,BAL,MLB,MLB,,
 2026-week-12,Josh V,ACTIVE,SS,687263,Zach Neto,hitter,SS,LAA,MLB,MLB,,
 2026-week-12,Josh V,ACTIVE,P8,696149,Bubba Chandler,pitcher,SP/P/PITCHER,PIT,MLB,MLB,,Number Change
@@ -522,7 +522,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-12,Josh V,ACTIVE,2B,665926,Andres Gimenez,hitter,2B/SS,TOR,MLB,MLB,,
 2026-week-12,Josh V,IL,,673237,Yainer Diaz,hitter,C,HOU,MLB,IL,10-day Injured List,Status Change
 2026-week-12,Josh V,IL,,680718,Addison Barger,hitter,3B/OF,TOR,MLB,IL,10-day Injured List,Status Change
-2026-week-12,Josh V,ACTIVE,CI,678246,Miguel Vargas,hitter,1B/3B,CWS,MLB,MLB,,
+2026-week-12,Josh V,ACTIVE,UTIL,678246,Miguel Vargas,hitter,1B/3B,CWS,MLB,MLB,,
 2026-week-12,Josh V,IL,,808982,Jung Hoo Lee,hitter,OF,SF,MLB,IL,,Status Change
 2026-week-12,Josh V,IL,,668904,Royce Lewis,hitter,3B,MIN,MLB,IL,,Recalled
 2026-week-12,Josh V,ACTIVE,OF,681297,Colton Cowser,hitter,OF,BAL,MLB,MLB,,
@@ -536,7 +536,7 @@ week,team,lineup_status,lineup_slot,mlbam_id,player_name,player_type,eligible_po
 2026-week-12,Josh V,ACTIVE,P2,682842,Abner Uribe,pitcher,RP,MIL,MLB,MLB,,
 2026-week-12,Josh V,BENCH,,677587,Brayan Rocchio,hitter,2B/SS/INFIELDER,CLE,MLB,MLB,,
 2026-week-12,Josh V,BENCH,,683083,Nasim Nunez,hitter,SS/2B/INFIELDER,WSH,MLB,MLB,,
-2026-week-12,Josh V,BENCH,,670242,Matt Wallner,hitter,OF,MIN,AAA,MLB,,Optioned
+2026-week-12,Josh V,ACTIVE,OF,670242,Matt Wallner,hitter,OF,MIN,AAA,MLB,,Optioned
 2026-week-12,Josh V,BENCH,,687401,Joey Ortiz,hitter,SS,MIL,MLB,MLB,,
 2026-week-12,Josh V,ACTIVE,OF,664983,Jake McCarthy,hitter,OF,COL,MLB,MLB,,Trade
 2026-week-12,Josh V,BENCH,,,Jesús Made,hitter,SS,,AA,Minors,,

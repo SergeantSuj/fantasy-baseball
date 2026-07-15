@@ -120,16 +120,8 @@ def format_short_date(value: str | None) -> str:
 
 
 def build_stats_reflect_note(season_results: dict) -> str:
-    latest_date = ""
-    for week in season_results.get("weeks", []):
-        ingestion = week.get("ingestion", {})
-        for game in ingestion.get("ingested_games", []):
-            official_date = clean_value(game.get("official_date"))
-            if official_date > latest_date:
-                latest_date = official_date
-        week_end_date = clean_value(week.get("end_date"))
-        if not latest_date and week_end_date:
-            latest_date = week_end_date
+    weeks = season_results.get("weeks", [])
+    latest_date = clean_value(weeks[-1].get("end_date")) if weeks else ""
     short_date = format_short_date(latest_date)
     return f"Statistics reflect results up to {short_date}." if short_date else ""
 

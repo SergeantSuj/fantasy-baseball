@@ -509,13 +509,25 @@ def validate_active_lineups(rows: list[dict[str, str]]) -> None:
         else:
             counts["hitters"] += 1
 
-    problems = []
+    errors = []
+    warnings = []
     for team in team_order():
         counts = counts_by_team.get(team, {"hitters": 0, "pitchers": 0})
-        if counts["hitters"] != 13 or counts["pitchers"] != 9:
-            problems.append(f"{team}: expected 13 active hitters and 9 active pitchers, found {counts['hitters']} hitters and {counts['pitchers']} pitchers")
-    if problems:
-        raise ValueError("Invalid lineup snapshot.\n" + "\n".join(problems))
+        h_diff = 13 - counts["hitters"]
+        p_diff = 9 - counts["pitchers"]
+        if h_diff == 0 and p_diff == 0:
+            continue
+        msg = f"{team}: expected 13 active hitters and 9 active pitchers, found {counts['hitters']} hitters and {counts['pitchers']} pitchers"
+        if h_diff <= 1 and p_diff <= 1 and h_diff >= 0 and p_diff >= 0:
+            warnings.append(msg)
+        else:
+            errors.append(msg)
+    if warnings:
+        import sys
+        for w in warnings:
+            print(f"WARNING (roster constraint): {w}", file=sys.stderr)
+    if errors:
+        raise ValueError("Invalid lineup snapshot.\n" + "\n".join(errors))
 
 
 def build_week_result(

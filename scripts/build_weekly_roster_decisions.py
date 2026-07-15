@@ -964,6 +964,13 @@ def apply_il_moves(board_rows: list[dict[str, str]]) -> dict[str, object]:
             if not il_moves:
                 break
 
+            # Enforce the league IL slot limit before applying any move.
+            current_il_count = sum(
+                1 for r in roster_rows if is_il_roster_bucket(r)
+            )
+            if current_il_count >= IL_SLOT_LIMIT:
+                break
+
             applied_this_pass = False
             for il_move in il_moves:
                 injured_key = clean_value(str(il_move.get("injured_player_key", "")))
