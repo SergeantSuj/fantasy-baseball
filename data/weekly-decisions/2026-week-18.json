@@ -1,0 +1,5420 @@
+{
+  "generated_at": "2026-08-03T15:27:32.266255+00:00",
+  "week": "2026-week-18",
+  "summary": {
+    "teams_checked": 10,
+    "teams_with_recommended_il_moves": 10,
+    "teams_with_recommended_promotions": 1,
+    "total_il_move_recommendations": 55,
+    "total_promotion_recommendations": 1
+  },
+  "teams": [
+    {
+      "team": "Chris",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 39,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 15,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 16,
+      "active_hitters": [
+        {
+          "player_name": "Dillon Dingler",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 133.7
+        },
+        {
+          "player_name": "Vladimir Guerrero Jr.",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 373.4
+        },
+        {
+          "player_name": "Jonathan India",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B/OF",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 199.1
+        },
+        {
+          "player_name": "Josh Jung",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 220.4
+        },
+        {
+          "player_name": "Bobby Witt Jr.",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 469.6
+        },
+        {
+          "player_name": "Matt Olson",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 322.3
+        },
+        {
+          "player_name": "Bo Bichette",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 268.0
+        },
+        {
+          "player_name": "Pete Crow-Armstrong",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 411.4
+        },
+        {
+          "player_name": "Cody Bellinger",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 311.6
+        },
+        {
+          "player_name": "Lawrence Butler",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 307.6
+        },
+        {
+          "player_name": "Riley Greene",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 291.6
+        },
+        {
+          "player_name": "Bryan Reynolds",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 256.0
+        },
+        {
+          "player_name": "Daulton Varsho",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 234.3
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Yoshinobu Yamamoto",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 224.0
+        },
+        {
+          "player_name": "Kyle Bradish",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 192.0
+        },
+        {
+          "player_name": "Tanner Bibee",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 184.1
+        },
+        {
+          "player_name": "Emmet Sheehan",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 177.3
+        },
+        {
+          "player_name": "Gavin Williams",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 175.1
+        },
+        {
+          "player_name": "Sandy Alcantara",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 161.2
+        },
+        {
+          "player_name": "Sean Manaea",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 155.7
+        },
+        {
+          "player_name": "Merrill Kelly",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "ARI",
+          "current_level": "",
+          "lineup_slot": "P8",
+          "projection_value": 139.3
+        },
+        {
+          "player_name": "Roki Sasaki",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 121.5
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Jac Caglianone",
+          "player_type": "hitter",
+          "eligible_positions": "OF/1B",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 232.7
+        },
+        {
+          "player_name": "Cam Smith",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 173.0
+        },
+        {
+          "player_name": "Jordan Lawlar",
+          "player_type": "hitter",
+          "eligible_positions": "3B/SS/INFIELDER",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 190.9
+        },
+        {
+          "player_name": "Nolan Schanuel",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 213.8
+        },
+        {
+          "player_name": "Alec Bohm",
+          "player_type": "hitter",
+          "eligible_positions": "3B/1B",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 209.4
+        },
+        {
+          "player_name": "Lars Nootbaar",
+          "player_type": "hitter",
+          "eligible_positions": "OF/LF/OUTFIELDER",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 185.3
+        },
+        {
+          "player_name": "Jared Triolo",
+          "player_type": "hitter",
+          "eligible_positions": "1B/SS/3B/2B/INFIELDER",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 191.2
+        },
+        {
+          "player_name": "Mike Yastrzemski",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 180.3
+        },
+        {
+          "player_name": "Pavin Smith",
+          "player_type": "hitter",
+          "eligible_positions": "1B/INFIELDER",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 173.9
+        },
+        {
+          "player_name": "J.P. Crawford",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 172.4
+        },
+        {
+          "player_name": "Ryan McMahon",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 169.5
+        },
+        {
+          "player_name": "Luis Rengifo",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B/SS",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 167.0
+        },
+        {
+          "player_name": "Jake Fraley",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 128.3
+        },
+        {
+          "player_name": "Griffin Conine",
+          "player_type": "hitter",
+          "eligible_positions": "OF/LF/OUTFIELDER",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 124.1
+        },
+        {
+          "player_name": "Tyrone Taylor",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 119.1
+        },
+        {
+          "player_name": "Will Benson",
+          "player_type": "hitter",
+          "eligible_positions": "OF/LF/OUTFIELDER",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 118.7
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Chris",
+          "injured_player_key": "677951",
+          "injured_player_name": "Bobby Witt Jr.",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "SS",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Chris",
+          "injured_player_key": "641355",
+          "injured_player_name": "Cody Bellinger",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Chris",
+          "injured_player_key": "673962",
+          "injured_player_name": "Josh Jung",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "3B",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Chris",
+          "injured_player_key": "663697",
+          "injured_player_name": "Jonathan India",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "2B/3B/OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Chris",
+          "injured_player_key": "691783",
+          "injured_player_name": "Jordan Lawlar",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "3B/SS/INFIELDER",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Chris",
+          "injured_player_key": "641487",
+          "injured_player_name": "J.P. Crawford",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "SS",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Chris",
+          "injured_player_key": "641584",
+          "injured_player_name": "Jake Fraley",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF/RF/OUTFIELDER",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Rob",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 37,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 15,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 14,
+      "active_hitters": [
+        {
+          "player_name": "Agustin Ramirez",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 275.0
+        },
+        {
+          "player_name": "Bryce Harper",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 345.6
+        },
+        {
+          "player_name": "Luke Keaschall",
+          "player_type": "hitter",
+          "eligible_positions": "2B",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 284.5
+        },
+        {
+          "player_name": "Kazuma Okamoto",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 218.0
+        },
+        {
+          "player_name": "Willy Adames",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 301.9
+        },
+        {
+          "player_name": "Yandy Diaz",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 266.1
+        },
+        {
+          "player_name": "Bryson Stott",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 261.6
+        },
+        {
+          "player_name": "Jo Adell",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 315.7
+        },
+        {
+          "player_name": "Jackson Merrill",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 295.4
+        },
+        {
+          "player_name": "Victor Scott II",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 255.6
+        },
+        {
+          "player_name": "Lourdes Gurriel Jr.",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "ARI",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 187.6
+        },
+        {
+          "player_name": "Andrew Benintendi",
+          "player_type": "hitter",
+          "eligible_positions": "OF/LF/OUTFIELDER",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 167.2
+        },
+        {
+          "player_name": "Willson Contreras",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 256.8
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Paul Skenes",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 284.9
+        },
+        {
+          "player_name": "Bryan Woo",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 228.1
+        },
+        {
+          "player_name": "Jesus Luzardo",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 226.9
+        },
+        {
+          "player_name": "Freddy Peralta",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 220.1
+        },
+        {
+          "player_name": "MacKenzie Gore",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 201.4
+        },
+        {
+          "player_name": "Kevin Gausman",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 200.0
+        },
+        {
+          "player_name": "Jose Soriano",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 175.2
+        },
+        {
+          "player_name": "Ranger Suarez",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 173.0
+        },
+        {
+          "player_name": "Cade Horton",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 134.4
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Spencer Torkelson",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 252.5
+        },
+        {
+          "player_name": "Xander Bogaerts",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 248.2
+        },
+        {
+          "player_name": "Kyle Manzardo",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 233.0
+        },
+        {
+          "player_name": "Anthony Volpe",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 227.8
+        },
+        {
+          "player_name": "Gleyber Torres",
+          "player_type": "hitter",
+          "eligible_positions": "2B",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 256.4
+        },
+        {
+          "player_name": "Ke\u2019Bryan Hayes",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 172.1
+        },
+        {
+          "player_name": "Gabriel Arias",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/3B/INFIELDER",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 171.5
+        },
+        {
+          "player_name": "Dominic Canzone",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 159.9
+        },
+        {
+          "player_name": "Carlos Santana",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 152.2
+        },
+        {
+          "player_name": "Garrett Mitchell",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 137.0
+        },
+        {
+          "player_name": "Carlos Narvaez",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 136.6
+        },
+        {
+          "player_name": "Heriberto Hernandez",
+          "player_type": "hitter",
+          "eligible_positions": "OF/LF/OUTFIELDER",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 131.7
+        },
+        {
+          "player_name": "Lenyn Sosa",
+          "player_type": "hitter",
+          "eligible_positions": "1B/2B/3B/INFIELDER",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 123.9
+        },
+        {
+          "player_name": "Nick Castellanos",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 118.3
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Rob",
+          "injured_player_key": "467793",
+          "injured_player_name": "Carlos Santana",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "1B",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Rob",
+          "injured_player_key": "690990",
+          "injured_player_name": "Cade Horton",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Starter",
+            "projected_slot_if_added": "P9",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Rob",
+          "injured_player_key": "672820",
+          "injured_player_name": "Lenyn Sosa",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "1B/2B/3B/INFIELDER",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Wendell",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 38,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 15,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 14,
+      "active_hitters": [
+        {
+          "player_name": "Hunter Goodman",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 261.1
+        },
+        {
+          "player_name": "Pete Alonso",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 344.8
+        },
+        {
+          "player_name": "Ketel Marte",
+          "player_type": "hitter",
+          "eligible_positions": "2B",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 330.7
+        },
+        {
+          "player_name": "Mauricio Dubon",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/3B/OF",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 120.6
+        },
+        {
+          "player_name": "Trea Turner",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 367.3
+        },
+        {
+          "player_name": "Freddie Freeman",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 318.0
+        },
+        {
+          "player_name": "Dansby Swanson",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 262.7
+        },
+        {
+          "player_name": "Andy Pages",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 292.2
+        },
+        {
+          "player_name": "Taylor Ward",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 273.5
+        },
+        {
+          "player_name": "Marcell Ozuna",
+          "player_type": "hitter",
+          "eligible_positions": "DH/OF",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 263.1
+        },
+        {
+          "player_name": "Trent Grisham",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 256.3
+        },
+        {
+          "player_name": "Mickey Moniak",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 244.7
+        },
+        {
+          "player_name": "Cedric Mullins",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 237.8
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Aroldis Chapman",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 256.2
+        },
+        {
+          "player_name": "Logan Gilbert",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 232.1
+        },
+        {
+          "player_name": "Joe Ryan",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 221.3
+        },
+        {
+          "player_name": "Framber Valdez",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 219.7
+        },
+        {
+          "player_name": "Nathan Eovaldi",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 195.3
+        },
+        {
+          "player_name": "Griffin Jax",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 192.9
+        },
+        {
+          "player_name": "David Peterson",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 178.7
+        },
+        {
+          "player_name": "Carlos Rodon",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 165.1
+        },
+        {
+          "player_name": "Seth Lugo",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 152.2
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Marcus Semien",
+          "player_type": "hitter",
+          "eligible_positions": "2B",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 235.8
+        },
+        {
+          "player_name": "Ramon Laureano",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 231.9
+        },
+        {
+          "player_name": "Giancarlo Stanton",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 222.5
+        },
+        {
+          "player_name": "Austin Wells",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 181.9
+        },
+        {
+          "player_name": "Tyler O\u2019Neill",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 155.4
+        },
+        {
+          "player_name": "Jameson Taillon",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 151.8
+        },
+        {
+          "player_name": "Freddy Fermin",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 135.6
+        },
+        {
+          "player_name": "Jake Bauers",
+          "player_type": "hitter",
+          "eligible_positions": "1B/OF/INFIELDER",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 134.4
+        },
+        {
+          "player_name": "CJ Kayfus",
+          "player_type": "hitter",
+          "eligible_positions": "OF/1B/INFIELDER",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 126.7
+        },
+        {
+          "player_name": "Patrick Bailey",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 125.7
+        },
+        {
+          "player_name": "Kody Clemens",
+          "player_type": "hitter",
+          "eligible_positions": "1B/2B/OF",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 123.0
+        },
+        {
+          "player_name": "Austin Martin",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 122.5
+        },
+        {
+          "player_name": "Dustin May",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 131.2
+        },
+        {
+          "player_name": "Yoan Moncada",
+          "player_type": "hitter",
+          "eligible_positions": "3B/INFIELDER",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 119.0
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Wendell",
+          "injured_player_key": "543760",
+          "injured_player_name": "Marcus Semien",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "2B",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Wendell",
+          "injured_player_key": "519317",
+          "injured_player_name": "Giancarlo Stanton",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Wendell",
+          "injured_player_key": "607074",
+          "injured_player_name": "Carlos Rodon",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Wendell",
+          "injured_player_key": "592791",
+          "injured_player_name": "Jameson Taillon",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Matt",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 42,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 15,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 18,
+      "active_hitters": [
+        {
+          "player_name": "Salvador Perez",
+          "player_type": "hitter",
+          "eligible_positions": "C/1B",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 246.7
+        },
+        {
+          "player_name": "Josh Naylor",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 318.8
+        },
+        {
+          "player_name": "Brice Turang",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 321.6
+        },
+        {
+          "player_name": "Caleb Durbin",
+          "player_type": "hitter",
+          "eligible_positions": "3B/2B",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 240.0
+        },
+        {
+          "player_name": "Elly De La Cruz",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 465.8
+        },
+        {
+          "player_name": "Carlos Correa",
+          "player_type": "hitter",
+          "eligible_positions": "SS/3B",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 224.3
+        },
+        {
+          "player_name": "Willi Castro",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B/OF",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 222.2
+        },
+        {
+          "player_name": "Kyle Tucker",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 414.1
+        },
+        {
+          "player_name": "James Wood",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 379.6
+        },
+        {
+          "player_name": "Yordan Alvarez",
+          "player_type": "hitter",
+          "eligible_positions": "DH/OF",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 337.0
+        },
+        {
+          "player_name": "Wilyer Abreu",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 235.9
+        },
+        {
+          "player_name": "Parker Meadows",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 180.3
+        },
+        {
+          "player_name": "Adley Rutschman",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 217.6
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Jhoan Duran",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 276.9
+        },
+        {
+          "player_name": "David Bednar",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 257.7
+        },
+        {
+          "player_name": "George Kirby",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 219.0
+        },
+        {
+          "player_name": "Carlos Estevez",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 195.3
+        },
+        {
+          "player_name": "Trevor Megill",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 189.4
+        },
+        {
+          "player_name": "Emilio Pagan",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 185.0
+        },
+        {
+          "player_name": "Kenley Jansen",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 176.6
+        },
+        {
+          "player_name": "Aaron Nola",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 175.3
+        },
+        {
+          "player_name": "Tatsuya Imai",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 167.7
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Jordan Westburg",
+          "player_type": "hitter",
+          "eligible_positions": "3B/2B",
+          "mlb_team": "BAL",
+          "current_level": "",
+          "lineup_slot": "",
+          "projection_value": 183.6
+        },
+        {
+          "player_name": "Bryce Miller",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 146.0
+        },
+        {
+          "player_name": "Edward Cabrera",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 165.0
+        },
+        {
+          "player_name": "Colt Keith",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B/1B",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 204.6
+        },
+        {
+          "player_name": "Spencer Steer",
+          "player_type": "hitter",
+          "eligible_positions": "1B/OF",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 179.6
+        },
+        {
+          "player_name": "Luis Arraez",
+          "player_type": "hitter",
+          "eligible_positions": "1B/2B",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 210.9
+        },
+        {
+          "player_name": "Jesus Sanchez",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 170.9
+        },
+        {
+          "player_name": "Trevor Larnach",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 170.9
+        },
+        {
+          "player_name": "Michael Wacha",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 162.0
+        },
+        {
+          "player_name": "David Hamilton",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/INFIELDER",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 155.1
+        },
+        {
+          "player_name": "Ha-Seong Kim",
+          "player_type": "hitter",
+          "eligible_positions": "SS/2B/INFIELDER",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 151.3
+        },
+        {
+          "player_name": "Edouard Julien",
+          "player_type": "hitter",
+          "eligible_positions": "1B/2B/INFIELDER",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 150.4
+        },
+        {
+          "player_name": "Ryan Weathers",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 151.0
+        },
+        {
+          "player_name": "Jacob Lopez",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 139.3
+        },
+        {
+          "player_name": "Eduardo Rodriguez",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 134.1
+        },
+        {
+          "player_name": "Kodai Senga",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 123.8
+        },
+        {
+          "player_name": "Kirby Yates",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 121.8
+        },
+        {
+          "player_name": "Camilo Doval",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 119.1
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Matt",
+          "injured_player_key": "621043",
+          "injured_player_name": "Carlos Correa",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "SS/3B",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Matt",
+          "injured_player_key": "668939",
+          "injured_player_name": "Adley Rutschman",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "C",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Matt",
+          "injured_player_key": "608032",
+          "injured_player_name": "Carlos Estevez",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Matt",
+          "injured_player_key": "641941",
+          "injured_player_name": "Emilio Pagan",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Matt",
+          "injured_player_key": "678009",
+          "injured_player_name": "Parker Meadows",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF/CF/OUTFIELDER",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Matt",
+          "injured_player_key": "668715",
+          "injured_player_name": "Spencer Steer",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "1B/OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Matt",
+          "injured_player_key": "665795",
+          "injured_player_name": "Edward Cabrera",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Michael",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 40,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 13,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 17,
+      "active_hitters": [
+        {
+          "player_name": "Shea Langeliers",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 278.9
+        },
+        {
+          "player_name": "Nick Kurtz",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 391.9
+        },
+        {
+          "player_name": "Jackson Holliday",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 242.6
+        },
+        {
+          "player_name": "Colson Montgomery",
+          "player_type": "hitter",
+          "eligible_positions": "SS/3B",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 261.9
+        },
+        {
+          "player_name": "Masyn Winn",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 254.0
+        },
+        {
+          "player_name": "Konnor Griffin",
+          "player_type": "hitter",
+          "eligible_positions": "SS/INFIELDER",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 238.9
+        },
+        {
+          "player_name": "Otto Lopez",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 241.2
+        },
+        {
+          "player_name": "Josh Lowe",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 253.6
+        },
+        {
+          "player_name": "Evan Carter",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 231.3
+        },
+        {
+          "player_name": "Daylen Lile",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 228.1
+        },
+        {
+          "player_name": "Dylan Crews",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 216.7
+        },
+        {
+          "player_name": "Jordan Walker",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 204.3
+        },
+        {
+          "player_name": "Jonathan Aranda",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 214.9
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Taj Bradley",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 164.1
+        },
+        {
+          "player_name": "Jack Leiter",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 159.9
+        },
+        {
+          "player_name": "Luis Severino",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 158.6
+        },
+        {
+          "player_name": "Noah Cameron",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 151.2
+        },
+        {
+          "player_name": "Clay Holmes",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 147.5
+        },
+        {
+          "player_name": "Cody Ponce",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 147.1
+        },
+        {
+          "player_name": "Reid Detmers",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 144.3
+        },
+        {
+          "player_name": "Sean Burke",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 142.9
+        },
+        {
+          "player_name": "Joe Musgrove",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SD",
+          "current_level": "",
+          "lineup_slot": "P9",
+          "projection_value": 140.9
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "J.J. Wetherholt",
+          "player_type": "hitter",
+          "eligible_positions": "SS/INFIELDER",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 213.9
+        },
+        {
+          "player_name": "Carson Benge",
+          "player_type": "hitter",
+          "eligible_positions": "OF/OUTFIELDER",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 133.9
+        },
+        {
+          "player_name": "Carter Jensen",
+          "player_type": "hitter",
+          "eligible_positions": "C/CATCHER",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 136.0
+        },
+        {
+          "player_name": "Matthew Liberatore",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 139.2
+        },
+        {
+          "player_name": "Chad Patrick",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 135.3
+        },
+        {
+          "player_name": "Francisco Alvarez",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 190.0
+        },
+        {
+          "player_name": "Isaac Collins",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 182.5
+        },
+        {
+          "player_name": "Connor Norby",
+          "player_type": "hitter",
+          "eligible_positions": "3B/INFIELDER",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 182.6
+        },
+        {
+          "player_name": "Ryan Jeffers",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 202.5
+        },
+        {
+          "player_name": "Logan O\u2019Hoppe",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 187.5
+        },
+        {
+          "player_name": "Kyle Isbel",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 149.5
+        },
+        {
+          "player_name": "Denzel Clarke",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 144.9
+        },
+        {
+          "player_name": "Will Warren",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 133.5
+        },
+        {
+          "player_name": "Max Muncy",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B/SS",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 131.3
+        },
+        {
+          "player_name": "Clayton Beeter",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 130.6
+        },
+        {
+          "player_name": "Troy Johnston",
+          "player_type": "hitter",
+          "eligible_positions": "OF/1B/OUTFIELDER",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 120.1
+        },
+        {
+          "player_name": "Nick Gonzales",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/INFIELDER",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 115.0
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Michael",
+          "injured_player_key": "669127",
+          "injured_player_name": "Shea Langeliers",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "C",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Michael",
+          "injured_player_key": "682626",
+          "injured_player_name": "Francisco Alvarez",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "C",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Michael",
+          "injured_player_key": "683004",
+          "injured_player_name": "Jack Leiter",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Michael",
+          "injured_player_key": "622663",
+          "injured_player_name": "Luis Severino",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Michael",
+          "injured_player_key": "605280",
+          "injured_player_name": "Clay Holmes",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Michael",
+          "injured_player_key": "672016",
+          "injured_player_name": "Denzel Clarke",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF/CF/OUTFIELDER",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Paul",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 38,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 14,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 15,
+      "active_hitters": [
+        {
+          "player_name": "Drake Baldwin",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 241.3
+        },
+        {
+          "player_name": "Rafael Devers",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 307.9
+        },
+        {
+          "player_name": "Ozzie Albies",
+          "player_type": "hitter",
+          "eligible_positions": "2B",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 254.0
+        },
+        {
+          "player_name": "Isaac Paredes",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 199.4
+        },
+        {
+          "player_name": "Geraldo Perdomo",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 301.4
+        },
+        {
+          "player_name": "Jake Burger",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 237.1
+        },
+        {
+          "player_name": "Nico Hoerner",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 253.5
+        },
+        {
+          "player_name": "Corbin Carroll",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 450.8
+        },
+        {
+          "player_name": "Byron Buxton",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 342.7
+        },
+        {
+          "player_name": "Randy Arozarena",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 322.7
+        },
+        {
+          "player_name": "Christian Yelich",
+          "player_type": "hitter",
+          "eligible_positions": "DH/OF",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 293.9
+        },
+        {
+          "player_name": "Brandon Nimmo",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 288.0
+        },
+        {
+          "player_name": "Ian Happ",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 274.0
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Mason Miller",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 335.6
+        },
+        {
+          "player_name": "Cade Smith",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 285.5
+        },
+        {
+          "player_name": "Devin Williams",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 272.9
+        },
+        {
+          "player_name": "Jeff Hoffman",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 233.9
+        },
+        {
+          "player_name": "Ryan Helsley",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 233.2
+        },
+        {
+          "player_name": "Cristopher Sanchez",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 229.1
+        },
+        {
+          "player_name": "Ryan Walker",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 210.1
+        },
+        {
+          "player_name": "Nick Lodolo",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 181.9
+        },
+        {
+          "player_name": "Bryan Abreu",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 158.0
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Justin Crawford",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 202.0
+        },
+        {
+          "player_name": "Dylan Beavers",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 185.4
+        },
+        {
+          "player_name": "Xavier Edwards",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 253.0
+        },
+        {
+          "player_name": "Sal Frelick",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 225.1
+        },
+        {
+          "player_name": "Chase Meidroth",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 216.0
+        },
+        {
+          "player_name": "Joc Pederson",
+          "player_type": "hitter",
+          "eligible_positions": "DH",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 214.8
+        },
+        {
+          "player_name": "Gavin Sheets",
+          "player_type": "hitter",
+          "eligible_positions": "OF/1B",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 164.3
+        },
+        {
+          "player_name": "Brady House",
+          "player_type": "hitter",
+          "eligible_positions": "3B/INFIELDER",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 164.1
+        },
+        {
+          "player_name": "Victor Vodnik",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 140.1
+        },
+        {
+          "player_name": "Tyler Stephenson",
+          "player_type": "hitter",
+          "eligible_positions": "C/CATCHER",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 144.8
+        },
+        {
+          "player_name": "Shane Bieber",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 138.9
+        },
+        {
+          "player_name": "Garrett Cleavinger",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 137.7
+        },
+        {
+          "player_name": "Reynaldo Lopez",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 136.5
+        },
+        {
+          "player_name": "Taylor Rogers",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 127.4
+        },
+        {
+          "player_name": "Aaron Civale",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 121.3
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Paul",
+          "injured_player_key": "621439",
+          "injured_player_name": "Byron Buxton",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Paul",
+          "injured_player_key": "664854",
+          "injured_player_name": "Ryan Helsley",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Paul",
+          "injured_player_key": "666157",
+          "injured_player_name": "Nick Lodolo",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Paul",
+          "injured_player_key": "625643",
+          "injured_player_name": "Reynaldo Lopez",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Josh M",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 37,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 13,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 14,
+      "active_hitters": [
+        {
+          "player_name": "William Contreras",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 266.8
+        },
+        {
+          "player_name": "Andrew Vaughn",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 200.3
+        },
+        {
+          "player_name": "Brooks Lee",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/3B",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 201.7
+        },
+        {
+          "player_name": "Manny Machado",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 335.2
+        },
+        {
+          "player_name": "Trevor Story",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 310.9
+        },
+        {
+          "player_name": "Munetaka Murakami",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 280.3
+        },
+        {
+          "player_name": "Jose Caballero",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/3B/OF",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 199.4
+        },
+        {
+          "player_name": "Fernando Tatis Jr.",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 417.1
+        },
+        {
+          "player_name": "Steven Kwan",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 292.7
+        },
+        {
+          "player_name": "Lane Thomas",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 191.7
+        },
+        {
+          "player_name": "Chase DeLauter",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 189.8
+        },
+        {
+          "player_name": "Jeff McNeil",
+          "player_type": "hitter",
+          "eligible_positions": "2B/OF/INFIELDER",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 183.2
+        },
+        {
+          "player_name": "Ivan Herrera",
+          "player_type": "hitter",
+          "eligible_positions": "DH/C",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 257.2
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Shohei Ohtani",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 195.7
+        },
+        {
+          "player_name": "Shota Imanaga",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 192.8
+        },
+        {
+          "player_name": "Chase Burns",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 173.5
+        },
+        {
+          "player_name": "Mitch Keller",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 170.2
+        },
+        {
+          "player_name": "Jacob Misiorowski",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 160.7
+        },
+        {
+          "player_name": "Jeffrey Springs",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "ATH",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 160.4
+        },
+        {
+          "player_name": "Brayan Bello",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 159.0
+        },
+        {
+          "player_name": "Shane Smith",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 157.7
+        },
+        {
+          "player_name": "Cam Schlittler",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 152.1
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Kris Bubic",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "KC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 148.6
+        },
+        {
+          "player_name": "Ernie Clement",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/3B/1B",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 185.1
+        },
+        {
+          "player_name": "Nolan Arenado",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 193.7
+        },
+        {
+          "player_name": "Luke Raley",
+          "player_type": "hitter",
+          "eligible_positions": "1B/OF/RF/OUTFIELDER",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 152.6
+        },
+        {
+          "player_name": "Christopher Morel",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 149.3
+        },
+        {
+          "player_name": "Luisangel Acuna",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/INFIELDER",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 143.5
+        },
+        {
+          "player_name": "Edgar Quero",
+          "player_type": "hitter",
+          "eligible_positions": "C/CATCHER",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 140.0
+        },
+        {
+          "player_name": "Nathan Lukes",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 139.1
+        },
+        {
+          "player_name": "Cristian Javier",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 138.9
+        },
+        {
+          "player_name": "Danny Jansen",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 130.8
+        },
+        {
+          "player_name": "Keibert Ruiz",
+          "player_type": "hitter",
+          "eligible_positions": "C/CATCHER",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 125.5
+        },
+        {
+          "player_name": "Joey Cantillo",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 127.4
+        },
+        {
+          "player_name": "Blaze Alexander",
+          "player_type": "hitter",
+          "eligible_positions": "3B/2B/SS/INFIELDER",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 117.6
+        },
+        {
+          "player_name": "Victor Caratini",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 114.5
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Josh M",
+          "injured_player_key": "596115",
+          "injured_player_name": "Trevor Story",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "SS",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh M",
+          "injured_player_key": "808959",
+          "injured_player_name": "Munetaka Murakami",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "3B",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh M",
+          "injured_player_key": "670042",
+          "injured_player_name": "Luke Raley",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "1B/OF/RF/OUTFIELDER",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh M",
+          "injured_player_key": "663460",
+          "injured_player_name": "Kris Bubic",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh M",
+          "injured_player_key": "643376",
+          "injured_player_name": "Danny Jansen",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "C",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Shane",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 45,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 15,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 23,
+      "active_hitters": [
+        {
+          "player_name": "Ben Rice",
+          "player_type": "hitter",
+          "eligible_positions": "C/1B",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 273.6
+        },
+        {
+          "player_name": "Alec Burleson",
+          "player_type": "hitter",
+          "eligible_positions": "1B/OF",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 250.6
+        },
+        {
+          "player_name": "Ceddanne Rafaela",
+          "player_type": "hitter",
+          "eligible_positions": "2B/OF",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 267.4
+        },
+        {
+          "player_name": "Austin Riley",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 283.7
+        },
+        {
+          "player_name": "CJ Abrams",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 368.8
+        },
+        {
+          "player_name": "Ryan O\u2019Hearn",
+          "player_type": "hitter",
+          "eligible_positions": "1B/OF",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 204.1
+        },
+        {
+          "player_name": "Matt McLain",
+          "player_type": "hitter",
+          "eligible_positions": "2B",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 257.6
+        },
+        {
+          "player_name": "Jarren Duran",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 316.8
+        },
+        {
+          "player_name": "Michael Harris II",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 300.8
+        },
+        {
+          "player_name": "Chandler Simpson",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 273.3
+        },
+        {
+          "player_name": "Brenton Doyle",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 272.9
+        },
+        {
+          "player_name": "Brendan Donovan",
+          "player_type": "hitter",
+          "eligible_positions": "2B/OF",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 221.0
+        },
+        {
+          "player_name": "Brandon Lowe",
+          "player_type": "hitter",
+          "eligible_positions": "2B",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 256.5
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Andres Munoz",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 279.2
+        },
+        {
+          "player_name": "Daniel Palencia",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 218.7
+        },
+        {
+          "player_name": "Nick Pivetta",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 210.4
+        },
+        {
+          "player_name": "Michael King",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 201.4
+        },
+        {
+          "player_name": "Raisel Iglesias",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 198.8
+        },
+        {
+          "player_name": "Shane McClanahan",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 190.5
+        },
+        {
+          "player_name": "Pete Fairbanks",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 189.7
+        },
+        {
+          "player_name": "Andrew Abbott",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 172.0
+        },
+        {
+          "player_name": "Shane Baz",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 171.7
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Jake Cronenworth",
+          "player_type": "hitter",
+          "eligible_positions": "2B/1B/SS",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 197.9
+        },
+        {
+          "player_name": "Brandon Marsh",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 218.8
+        },
+        {
+          "player_name": "J.T. Realmuto",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 188.7
+        },
+        {
+          "player_name": "Owen Caissie",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 161.8
+        },
+        {
+          "player_name": "Brady Singer",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 164.2
+        },
+        {
+          "player_name": "Chris Bassitt",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 164.1
+        },
+        {
+          "player_name": "Tyler Freeman",
+          "player_type": "hitter",
+          "eligible_positions": "OF/2B/RF/OUTFIELDER",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 157.4
+        },
+        {
+          "player_name": "Davis Schneider",
+          "player_type": "hitter",
+          "eligible_positions": "2B/OF/LF/OUTFIELDER",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 152.6
+        },
+        {
+          "player_name": "Robert Suarez",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 154.9
+        },
+        {
+          "player_name": "Seranthony Dominguez",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 153.4
+        },
+        {
+          "player_name": "Jacob Young",
+          "player_type": "hitter",
+          "eligible_positions": "OF/CF/OUTFIELDER",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 148.6
+        },
+        {
+          "player_name": "Kyle Teel",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "CHW",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 137.7
+        },
+        {
+          "player_name": "Justin Verlander",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 137.7
+        },
+        {
+          "player_name": "Davis Martin",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 134.6
+        },
+        {
+          "player_name": "Kyle Freeland",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 132.9
+        },
+        {
+          "player_name": "Nick Martinez",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 132.4
+        },
+        {
+          "player_name": "Will Vest",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 130.0
+        },
+        {
+          "player_name": "Hunter Harvey",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 128.6
+        },
+        {
+          "player_name": "Quinn Priester",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "MIL",
+          "current_level": "",
+          "lineup_slot": "",
+          "projection_value": 127.0
+        },
+        {
+          "player_name": "Simeon Woods Richardson",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 125.6
+        },
+        {
+          "player_name": "Michael Lorenzen",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 120.9
+        },
+        {
+          "player_name": "Kevin Ginkel",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 116.7
+        },
+        {
+          "player_name": "Ben Brown",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 117.7
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Shane",
+          "injured_player_key": "680977",
+          "injured_player_name": "Brendan Donovan",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "2B/OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "694037",
+          "injured_player_name": "Daniel Palencia",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "601713",
+          "injured_player_name": "Nick Pivetta",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "656811",
+          "injured_player_name": "Ryan O\u2019Hearn",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "1B/OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "663556",
+          "injured_player_name": "Shane McClanahan",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "605135",
+          "injured_player_name": "Chris Bassitt",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "663158",
+          "injured_player_name": "Robert Suarez",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "691019",
+          "injured_player_name": "Kyle Teel",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "C",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Shane",
+          "injured_player_key": "676684",
+          "injured_player_name": "Will Vest",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    },
+    {
+      "team": "Greg",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 46,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 13,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 21,
+      "active_hitters": [
+        {
+          "player_name": "Carson Kelly",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 130.0
+        },
+        {
+          "player_name": "Michael Busch",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 273.2
+        },
+        {
+          "player_name": "Jazz Chisholm Jr.",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 394.4
+        },
+        {
+          "player_name": "Eugenio Suarez",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 340.9
+        },
+        {
+          "player_name": "Gunnar Henderson",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 420.7
+        },
+        {
+          "player_name": "Alex Bregman",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 268.0
+        },
+        {
+          "player_name": "Jorge Polanco",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 226.3
+        },
+        {
+          "player_name": "Kyle Schwarber",
+          "player_type": "hitter",
+          "eligible_positions": "DH/OF",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 401.7
+        },
+        {
+          "player_name": "George Springer",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 327.4
+        },
+        {
+          "player_name": "Teoscar Hernandez",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 288.8
+        },
+        {
+          "player_name": "Adolis Garcia",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 282.7
+        },
+        {
+          "player_name": "Seiya Suzuki",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 278.1
+        },
+        {
+          "player_name": "TJ Friedl",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 251.1
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Chris Sale",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 240.1
+        },
+        {
+          "player_name": "Jacob deGrom",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 234.2
+        },
+        {
+          "player_name": "Zack Wheeler",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "PHI",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 208.9
+        },
+        {
+          "player_name": "Luis Castillo",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 201.4
+        },
+        {
+          "player_name": "Brandon Woodruff",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 198.5
+        },
+        {
+          "player_name": "Robbie Ray",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 192.6
+        },
+        {
+          "player_name": "Sonny Gray",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "BOS",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 192.1
+        },
+        {
+          "player_name": "Yusei Kikuchi",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 179.0
+        },
+        {
+          "player_name": "Dennis Santana",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 170.9
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Christian Walker",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 243.7
+        },
+        {
+          "player_name": "Matthew Boyd",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CHC",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 167.4
+        },
+        {
+          "player_name": "Josh Bell",
+          "player_type": "hitter",
+          "eligible_positions": "1B",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 211.4
+        },
+        {
+          "player_name": "Grant Taylor",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 147.6
+        },
+        {
+          "player_name": "Harrison Bader",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 196.4
+        },
+        {
+          "player_name": "Bailey Ober",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "MIN",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 170.9
+        },
+        {
+          "player_name": "Jorge Soler",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 192.7
+        },
+        {
+          "player_name": "Spencer Horwitz",
+          "player_type": "hitter",
+          "eligible_positions": "1B/INFIELDER",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 169.8
+        },
+        {
+          "player_name": "Robert Garcia",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 162.8
+        },
+        {
+          "player_name": "Riley O\u2019Brien",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "STL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 159.3
+        },
+        {
+          "player_name": "Gerrit Cole",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "NYY",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 142.5
+        },
+        {
+          "player_name": "Tyler Mahle",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 141.2
+        },
+        {
+          "player_name": "Jeremiah Jackson",
+          "player_type": "hitter",
+          "eligible_positions": "OF/3B/2B/INFIELDER",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 128.8
+        },
+        {
+          "player_name": "Cole Young",
+          "player_type": "hitter",
+          "eligible_positions": "2B/INFIELDER",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 129.6
+        },
+        {
+          "player_name": "Zach Eflin",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 132.8
+        },
+        {
+          "player_name": "Tanner Scott",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "LAD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 132.8
+        },
+        {
+          "player_name": "Sean Murphy",
+          "player_type": "hitter",
+          "eligible_positions": "C/CATCHER",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 125.3
+        },
+        {
+          "player_name": "Jorge Mateo",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/OF/INFIELDER",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 116.6
+        },
+        {
+          "player_name": "Chris Martin",
+          "player_type": "pitcher",
+          "eligible_positions": "RP/P/PITCHER",
+          "mlb_team": "TEX",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 128.9
+        },
+        {
+          "player_name": "Brooks Baldwin",
+          "player_type": "hitter",
+          "eligible_positions": "OF/2B/SS/3B/LF/OUTFIELDER",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 116.2
+        },
+        {
+          "player_name": "Landen Roupp",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 119.8
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Greg",
+          "injured_player_key": "666969",
+          "injured_player_name": "Adolis Garcia",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Greg",
+          "injured_player_key": "664056",
+          "injured_player_name": "Harrison Bader",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Greg",
+          "injured_player_key": "579328",
+          "injured_player_name": "Yusei Kikuchi",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Greg",
+          "injured_player_key": "676395",
+          "injured_player_name": "Robert Garcia",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Greg",
+          "injured_player_key": "455119",
+          "injured_player_name": "Chris Martin",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "RP/P/PITCHER",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": [
+        {
+          "player_name": "Parker Messick",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "recommendation": "Move to MLB roster as bench player",
+          "projected_role_if_promoted": "Bench",
+          "projected_slot_if_promoted": "",
+          "candidate_projection_value": 123.9,
+          "drop_candidate": {
+            "player_name": "Brooks Baldwin",
+            "current_projected_role": "Bench",
+            "roster_value": 116.2
+          },
+          "improvement": 7.7,
+          "rationale": "Improves the 30-man MLB bucket even though the player would open on the fantasy bench."
+        }
+      ]
+    },
+    {
+      "team": "Josh V",
+      "week": "2026-week-18",
+      "mlb_bucket_count": 38,
+      "il_bucket_count": 5,
+      "minor_bucket_count": 14,
+      "active_hitter_count": 13,
+      "active_pitcher_count": 9,
+      "bench_count": 14,
+      "active_hitters": [
+        {
+          "player_name": "Alejandro Kirk",
+          "player_type": "hitter",
+          "eligible_positions": "C",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "C",
+          "projection_value": 192.9
+        },
+        {
+          "player_name": "Sal Stewart",
+          "player_type": "hitter",
+          "eligible_positions": "1B/3B/INFIELDER",
+          "mlb_team": "CIN",
+          "current_level": "MLB",
+          "lineup_slot": "1B",
+          "projection_value": 238.2
+        },
+        {
+          "player_name": "Andres Gimenez",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "2B",
+          "projection_value": 245.8
+        },
+        {
+          "player_name": "Junior Caminero",
+          "player_type": "hitter",
+          "eligible_positions": "3B",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "3B",
+          "projection_value": 378.2
+        },
+        {
+          "player_name": "Zach Neto",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "LAA",
+          "current_level": "MLB",
+          "lineup_slot": "SS",
+          "projection_value": 382.3
+        },
+        {
+          "player_name": "Kevin McGonigle",
+          "player_type": "hitter",
+          "eligible_positions": "SS/INFIELDER",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "CI",
+          "projection_value": 232.5
+        },
+        {
+          "player_name": "Ezequiel Tovar",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "MI",
+          "projection_value": 250.9
+        },
+        {
+          "player_name": "Jakob Marsee",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "MIA",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 325.2
+        },
+        {
+          "player_name": "Colton Cowser",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 218.2
+        },
+        {
+          "player_name": "Jake McCarthy",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "COL",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 206.1
+        },
+        {
+          "player_name": "Jung Hoo Lee",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 204.1
+        },
+        {
+          "player_name": "Austin Hays",
+          "player_type": "hitter",
+          "eligible_positions": "OF",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "OF",
+          "projection_value": 194.6
+        },
+        {
+          "player_name": "Miguel Vargas",
+          "player_type": "hitter",
+          "eligible_positions": "1B/3B",
+          "mlb_team": "CWS",
+          "current_level": "MLB",
+          "lineup_slot": "UTIL",
+          "projection_value": 226.9
+        }
+      ],
+      "active_pitchers": [
+        {
+          "player_name": "Jack Flaherty",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "P1",
+          "projection_value": 194.0
+        },
+        {
+          "player_name": "Abner Uribe",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "P2",
+          "projection_value": 183.9
+        },
+        {
+          "player_name": "Nolan McLean",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "P3",
+          "projection_value": 182.1
+        },
+        {
+          "player_name": "Drew Rasmussen",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "P4",
+          "projection_value": 167.1
+        },
+        {
+          "player_name": "Ryne Nelson",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "AZ",
+          "current_level": "MLB",
+          "lineup_slot": "P5",
+          "projection_value": 147.5
+        },
+        {
+          "player_name": "Trey Yesavage",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "P6",
+          "projection_value": 146.3
+        },
+        {
+          "player_name": "Slade Cecconi",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "P7",
+          "projection_value": 145.6
+        },
+        {
+          "player_name": "Bubba Chandler",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "PIT",
+          "current_level": "MLB",
+          "lineup_slot": "P8",
+          "projection_value": 139.6
+        },
+        {
+          "player_name": "Max Scherzer",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "TOR",
+          "current_level": "MLB",
+          "lineup_slot": "P9",
+          "projection_value": 137.7
+        }
+      ],
+      "bench": [
+        {
+          "player_name": "Samuel Basallo",
+          "player_type": "hitter",
+          "eligible_positions": "C/CATCHER",
+          "mlb_team": "BAL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 163.2
+        },
+        {
+          "player_name": "Carson Williams",
+          "player_type": "hitter",
+          "eligible_positions": "SS/INFIELDER",
+          "mlb_team": "TB",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 224.6
+        },
+        {
+          "player_name": "Mike Burrows",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "HOU",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 137.0
+        },
+        {
+          "player_name": "Brayan Rocchio",
+          "player_type": "hitter",
+          "eligible_positions": "2B/SS/INFIELDER",
+          "mlb_team": "CLE",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 190.4
+        },
+        {
+          "player_name": "Nasim Nunez",
+          "player_type": "hitter",
+          "eligible_positions": "SS/2B/INFIELDER",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 201.9
+        },
+        {
+          "player_name": "Joey Ortiz",
+          "player_type": "hitter",
+          "eligible_positions": "SS",
+          "mlb_team": "MIL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 201.1
+        },
+        {
+          "player_name": "Victor Robles",
+          "player_type": "hitter",
+          "eligible_positions": "OF/RF/OUTFIELDER",
+          "mlb_team": "SEA",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 168.2
+        },
+        {
+          "player_name": "Brett Baty",
+          "player_type": "hitter",
+          "eligible_positions": "2B/3B/INFIELDER",
+          "mlb_team": "NYM",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 178.9
+        },
+        {
+          "player_name": "Zach McKinstry",
+          "player_type": "hitter",
+          "eligible_positions": "SS/3B/OF",
+          "mlb_team": "DET",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 145.7
+        },
+        {
+          "player_name": "Cade Cavalli",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "WSH",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 129.6
+        },
+        {
+          "player_name": "Grant Holmes",
+          "player_type": "pitcher",
+          "eligible_positions": "SP",
+          "mlb_team": "ATL",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 129.4
+        },
+        {
+          "player_name": "Edwin Uceta",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "TB",
+          "current_level": "",
+          "lineup_slot": "",
+          "projection_value": 129.3
+        },
+        {
+          "player_name": "Jeremiah Estrada",
+          "player_type": "pitcher",
+          "eligible_positions": "RP",
+          "mlb_team": "SD",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 125.1
+        },
+        {
+          "player_name": "Adrian Houser",
+          "player_type": "pitcher",
+          "eligible_positions": "SP/P/PITCHER",
+          "mlb_team": "SF",
+          "current_level": "MLB",
+          "lineup_slot": "",
+          "projection_value": 119.3
+        }
+      ],
+      "recommended_il_moves": [
+        {
+          "team": "Josh V",
+          "injured_player_key": "669720",
+          "injured_player_name": "Austin Hays",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "OF",
+          "current_injury_status": "60-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh V",
+          "injured_player_key": "656427",
+          "injured_player_name": "Jack Flaherty",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh V",
+          "injured_player_key": "694212",
+          "injured_player_name": "Samuel Basallo",
+          "injured_player_type": "hitter",
+          "injured_player_positions": "C/CATCHER",
+          "current_injury_status": "10-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "686780",
+            "player_name": "Pedro Pages",
+            "player_type": "hitter",
+            "eligible_positions": "C",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 115.4
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh V",
+          "injured_player_key": "669194",
+          "injured_player_name": "Ryne Nelson",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        },
+        {
+          "team": "Josh V",
+          "injured_player_key": "681347",
+          "injured_player_name": "Mike Burrows",
+          "injured_player_type": "pitcher",
+          "injured_player_positions": "SP/P/PITCHER",
+          "current_injury_status": "15-day Injured List",
+          "recommendation": "Open an IL slot before lock",
+          "replacement_add": {
+            "player_key": "669467",
+            "player_name": "Andre Pallante",
+            "player_type": "pitcher",
+            "eligible_positions": "SP",
+            "mlb_team": "STL",
+            "current_level": "MLB",
+            "projected_role_if_added": "Bench",
+            "projected_slot_if_added": "",
+            "candidate_projection_value": 116.0
+          },
+          "rationale": "All five IL slots are already occupied. Clear or reactivate one IL spot before moving this player."
+        }
+      ],
+      "recommended_minor_promotions": []
+    }
+  ],
+  "status_refresh": {
+    "changes": [
+      {
+        "team": "Chris",
+        "player_name": "Bobby Witt Jr.",
+        "mlbam_id": "677951",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Kansas City Royals placed SS Bobby Witt Jr. on the 10-day injured list retroactive to July 21, 2026. Low back tightness."
+      },
+      {
+        "team": "Chris",
+        "player_name": "Cody Bellinger",
+        "mlbam_id": "641355",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "New York Yankees placed LF Cody Bellinger on the 10-day injured list. Left hamstring strain."
+      },
+      {
+        "team": "Chris",
+        "player_name": "Spencer Jones",
+        "mlbam_id": "682987",
+        "updates": {
+          "current_level": "MLB",
+          "transaction_status": "Recalled"
+        },
+        "transaction": "New York Yankees recalled CF Spencer Jones from Scranton/Wilkes-Barre RailRiders."
+      },
+      {
+        "team": "Chris",
+        "player_name": "Junior Perez",
+        "mlbam_id": "678577",
+        "updates": {
+          "current_level": "AAA",
+          "transaction_status": "Optioned"
+        },
+        "transaction": "Chicago White Sox optioned CF Junior Perez to Charlotte Knights."
+      },
+      {
+        "team": "Chris",
+        "player_name": "Josh Jung",
+        "mlbam_id": "673962",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Texas Rangers placed 3B Josh Jung on the 10-day injured list retroactive to July 22, 2026. Left calf strain."
+      },
+      {
+        "team": "Chris",
+        "player_name": "Mike Yastrzemski",
+        "mlbam_id": "573262",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Atlanta Braves activated LF Mike Yastrzemski from the 10-day injured list."
+      },
+      {
+        "team": "Chris",
+        "player_name": "J.P. Crawford",
+        "mlbam_id": "641487",
+        "updates": {
+          "injury_status": "10-day Injured List"
+        },
+        "transaction": "Seattle Mariners placed SS J.P. Crawford on the 10-day injured list retroactive to July 30, 2026. Left wrist inflammation."
+      },
+      {
+        "team": "Chris",
+        "player_name": "Jake Fraley",
+        "mlbam_id": "641584",
+        "updates": {
+          "injury_status": "60-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Tampa Bay Rays placed RF Jake Fraley on the 60-day injured list. Hernia."
+      },
+      {
+        "team": "Rob",
+        "player_name": "Juan Soto",
+        "mlbam_id": "665742",
+        "updates": {
+          "injury_status": "10-day Injured List"
+        },
+        "transaction": "New York Mets placed LF Juan Soto on the 10-day injured list. Left calf strain."
+      },
+      {
+        "team": "Rob",
+        "player_name": "Ranger Suarez",
+        "mlbam_id": "624133",
+        "updates": {
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Boston Red Sox activated LHP Ranger Suarez from the 15-day injured list."
+      },
+      {
+        "team": "Rob",
+        "player_name": "Jett Williams",
+        "mlbam_id": "702518",
+        "updates": {
+          "injury_status": "7-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Nashville Sounds placed SS Jett Williams on the 7-day injured list."
+      },
+      {
+        "team": "Rob",
+        "player_name": "Gleyber Torres",
+        "mlbam_id": "650402",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Detroit Tigers activated 2B Gleyber Torres from the 10-day injured list."
+      },
+      {
+        "team": "Rob",
+        "player_name": "Lenyn Sosa",
+        "mlbam_id": "672820",
+        "updates": {
+          "injury_status": "60-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Toronto Blue Jays placed 2B Lenyn Sosa on the 60-day injured list. Right wrist contusion."
+      },
+      {
+        "team": "Wendell",
+        "player_name": "Corey Seager",
+        "mlbam_id": "608369",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Texas Rangers activated SS Corey Seager from the 10-day injured list."
+      },
+      {
+        "team": "Wendell",
+        "player_name": "James Triantos",
+        "mlbam_id": "701649",
+        "updates": {
+          "current_level": "MLB",
+          "transaction_status": "Recalled"
+        },
+        "transaction": "Chicago Cubs recalled 2B James Triantos from Iowa Cubs."
+      },
+      {
+        "team": "Matt",
+        "player_name": "Adley Rutschman",
+        "mlbam_id": "668939",
+        "updates": {
+          "injury_status": "10-day Injured List"
+        },
+        "transaction": "Baltimore Orioles placed C Adley Rutschman on the 10-day injured list retroactive to July 19, 2026. Left wrist inflammation."
+      },
+      {
+        "team": "Matt",
+        "player_name": "Luis Robert Jr.",
+        "mlbam_id": "673357",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "New York Mets activated CF Luis Robert Jr. from the 60-day injured list."
+      },
+      {
+        "team": "Matt",
+        "player_name": "Edwin Diaz",
+        "mlbam_id": "621242",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Los Angeles Dodgers activated RHP Edwin D\u00edaz from the 60-day injured list."
+      },
+      {
+        "team": "Matt",
+        "player_name": "Josh Smith",
+        "mlbam_id": "669701",
+        "updates": {
+          "current_level": "AAA",
+          "transaction_status": "Optioned"
+        },
+        "transaction": "Texas Rangers optioned 2B Josh Smith to Round Rock Express."
+      },
+      {
+        "team": "Matt",
+        "player_name": "Spencer Steer",
+        "mlbam_id": "668715",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Cincinnati Reds placed 1B Spencer Steer on the 10-day injured list. Right wrist sprain."
+      },
+      {
+        "team": "Matt",
+        "player_name": "William Bergolla Jr.",
+        "mlbam_id": "703151",
+        "updates": {
+          "injury_status": "60-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Charlotte Knights placed 2B William Bergolla Jr. on the 60-day injured list."
+      },
+      {
+        "team": "Matt",
+        "player_name": "Jesus Sanchez",
+        "mlbam_id": "660821",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Toronto Blue Jays activated RF Jes\u00fas S\u00e1nchez from the 10-day injured list."
+      },
+      {
+        "team": "Matt",
+        "player_name": "David Hamilton",
+        "mlbam_id": "666152",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Milwaukee Brewers activated 3B David Hamilton from the 10-day injured list."
+      },
+      {
+        "team": "Michael",
+        "player_name": "Nick Kurtz",
+        "mlbam_id": "701762",
+        "updates": {
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Athletics activated 1B Nick Kurtz from the 10-day injured list."
+      },
+      {
+        "team": "Michael",
+        "player_name": "Sebastian Walcott",
+        "mlbam_id": "806964",
+        "updates": {
+          "injury_status": "7-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Frisco RoughRiders placed SS Sebastian Walcott on the 7-day injured list."
+      },
+      {
+        "team": "Michael",
+        "player_name": "Shea Langeliers",
+        "mlbam_id": "669127",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Athletics placed C Shea Langeliers on the 10-day injured list retroactive to July 25, 2026. Torn meniscus in right knee."
+      },
+      {
+        "team": "Michael",
+        "player_name": "Kerry Carpenter",
+        "mlbam_id": "681481",
+        "updates": {
+          "injury_status": "10-day Injured List"
+        },
+        "transaction": "Detroit Tigers placed RF Kerry Carpenter on the 10-day injured list. Left foot plantar fasciitis."
+      },
+      {
+        "team": "Michael",
+        "player_name": "Kyle Isbel",
+        "mlbam_id": "664728",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Kansas City Royals activated CF Kyle Isbel from the 10-day injured list."
+      },
+      {
+        "team": "Michael",
+        "player_name": "Graham Pauley",
+        "mlbam_id": "688363",
+        "updates": {
+          "current_level": "AAA",
+          "transaction_status": "Optioned"
+        },
+        "transaction": "Miami Marlins optioned 3B Graham Pauley to Jacksonville Jumbo Shrimp."
+      },
+      {
+        "team": "Paul",
+        "player_name": "Max Fried",
+        "mlbam_id": "608331",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "New York Yankees activated LHP Max Fried from the 15-day injured list."
+      },
+      {
+        "team": "Paul",
+        "player_name": "Byron Buxton",
+        "mlbam_id": "621439",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Minnesota Twins placed CF Byron Buxton on the 10-day injured list. Right hip impingement."
+      },
+      {
+        "team": "Paul",
+        "player_name": "Sterlin Thompson",
+        "mlbam_id": "694514",
+        "updates": {
+          "injury_status": "7-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Albuquerque Isotopes placed RF Sterlin Thompson on the 7-day injured list."
+      },
+      {
+        "team": "Paul",
+        "player_name": "Brady House",
+        "mlbam_id": "691781",
+        "updates": {
+          "transaction_status": "Recalled"
+        },
+        "transaction": "Washington Nationals recalled 3B Brady House from Rochester Red Wings."
+      },
+      {
+        "team": "Paul",
+        "player_name": "Reynaldo Lopez",
+        "mlbam_id": "625643",
+        "updates": {
+          "injury_status": "15-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Atlanta Braves placed RHP Reynaldo L\u00f3pez on the 15-day injured list retroactive to July 30, 2026. Left knee inflammation."
+      },
+      {
+        "team": "Josh M",
+        "player_name": "Jhostynxon Garcia",
+        "mlbam_id": "691373",
+        "updates": {
+          "current_level": "MLB",
+          "transaction_status": "Recalled"
+        },
+        "transaction": "Pittsburgh Pirates recalled RF Jhostynxon Garcia from Indianapolis Indians."
+      },
+      {
+        "team": "Josh M",
+        "player_name": "Luke Raley",
+        "mlbam_id": "670042",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Seattle Mariners placed RF Luke Raley on the 10-day injured list retroactive to July 31, 2026. Left forearm strain."
+      },
+      {
+        "team": "Josh M",
+        "player_name": "Edgar Quero",
+        "mlbam_id": "700337",
+        "updates": {
+          "current_level": "MLB",
+          "transaction_status": "Recalled"
+        },
+        "transaction": "Chicago White Sox recalled C Edgar Quero from Charlotte Knights."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Jose Ramirez",
+        "mlbam_id": "608070",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Cleveland Guardians activated 3B Jos\u00e9 Ram\u00edrez from the 10-day injured list."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Ronald Acuna Jr.",
+        "mlbam_id": "660670",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Atlanta Braves activated RF Ronald Acu\u00f1a Jr. from the 10-day injured list."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Vinnie Pasquantino",
+        "mlbam_id": "686469",
+        "updates": {
+          "injury_status": "10-day Injured List"
+        },
+        "transaction": "Kansas City Royals placed 1B Vinnie Pasquantino on the 10-day injured list. Right wrist soreness."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Shane McClanahan",
+        "mlbam_id": "663556",
+        "updates": {
+          "injury_status": "15-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Tampa Bay Rays placed LHP Shane McClanahan on the 15-day injured list. Left mid-back tightness."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Matt McLain",
+        "mlbam_id": "680574",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Cincinnati Reds activated 2B Matt McLain from the 10-day injured list."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Brenton Doyle",
+        "mlbam_id": "686668",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Colorado Rockies activated CF Brenton Doyle from the 10-day injured list."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Ryan O\u2019Hearn",
+        "mlbam_id": "656811",
+        "updates": {
+          "injury_status": "10-day Injured List"
+        },
+        "transaction": "Pittsburgh Pirates placed RF Ryan O'Hearn on the 10-day injured list. Left quad strain."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Thayron Liranzo",
+        "mlbam_id": "699073",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Erie SeaWolves activated C Thayron Liranzo from the 7-day injured list."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Owen Caissie",
+        "mlbam_id": "683357",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Miami Marlins activated RF Owen Caissie from the 10-day injured list."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Davis Schneider",
+        "mlbam_id": "676914",
+        "updates": {
+          "current_level": "MLB",
+          "transaction_status": "Recalled"
+        },
+        "transaction": "Toronto Blue Jays recalled LF Davis Schneider from Buffalo Bisons."
+      },
+      {
+        "team": "Shane",
+        "player_name": "Kyle Teel",
+        "mlbam_id": "691019",
+        "updates": {
+          "injury_status": "10-day Injured List"
+        },
+        "transaction": "Chicago White Sox placed C Kyle Teel on the 10-day injured list. Left ankle sprain."
+      },
+      {
+        "team": "Greg",
+        "player_name": "Hunter Barco",
+        "mlbam_id": "682995",
+        "updates": {
+          "transaction_status": "Optioned"
+        },
+        "transaction": "Pittsburgh Pirates optioned LHP Hunter Barco to Indianapolis Indians."
+      },
+      {
+        "team": "Greg",
+        "player_name": "Jesus Rodriguez",
+        "mlbam_id": "683679",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "San Francisco Giants placed C Jesus Rodriguez on the 10-day injured list. Right elbow neuritis."
+      },
+      {
+        "team": "Greg",
+        "player_name": "Rafael Flores Jr.",
+        "mlbam_id": "804668",
+        "updates": {
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Pittsburgh Pirates activated C Rafael Flores Jr. from the 7-day injured list."
+      },
+      {
+        "team": "Greg",
+        "player_name": "Bo Naylor",
+        "mlbam_id": "666310",
+        "updates": {
+          "current_level": "AAA",
+          "transaction_status": "Optioned"
+        },
+        "transaction": "Milwaukee Brewers optioned C Bo Naylor to Nashville Sounds."
+      },
+      {
+        "team": "Greg",
+        "player_name": "Spencer Horwitz",
+        "mlbam_id": "687462",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Pittsburgh Pirates activated 1B Spencer Horwitz from the 10-day injured list."
+      },
+      {
+        "team": "Josh V",
+        "player_name": "Samuel Basallo",
+        "mlbam_id": "694212",
+        "updates": {
+          "injury_status": "10-day Injured List",
+          "transaction_status": "Status Change"
+        },
+        "transaction": "Baltimore Orioles placed C Samuel Basallo on the 10-day injured list retroactive to July 20, 2026. Right shoulder inflammation."
+      },
+      {
+        "team": "Josh V",
+        "player_name": "Andrew Painter",
+        "mlbam_id": "691725",
+        "updates": {
+          "current_level": "MLB",
+          "transaction_status": "Recalled"
+        },
+        "transaction": "Philadelphia Phillies recalled RHP Andrew Painter from Lehigh Valley IronPigs."
+      },
+      {
+        "team": "Josh V",
+        "player_name": "Jack Flaherty",
+        "mlbam_id": "656427",
+        "updates": {
+          "injury_status": "15-day Injured List"
+        },
+        "transaction": "Detroit Tigers placed RHP Jack Flaherty on the 15-day injured list. Right flexor inflammation."
+      },
+      {
+        "team": "Josh V",
+        "player_name": "Max Scherzer",
+        "mlbam_id": "453286",
+        "updates": {
+          "injury_status": ""
+        },
+        "transaction": "Toronto Blue Jays activated RHP Max Scherzer from the 15-day injured list."
+      },
+      {
+        "team": "Josh V",
+        "player_name": "Jeremiah Estrada",
+        "mlbam_id": "669093",
+        "updates": {
+          "transaction_status": "Status Change"
+        },
+        "transaction": "San Diego Padres activated RHP Jeremiah Estrada from the 15-day injured list."
+      }
+    ],
+    "change_count": 58
+  },
+  "auto_apply": {
+    "applied_il_moves": [],
+    "blocked_il_moves": [],
+    "applied_count": 0,
+    "blocked_count": 0
+  },
+  "fa_acquisitions": {
+    "acquisitions": [],
+    "acquisition_count": 0
+  },
+  "output_files": {
+    "lineup_snapshot": "data/weekly-lineups/2026-week-18.csv",
+    "decision_json": "data/weekly-decisions/2026-week-18.json",
+    "decision_csv": "data/weekly-decisions/2026-week-18.csv"
+  }
+}
