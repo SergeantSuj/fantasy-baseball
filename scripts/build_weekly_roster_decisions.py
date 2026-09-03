@@ -23,6 +23,7 @@ from build_weekly_lineup_snapshot import (
     injury_status_summary,
     is_il_roster_bucket,
     is_injured_list_player,
+    is_injured_list_status,
     is_hitter,
     is_major_league_level,
     is_minor_roster_bucket,
@@ -931,6 +932,24 @@ def apply_il_moves(board_rows: list[dict[str, str]]) -> dict[str, object]:
 
     applied_moves: list[dict[str, object]] = []
     blocked_moves: list[dict[str, object]] = []
+    reactivated_moves: list[dict[str, object]] = []
+
+    # Reactivate IL-bucket players whose injury_status has cleared.
+    for roster_path, roster_rows in roster_rows_by_team:
+        team_name = team_name_from_path(roster_path)
+        fieldnames = list(roster_rows[0].keys()) if roster_rows else []
+        changed = False
+        for row in roster_rows:
+            if is_il_roster_bucket(row) and not is_injured_list_status(injury_status_summary(row)):
+                row["roster_bucket"] = "MLB"
+                changed = True
+                reactivated_moves.append({
+                    "team": team_name,
+                    "player_name": clean_value(row.get("player_name", "")),
+                    "player_type": clean_value(row.get("player_type", "")),
+                })
+        if changed and fieldnames:
+            write_roster_csv(roster_path, fieldnames, roster_rows)
 
     for roster_path, roster_rows in roster_rows_by_team:
         team_name = team_name_from_path(roster_path)
@@ -1052,8 +1071,10 @@ def apply_il_moves(board_rows: list[dict[str, str]]) -> dict[str, object]:
     return {
         "applied_il_moves": applied_moves,
         "blocked_il_moves": blocked_moves,
+        "reactivated_from_il": reactivated_moves,
         "applied_count": len(applied_moves),
         "blocked_count": len(blocked_moves),
+        "reactivated_count": len(reactivated_moves),
     }
 
 
@@ -1418,6 +1439,7 @@ def main() -> None:
     print(f"Status refresh updates: {status_refresh_summary['change_count']}")
     print(f"Auto-applied IL moves: {auto_apply_summary['applied_count']}")
     print(f"Blocked auto-applied IL moves: {auto_apply_summary['blocked_count']}")
+    print(f"IL reactivations: {auto_apply_summary.get('reactivated_count', 0)}")
     print(f"FA acquisitions: {fa_acquisition_summary['acquisition_count']}")
 
 
