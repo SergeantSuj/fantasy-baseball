@@ -1,34 +1,30 @@
 pick_number,round,pick_in_round,team,player_name,player_type,position_bucket,eligible_positions,roster_bucket,current_level,dynasty_rank,adp,injury_status,transaction_status,rationale
-2,1,2,Rob,Juan Soto,hitter,OF,OF,IL,MLB,7,3.4,10-day Injured List,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Juan Soto fit as a OBP anchor bat; dynasty rank 7; market ADP 3.4; roster construction needed this position fit."
-19,2,9,Rob,Paul Skenes,pitcher,SP,SP,MLB,MLB,6,8.5,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Paul Skenes fit as a top-tier ace; dynasty rank 6; market ADP 8.5; despite an early pitching slot."
-22,3,2,Rob,Francisco Lindor,hitter,SS,SS,MLB,MLB,23,27.5,,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Francisco Lindor fit as a speed-impact bat; dynasty rank 23; market ADP 27.5; roster construction needed this position fit."
-39,4,9,Rob,Jackson Merrill,hitter,OF,OF,MLB,MLB,43,35.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Jackson Merrill fit as a of contributor; dynasty rank 43; market ADP 35.0; roster construction needed this position fit."
-42,5,2,Rob,Bryce Harper,hitter,1B,1B,MLB,MLB,41,45.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Bryce Harper fit as a OBP anchor bat; dynasty rank 41; market ADP 45.0; roster construction needed this position fit."
-59,6,9,Rob,Bryan Woo,pitcher,SP,SP,MLB,MLB,55,41.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Bryan Woo fit as a sp contributor; dynasty rank 55; market ADP 41.0."
-62,7,2,Rob,Brent Rooker,hitter,OF,OF,IL,MLB,50,70.5,10-day Injured List,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Brent Rooker fit as a of contributor; dynasty rank 50; market ADP 70.5; roster construction needed this position fit."
-79,8,9,Rob,Oneil Cruz,hitter,OF,OF,IL,MLB,94,86.0,10-day Injured List,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Oneil Cruz fit as a speed-impact bat; dynasty rank 94; market ADP 86.0; roster construction needed this position fit."
-82,9,2,Rob,Freddy Peralta,pitcher,SP,SP,MLB,MLB,68,68.0,,Trade,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Freddy Peralta fit as a sp contributor; dynasty rank 68; market ADP 68.0."
-99,10,9,Rob,Agustin Ramirez,hitter,C,C,MLB,MLB,89,108.0,,Recalled,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Agustin Ramirez fit as a c contributor; dynasty rank 89; market ADP 108.0; roster construction needed this position fit."
-102,11,2,Rob,Jo Adell,hitter,OF,OF,MLB,MLB,137,100.5,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Jo Adell fit as a of contributor; dynasty rank 137; market ADP 100.5; roster construction needed this position fit."
-119,12,9,Rob,MacKenzie Gore,pitcher,SP,SP,MLB,MLB,124,95.0,,Trade,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; MacKenzie Gore fit as a sp contributor; dynasty rank 124; market ADP 95.0."
-122,13,2,Rob,Jesus Luzardo,pitcher,SP,SP,MLB,MLB,95,117.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Jesus Luzardo fit as a sp contributor; dynasty rank 95; market ADP 117.0."
-139,14,9,Rob,Willy Adames,hitter,SS,SS,MLB,MLB,113,137.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Willy Adames fit as a ss contributor; dynasty rank 113; market ADP 137.0; roster construction needed this position fit."
-142,15,2,Rob,Willson Contreras,hitter,1B,1B,MLB,MLB,215,136.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Willson Contreras fit as a 1b contributor; dynasty rank 215; market ADP 136.0; roster construction needed this position fit; team OBP build needed reinforcement."
-159,16,9,Rob,Luke Keaschall,hitter,2B,2B,MLB,MLB,115,155.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Luke Keaschall fit as a speed-impact bat; dynasty rank 115; market ADP 155.0; roster construction needed this position fit; team OBP build needed reinforcement."
-162,17,2,Rob,Spencer Torkelson,hitter,1B,1B,MLB,MLB,123,141.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Spencer Torkelson fit as a 1b contributor; dynasty rank 123; market ADP 141.0; roster construction needed this position fit; team OBP build needed reinforcement."
-182,19,2,Rob,Cade Horton,pitcher,SP,SP,MLB,MLB,196,158.0,15-day Injured List,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Cade Horton fit as a sp contributor; dynasty rank 196; market ADP 158.0."
-199,20,9,Rob,Jose Soriano,pitcher,SP,SP,MLB,MLB,358,172.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Jose Soriano fit as a sp contributor; dynasty rank 358; market ADP 172.0."
-202,21,2,Rob,Ranger Suarez,pitcher,SP,SP,MLB,MLB,183,182.0,,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Ranger Suarez fit as a sp contributor; dynasty rank 183; market ADP 182.0."
-219,22,9,Rob,Brandon Pfaadt,pitcher,SP,SP,MLB,AAA,363,206.0,,Optioned,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Brandon Pfaadt fit as a sp contributor; dynasty rank 363; market ADP 206.0."
-222,23,2,Rob,Xander Bogaerts,hitter,SS,SS,MLB,MLB,334,175.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Xander Bogaerts fit as a ss contributor; dynasty rank 334; market ADP 175.0; team OBP build needed reinforcement."
-242,25,2,Rob,Victor Scott II,hitter,OF,OF,MLB,MLB,425,196.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Victor Scott II fit as a speed-impact bat; dynasty rank 425; market ADP 196.0; team OBP build needed reinforcement."
-259,26,9,Rob,Kyle Manzardo,hitter,1B,1B,MLB,MLB,180,210.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Kyle Manzardo fit as a 1b contributor; dynasty rank 180; market ADP 210.0; team OBP build needed reinforcement."
-262,27,2,Rob,Anthony Volpe,hitter,SS,SS,MLB,AAA,289,212.0,,Optioned,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Anthony Volpe fit as a ss contributor; dynasty rank 289; market ADP 212.0; team OBP build needed reinforcement."
+KEEPER,2026,,Rob,Juan Soto,hitter,RF,OF,MLB,MLB,7,3.4,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Francisco Lindor,hitter,SS,SS,MLB,AA,23,27.5,,Assigned,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Bryce Harper,hitter,1B,1B,MLB,MLB,41,45.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Brent Rooker,hitter,RF,OF,IL,MLB,50,70.5,10-day Injured List,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Oneil Cruz,hitter,CF,OF,IL,AA,94,86.0,10-day Injured List,Assigned,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Paul Skenes,pitcher,P,SP,MLB,MLB,6,8.5,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Jackson Merrill,hitter,CF,OF,MLB,MLB,43,35.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Jo Adell,hitter,CF,OF,MLB,MLB,137,100.5,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Willy Adames,hitter,SS,SS,MLB,MLB,113,137.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Luke Keaschall,hitter,2B,2B,MLB,MLB,115,155.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Agustin Ramirez,hitter,C,C,MLB,AAA,89,108.0,,Status Change,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Spencer Torkelson,hitter,1B,1B,MLB,MLB,123,141.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Bryan Woo,pitcher,P,SP,MLB,MLB,55,41.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Matt Chapman,hitter,3B,3B,IL,MLB,145,264.0,10-day Injured List,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Freddy Peralta,pitcher,P,SP,MLB,MLB,68,68.0,,Trade,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Yandy Diaz,hitter,1B,1B,MLB,MLB,188,286.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Willson Contreras,hitter,1B,1B,MLB,MLB,215,136.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Kyle Manzardo,hitter,1B,1B,MLB,MLB,180,210.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Bryson Stott,hitter,2B,2B/SS,MLB,MLB,256,272.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,MacKenzie Gore,pitcher,P,SP,MLB,MLB,124,95.0,,Trade,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Kevin Gausman,pitcher,P,SP,MLB,MLB,184,269.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Ranger Suarez,pitcher,P,SP,MLB,MLB,183,182.0,,Signed as Free Agent,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Jose Soriano,pitcher,P,SP,MLB,MLB,358,172.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Ryne Nelson,pitcher,P,SP,MLB,MLB,304,251.0,,,Retained in the 2026 offseason 25-player MLB keeper declaration.
+KEEPER,2026,,Rob,Seranthony Dominguez,pitcher,P,RP,MLB,MLB,589,407.0,,Signed as Free Agent,Retained in the 2026 offseason 25-player MLB keeper declaration.
 279,28,9,Rob,Jett Williams,hitter,SS,SS/INFIELDER,Minors,MLB,232,283.0,,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Jett Williams fit as a ss contributor; dynasty rank 232; market ADP 283.0; as a minor-league stash; upper-minors proximity matched the manager's draft comfort zone; upper-minors proximity improved the stash appeal."
-282,29,2,Rob,Gleyber Torres,hitter,2B,2B,MLB,MLB,273,248.0,,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Gleyber Torres fit as a 2b contributor; dynasty rank 273; market ADP 248.0; team OBP build needed reinforcement."
-299,30,9,Rob,Bryson Stott,hitter,SS,2B/SS,MLB,MLB,256,272.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Bryson Stott fit as a speed-impact bat; dynasty rank 256; market ADP 272.0; team OBP build needed reinforcement."
-302,31,2,Rob,Matt Chapman,hitter,3B,3B,IL,MLB,145,264.0,10-day Injured List,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Matt Chapman fit as a 3b contributor; dynasty rank 145; market ADP 264.0; team OBP build needed reinforcement."
-319,32,9,Rob,Yandy Diaz,hitter,1B,1B,MLB,MLB,188,286.0,,,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Yandy Diaz fit as a 1b contributor; dynasty rank 188; market ADP 286.0; team OBP build needed reinforcement."
 322,33,2,Rob,Joe Mack,hitter,C,C/CATCHER,Minors,MLB,406,645.0,,Recalled,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Joe Mack fit as a c contributor; dynasty rank 406; market ADP 645.0; as a minor-league stash; minor-slot pressure required prospect inventory; upper-minors proximity improved the stash appeal."
 339,34,9,Rob,Angel Genao,hitter,SS,SS/3B/INFIELDER,Minors,MLB,376,1600.0,,Recalled,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Angel Genao fit as a ss contributor; dynasty rank 376; market ADP 1600.0; as a minor-league stash; minor-slot pressure required prospect inventory; upper-minors proximity improved the stash appeal."
 342,35,2,Rob,Kevin Alcantara,hitter,OF,OF/RF/OUTFIELDER,Minors,AAA,421,1351.0,,Optioned,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Kevin Alcantara fit as a of contributor; dynasty rank 421; market ADP 1351.0; as a minor-league stash; minor-slot pressure required prospect inventory; upper-minors proximity improved the stash appeal."
@@ -43,17 +39,3 @@ pick_number,round,pick_in_round,team,player_name,player_type,position_bucket,eli
 439,44,9,Rob,Rafael Flores,hitter,SS,SS/INFIELDER,Minors,AAA,2944,4281.0,,Optioned,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Rafael Flores fit as a ss contributor; dynasty rank 2944; market ADP 4281.0; as a minor-league stash; minor-slot pressure required prospect inventory; upper-minors proximity improved the stash appeal."
 442,45,2,Rob,Jaxon Wiggins,pitcher,RP,P/PITCHER,Minors,MLB,391,5780.0,,Status Change,"Rob prioritized ratio protection and downside control in OBP, ERA, and WHIP; Jaxon Wiggins fit as a late-inning reliever; dynasty rank 391; market ADP 5780.0; as a minor-league stash; minor-slot pressure required prospect inventory; upper-minors proximity improved the stash appeal."
 462,MiLB-1,1,Rob,Josue Briceño,hitter,C,C,Minors,AA,40,,,,Minor league fill draft pick; prospect rank 40; FV 55; ETA 2027; best available prospect
-463,FA,,Rob,Kazuma Okamoto,hitter,3B,3B,MLB,MLB,488,219.0,,Status Change,Auto-added as an IL replacement for Anthony Volpe.
-464,FA,,Rob,Kevin Gausman,pitcher,P,SP,MLB,MLB,184,269.0,,,Auto-added as an IL replacement for Cade Horton.
-465,FA,,Rob,Lourdes Gurriel Jr.,hitter,LF,OF,MLB,MLB,469,312.0,,Status Change,FA acquisition replacing Owen Caissie.
-466,FA,,Rob,Ke’Bryan Hayes,hitter,3B,3B,MLB,MLB,517,355.0,,Status Change,Auto-added as an IL replacement for Juan Soto.
-467,FA,,Rob,Gabriel Arias,hitter,SS,2B/SS/3B/INFIELDER,MLB,MLB,509,357.0,,Status Change,Auto-added as an IL replacement for Brent Rooker.
-468,FA,,Rob,Andrew Benintendi,hitter,LF,OF/LF/OUTFIELDER,MLB,MLB,525,360.0,,,Auto-added as an IL replacement for Gabriel Arias.
-469,FA,,Rob,Dominic Canzone,hitter,RF,OF/RF/OUTFIELDER,MLB,MLB,529,378.0,,,Auto-added as an IL replacement for Francisco Lindor.
-470,FA,,Rob,Carlos Santana,hitter,1B,1B,IL,MLB,579,422.0,60-day Injured List,Status Change,Auto-added as an IL replacement for Gleyber Torres.
-471,FA,,Rob,Garrett Mitchell,hitter,CF,OF/CF/OUTFIELDER,MLB,MLB,559,450.0,,,Auto-added as an IL replacement for Lourdes Gurriel Jr..
-472,FA,,Rob,Carlos Narvaez,hitter,C,C,MLB,MLB,547,430.0,,,Auto-added as an IL replacement for Ke’Bryan Hayes.
-473,FA,,Rob,Heriberto Hernandez,hitter,LF,OF/LF/OUTFIELDER,MLB,MLB,561,438.0,,Number Change,Auto-added as an IL replacement for Carlos Santana.
-474,FA,,Rob,Lenyn Sosa,hitter,2B,1B/2B/3B/INFIELDER,MLB,MLB,252,455.0,60-day Injured List,Status Change,Auto-added as an IL replacement for Oneil Cruz.
-475,FA,,Rob,Nick Castellanos,hitter,RF,OF,MLB,MLB,627,480.0,,Signed as Free Agent,Auto-added as an IL replacement for Matt Chapman.
-476,FA,,Rob,Luis Campusano,hitter,C,DH/C/CATCHER,MLB,MLB,586,488.0,,,Auto-added as an IL replacement for Carlos Santana.

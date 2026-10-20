@@ -46,6 +46,7 @@ DECISION_DIR = DATA_DIR / "weekly-decisions"
 RESULTS_PATH = DATA_DIR / "season-results-2026.json"
 PROFILES_DIR = WORKSPACE_ROOT / "manager-profiles"
 IL_SLOT_LIMIT = 5
+MLB_ROSTER_LIMIT = 30
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0 Safari/537.36"
 REFRESH_SPORT_LEVELS = {1: "MLB", 11: "AAA", 12: "AA", 13: "High-A", 14: "Single-A"}
 IL_DESCRIPTION_RE = re.compile(r"(\d+-day)\s+(?:injured list|disabled list)", re.IGNORECASE)
@@ -933,6 +934,8 @@ def apply_il_moves(board_rows: list[dict[str, str]]) -> dict[str, object]:
     applied_moves: list[dict[str, object]] = []
     blocked_moves: list[dict[str, object]] = []
     reactivated_moves: list[dict[str, object]] = []
+    roster_limit_drops: list[dict[str, object]] = []
+    lineup_compliance_moves: list[dict[str, object]] = []
 
     # Reactivate IL-bucket players whose injury_status has cleared.
     for roster_path, roster_rows in roster_rows_by_team:
@@ -1065,6 +1068,176 @@ def apply_il_moves(board_rows: list[dict[str, str]]) -> dict[str, object]:
             if not applied_this_pass:
                 break
 
+        while True:
+            roster = merge_roster_rows(roster_rows, board_index)
+            mlb_roster = [
+                player
+                for player in roster
+                if not is_minor_roster_bucket(player) and not is_il_roster_bucket(player)
+            ]
+            if len(mlb_roster) <= MLB_ROSTER_LIMIT:
+                break
+
+            available_roster = [
+                player
+                for player in mlb_roster
+                if not is_injured_list_player(player) and is_major_league_level(player)
+            ]
+            optimized = optimize_roster(available_roster)
+            protected_keys = {
+                player_key(player)
+                for player in [*optimized["active_hitters"], *optimized["active_pitchers"]]
+            }
+            drop_candidates = [player for player in mlb_roster if player_key(player) not in protected_keys]
+            if not drop_candidates:
+                break
+            drop_candidate = min(
+                drop_candidates,
+                key=lambda player: (
+                    0 if is_injured_list_player(player) or not is_major_league_level(player) else 1,
+                    player_value(player),
+                    dynasty_rank_value(player),
+                    clean_value(str(player.get("player_name", ""))),
+                ),
+            )
+
+            drop_key = player_key(drop_candidate)
+            drop_name = clean_value(str(drop_candidate.get("player_name", "")))
+            drop_roster_row = find_roster_row(roster_rows, board_index, drop_key, drop_name)
+            if drop_roster_row is None:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": "",
+                        "reason": f"Could not trim {drop_name or drop_key} from the oversized MLB roster.",
+                    }
+                )
+                break
+
+            roster_rows.remove(drop_roster_row)
+            rostered_keys.discard(drop_key)
+            changed = True
+            roster_limit_drops.append(
+                {
+                    "team": team_name,
+                    "player_name": drop_name,
+                    "player_type": clean_value(str(drop_candidate.get("player_type", ""))),
+                    "roster_value": round(player_value(drop_candidate), 1),
+                    "reason": f"Trimmed MLB roster to the {MLB_ROSTER_LIMIT}-player limit after IL transactions.",
+                }
+            )
+
+        while True:
+            roster = merge_roster_rows(roster_rows, board_index)
+            mlb_roster = [
+                player
+                for player in roster
+                if not is_minor_roster_bucket(player) and not is_il_roster_bucket(player)
+            ]
+            available_roster = [
+                player
+                for player in mlb_roster
+                if not is_injured_list_player(player) and is_major_league_level(player)
+            ]
+            optimized = optimize_roster(available_roster)
+            hitter_shortfall = 13 - len(optimized["active_hitters"])
+            pitcher_shortfall = 9 - len(optimized["active_pitchers"])
+            if hitter_shortfall <= 0 and pitcher_shortfall <= 0:
+                break
+
+            free_agents = [
+                candidate
+                for candidate in build_free_agent_candidates(board_rows, rostered_keys)
+                if not is_injured_list_player(candidate)
+                and is_major_league_level(candidate)
+                and (is_hitter(candidate) if hitter_shortfall > 0 else is_pitcher(candidate))
+            ]
+            if not free_agents:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": "",
+                        "reason": "No available free agent could complete the active lineup.",
+                    }
+                )
+                break
+
+            def candidate_lineup_key(candidate: dict[str, object]) -> tuple[int, int, float]:
+                added_candidate = dict(candidate)
+                added_candidate["roster_bucket"] = "MLB"
+                candidate_optimized = optimize_roster([*available_roster, added_candidate])
+                active_hitter_count = len(candidate_optimized["active_hitters"])
+                active_pitcher_count = len(candidate_optimized["active_pitchers"])
+                return (
+                    min(active_hitter_count, 13) + min(active_pitcher_count, 9),
+                    active_hitter_count if hitter_shortfall > 0 else active_pitcher_count,
+                    player_value(candidate),
+                )
+
+            best_free_agent = max(free_agents, key=candidate_lineup_key)
+            protected_keys = {
+                player_key(player)
+                for player in [*optimized["active_hitters"], *optimized["active_pitchers"]]
+            }
+            drop_candidates = [player for player in mlb_roster if player_key(player) not in protected_keys]
+            if not drop_candidates:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": "",
+                        "reason": "No expendable MLB-roster player was available to complete the active lineup.",
+                    }
+                )
+                break
+
+            drop_candidate = min(
+                drop_candidates,
+                key=lambda player: (
+                    0 if is_injured_list_player(player) or not is_major_league_level(player) else 1,
+                    player_value(player),
+                    dynasty_rank_value(player),
+                    clean_value(str(player.get("player_name", ""))),
+                ),
+            )
+            drop_key = player_key(drop_candidate)
+            drop_name = clean_value(str(drop_candidate.get("player_name", "")))
+            drop_roster_row = find_roster_row(roster_rows, board_index, drop_key, drop_name)
+            free_agent_key = player_key(best_free_agent)
+            free_agent_row = board_rows_by_key.get(free_agent_key)
+            if drop_roster_row is None or free_agent_row is None:
+                blocked_moves.append(
+                    {
+                        "team": team_name,
+                        "injured_player_name": "",
+                        "reason": "Could not resolve the roster rows needed to complete the active lineup.",
+                    }
+                )
+                break
+
+            roster_rows.remove(drop_roster_row)
+            added_row = build_fa_add_row(
+                team_name,
+                free_agent_row,
+                drop_name,
+                fieldnames,
+                next_pick_number(roster_rows),
+            )
+            added_row["rationale"] = f"Auto-added to complete the {13}-hitter/{9}-pitcher active lineup."
+            roster_rows.append(added_row)
+            rostered_keys.discard(drop_key)
+            rostered_keys.add(free_agent_key)
+            changed = True
+            lineup_compliance_moves.append(
+                {
+                    "team": team_name,
+                    "added_player_name": clean_value(str(best_free_agent.get("player_name", ""))),
+                    "added_player_type": clean_value(str(best_free_agent.get("player_type", ""))),
+                    "dropped_player_name": drop_name,
+                    "dropped_player_type": clean_value(str(drop_candidate.get("player_type", ""))),
+                    "reason": "Completed the required active lineup while preserving the 30-player MLB roster limit.",
+                }
+            )
+
         if changed:
             write_roster_csv(roster_path, fieldnames, roster_rows)
 
@@ -1072,9 +1245,13 @@ def apply_il_moves(board_rows: list[dict[str, str]]) -> dict[str, object]:
         "applied_il_moves": applied_moves,
         "blocked_il_moves": blocked_moves,
         "reactivated_from_il": reactivated_moves,
+        "roster_limit_drops": roster_limit_drops,
+        "lineup_compliance_moves": lineup_compliance_moves,
         "applied_count": len(applied_moves),
         "blocked_count": len(blocked_moves),
         "reactivated_count": len(reactivated_moves),
+        "roster_limit_drop_count": len(roster_limit_drops),
+        "lineup_compliance_move_count": len(lineup_compliance_moves),
     }
 
 
@@ -1440,6 +1617,8 @@ def main() -> None:
     print(f"Auto-applied IL moves: {auto_apply_summary['applied_count']}")
     print(f"Blocked auto-applied IL moves: {auto_apply_summary['blocked_count']}")
     print(f"IL reactivations: {auto_apply_summary.get('reactivated_count', 0)}")
+    print(f"MLB roster-limit drops: {auto_apply_summary.get('roster_limit_drop_count', 0)}")
+    print(f"Active-lineup compliance moves: {auto_apply_summary.get('lineup_compliance_move_count', 0)}")
     print(f"FA acquisitions: {fa_acquisition_summary['acquisition_count']}")
 
 

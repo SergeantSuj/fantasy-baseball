@@ -1,0 +1,493 @@
+team,status,player_name,mlbam_id,player_type,eligible_positions,mlb_team,age,roster_bucket,injury_status,dynasty_rank,adp,projection_value,keeper_score
+Chris,KEEPER,Bobby Witt Jr.,677951,hitter,SS,KC,25,MLB,,2,2.6,469.6,639.272
+Chris,KEEPER,Pete Crow-Armstrong,691718,hitter,OF,CHC,24,MLB,,35,23.5,411.4,571.46
+Chris,KEEPER,Vladimir Guerrero Jr.,665489,hitter,1B,TOR,27,MLB,,17,19.0,373.4,528.16
+Chris,KEEPER,Matt Olson,621566,hitter,1B,ATL,31,MLB,,39,66.0,322.3,467.94
+Chris,KEEPER,Riley Greene,682985,hitter,OF,DET,25,MLB,,38,41.5,291.6,449.52
+Chris,KEEPER,Cody Bellinger,641355,hitter,OF,NYY,30,IL,10-day Injured List,69,100.5,311.6,447.33
+Chris,KEEPER,Lawrence Butler,671732,hitter,OF,ATH,25,MLB,,99,87.0,307.6,447.21
+Chris,KEEPER,Bo Bichette,666182,hitter,SS,NYM,28,MLB,,67,90.5,268.0,404.96
+Chris,KEEPER,Yoshinobu Yamamoto,808967,pitcher,SP,LAD,27,MLB,,25,29.0,224.0,375.995
+Chris,KEEPER,Cole Ragans,666142,pitcher,SP,KC,28,IL,60-day Injured List,48,56.5,231.5,375.81
+Chris,KEEPER,Jac Caglianone,695506,hitter,OF/1B,KC,23,MLB,,134,57.5,232.7,374.23
+Chris,KEEPER,Will Smith,669257,hitter,C,LAD,30,MLB,,116,124.0,237.6,360.11
+Chris,KEEPER,Dylan Cease,656302,pitcher,SP,TOR,30,MLB,,86,127.0,220.4,349.88
+Chris,KEEPER,Bryan Reynolds,668804,hitter,OF,PIT,31,MLB,,244,291.0,256.0,334.5
+Chris,KEEPER,Daulton Varsho,662139,hitter,OF,TOR,29,MLB,,219,176.0,234.3,327.97
+Chris,KEEPER,Kyle Bradish,680694,pitcher,SP,BAL,29,IL,15-day Injured List,120,143.0,192.0,312.125
+Chris,KEEPER,Emmet Sheehan,686218,pitcher,SP,LAD,26,MLB,,129,119.5,177.3,307.125
+Chris,KEEPER,Gavin Williams,668909,pitcher,SP,CLE,26,MLB,,148,160.0,175.1,297.135
+Chris,KEEPER,Nolan Schanuel,694384,hitter,1B,LAA,24,MLB,,278,289.0,213.8,294.31
+Chris,KEEPER,Cam Smith,701358,hitter,OF,HOU,23,MLB,,195,136.0,173.0,293.65
+Chris,KEEPER,Tanner Bibee,676440,pitcher,SP,CLE,27,MLB,,200,178.0,184.1,282.22
+Chris,KEEPER,Josh Jung,673962,hitter,3B,TEX,28,MLB,,352,205.0,220.4,279.81
+Chris,KEEPER,Sandy Alcantara,645261,pitcher,SP,MIA,30,MLB,,139,175.0,161.2,274.17
+Chris,KEEPER,Zac Gallen,668678,pitcher,SP,AZ,30,MLB,,261,214.0,179.9,260.425
+Chris,KEEPER,Jonathan India,663697,hitter,2B/3B/OF,KC,29,IL,10-day Injured List,490,271.0,199.1,220.17
+Chris,CUT,Riley O’Brien,676617,pitcher,RP/P/PITCHER,STL,31,MLB,,576,392.0,159.3,167.995
+Chris,CUT,Sean Manaea,640455,pitcher,SP,NYM,34,MLB,,532,272.0,155.7,174.04
+Chris,CUT,Pavin Smith,656976,hitter,1B/INFIELDER,AZ,30,MLB,,515,336.0,173.9,187.09
+Chris,CUT,Mike Yastrzemski,573262,hitter,OF,ATL,35,MLB,,441,349.0,180.3,206.9
+Chris,CUT,Jared Triolo,669707,hitter,1B/SS/3B/2B/INFIELDER,PIT,28,MLB,,494,308.0,191.2,208.28
+Chris,CUT,Jake Meyers,676694,hitter,OF/CF/OUTFIELDER,HOU,29,MLB,7-day Injured List,500,298.0,198.3,214.76
+Chris,CUT,Lars Nootbaar,663457,hitter,OF/LF/OUTFIELDER,STL,28,MLB,,402,315.0,185.3,223.97
+Chris,CUT,Gabriel Moreno,672515,hitter,C/CATCHER,AZ,26,MLB,,269,347.0,173.9,251.89
+Chris,CUT,Alec Bohm,664761,hitter,3B/1B,PHI,29,MLB,,308,292.0,209.4,272.4
+Chris,CUT,Jordan Lawlar,691783,hitter,3B/SS/INFIELDER,AZ,23,IL,10-day Injured List,296,134.0,190.9,287.43
+Chris,MINORS,Moises Ballesteros,694208,hitter,DH/C/CATCHER,CHC,22,Minors,,293,229.0,105.7,195.38
+Chris,MINORS,George Lombard Jr.,806146,hitter,SS/INFIELDER,NYY,20,Minors,7-day Injured List,152,243.0,0.0,122.4
+Chris,MINORS,Spencer Jones,682987,hitter,OF/CF/OUTFIELDER,NYY,24,Minors,,448,239.0,21.6,65.32
+Chris,MINORS,Franklin Arias,808265,hitter,SS/INFIELDER,BOS,20,Minors,,285,280.0,0.0,87.52
+Chris,MINORS,Michael Arroyo,703197,hitter,SS/INFIELDER,SEA,21,Minors,,387,285.0,7.7,70.36
+Chris,MINORS,Eduardo Quintero,808234,hitter,OF/OUTFIELDER,LAD,20,Minors,,163,276.0,0.0,117.12
+Chris,MINORS,Edward Florentino,821273,hitter,OF/OUTFIELDER,PIT,19,Minors,,277,295.0,0.0,88.24
+Chris,MINORS,Connelly Early,813349,pitcher,SP/P/PITCHER,BOS,23,Minors,15-day Injured List,251,439.0,110.3,193.295
+Chris,MINORS,Ethan Salas,806956,hitter,C/CATCHER,SD,19,Minors,7-day Injured List,453,1610.0,4.5,34.06
+Chris,MINORS,Cole Carrigg,694249,hitter,OF/OUTFIELDER,COL,23,Minors,,1653,1459.0,7.1,25.08
+Chris,MINORS,Aiva Arquette,804109,hitter,SS/INFIELDER,MIA,22,Minors,7-day Injured List,307,2648.0,0.0,64.56
+Chris,MINORS,Eduardo Tait,806953,hitter,C/CATCHER,MIN,19,Minors,,326,3689.0,0.0,60.0
+Chris,MINORS,Blake Mitchell,805810,hitter,C/CATCHER,KC,21,Minors,,357,2988.0,0.0,52.56
+Chris,MINORS,Junior Perez,678577,hitter,OF/CF/OUTFIELDER,ATH,24,Minors,,1015,1052.0,27.7,37.67
+Chris,MINORS,Jamie Arnold,,pitcher,LHP,,0,Minors,,41,999999.0,0.0,110.4
+Matt,KEEPER,Elly De La Cruz,682829,hitter,SS,CIN,24,MLB,,10,5.0,465.8,633.34
+Matt,KEEPER,Kyle Tucker,663656,hitter,OF,LAD,29,MLB,,18,16.5,414.1,568.78
+Matt,KEEPER,James Wood,695578,hitter,OF,WSH,23,MLB,,19,22.5,379.6,551.59
+Matt,KEEPER,Yordan Alvarez,670541,hitter,DH/OF,HOU,28,MLB,,31,27.5,337.0,487.71
+Matt,KEEPER,Maikel Garcia,672580,hitter,3B/2B/SS/OF,KC,26,MLB,,78,80.0,335.0,480.21
+Matt,KEEPER,Brice Turang,668930,hitter,2B/SS,MIL,26,MLB,,77,96.0,321.6,465.8
+Matt,KEEPER,Josh Naylor,647304,hitter,1B,SEA,28,MLB,,54,75.0,318.8,460.15
+Matt,KEEPER,Luis Robert Jr.,673357,hitter,OF,NYM,28,IL,10-day Injured List,154,165.5,317.0,427.15
+Matt,KEEPER,Edwin Diaz,621242,pitcher,RP,LAD,32,MLB,,93,211.0,299.2,420.37
+Matt,KEEPER,Jhoan Duran,661395,pitcher,RP,PHI,28,MLB,,88,107.5,276.9,407.45
+Matt,KEEPER,Hunter Brown,686613,pitcher,SP,HOU,27,MLB,,24,29.0,228.1,380.355
+Matt,KEEPER,George Kirby,669923,pitcher,SP,SEA,28,MLB,,57,62.0,219.0,360.695
+Matt,KEEPER,David Bednar,670280,pitcher,RP,NYY,31,MLB,,201,128.0,257.7,359.585
+Matt,KEEPER,Noelvi Marte,682622,hitter,3B/OF,CIN,24,MLB,,172,151.5,240.9,357.84
+Matt,KEEPER,Wilyer Abreu,677800,hitter,OF,BOS,26,MLB,,190,127.5,235.9,350.4
+Matt,KEEPER,Adley Rutschman,668939,hitter,C,BAL,28,MLB,,174,117.0,217.6,326.82
+Matt,KEEPER,Josh Hader,623352,pitcher,RP,HOU,31,MLB,,126,196.0,210.5,324.885
+Matt,KEEPER,Salvador Perez,521692,hitter,C/1B,KC,35,MLB,,303,146.0,246.7,322.64
+Matt,KEEPER,Caleb Durbin,702332,hitter,3B/2B,BOS,26,MLB,,310,217.0,240.0,318.57
+Matt,KEEPER,Jordan Westburg,676059,hitter,3B/2B,,27,MLB,,96,104.0,183.6,312.54
+Matt,KEEPER,Carlos Correa,621043,hitter,SS/3B,HOU,31,IL,10-day Injured List,288,187.0,224.3,300.5
+Matt,KEEPER,Colt Keith,690993,hitter,2B/3B/1B,DET,24,MLB,,301,242.0,204.6,283.3
+Matt,KEEPER,Emilio Pagan,641941,pitcher,RP,CIN,34,IL,15-day Injured List,254,322.0,185.0,258.64
+Matt,KEEPER,Trevor Megill,656730,pitcher,RP,MIL,32,MLB,,279,313.0,189.4,257.76
+Matt,KEEPER,Carlos Estevez,608032,pitcher,RP,KC,33,IL,60-day Injured List,332,286.0,195.3,253.07
+Matt,CUT,Dominic Canzone,686527,hitter,OF/RF/OUTFIELDER,SEA,28,MLB,,529,378.0,159.9,169.79
+Matt,CUT,Jesus Sanchez,660821,hitter,OF/RF/OUTFIELDER,TOR,28,MLB,,518,369.0,170.9,181.47
+Matt,CUT,Parker Meadows,678009,hitter,OF/CF/OUTFIELDER,DET,26,MLB,10-day Injured List,429,333.0,180.3,220.98
+Matt,CUT,Kenley Jansen,445276,pitcher,RP,DET,38,MLB,,287,371.0,176.6,238.365
+Matt,CUT,Spencer Steer,668715,hitter,1B/OF,CIN,28,MLB,10-day Injured List,305,253.0,179.6,246.44
+Matt,CUT,Willi Castro,650489,hitter,2B/3B/OF,COL,28,IL,10-day Injured List,484,240.0,222.2,247.15
+Matt,CUT,Luis Arraez,650333,hitter,1B/2B,SF,28,MLB,,356,274.0,210.9,263.83
+Matt,CUT,Josh Smith,669701,hitter,1B/SS/3B/OF,TEX,28,MLB,,405,225.0,219.2,264.36
+Matt,CUT,Aaron Nola,605400,pitcher,SP,PHI,32,MLB,,206,209.0,175.3,269.45
+Matt,CUT,Tatsuya Imai,837227,pitcher,SP,HOU,27,MLB,,157,193.0,167.7,274.86
+Matt,MINORS,Jared Jones,702262,pitcher,SP/1B/INFIELDER,PIT,22,Minors,7-day IL,153,140.0,89.9,220.25
+Matt,MINORS,JR Ritchie,702275,pitcher,SP/P/PITCHER,ATL,22,Minors,,420,1279.0,16.8,54.25
+Matt,MINORS,Gabriel Gonzalez,694224,hitter,OF/RF/OUTFIELDER,MIN,22,Minors,,1028,1085.0,27.0,44.96
+Matt,MINORS,William Bergolla Jr.,703151,hitter,SS/2B/INFIELDER,CWS,21,Minors,60-day Injured List,1072,1220.0,19.7,37.71
+Matt,MINORS,Tommy Troy,694371,hitter,2B/SS/INFIELDER,AZ,24,Minors,,1080,1252.0,18.3,28.26
+Matt,MINORS,Xavier Isaac,800060,hitter,DH/1B/INFIELDER,TB,22,Minors,,404,1551.0,5.7,46.96
+Matt,MINORS,John Peck,807726,hitter,SS/INFIELDER,DET,23,Minors,7-day Injured List,1055,1140.0,21.2,39.18
+Matt,MINORS,Max Anderson,801194,hitter,2B/INFIELDER,DET,24,Minors,,1264,1364.0,10.1,20.1
+Matt,MINORS,RJ Schreck,702302,hitter,OF/LF/OUTFIELDER,TOR,25,Minors,7-day IL,1207,1285.0,15.5,25.51
+Matt,MINORS,Nick Morabito,703492,hitter,OF/CF/OUTFIELDER,NYM,22,Minors,,1779,1521.0,6.8,24.79
+Matt,MINORS,Tirso Ornelas,672359,hitter,OF/LF/OUTFIELDER,SD,26,Minors,,1157,1205.0,18.7,28.67
+Matt,MINORS,Duce Gourson,701546,hitter,2B/SS/INFIELDER,PIT,23,Minors,,1314,1554.0,5.3,23.34
+Matt,MINORS,Andrew Pinckney,687605,hitter,OF/OUTFIELDER,WSH,25,Minors,,1778,1444.0,6.0,15.96
+Matt,MINORS,Ryan Sloan,815549,pitcher,P,SEA,20,Minors,,33,7431.0,0.0,130.32
+Matt,MINORS,Payton Tolle,801139,pitcher,SP/P/PITCHER,BOS,23,Minors,,177,692.0,70.7,166.49
+Josh M,KEEPER,Julio Rodriguez,677594,hitter,OF,SEA,25,IL,7-day Injured List,9,7.5,420.8,596.32
+Josh M,KEEPER,Fernando Tatis Jr.,665487,hitter,OF,SD,27,MLB,,15,12.0,417.1,572.91
+Josh M,KEEPER,Manny Machado,592518,hitter,3B,SD,33,MLB,,44,52.0,335.2,480.81
+Josh M,KEEPER,Roman Anthony,701350,hitter,OF,BOS,21,MLB,,22,17.5,289.4,469.09
+Josh M,KEEPER,Tyler Soderstrom,691016,hitter,1B/OF,ATH,24,MLB,,73,116.0,302.1,453.62
+Josh M,KEEPER,Trevor Story,596115,hitter,SS,BOS,33,MLB,,238,65.0,310.9,408.95
+Josh M,KEEPER,William Contreras,661388,hitter,C,MIL,28,MLB,,59,82.0,266.8,406.44
+Josh M,KEEPER,Steven Kwan,680757,hitter,OF,CLE,28,MLB,,167,129.0,292.7,402.61
+Josh M,KEEPER,Jacob Wilson,805779,hitter,SS,ATH,23,MLB,,131,78.0,252.4,401.03
+Josh M,KEEPER,Munetaka Murakami,808959,hitter,3B,CWS,26,IL,10-day Injured List,259,118.0,280.3,387.03
+Josh M,KEEPER,Ivan Herrera,671056,hitter,DH/C,STL,25,MLB,,151,174.0,257.2,385.41
+Josh M,KEEPER,Shohei Ohtani,660271,pitcher,SP,LAD,31,MLB,15-day Injured List,1,1.1,195.7,355.677
+Josh M,KEEPER,Chase Burns,695505,pitcher,SP/P/PITCHER,CIN,23,MLB,15-day Injured List,85,55.5,173.5,334.94
+Josh M,KEEPER,Kyle Stowers,669065,hitter,OF,MIA,28,IL,10-day Injured List,105,89.5,201.2,329.15
+Josh M,KEEPER,Jacob Misiorowski,694819,pitcher,SP,MIL,23,MLB,,101,58.0,160.7,318.155
+Josh M,KEEPER,Shota Imanaga,684007,pitcher,SP,CHC,32,MLB,,175,137.0,192.8,300.15
+Josh M,KEEPER,Cam Schlittler,693645,pitcher,SP,NYY,25,MLB,,158,161.0,152.1,279.655
+Josh M,KEEPER,Brooks Lee,686797,hitter,2B/SS/3B,MIN,25,MLB,,384,256.0,201.7,267.34
+Josh M,KEEPER,Chase DeLauter,800050,hitter,OF/RF/OUTFIELDER,CLE,24,MLB,,360,203.0,189.8,265.44
+Josh M,KEEPER,Jose Caballero,676609,hitter,2B/SS/3B/OF,NYY,29,MLB,,274,366.0,199.4,264.66
+Josh M,KEEPER,Brayan Bello,678394,pitcher,SP,BOS,26,MLB,,281,233.0,159.0,251.24
+Josh M,KEEPER,Mitch Keller,656605,pitcher,SP,PIT,29,IL,60-day Injured List,315,293.0,170.2,231.525
+Josh M,KEEPER,Michael Wacha,608379,pitcher,SP,KC,34,MLB,,512,209.0,162.0,185.39
+Josh M,KEEPER,Jeffrey Springs,605488,pitcher,SP,ATH,33,IL,15-day Injured List,511,214.0,160.4,183.395
+Josh M,KEEPER,Robert Garcia,676395,pitcher,RP,TEX,29,MLB,,560,383.0,162.8,172.24
+Josh M,CUT,Luke Raley,670042,hitter,1B/OF/RF/OUTFIELDER,SEA,31,MLB,10-day Injured List,546,397.0,152.6,160.9
+Josh M,CUT,Andrew Benintendi,643217,hitter,OF/LF/OUTFIELDER,CWS,31,MLB,,525,360.0,167.2,178.5
+Josh M,CUT,Cristian Javier,664299,pitcher,SP/P/PITCHER,HOU,29,MLB,,382,288.0,138.9,184.46
+Josh M,CUT,Jeff McNeil,643446,hitter,2B/OF/INFIELDER,ATH,33,MLB,,510,316.0,183.2,198.03
+Josh M,CUT,Lane Thomas,657041,hitter,OF/CF/OUTFIELDER,KC,30,MLB,10-day Injured List,505,327.0,191.7,205.66
+Josh M,CUT,Nolan Arenado,571448,hitter,3B,AZ,34,MLB,,506,289.0,193.7,210.62
+Josh M,CUT,Ernie Clement,676391,hitter,2B/SS/3B/1B,TOR,30,MLB,,323,304.0,185.1,243.59
+Josh M,CUT,Shane Smith,681343,pitcher,SP,CWS,25,MLB,,290,213.0,157.7,249.405
+Josh M,CUT,Kris Bubic,663460,pitcher,SP,KC,28,MLB,,170,147.0,148.6,256.38
+Josh M,CUT,Andrew Vaughn,683734,hitter,1B,MIL,27,MLB,,336,247.0,200.3,260.26
+Josh M,MINORS,Noah Schultz,702273,pitcher,SP/P/PITCHER,CWS,22,Minors,,371,193.0,9.6,91.405
+Josh M,MINORS,Emmanuel Rodriguez,691181,hitter,OF/CF/OUTFIELDER,MIN,23,Minors,,340,199.0,39.9,128.73
+Josh M,MINORS,Hagen Smith,696146,pitcher,P/PITCHER,CWS,22,Minors,7-day Injured List,431,215.0,0.0,65.68
+Josh M,MINORS,Charlie Condon,809707,hitter,1B/OF/OUTFIELDER,COL,22,Minors,,389,228.0,43.6,118.3
+Josh M,MINORS,Bryce Rainer,800614,hitter,SS/INFIELDER,DET,20,Minors,,171,224.0,0.0,127.36
+Josh M,MINORS,Jhostynxon Garcia,691373,hitter,OF/CF/OUTFIELDER,PIT,23,Minors,,437,296.0,43.9,101.64
+Josh M,MINORS,Harry Ford,695670,hitter,C/CATCHER,WSH,23,Minors,,388,593.0,87.8,140.91
+Josh M,MINORS,Gage Jump,695611,pitcher,SP/P/PITCHER,ATH,22,Minors,15-day Injured List,346,855.0,38.6,101.81
+Josh M,MINORS,Cooper Pratt,806198,hitter,SS/INFIELDER,MIL,21,Minors,10-day Injured List,314,1202.0,20.3,91.18
+Josh M,MINORS,Rainiel Rodriguez,823787,hitter,C/CATCHER,STL,19,Minors,,224,1163.0,21.5,113.95
+Josh M,MINORS,Joshua Baez,695491,hitter,OF/RF/OUTFIELDER,STL,22,Minors,10-day Injured List,309,1468.0,7.5,79.56
+Josh M,MINORS,Leo Bernal,699024,hitter,C/CATCHER,STL,22,Minors,,1281,1571.0,5.1,31.06
+Josh M,MINORS,JJ Wetherholt,,hitter,SS,,0,Minors,,5,999999.0,0.0,119.04
+Paul,KEEPER,Corbin Carroll,682998,hitter,OF,AZ,25,MLB,,8,4.0,450.8,632.9
+Paul,KEEPER,Jackson Chourio,694192,hitter,OF,MIL,22,MLB,,12,8.5,378.8,567.57
+Paul,KEEPER,Wyatt Langford,694671,hitter,OF,TEX,24,MLB,,28,24.0,368.7,544.37
+Paul,KEEPER,Mason Miller,695243,pitcher,RP,SD,27,MLB,,49,76.0,335.6,478.045
+Paul,KEEPER,Byron Buxton,621439,hitter,OF,MIN,32,IL,10-day Injured List,92,115.0,342.7,471.76
+Paul,KEEPER,Geraldo Perdomo,672695,hitter,SS,AZ,26,MLB,,66,84.5,301.4,463.14
+Paul,KEEPER,Rafael Devers,646240,hitter,1B,SF,29,MLB,,36,29.0,307.9,457.28
+Paul,KEEPER,Randy Arozarena,668227,hitter,OF,SEA,31,MLB,,107,110.0,322.7,448.5
+Paul,KEEPER,Jeremy Pena,665161,hitter,SS,HOU,28,MLB,,60,67.0,294.0,434.6
+Paul,KEEPER,Cade Smith,671922,pitcher,RP,CLE,26,MLB,,109,273.0,285.5,421.845
+Paul,KEEPER,Christian Yelich,592885,hitter,DH/OF,MIL,34,MLB,,114,166.0,293.9,413.63
+Paul,KEEPER,Drake Baldwin,686948,hitter,C,ATL,24,MLB,,97,134.5,241.3,391.53
+Paul,KEEPER,Devin Williams,642207,pitcher,RP,NYM,31,IL,15-day Injured List,160,97.0,272.9,387.07
+Paul,KEEPER,Cristopher Sanchez,650911,pitcher,SP,PHI,29,MLB,,34,36.5,229.1,378.365
+Paul,KEEPER,Brandon Nimmo,607043,hitter,OF,TEX,33,MLB,,208,279.0,288.0,376.05
+Paul,KEEPER,Jordan Beck,687597,hitter,OF,COL,24,MLB,,258,270.0,272.9,373.74
+Paul,KEEPER,Nico Hoerner,663538,hitter,2B/SS,CHC,28,MLB,,141,159.5,253.5,367.26
+Paul,KEEPER,Ozzie Albies,645277,hitter,2B,ATL,29,MLB,,164,190.0,254.0,359.74
+Paul,KEEPER,Max Fried,608331,pitcher,SP,NYY,32,MLB,,58,74.5,210.0,350.41
+Paul,KEEPER,Ryan Helsley,664854,pitcher,RP,BAL,31,IL,15-day Injured List,214,184.0,233.2,327.48
+Paul,KEEPER,Isaac Paredes,670623,hitter,3B,HOU,27,MLB,,111,149.0,199.4,321.16
+Paul,KEEPER,Jeff Hoffman,656546,pitcher,RP,TOR,33,MLB,,321,199.0,233.9,301.215
+Paul,KEEPER,Nick Lodolo,666157,pitcher,SP,CIN,28,MLB,,130,155.0,181.9,298.585
+Paul,KEEPER,Jake Burger,669394,hitter,1B,TEX,29,MLB,,399,155.0,237.1,289.26
+Paul,KEEPER,Bryan Abreu,650556,pitcher,RP,HOU,28,MLB,,381,400.0,158.0,194.885
+Paul,CUT,Victor Vodnik,680767,pitcher,RP/P/PITCHER,COL,26,MLB,,598,417.0,140.1,170.77
+Paul,CUT,Gavin Sheets,657757,hitter,OF/1B,SD,29,IL,10-day Injured List,521,359.0,164.3,175.63
+Paul,CUT,Grant Taylor,691799,pitcher,RP/P/PITCHER,CWS,23,MLB,,342,409.0,147.6,225.07
+Paul,CUT,Joc Pederson,592626,hitter,DH,TEX,33,MLB,,498,250.0,214.8,235.61
+Paul,CUT,Blake Snell,605483,pitcher,SP,LAD,33,IL,15-day IL,79,106.5,140.2,273.0
+Paul,CUT,Chase Meidroth,805367,hitter,2B/SS,CWS,24,MLB,,373,252.0,216.0,290.68
+Paul,CUT,Justin Crawford,702222,hitter,OF/CF/OUTFIELDER,PHI,22,MLB,,338,249.0,202.0,293.31
+Paul,CUT,Sal Frelick,686217,hitter,OF,MIL,25,MLB,,197,251.0,225.1,342.08
+Paul,CUT,Xavier Edwards,669364,hitter,2B/SS,MIA,26,MLB,,222,257.0,253.0,363.48
+Paul,CUT,Ian Happ,664023,hitter,OF,CHC,31,MLB,,205,230.0,274.0,366.68
+Paul,MINORS,Nelson Rada,703185,hitter,OF/CF/OUTFIELDER,LAA,20,Minors,,825,890.0,51.9,83.9
+Paul,MINORS,Ryan Clifford,691775,hitter,1B/INFIELDER,NYM,22,Minors,,372,961.0,35.6,98.57
+Paul,MINORS,Ralphy Velazquez,806252,hitter,1B/INFIELDER,CLE,20,Minors,,349,1586.0,5.4,73.83
+Paul,MINORS,Jonathon Long,675085,hitter,1B/INFIELDER,CHC,24,Minors,,946,1007.0,32.8,56.75
+Paul,MINORS,Kaelen Culpepper,701785,hitter,SS/INFIELDER,MIN,23,Minors,10-day Injured List,266,2520.0,0.0,88.4
+Paul,MINORS,Jimmy Crooks,699625,hitter,C/CATCHER,STL,24,Minors,,1051,1201.0,17.4,41.42
+Paul,MINORS,Nathan Church,701675,hitter,OF/LF/OUTFIELDER,STL,25,Minors,,764,768.0,58.5,82.52
+Paul,MINORS,Abimelec Ortiz,694673,hitter,1B/INFIELDER,WSH,24,Minors,,705,625.0,75.1,99.06
+Paul,MINORS,Brice Matthews,694728,hitter,2B/SS/INFIELDER,HOU,24,Minors,,464,639.0,81.3,114.18
+Paul,MINORS,Sterlin Thompson,694514,hitter,OF/OUTFIELDER,COL,24,Minors,7-day Injured List,1163,1250.0,18.5,42.45
+Paul,MINORS,Alex Freeland,690976,hitter,3B/2B/SS/INFIELDER,LAD,24,Minors,,264,679.0,71.3,152.16
+Paul,MINORS,Christian Franklin,681047,hitter,OF/LF/OUTFIELDER,WSH,26,Minors,,1142,1228.0,19.2,43.19
+Paul,MINORS,Luis Lara,800325,hitter,OF/CF/OUTFIELDER,MIL,21,Minors,,1099,1191.0,23.4,55.36
+Paul,MINORS,Kade Anderson,,pitcher,LHP,,0,Minors,,21,999999.0,0.0,115.2
+Wendell,KEEPER,Aaron Judge,592450,hitter,OF,NYY,33,MLB,10-day Injured List,4,8.9,462.5,626.118
+Wendell,KEEPER,Trea Turner,607208,hitter,SS,PHI,32,MLB,,37,48.0,367.3,519.93
+Wendell,KEEPER,Pete Alonso,624413,hitter,1B,BAL,31,MLB,,32,34.0,344.8,499.7
+Wendell,KEEPER,Ketel Marte,606466,hitter,2B,AZ,32,MLB,,30,27.0,330.7,486.69
+Wendell,KEEPER,Tarik Skubal,669373,pitcher,SP,DET,29,MLB,,5,11.0,299.3,462.555
+Wendell,KEEPER,Freddie Freeman,518692,hitter,1B,LAD,36,MLB,,82,70.5,318.0,457.96
+Wendell,KEEPER,Corey Seager,608369,hitter,SS,TEX,31,MLB,,63,88.0,297.7,440.81
+Wendell,KEEPER,Andy Pages,681624,hitter,OF,LAD,25,MLB,,100,81.0,292.2,432.03
+Wendell,KEEPER,Hunter Goodman,696100,hitter,C,COL,26,MLB,,108,135.5,261.1,394.69
+Wendell,KEEPER,Logan Gilbert,669302,pitcher,SP,SEA,28,MLB,,27,36.0,232.1,388.025
+Wendell,KEEPER,Mike Trout,545361,hitter,OF,LAA,34,MLB,,127,184.0,266.7,386.79
+Wendell,KEEPER,Taylor Ward,621493,hitter,OF,BAL,32,MLB,,209,102.0,273.5,380.51
+Wendell,KEEPER,Joe Ryan,657746,pitcher,SP,MIN,29,MLB,,56,68.5,221.3,367.65
+Wendell,KEEPER,Dansby Swanson,621020,hitter,SS,CHC,32,MLB,,229,263.0,262.7,351.98
+Wendell,KEEPER,Framber Valdez,664285,pitcher,SP,DET,32,MLB,,104,101.5,219.7,351.9
+Wendell,KEEPER,Aroldis Chapman,547973,pitcher,RP,BOS,38,MLB,,272,160.0,256.2,343.42
+Wendell,KEEPER,Mickey Moniak,666160,hitter,OF,COL,27,MLB,,216,158.0,244.7,340.58
+Wendell,KEEPER,Trent Grisham,663757,hitter,OF,NYY,29,IL,10-day Injured List,313,131.0,256.3,335.98
+Wendell,KEEPER,Tyler Glasnow,607192,pitcher,SP,LAD,32,IL,15-day Injured List,98,139.0,200.8,331.47
+Wendell,KEEPER,Marcell Ozuna,542303,hitter,DH/OF,PIT,35,MLB,,378,116.0,263.1,328.39
+Wendell,KEEPER,Ramon Laureano,657656,hitter,OF,SD,31,MLB,,253,195.0,231.9,320.92
+Wendell,KEEPER,Nathan Eovaldi,543135,pitcher,SP,TEX,36,MLB,,194,247.0,195.3,294.285
+Wendell,KEEPER,Nolan Gorman,669357,hitter,2B/3B,STL,25,MLB,,483,162.0,232.6,274.03
+Wendell,KEEPER,Griffin Jax,643377,pitcher,RP,TB,31,MLB,,413,303.0,192.9,234.855
+Wendell,KEEPER,David Peterson,656849,pitcher,SP,NYM,30,MLB,,457,169.0,178.7,220.855
+Wendell,CUT,George Valera,671655,hitter,DH/OF/RF/OUTFIELDER,CLE,25,MLB,,550,416.0,141.9,158.71
+Wendell,CUT,Tyler O’Neill,641933,hitter,OF/RF/OUTFIELDER,BAL,30,MLB,10-day Injured List,541,393.0,155.4,169.06
+Wendell,CUT,Jameson Taillon,592791,pitcher,SP,CHC,34,MLB,15-day Injured List,527,265.0,151.8,175.675
+Wendell,CUT,Ryan McMahon,641857,hitter,3B,NYY,31,MLB,,526,346.0,169.5,186.88
+Wendell,CUT,Seth Lugo,607625,pitcher,SP,KC,36,MLB,,418,264.0,152.2,196.085
+Wendell,CUT,Austin Wells,669224,hitter,C,NYY,26,MLB,,392,300.0,181.9,234.1
+Wendell,CUT,Cedric Mullins,656775,hitter,OF,TB,31,MLB,,485,216.0,237.8,269.46
+Wendell,CUT,Carlos Rodon,607074,pitcher,SP,NYY,33,IL,15-day Injured List,173,169.0,165.1,275.38
+Wendell,CUT,Marcus Semien,543760,hitter,2B,NYM,35,IL,10-day Injured List,396,198.0,235.8,290.19
+Wendell,CUT,Giancarlo Stanton,519317,hitter,OF,NYY,36,IL,10-day Injured List,249,236.0,222.5,309.22
+Wendell,MINORS,Mick Abel,690953,pitcher,SP/P/PITCHER,MIN,24,Minors,60-day Injured List,379,260.0,107.6,166.175
+Wendell,MINORS,Hayden Birdsong,806185,pitcher,P/PITCHER,SF,24,Minors,60-day IL,385,299.0,0.0,54.0
+Wendell,MINORS,Quinn Mathews,687273,pitcher,SP/P/PITCHER,STL,25,Minors,,328,287.0,33.3,101.91
+Wendell,MINORS,Juan Brito,682877,hitter,2B/SS/INFIELDER,CLE,24,Minors,,785,852.0,49.3,59.3
+Wendell,MINORS,James Triantos,701649,hitter,2B/INFIELDER,CHC,23,Minors,,1010,1086.0,26.4,44.41
+Wendell,MINORS,Yassel Soler,807957,hitter,3B/INFIELDER,AZ,20,Minors,,1175,1226.0,17.7,35.7
+Wendell,MINORS,Allan Castro,691369,hitter,OF/CF/OUTFIELDER,BOS,22,Minors,,1134,1174.0,20.6,38.64
+Wendell,MINORS,Luis Morales,806960,pitcher,SP/P/PITCHER,ATH,23,Minors,,354,401.0,106.6,167.875
+Wendell,MINORS,Charles McAdoo,807727,hitter,3B/2B/INFIELDER,TOR,24,Minors,,1035,1084.0,25.1,35.09
+Wendell,MINORS,Yohandy Morales,691002,hitter,3B/INFIELDER,WSH,24,Minors,,1132,1153.0,19.6,29.65
+Wendell,MINORS,Brock Wilken,694385,hitter,3B/INFIELDER,MIL,23,Minors,,1273,1325.0,12.0,30.02
+Wendell,MINORS,Jose Fernandez,699912,hitter,SS/INFIELDER,AZ,22,Minors,,1380,1579.0,4.7,22.66
+Wendell,MINORS,Eduardo Valencia,680664,hitter,C/CATCHER,DET,26,Minors,,1178,1358.0,9.9,19.91
+Wendell,MINORS,Patrick Clohisy,802117,hitter,OF/OUTFIELDER,ATL,24,Minors,,1577,1442.0,7.1,17.14
+Wendell,MINORS,Alfredo Duno,806957,hitter,C,CIN,20,Minors,7-day Injured List,38,3249.0,0.0,129.12
+Shane,KEEPER,Jose Ramirez,608070,hitter,3B,CLE,33,MLB,,13,13.6,448.1,604.212
+Shane,KEEPER,Ronald Acuna Jr.,660670,hitter,OF,ATL,28,MLB,,3,7.7,427.7,586.724
+Shane,KEEPER,CJ Abrams,682928,hitter,SS,WSH,25,MLB,,46,34.0,368.8,530.37
+Shane,KEEPER,Jarren Duran,680776,hitter,OF,BOS,29,MLB,,76,51.0,316.8,454.76
+Shane,KEEPER,Vinnie Pasquantino,686469,hitter,1B,KC,28,IL,10-day Injured List,83,83.5,308.0,441.68
+Shane,KEEPER,Michael Harris II,671739,hitter,OF,ATL,25,MLB,,112,102.5,300.8,441.06
+Shane,KEEPER,Garrett Crochet,676979,pitcher,SP,BOS,26,IL,15-day Injured List,11,20.5,269.6,440.59
+Shane,KEEPER,Austin Riley,663586,hitter,3B,ATL,28,MLB,,61,50.5,283.7,425.35
+Shane,KEEPER,Andres Munoz,662253,pitcher,RP,SEA,27,MLB,,62,98.5,279.2,416.72
+Shane,KEEPER,Ben Rice,700250,hitter,C/1B,NYY,27,MLB,,87,86.0,273.6,406.21
+Shane,KEEPER,Ceddanne Rafaela,678882,hitter,2B/OF,BOS,25,IL,10-day Injured List,128,110.5,267.4,403.18
+Shane,KEEPER,Chandler Simpson,802415,hitter,OF,TB,25,MLB,,202,129.5,273.3,389.8
+Shane,KEEPER,Brenton Doyle,686668,hitter,OF,COL,27,MLB,,218,141.0,272.9,369.67
+Shane,KEEPER,Matt McLain,680574,hitter,2B,CIN,26,MLB,,237,161.0,257.6,363.19
+Shane,KEEPER,Jesus Luzardo,666200,pitcher,SP,PHI,28,MLB,,95,117.0,226.9,355.095
+Shane,KEEPER,Eury Perez,691587,pitcher,SP,MIA,22,MLB,,47,41.0,185.9,354.615
+Shane,KEEPER,Alec Burleson,676475,hitter,1B/OF,STL,27,MLB,,246,139.0,250.6,340.77
+Shane,KEEPER,Brandon Lowe,664040,hitter,2B,PIT,31,MLB,,241,267.0,256.5,337.65
+Shane,KEEPER,Michael King,650633,pitcher,SP,SD,30,MLB,,118,105.5,201.4,324.94
+Shane,KEEPER,Nick Pivetta,601713,pitcher,SP,SD,33,MLB,,122,220.0,210.4,323.84
+Shane,KEEPER,Daniel Palencia,694037,pitcher,RP,CHC,26,IL,15-day Injured List,295,231.0,218.7,304.735
+Shane,KEEPER,Shane Baz,669358,pitcher,SP,BAL,26,MLB,,162,168.0,171.7,294.67
+Shane,KEEPER,Raisel Iglesias,628452,pitcher,RP,ATL,36,MLB,,169,307.0,198.8,294.0
+Shane,KEEPER,Shane McClanahan,663556,pitcher,SP,TB,28,IL,15-day Injured List,250,114.0,190.5,281.74
+Shane,KEEPER,Pete Fairbanks,664126,pitcher,RP,MIA,32,MLB,15-day Injured List,359,311.0,189.7,238.96
+Shane,CUT,Tyler Freeman,671289,hitter,OF/2B/RF/OUTFIELDER,COL,26,MLB,10-day Injured List,534,418.0,157.4,179.07
+Shane,CUT,Chris Bassitt,605135,pitcher,SP,BAL,37,MLB,15-day Injured List,522,230.0,164.1,185.78
+Shane,CUT,Brady Singer,663903,pitcher,SP,CIN,29,MLB,,398,189.0,164.2,213.92
+Shane,CUT,Jake Cronenworth,630105,hitter,2B/1B/SS,SD,32,MLB,,493,273.0,197.9,218.1
+Shane,CUT,J.T. Realmuto,592663,hitter,C,PHI,35,MLB,,439,309.0,188.7,218.95
+Shane,CUT,Ryan O’Hearn,656811,hitter,1B/OF,PIT,32,MLB,,496,261.0,204.1,224.47
+Shane,CUT,Owen Caissie,683357,hitter,OF/RF/OUTFIELDER,MIA,23,MLB,10-day Injured List,361,241.0,161.8,239.21
+Shane,CUT,Brandon Marsh,669016,hitter,OF,PHI,28,MLB,,487,242.0,218.8,242.86
+Shane,CUT,Andrew Abbott,671096,pitcher,SP,CIN,26,MLB,,231,171.0,172.0,278.155
+Shane,CUT,Brendan Donovan,680977,hitter,2B/OF,SEA,29,MLB,,271,271.0,221.0,294.57
+Shane,MINORS,Travis Sykora,805809,pitcher,P/PITCHER,WSH,21,Minors,60-day IL,322,195.0,0.0,90.44
+Shane,MINORS,Ryan Waldschmidt,814439,hitter,OF/OUTFIELDER,AZ,23,Minors,,262,202.0,43.5,147.78
+Shane,MINORS,Josue Briceno,800522,hitter,C/CATCHER,DET,21,Minors,7-day Injured List,226,252.0,7.4,116.31
+Shane,MINORS,Liam Doyle,824604,pitcher,P/PITCHER,STL,21,Minors,,329,250.0,0.0,84.36
+Shane,MINORS,Brandon Sproat,687075,pitcher,SP/P/PITCHER,MIL,25,Minors,,394,275.0,91.0,149.72
+Shane,MINORS,Rhett Lowder,695076,pitcher,SP/P/PITCHER,CIN,24,Minors,,449,298.0,105.9,149.585
+Shane,MINORS,Arjun Nimmala,805796,hitter,SS/INFIELDER,TOR,20,Minors,,362,277.0,18.0,92.27
+Shane,MINORS,Hao-Yu Lee,701678,hitter,3B/2B/INFIELDER,DET,23,Minors,,1238,1339.0,12.3,35.33
+Shane,MINORS,Mike Sirota,701527,hitter,OF/CF/OUTFIELDER,LAD,22,Minors,7-day IL,292,1053.0,27.3,100.46
+Shane,MINORS,Thayron Liranzo,699073,hitter,C/CATCHER,DET,22,Minors,,1295,1580.0,4.5,27.49
+Shane,MINORS,Kahlil Watson,696135,hitter,SS/LF/OUTFIELDER,CLE,22,Minors,,1203,1335.0,13.1,36.05
+Shane,MINORS,Enrique Bradfield Jr.,690961,hitter,OF/OUTFIELDER,BAL,24,Minors,,1384,1431.0,7.9,22.91
+Shane,MINORS,A.J. Ewing,805999,hitter,SS/INFIELDER,NYM,21,Minors,,2454,2955.0,0.0,23.0
+Shane,MINORS,Daniel Susac,691740,hitter,C/CATCHER,SF,24,Minors,10-day Injured List,856,939.0,37.7,52.7
+Shane,MINORS,Theo Gillen,815394,hitter,OF/OUTFIELDER,TB,20,Minors,,375,1609.0,4.2,57.47
+Josh V,KEEPER,Junior Caminero,691406,hitter,3B,TB,22,MLB,,14,8.0,378.2,566.55
+Josh V,KEEPER,Zach Neto,687263,hitter,SS,LAA,25,MLB,,33,34.0,382.3,555.96
+Josh V,KEEPER,Jakob Marsee,805300,hitter,OF,MIA,24,MLB,,192,153.5,325.2,451.19
+Josh V,KEEPER,Kevin McGonigle,805808,hitter,SS/INFIELDER,DET,21,MLB,,51,45.5,232.5,408.93
+Josh V,KEEPER,Royce Lewis,668904,hitter,3B,MIN,26,MLB,,161,197.0,267.4,397.28
+Josh V,KEEPER,Sal Stewart,701398,hitter,1B/3B/INFIELDER,CIN,22,MLB,,149,138.0,238.2,383.71
+Josh V,KEEPER,Addison Barger,680718,hitter,3B/OF,TOR,26,IL,10-day Injured List,133,189.0,230.5,367.77
+Josh V,KEEPER,Heliot Ramos,671218,hitter,OF,SF,26,MLB,,144,157.0,229.5,366.66
+Josh V,KEEPER,Ezequiel Tovar,678662,hitter,SS,COL,24,MLB,,233,222.0,250.9,361.59
+Josh V,KEEPER,Nolan McLean,690997,pitcher,SP/P/PITCHER,NYM,24,MLB,,102,85.0,182.1,335.135
+Josh V,KEEPER,Samuel Basallo,694212,hitter,C/CATCHER,BAL,21,IL,10-day Injured List,71,80.5,163.2,332.05
+Josh V,KEEPER,Colton Cowser,681297,hitter,OF,BAL,26,MLB,,230,213.0,218.2,330.24
+Josh V,KEEPER,Carson Williams,700246,hitter,SS/INFIELDER,TB,22,MLB,,317,186.0,224.6,325.95
+Josh V,KEEPER,Miguel Vargas,678246,hitter,1B/3B,CWS,26,MLB,,312,200.0,226.9,320.3
+Josh V,KEEPER,Yainer Diaz,673237,hitter,C,HOU,27,MLB,,210,202.0,209.6,303.4
+Josh V,KEEPER,Bubba Chandler,696149,pitcher,SP/P/PITCHER,PIT,23,MLB,,121,66.5,139.6,297.595
+Josh V,KEEPER,Trey Yesavage,702056,pitcher,SP/P/PITCHER,TOR,22,MLB,,132,126.5,146.3,296.805
+Josh V,KEEPER,Andres Gimenez,665926,hitter,2B/SS,TOR,27,MLB,,452,179.0,245.8,283.31
+Josh V,KEEPER,Matt Wallner,670242,hitter,OF,MIN,28,MLB,,351,224.0,221.2,279.4
+Josh V,KEEPER,Abner Uribe,682842,pitcher,RP,MIL,25,MLB,,270,330.0,183.9,276.975
+Josh V,KEEPER,Jack Flaherty,656427,pitcher,SP,DET,30,IL,15-day Injured List,248,238.0,194.0,275.805
+Josh V,KEEPER,Drew Rasmussen,656876,pitcher,SP,TB,30,MLB,,156,244.0,167.1,270.425
+Josh V,KEEPER,Trevor Rogers,669432,pitcher,SP,BAL,28,MLB,,243,287.0,137.8,216.86
+Josh V,KEEPER,Slade Cecconi,677944,pitcher,SP,CLE,26,MLB,,474,257.0,145.6,195.55
+Josh V,KEEPER,Tyler Mahle,641816,pitcher,SP/P/PITCHER,SF,31,MLB,,530,281.0,141.2,158.775
+Josh V,CUT,Max Scherzer,453286,pitcher,SP/P/PITCHER,TOR,41,MLB,,609,382.0,137.7,147.195
+Josh V,CUT,Austin Hays,669720,hitter,OF,CWS,30,IL,60-day Injured List,502,274.0,194.6,212.75
+Josh V,CUT,Joey Ortiz,687401,hitter,SS,MIL,27,MLB,,491,285.0,201.1,220.81
+Josh V,CUT,Jake McCarthy,664983,hitter,OF,COL,28,MLB,,492,295.0,206.1,224.74
+Josh V,CUT,Brayan Rocchio,677587,hitter,2B/SS/INFIELDER,CLE,25,MLB,,499,310.0,190.4,230.13
+Josh V,CUT,Nasim Nunez,683083,hitter,SS/2B/INFIELDER,WSH,25,MLB,,495,342.0,201.9,240.03
+Josh V,CUT,Jung Hoo Lee,808982,hitter,OF,SF,27,MLB,,319,204.0,204.1,271.54
+Josh V,CUT,Alejandro Kirk,672386,hitter,C,TOR,27,MLB,,234,282.0,192.9,274.48
+Josh V,CUT,Brett Baty,683146,hitter,2B/3B/INFIELDER,NYM,26,MLB,,257,329.0,178.9,275.22
+Josh V,CUT,Marcelo Mayer,691785,hitter,3B/2B/SS/INFIELDER,BOS,23,IL,10-day Injured List,203,120.0,179.9,313.93
+Josh V,MINORS,Max Clark,703601,hitter,OF/OUTFIELDER,DET,21,Minors,,106,63.5,13.6,175.38
+Josh V,MINORS,Travis Bazzana,683953,hitter,2B/INFIELDER,CLE,23,Minors,,155,82.0,64.1,212.64
+Josh V,MINORS,Andrew Painter,691725,pitcher,SP/P/PITCHER,PHI,22,Minors,,221,122.0,97.8,227.31
+Josh V,MINORS,Aidan Miller,805795,hitter,SS/INFIELDER,PHI,21,Minors,7-day Injured List,146,127.5,35.6,182.72
+Josh V,MINORS,Zyhir Hope,814307,hitter,CF/OUTFIELDER,LAD,21,Minors,,220,137.5,0.0,128.52
+Josh V,MINORS,Lazaro Montes,703155,hitter,OF/OUTFIELDER,SEA,21,Minors,,225,138.5,0.0,127.24
+Josh V,MINORS,Eli Willits,816113,hitter,SS/INFIELDER,WSH,18,Minors,,217,246.0,0.0,120.56
+Josh V,MINORS,Ethan Holliday,815787,hitter,SS/INFIELDER,COL,19,Minors,7-day Injured List,204,234.0,0.0,124.64
+Josh V,MINORS,Jesús Made,,hitter,SS,,0,Minors,,3,999999.0,0.0,119.52
+Josh V,MINORS,JoJo Parker,,hitter,SS,,0,Minors,,45,999999.0,0.0,109.44
+Josh V,MINORS,Moisés Ballesteros,,hitter,C,,0,Minors,,55,999999.0,0.0,107.04
+Josh V,MINORS,Caleb Bonemer,815352,hitter,SS,CWS,20,Minors,,61,3302.0,0.0,137.6
+Josh V,MINORS,Cam Caminiti,807284,pitcher,P,ATL,19,Minors,,68,7557.0,0.0,135.92
+Josh V,MINORS,Billy Carlson,,hitter,SS,,0,Minors,,73,999999.0,0.0,102.72
+Rob,KEEPER,Juan Soto,665742,hitter,OF,NYM,27,MLB,,7,3.4,476.6,634.948
+Rob,KEEPER,Francisco Lindor,596019,hitter,SS,NYM,32,MLB,,23,27.5,393.3,545.87
+Rob,KEEPER,Bryce Harper,547180,hitter,1B,PHI,33,MLB,,41,45.0,345.6,492.52
+Rob,KEEPER,Brent Rooker,667670,hitter,OF,ATH,31,IL,10-day Injured List,50,70.5,343.2,485.89
+Rob,KEEPER,Oneil Cruz,665833,hitter,OF,PIT,27,IL,10-day Injured List,94,86.0,346.7,477.61
+Rob,KEEPER,Paul Skenes,694973,pitcher,SP,PIT,23,MLB,,6,8.5,284.9,461.075
+Rob,KEEPER,Jackson Merrill,701538,hitter,OF,SD,22,MLB,,43,35.0,295.4,460.6
+Rob,KEEPER,Jo Adell,666176,hitter,OF,LAA,26,MLB,,137,100.5,315.7,445.13
+Rob,KEEPER,Willy Adames,642715,hitter,SS,SF,30,MLB,,113,137.0,301.9,424.13
+Rob,KEEPER,Luke Keaschall,807712,hitter,2B,MIN,23,MLB,,115,155.0,284.5,422.77
+Rob,KEEPER,Agustin Ramirez,682663,hitter,C,MIA,24,MLB,,89,108.0,275.0,415.36
+Rob,KEEPER,Spencer Torkelson,679529,hitter,1B,DET,26,MLB,,123,141.0,252.5,382.01
+Rob,KEEPER,Bryan Woo,693433,pitcher,SP,SEA,26,MLB,,55,41.0,228.1,381.9
+Rob,KEEPER,Matt Chapman,656305,hitter,3B,SF,32,IL,10-day Injured List,145,264.0,271.0,375.35
+Rob,KEEPER,Freddy Peralta,642547,pitcher,SP,NYM,29,MLB,,68,68.0,220.1,358.64
+Rob,KEEPER,Yandy Diaz,650490,hitter,1B,TB,34,MLB,,188,286.0,266.1,358.44
+Rob,KEEPER,Willson Contreras,575929,hitter,1B,BOS,33,MLB,,215,136.0,256.8,354.69
+Rob,KEEPER,Kyle Manzardo,700932,hitter,1B,CLE,25,MLB,,180,210.0,233.0,343.34
+Rob,KEEPER,Bryson Stott,681082,hitter,2B/SS,PHI,28,MLB,,256,272.0,261.6,338.69
+Rob,KEEPER,MacKenzie Gore,669022,pitcher,SP,TEX,27,MLB,,124,95.0,201.4,324.375
+Rob,KEEPER,Kevin Gausman,592332,pitcher,SP,TOR,35,MLB,,184,269.0,200.0,294.61
+Rob,KEEPER,Ranger Suarez,624133,pitcher,SP,BOS,30,MLB,,183,182.0,173.0,274.79
+Rob,KEEPER,Jose Soriano,667755,pitcher,SP,LAA,27,MLB,,358,172.0,175.2,235.84
+Rob,KEEPER,Ryne Nelson,669194,pitcher,SP,AZ,28,MLB,,304,251.0,147.5,214.805
+Rob,KEEPER,Seranthony Dominguez,622554,pitcher,RP,CWS,31,MLB,,589,407.0,153.4,160.95
+Rob,CUT,Carlos Santana,467793,hitter,1B,AZ,39,IL,60-day Injured List,579,422.0,152.2,158.47
+Rob,CUT,Ke’Bryan Hayes,663647,hitter,3B,CIN,29,MLB,,517,355.0,172.1,183.77
+Rob,CUT,Gabriel Arias,672356,hitter,2B/SS/3B/INFIELDER,CLE,26,MLB,,509,357.0,171.5,193.07
+Rob,CUT,Lourdes Gurriel Jr.,666971,hitter,OF,AZ,32,MLB,,469,312.0,187.6,210.43
+Rob,CUT,Kazuma Okamoto,672960,hitter,3B,TOR,29,MLB,,488,219.0,218.0,243.65
+Rob,CUT,Cade Horton,690990,pitcher,SP,CHC,24,IL,15-day Injured List,196,158.0,134.4,245.005
+Rob,CUT,Victor Scott II,687363,hitter,OF,STL,25,MLB,,425,196.0,255.6,308.22
+Rob,CUT,Anthony Volpe,683011,hitter,SS,NYY,24,MLB,,289,212.0,227.8,311.83
+Rob,CUT,Xander Bogaerts,593428,hitter,SS,SD,33,MLB,,334,175.0,248.2,314.41
+Rob,CUT,Gleyber Torres,650402,hitter,2B,DET,29,MLB,,273,248.0,256.4,331.39
+Rob,MINORS,Jett Williams,702518,hitter,SS/INFIELDER,MIL,22,Minors,,232,283.0,42.2,142.18
+Rob,MINORS,Joe Mack,691788,hitter,C/CATCHER,MIA,23,Minors,,406,645.0,71.8,112.55
+Rob,MINORS,Angel Genao,694197,hitter,SS/3B/INFIELDER,CLE,21,Minors,,376,1600.0,4.1,52.14
+Rob,MINORS,Kevin Alcantara,682634,hitter,OF/RF/OUTFIELDER,CHC,23,Minors,,421,1351.0,11.8,49.05
+Rob,MINORS,Jacob Reimer,702544,hitter,OF/3B/INFIELDER,NYM,22,Minors,,459,1561.0,5.4,33.46
+Rob,MINORS,Cooper Ingle,694876,hitter,C/CATCHER,CLE,24,Minors,,1120,1379.0,13.6,23.59
+Rob,MINORS,Henry Bolte,703607,hitter,OF/OUTFIELDER,ATH,22,Minors,,1780,1506.0,6.7,24.73
+Rob,MINORS,Mikey Romero,702540,hitter,SS/INFIELDER,BOS,22,Minors,,1091,1184.0,19.6,37.57
+Rob,MINORS,Kemp Alderman,694580,hitter,OF/OUTFIELDER,MIA,23,Minors,7-day IL,1286,1355.0,11.8,29.76
+Rob,MINORS,Gabriel Rincones Jr.,687282,hitter,OF/RF/OUTFIELDER,PHI,25,Minors,,1262,1309.0,12.6,22.59
+Rob,MINORS,Elmer Rodriguez,695684,pitcher,SP/P/PITCHER,NYY,22,Minors,,3999,1328.0,16.7,34.665
+Rob,MINORS,Josh Kasevich,688460,hitter,SS/INFIELDER,TOR,25,Minors,,1370,1543.0,4.1,14.14
+Rob,MINORS,Rafael Flores,821012,hitter,SS/INFIELDER,PIT,18,Minors,7-day IL,2944,4281.0,0.0,18.0
+Rob,MINORS,Jaxon Wiggins,694393,pitcher,P/PITCHER,CHC,24,Minors,,391,5780.0,0.0,36.4
+Rob,MINORS,Josue Briceño,,hitter,C,,0,Minors,,40,999999.0,0.0,110.64
+Greg,KEEPER,Gunnar Henderson,683002,hitter,SS,BAL,24,MLB,,20,14.0,420.7,585.08
+Greg,KEEPER,Kyle Schwarber,656941,hitter,DH/OF,PHI,33,MLB,,29,42.5,401.7,556.61
+Greg,KEEPER,Jazz Chisholm Jr.,665862,hitter,2B/3B,NYY,28,IL,10-day Injured List,26,35.0,394.4,550.7
+Greg,KEEPER,Cal Raleigh,663728,hitter,C,SEA,29,MLB,,21,22.5,364.8,523.3
+Greg,KEEPER,Mookie Betts,605141,hitter,SS,LAD,33,MLB,,45,53.0,318.2,468.49
+Greg,KEEPER,Eugenio Suarez,553993,hitter,3B,CIN,34,MLB,,143,217.0,340.9,454.58
+Greg,KEEPER,George Springer,543807,hitter,OF,TOR,36,MLB,,211,55.0,327.4,437.66
+Greg,KEEPER,Jose Altuve,514888,hitter,2B/OF,HOU,35,MLB,,136,159.0,304.8,424.81
+Greg,KEEPER,Seiya Suzuki,673548,hitter,OF,CHC,31,MLB,,64,93.5,278.1,420.61
+Greg,KEEPER,Michael Busch,683737,hitter,1B,CHC,28,MLB,,80,101.0,273.2,411.29
+Greg,KEEPER,Alex Bregman,608324,hitter,3B,CHC,31,MLB,,70,78.0,268.0,410.23
+Greg,KEEPER,Teoscar Hernandez,606192,hitter,OF,LAD,33,MLB,,140,192.0,288.8,405.13
+Greg,KEEPER,Chris Sale,519242,pitcher,SP,ATL,36,MLB,,84,144.0,240.1,373.76
+Greg,KEEPER,Jacob deGrom,594798,pitcher,SP,TEX,37,MLB,,81,134.0,234.2,369.335
+Greg,KEEPER,Logan Webb,657277,pitcher,SP,SF,29,MLB,15-day Injured List,72,58.0,225.1,368.47
+Greg,KEEPER,Adolis Garcia,666969,hitter,OF,PHI,33,IL,60-day Injured List,366,101.0,282.7,352.14
+Greg,KEEPER,Zack Wheeler,554430,pitcher,SP,PHI,35,MLB,,119,119.0,208.9,336.145
+Greg,KEEPER,Christian Walker,572233,hitter,1B,HOU,34,MLB,,330,154.0,243.7,317.54
+Greg,KEEPER,TJ Friedl,670770,hitter,OF,CIN,30,MLB,,374,148.0,251.1,314.77
+Greg,KEEPER,Spencer Strider,675911,pitcher,SP,ATL,27,MLB,,75,64.0,169.3,306.475
+Greg,KEEPER,Luis Castillo,622491,pitcher,SP,SEA,33,MLB,,185,206.0,201.4,305.865
+Greg,KEEPER,Robbie Ray,592662,pitcher,SP,SF,34,MLB,,165,219.0,192.6,300.805
+Greg,KEEPER,Sonny Gray,543243,pitcher,SP,BOS,36,MLB,,199,173.0,192.1,295.815
+Greg,KEEPER,Brandon Woodruff,605540,pitcher,SP,MIL,33,MLB,,207,236.0,198.5,295.23
+Greg,KEEPER,Yusei Kikuchi,579328,pitcher,SP,LAA,34,IL,15-day Injured List,428,167.0,179.0,228.22
+Greg,CUT,Chris Martin,455119,pitcher,RP/P/PITCHER,TEX,39,IL,15-day Injured List,723,521.0,128.9,133.915
+Greg,CUT,Spencer Horwitz,687462,hitter,1B/INFIELDER,PIT,28,MLB,,513,351.0,169.8,186.81
+Greg,CUT,Bo Naylor,666310,hitter,C,CLE,26,MLB,,504,326.0,178.3,202.26
+Greg,CUT,Jorge Soler,624585,hitter,OF,LAA,34,MLB,,514,293.0,192.7,214.36
+Greg,CUT,Harrison Bader,664056,hitter,OF,SF,31,IL,10-day Injured List,503,297.0,196.4,217.72
+Greg,CUT,Matthew Boyd,571510,pitcher,SP,CHC,35,MLB,,350,227.0,167.4,230.6
+Greg,CUT,Bailey Ober,641927,pitcher,SP/P/PITCHER,MIN,30,MLB,,316,288.0,170.9,237.345
+Greg,CUT,Josh Bell,605137,hitter,1B,MIN,33,MLB,,497,246.0,211.4,237.74
+Greg,CUT,Dennis Santana,642701,pitcher,RP,PIT,29,MLB,,275,345.0,170.9,242.65
+Greg,CUT,Jorge Polanco,593871,hitter,2B/3B,NYM,32,MLB,,298,215.0,226.3,302.89
+Greg,MINORS,AJ Smith-Shawver,700363,pitcher,P/PITCHER,ATL,23,Minors,,240,218.0,0.0,103.28
+Greg,MINORS,Hunter Barco,682995,pitcher,RP/P/PITCHER,PIT,25,Minors,7-day Injured List,446,794.0,57.0,80.155
+Greg,MINORS,Jacob Melton,689200,hitter,OF/LF/OUTFIELDER,TB,25,Minors,7-day Injured List,479,833.0,54.5,69.78
+Greg,MINORS,Denzer Guzman,694203,hitter,SS/INFIELDER,LAA,22,Minors,,992,1077.0,24.6,42.63
+Greg,MINORS,Jesus Rodriguez,683679,hitter,C/CATCHER,SF,23,Minors,10-day Injured List,920,1069.0,28.6,46.62
+Greg,MINORS,Tre’ Morgan,691003,hitter,1B/INFIELDER,TB,23,Minors,7-day Injured List,986,1065.0,28.5,46.45
+Greg,MINORS,Rafael Flores Jr.,804668,hitter,1B/C/CATCHER,PIT,25,Minors,,1086,1227.0,15.9,25.93
+Greg,MINORS,Brock Rodden,801126,hitter,2B/SS/INFIELDER,SEA,25,Minors,7-day IL,1037,1139.0,20.8,30.84
+Greg,MINORS,Rhylan Thomas,689041,hitter,OF/LF/OUTFIELDER,SEA,25,Minors,7-day Injured List,1165,1249.0,18.3,28.27
+Greg,MINORS,Ryan Ward,669899,hitter,OF/LF/OUTFIELDER,LAD,28,Minors,,1145,1166.0,19.6,24.6
+Greg,MINORS,Brandon Valenzuela,678218,hitter,C/CATCHER,TOR,25,Minors,,1200,1389.0,8.5,18.48
+Greg,MINORS,Kyle Harrison,690986,pitcher,SP/P/PITCHER,MIL,24,Minors,,427,487.0,91.9,120.745
+Greg,MINORS,Brody Hopkins,811315,pitcher,P/PITCHER,TB,24,Minors,,333,5640.0,0.0,50.32
+Michael,KEEPER,Nick Kurtz,701762,hitter,1B,ATH,23,IL,10-day Injured List,16,11.5,391.9,565.51
+Michael,KEEPER,Konnor Griffin,804606,hitter,SS/INFIELDER,PIT,19,MLB,,42,25.5,238.9,405.11
+Michael,KEEPER,Shea Langeliers,669127,hitter,C,ATH,28,MLB,,91,163.5,278.9,404.27
+Michael,KEEPER,Jackson Holliday,702616,hitter,2B/SS,BAL,22,IL,10-day Injured List,74,41.0,242.6,399.83
+Michael,KEEPER,Colson Montgomery,695657,hitter,SS/3B,CWS,24,MLB,,191,180.0,261.9,371.96
+Michael,KEEPER,Masyn Winn,691026,hitter,SS,STL,24,MLB,,236,201.0,254.0,351.62
+Michael,KEEPER,Kerry Carpenter,681481,hitter,OF,DET,28,IL,10-day Injured List,176,187.0,240.9,344.02
+Michael,KEEPER,Daylen Lile,695734,hitter,OF,WSH,23,MLB,,193,222.0,228.1,342.36
+Michael,KEEPER,Dylan Crews,686611,hitter,OF/RF/OUTFIELDER,WSH,24,MLB,,179,124.0,216.7,334.17
+Michael,KEEPER,Josh Lowe,666139,hitter,OF,LAA,28,MLB,,297,165.0,253.6,329.47
+Michael,KEEPER,Jonathan Aranda,666018,hitter,1B,TB,27,MLB,,138,181.0,214.9,327.62
+Michael,KEEPER,Otto Lopez,672640,hitter,2B/SS,MIA,27,MLB,,265,182.0,241.2,323.34
+Michael,KEEPER,Mark Vientos,668901,hitter,3B,NYM,26,MLB,,245,237.0,221.6,314.2
+Michael,KEEPER,Evan Carter,694497,hitter,OF,TEX,23,MLB,,347,225.0,231.3,308.3
+Michael,KEEPER,Matt Shaw,807713,hitter,3B,CHC,24,MLB,,117,111.0,158.2,291.51
+Michael,KEEPER,Francisco Alvarez,682626,hitter,C,NYM,24,IL,10-day Injured List,276,227.0,190.0,275.94
+Michael,KEEPER,Jack Leiter,683004,pitcher,SP,TEX,25,IL,15-day Injured List,263,262.0,159.9,246.16
+Michael,KEEPER,Taj Bradley,671737,pitcher,SP,MIN,25,MLB,,306,240.0,164.1,241.815
+Michael,KEEPER,Casey Mize,663554,pitcher,SP,DET,28,MLB,,260,235.0,159.4,238.52
+Michael,KEEPER,Noah Cameron,702070,pitcher,SP,KC,26,MLB,,283,255.0,151.2,233.17
+Michael,KEEPER,Ryan Weathers,677960,pitcher,SP,NYY,26,MLB,,284,259.0,151.0,232.435
+Michael,KEEPER,Reid Detmers,672282,pitcher,SP,LAA,26,MLB,,412,282.0,144.3,193.185
+Michael,KEEPER,Clay Holmes,605280,pitcher,SP,NYM,33,MLB,,423,266.0,147.5,185.03
+Michael,KEEPER,Sean Burke,680732,pitcher,SP,CWS,26,MLB,,466,263.0,142.9,180.37
+Michael,KEEPER,Cody Ponce,664074,pitcher,SP,TOR,31,MLB,,528,278.0,147.1,164.95
+Michael,CUT,Luis Rengifo,650859,hitter,2B/3B/SS,MIL,29,MLB,,516,377.0,167.0,176.94
+Michael,CUT,Trevor Larnach,663616,hitter,OF,MIN,29,MLB,,519,356.0,170.9,182.48
+Michael,CUT,Matthew Liberatore,669461,pitcher,SP,STL,26,MLB,,432,270.0,139.2,184.235
+Michael,CUT,Isaac Collins,686555,hitter,OF,KC,28,MLB,,508,358.0,182.5,193.9
+Michael,CUT,Logan O’Hoppe,681351,hitter,C,LAA,26,MLB,,501,291.0,187.5,214.31
+Michael,CUT,Ryan Jeffers,680777,hitter,C,MIN,28,MLB,,489,258.0,202.5,224.78
+Michael,CUT,Connor Norby,681393,hitter,3B/INFIELDER,MIA,25,MLB,,414,320.0,182.6,227.94
+Michael,CUT,Jordan Walker,691023,hitter,OF,STL,23,MLB,,460,267.0,204.3,250.89
+Michael,CUT,J.J. Wetherholt,802139,hitter,SS/INFIELDER,STL,23,MLB,,486,259.0,213.9,254.84
+Michael,CUT,Dylan Beavers,687637,hitter,OF/RF/OUTFIELDER,BAL,24,MLB,,318,261.0,185.4,258.51
+Michael,MINORS,Jesus Made,815908,hitter,SS/INFIELDER,MIL,18,Minors,,52,49.0,5.0,166.92
+Michael,MINORS,Sebastian Walcott,806964,hitter,SS/INFIELDER,TEX,20,Minors,7-day Injured List,65,62.5,0.0,157.72
+Michael,MINORS,Leo De Vries,815888,hitter,SS,ATH,19,Minors,7-day IL,1293,66.5,11.4,64.18
+Michael,MINORS,Bryce Eldridge,805811,hitter,DH/1B/INFIELDER,SF,21,Minors,,103,70.5,88.8,236.72
+Michael,MINORS,Walker Jenkins,805805,hitter,OF/OUTFIELDER,MIN,21,Minors,,110,95.5,51.7,195.98
+Michael,MINORS,Luis Peña,821270,hitter,SS/INFIELDER,MIL,19,Minors,7-day Injured List,150,105.0,0.0,133.92
+Michael,MINORS,Colt Emerson,806068,hitter,SS/INFIELDER,SEA,20,Minors,,90,154.5,93.2,237.58
+Michael,MINORS,Josue De Paula,800543,hitter,OF/CF/OUTFIELDER,LAD,20,Minors,,187,122.5,6.5,130.12
+Michael,MINORS,Braden Montgomery,695731,hitter,OF/OUTFIELDER,CWS,22,Minors,,247,147.5,39.6,146.82
+Michael,MINORS,Jonah Tong,804636,pitcher,SP/P/PITCHER,NYM,22,Minors,,223,176.0,59.3,170.01
+Michael,MINORS,Thomas White,806258,pitcher,SP/P/PITCHER,MIA,21,Minors,7-day Injured List,159,185.0,43.5,168.84
+Michael,MINORS,Seth Hernandez,,pitcher,RHP,,0,Minors,,29,999999.0,0.0,113.28
+Michael,MINORS,Josuar Gonzalez,829034,hitter,SS,SF,18,Minors,,44,4197.0,0.0,127.68
